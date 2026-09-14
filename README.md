@@ -67,5 +67,6 @@ npm run build
 
 Consulte a pasta [`doc/`](./doc/) para especificações técnicas detalhadas:
 - [`doc/ARQUITETURA.md`](./doc/ARQUITETURA.md): Divisão por departamentos arquiteturais e governança de dados.
+- [`doc/DIRETRIZES_IA_ATUALIDADE.md`](./doc/DIRETRIZES_IA_ATUALIDADE.md): Protocolo mandatório de atualidade eleitoral e verificação temporal para IAs e agentes.
 - [`doc/MANUAL_DE_EXPANSAO_ESTADOS.md`](./doc/MANUAL_DE_EXPANSAO_ESTADOS.md): Como cadastrar novos estados e municípios.
 - [`doc/CHANGELOG.md`](./doc/CHANGELOG.md): Histórico de versões e decisões de design.

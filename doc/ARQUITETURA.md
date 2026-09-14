@@ -45,6 +45,7 @@ src/
    - **Boato Desmentido:** Fatos inverídicos desmontados por agências do International Fact-Checking Network (IFCN) ganham destaque para combater a desinformação.
    - **Arquivamento / Absolvição:** Casos encerrados pela justiça são sinalizados como restauradores da higidez cadastral.
 3. **Links Diretos (Deep Links):** Nenhuma fonte pode apontar para páginas iniciais genéricas. Todas devem conter a URL exata da decisão judicial, acórdão ou reportagem de checagem.
+4. **Protocolo de Atualidade Política para IA:** Todo agente ou modelo de IA deve seguir o checklist obrigatório em [`doc/DIRETRIZES_IA_ATUALIDADE.md`](./DIRETRIZES_IA_ATUALIDADE.md), proibindo a inclusão de figuras ministeriais aliadas como adversários sem pré-candidatura formal declarada nos últimos 60 dias.
 
 ---
 
