@@ -92,8 +92,13 @@ import { Vote, ShieldCheck, ExternalLink, Heart } from 'lucide-vue-next';
         </div>
       </div>
 
+      <!-- Salvaguarda Jurídica e Não-Pesquisa Eleitoral -->
+      <div class="mt-8 p-3.5 rounded-2xl bg-slate-50 dark:bg-slate-900 border border-slate-200/80 dark:border-slate-800 text-[11px] text-slate-500 dark:text-slate-400 leading-relaxed text-center">
+        <strong>Salvaguarda Jurídica & Não-Pesquisa:</strong> Esta plataforma tem finalidade estritamente informativa, cívica e de transparência com base em dados públicos oficiais. <strong>NÃO se trata de pesquisa eleitoral de intenção de voto nem de sondagem/enquete</strong> (afastando expressamente o Art. 33 da Lei Federal nº 9.504/1997). Amparada pelos Arts. 5º (IV, IX, XIV) e 220 da Constituição Federal de 1988 e pela Lei de Acesso à Informação (Lei nº 12.527/2011).
+      </div>
+
       <!-- Rodapé Inferior -->
-      <div class="mt-8 pt-6 border-t border-slate-100 dark:border-slate-800 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500 dark:text-slate-400">
+      <div class="mt-6 pt-6 border-t border-slate-100 dark:border-slate-800 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500 dark:text-slate-400">
         <p>© 2026 Voto Consciente. Construído em prol da democracia e do eleitor informado.</p>
         <p class="flex items-center gap-1">
           Feito com <Heart class="w-3.5 h-3.5 text-rose-500 fill-rose-500" /> para o Brasil e Bauru/SP

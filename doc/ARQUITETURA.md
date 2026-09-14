@@ -46,6 +46,7 @@ src/
    - **Arquivamento / Absolvição:** Casos encerrados pela justiça são sinalizados como restauradores da higidez cadastral.
 3. **Links Diretos (Deep Links):** Nenhuma fonte pode apontar para páginas iniciais genéricas. Todas devem conter a URL exata da decisão judicial, acórdão ou reportagem de checagem.
 4. **Protocolo de Atualidade Política para IA:** Todo agente ou modelo de IA deve seguir o checklist obrigatório em [`doc/DIRETRIZES_IA_ATUALIDADE.md`](./DIRETRIZES_IA_ATUALIDADE.md), proibindo a inclusão de figuras ministeriais aliadas como adversários sem pré-candidatura formal declarada nos últimos 60 dias.
+5. **Salvaguarda Jurídica & Não-Pesquisa Eleitoral:** A plataforma tem finalidade estritamente informativa e de dados abertos, NÃO se tratando de pesquisa de intenção de voto ou enquete (Art. 33 da Lei 9.504/97). Para detalhes completos de fundamentação constitucional e conformidade legal, consulte [`doc/COMPLIANCE_E_AVISO_LEGAL.md`](./COMPLIANCE_E_AVISO_LEGAL.md).
 
 ---
 
