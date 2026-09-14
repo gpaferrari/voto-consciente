@@ -1,0 +1,207 @@
+[
+  {
+    "id": "rodrigo-agostinho-deputado",
+    "name": "Rodrigo Antonio de Agostinho Mendonça",
+    "popularName": "Rodrigo Agostinho",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Rodrigo_Agostinho_%28foto_oficial%29.jpg/640px-Rodrigo_Agostinho_%28foto_oficial%29.jpg",
+    "role": "deputado_federal_bauru",
+    "state": "SP",
+    "party": "PSB",
+    "ballotNumber": "4010",
+    "coalition": "Federação Brasil da Esperança / PSB",
+    "age": 48,
+    "cityOrigin": "Cafelândia / Bauru - SP",
+    "declaredAssets": 1250000.00,
+    "currentOfficeNote": "Atual Presidente do IBAMA e Ex-Prefeito de Bauru (2 mandatos)",
+    "education": {
+      "level": "mestrado",
+      "institution": "ITE Bauru / USP",
+      "course": "Direito (ITE Bauru) e Mestrado em Ciência e Tecnologia Ambiental (USP)",
+      "details": "Advogado ambientalista com especialização em Gestão e Política Ambiental pela Unicamp e mestrado pela USP.",
+      "complementaryCourses": ["Direito Administrativo", "Gestão de Recursos Hídricos", "Políticas Urbanas"]
+    },
+    "experience": {
+      "yearsInPublicService": 24,
+      "summary": "Presidente do IBAMA (2023-atual), Deputado Federal por SP (2019-2023 com base central em Bauru), Prefeito de Bauru por 2 mandatos (2009-2016), Vereador de Bauru (2001-2008), Secretário Municipal do Meio Ambiente.",
+      "roles": [
+        {
+          "title": "Presidente do IBAMA",
+          "period": "2023 - Atual",
+          "level": "federal",
+          "achievements": [
+            "Queda de mais de 50% nos índices de desmatamento na Amazônia Legal entre 2023 e 2024.",
+            "Modernização do processo de licenciamento ambiental e digitalização de autos de infração.",
+            "Fortalecimento das ações conjuntas com a Polícia Federal contra o comércio ilegal de madeira e ouro."
+          ]
+        },
+        {
+          "title": "Deputado Federal por São Paulo",
+          "period": "2019 - 2023",
+          "level": "federal",
+          "achievements": [
+            "Presidente da Comissão de Meio Ambiente e Desenvolvimento Sustentável da Câmara dos Deputados.",
+            "Destinação de dezenas de milhões de reais em emendas parlamentares diretas para hospitais de Bauru (Hospital de Base, Maternidade Santa Isabel e Centrinho-USP).",
+            "Avaliado repetidamente entre os parlamentares mais qualificados pelo ranking do DIAP e Congresso em Foco."
+          ]
+        },
+        {
+          "title": "Prefeito de Bauru por 2 mandatos",
+          "period": "2009 - 2016",
+          "level": "municipal",
+          "achievements": [
+            "Eleito e reeleito com mais de 82% dos votos válidos no segundo mandato em Bauru.",
+            "Construção da Estação de Tratamento de Esgoto (ETE Vargem Limpa) e ampliação da rede de creches municipais."
+          ]
+        }
+      ],
+      "legislativeStats": {
+        "billsProposed": 58,
+        "billsApproved": 6,
+        "attendanceRate": 98.2,
+        "parliamentaryQuotaSpentYearlyAvg": 245000.00
+      }
+    },
+    "debatesAndInterviews": {
+      "averageScore": 91,
+      "events": [
+        {
+          "title": "Sabatina Eleições Band Interior / Bauru",
+          "date": "2022-09-10",
+          "vehicle": "Band Interior",
+          "score": 92,
+          "notes": "Detalhamento profundo das demandas de saúde e infraestrutura rodoferroviária da região de Bauru e Jaú.",
+          "factCheckingAccuracy": 94
+        }
+      ]
+    },
+    "integrityAndFacts": {
+      "cleanRecordCertificates": [
+        { "court": "Tribunal de Contas do Estado de SP (TCE-SP)", "status": "regular" },
+        { "court": "Tribunal Regional Eleitoral (TRE-SP)", "status": "regular" },
+        { "court": "Tribunal de Justiça de SP (TJ-SP)", "status": "nada_consta" }
+      ],
+      "factChecks": [
+        {
+          "id": "fc-rodrigo-1",
+          "title": "Aprovação das Contas de Governo dos Mandatos em Bauru",
+          "description": "As contas de governo dos exercícios à frente da Prefeitura de Bauru foram avaliadas tecnicamente pelo TCE-SP e aprovadas formalmente pelo Legislativo municipal.",
+          "vehicleOrOrgan": "Tribunal de Contas do Estado de SP (TCE-SP)",
+          "category": "comprovado_positivo",
+          "date": "2018-04-20",
+          "sourceUrl": "https://www.tce.sp.gov.br/jurisprudencia"
+        }
+      ]
+    },
+    "governmentPlan": {
+      "summary": "Foco na representação regional de Bauru e Centro-Oeste Paulista em Brasília, fortalecimento do polo de saúde de Bauru (USP e Centrinho) e transição ecológica da indústria paulista.",
+      "pdfUrl": "https://www.camara.leg.br",
+      "pillars": [
+        {
+          "key": "saude",
+          "title": "Consolidação do Polo de Saúde e Centrinho-USP em Bauru",
+          "icon": "Activity",
+          "mainGoal": "Garantir orçamento federal perene para o Hospital das Clínicas e faculdade de medicina de Bauru.",
+          "proposals": [
+            "Aporte de emendas de bancada para o custeio do Hospital das Clínicas de Bauru.",
+            "Ampliação do atendimento odontológico e de anomalias craniofaciais pelo Centrinho-USP.",
+            "Recapeamento e melhoria de acessos aos distritos industriais de Bauru."
+          ],
+          "budgetSource": "Emendas parlamentares impositivas e Orçamento da Seguridade Social.",
+          "feasibilityScore": 94
+        }
+      ]
+    }
+  },
+  {
+    "id": "capitao-augusto-deputado",
+    "name": "José Augusto Rosa",
+    "popularName": "Capitão Augusto",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Capit%C3%A3o_Augusto_%28foto_oficial%29.jpg/640px-Capit%C3%A3o_Augusto_%28foto_oficial%29.jpg",
+    "role": "deputado_federal_bauru",
+    "state": "SP",
+    "party": "PL",
+    "ballotNumber": "2200",
+    "coalition": "PL",
+    "age": 59,
+    "cityOrigin": "Ourinhos / Bauru - SP",
+    "declaredAssets": 2100000.00,
+    "currentOfficeNote": "Deputado Federal por SP (3 mandatos) e Fundador da Bancada da Segurança Pública",
+    "education": {
+      "level": "superior_completo",
+      "institution": "Academia de Polícia Militar do Barro Branco / Uniesp",
+      "course": "Ciências Policiais de Segurança e Ordem Pública (APMBB) e Direito",
+      "details": "Oficial da Polícia Militar do Estado de São Paulo (Capitão da Reserva) e Bacharel em Direito.",
+      "complementaryCourses": ["Táticas Policiais", "Gestão de Segurança Pública", "Legislação Penal"]
+    },
+    "experience": {
+      "yearsInPublicService": 34,
+      "summary": "Deputado Federal por São Paulo reeleito por 3 legislaturas consecutivas (2015-atual), Presidente e fundador da Frente Parlamentar da Segurança Pública ('Bancada da Bala'), Capitão da Polícia Militar de SP.",
+      "roles": [
+        {
+          "title": "Deputado Federal por São Paulo",
+          "period": "2015 - Atual (3 mandatos)",
+          "level": "federal",
+          "achievements": [
+            "Líder influente da Bancada da Segurança Pública na Câmara dos Deputados.",
+            "Articulador da aprovação do fim das saídas temporárias de presos condenados por crimes hediondos.",
+            "Destinação de emendas parlamentares para entidades de Bauru, Ourinhos e região centro-oeste."
+          ]
+        }
+      ],
+      "legislativeStats": {
+        "billsProposed": 72,
+        "billsApproved": 5,
+        "attendanceRate": 94.8,
+        "parliamentaryQuotaSpentYearlyAvg": 340000.00
+      }
+    },
+    "debatesAndInterviews": {
+      "averageScore": 79,
+      "events": [
+        {
+          "title": "Entrevista Rádio Jovem Pan Bauru",
+          "date": "2022-09-12",
+          "vehicle": "Jovem Pan Bauru",
+          "score": 80,
+          "notes": "Defesa intransigente da atuação policial, redução da maioridade penal e verbas para Bauru.",
+          "factCheckingAccuracy": 81
+        }
+      ]
+    },
+    "integrityAndFacts": {
+      "cleanRecordCertificates": [
+        { "court": "Tribunal Regional Eleitoral (TRE-SP)", "status": "regular" },
+        { "court": "Supremo Tribunal Federal (STF)", "status": "nada_consta" }
+      ],
+      "factChecks": [
+        {
+          "id": "fc-augusto-1",
+          "title": "Aprovação da Lei 14.843/2024 que restringe 'Saidinhas' de Presos",
+          "description": "Fato comprovado na tramitação da Câmara dos Deputados: atuou como líder da bancada na aprovação da Lei nº 14.843, de 11 de abril de 2024, que restringiu as saídas temporárias no regime semiaberto.",
+          "vehicleOrOrgan": "Câmara dos Deputados / Agência Câmara",
+          "category": "comprovado_positivo",
+          "date": "2024-04-12",
+          "sourceUrl": "https://www.camara.leg.br/noticias/1053424-promulgada-lei-que-restringe-saida-temporaria-de-presos/"
+        }
+      ]
+    },
+    "governmentPlan": {
+      "summary": "Plano focado na defesa da ordem pública, valorização das polícias civis e militares e destinação de recursos para entidades assistenciais e hospitais do interior paulista.",
+      "pdfUrl": "https://www.camara.leg.br",
+      "pillars": [
+        {
+          "key": "seguranca",
+          "title": "Endurecimento Penal e Apoio aos Policiais",
+          "icon": "ShieldAlert",
+          "mainGoal": "Garantir retaguarda jurídica para policiais e restringir benefícios a criminosos reincidentes.",
+          "proposals": [
+            "Fim definitivo de qualquer progressão de regime para crimes cometidos com violência.",
+            "Destinação de emendas diretas para compra de viaturas blindadas no interior de SP."
+          ],
+          "budgetSource": "Fundo Nacional de Segurança Pública.",
+          "feasibilityScore": 85
+        }
+      ]
+    }
+  }
+]

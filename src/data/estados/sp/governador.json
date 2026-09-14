@@ -1,0 +1,252 @@
+[
+  {
+    "id": "tarcisio-governador",
+    "name": "Tarcísio Gomes de Freitas",
+    "popularName": "Tarcísio de Freitas",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Tarc%C3%ADsio_de_Freitas_%28foto_oficial%29.jpg/640px-Tarc%C3%ADsio_de_Freitas_%28foto_oficial%29.jpg",
+    "role": "governador_sp",
+    "state": "SP",
+    "party": "Republicanos",
+    "ballotNumber": "10",
+    "coalition": "São Paulo Pode Mais (Republicanos / PL / PSD / PP)",
+    "age": 51,
+    "cityOrigin": "Rio de Janeiro - RJ",
+    "declaredAssets": 2345000.00,
+    "currentOfficeNote": "Atual Governador em Exercício do Estado de São Paulo",
+    "education": {
+      "level": "pos_graduacao",
+      "institution": "Instituto Militar de Engenharia (IME) / FGV",
+      "course": "Engenharia Civil e Especialização em Gestão de Projetos",
+      "details": "Primeiro colocado no IME na formação em Engenharia de Fortificação e Construção. Pós-graduado em Gestão de Projetos pela Fundação Getulio Vargas (FGV).",
+      "complementaryCourses": ["Engenharia de Transportes", "Auditoria de Obras Públicas", "Logística Pública"]
+    },
+    "experience": {
+      "yearsInPublicService": 26,
+      "summary": "Governador do Estado de São Paulo (2023-atual), Ministro da Infraestrutura do Brasil (2019-2022), Diretor-Geral do DNIT (2011-2014), Oficial Engenheiro do Exército Brasileiro.",
+      "roles": [
+        {
+          "title": "Governador do Estado de São Paulo",
+          "period": "2023 - Atual",
+          "level": "estadual",
+          "achievements": [
+            "Conclusão da desestatização da Sabesp com atração de R$ 68 bilhões em investimentos projetados em saneamento básico.",
+            "Leilão do Trem Intercidades ligando São Paulo a Campinas.",
+            "Implantação das Escolas Cívico-Militares no estado de SP e digitalização dos serviços estaduais.",
+            "Criação de novos batalhões da Polícia Militar e reajuste salarial para forças de segurança."
+          ]
+        },
+        {
+          "title": "Ministro da Infraestrutura",
+          "period": "2019 - 2022",
+          "level": "federal",
+          "achievements": [
+            "Leilão de mais de 80 ativos de infraestrutura (aeroportos, ferrovias e portos) sem escândalos de corrupção na pasta.",
+            "Conclusão da pavimentação da BR-163 e nova ponte do Guaíba no RS."
+          ]
+        }
+      ]
+    },
+    "debatesAndInterviews": {
+      "averageScore": 86,
+      "events": [
+        {
+          "title": "Roda Viva TV Cultura",
+          "date": "2023-08-14",
+          "vehicle": "TV Cultura",
+          "score": 88,
+          "notes": "Demonstrou domínio de números e projetos de infraestrutura, com postura técnica e pragmática.",
+          "factCheckingAccuracy": 90
+        }
+      ]
+    },
+    "integrityAndFacts": {
+      "cleanRecordCertificates": [
+        { "court": "Tribunal Regional Eleitoral de SP (TRE-SP)", "status": "regular" },
+        { "court": "Tribunal de Contas do Estado de SP (TCE-SP)", "status": "regular" },
+        { "court": "Tribunal de Justiça de SP (TJ-SP)", "status": "nada_consta" }
+      ],
+      "factChecks": [
+        {
+          "id": "fc-tarcisio-1",
+          "title": "Validação de Domicílio Eleitoral pelo TRE-SP",
+          "description": "Em 2022, o Ministério Público Eleitoral analisou o contrato de locação do candidato em São José dos Campos. A Justiça Eleitoral validou por unanimidade a legalidade do domicílio eleitoral, rejeitando as ações de impugnação.",
+          "vehicleOrOrgan": "Tribunal Regional Eleitoral de SP / G1",
+          "category": "arquivado",
+          "date": "2022-09-08",
+          "sourceUrl": "https://g1.globo.com/sp/vale-do-paraiba-regiao/noticia/2022/09/08/tre-sp-aprova-candidatura-de-tarcisio-de-freitas-ao-governo-de-sp.ghtml",
+          "judicialLevel": "Pleno do TRE-SP"
+        },
+        {
+          "id": "fc-tarcisio-2",
+          "title": "Conclusão do Leilão de Desestatização da Sabesp",
+          "description": "Fato comprovado: processo licitatório concluído na B3 com oferta pública de ações, arrecadando R$ 14,8 bilhões para o tesouro estadual e vinculando recursos para universalização de água e esgoto.",
+          "vehicleOrOrgan": "Governo do Estado de São Paulo / Portal Oficial",
+          "category": "comprovado_positivo",
+          "date": "2024-07-23",
+          "sourceUrl": "https://www.saopaulo.sp.gov.br/spnoticias/orgaos-governamentais/secretaria-de-meio-ambiente-infraestrutura-e-logistica/governo-de-sp-conclui-privatizacao-da-sabesp-com-oferta-de-acoes/"
+        }
+      ]
+    },
+    "governmentPlan": {
+      "summary": "Plano focado em eficiência administrativa, atração massiva de capital privado via PPPs e concessões, segurança pública integrada por câmeras inteligentes e conectividade ferroviária no estado.",
+      "pdfUrl": "https://divulgacandcontas.tse.jus.br",
+      "pillars": [
+        {
+          "key": "infraestrutura",
+          "title": "São Paulo sobre Trilhos e Concessões Rodoviárias",
+          "icon": "Building2",
+          "mainGoal": "Implantar trens regionais de passageiros e duplicar rodovias no interior.",
+          "proposals": [
+            "Concretização das linhas do Trem Intercidades (TIC Eixo Norte e TIC Eixo Oeste ligando Sorocaba).",
+            "Extensão das linhas 2-Verde e 15-Prata do Metrô e concessão de linhas da CPTM.",
+            "Pavimentação de mais de 3.000 km de estradas vicinais no interior paulista."
+          ],
+          "budgetSource": "Recursos da desestatização da Sabesp e capital privado em regime de concessão patrocinada.",
+          "feasibilityScore": 91
+        },
+        {
+          "key": "seguranca",
+          "title": "Muralha Paulista e Valorização Policial",
+          "icon": "ShieldAlert",
+          "mainGoal": "Reduzir os índices de roubos e latrocínios com inteligência e monitoramento digital.",
+          "proposals": [
+            "Criação do Sistema Muralha Paulista com integração de milhares de câmeras com reconhecimento de placas e faces.",
+            "Reajustes salariais escalonados para a Polícia Militar e Polícia Civil."
+          ],
+          "budgetSource": "Tesouro do Estado de São Paulo.",
+          "feasibilityScore": 88
+        }
+      ]
+    }
+  },
+  {
+    "id": "haddad-governador",
+    "name": "Fernando Haddad",
+    "popularName": "Fernando Haddad",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Fernando_Haddad_%28foto_oficial%29.jpg/640px-Fernando_Haddad_%28foto_oficial%29.jpg",
+    "role": "governador_sp",
+    "state": "SP",
+    "party": "PT",
+    "ballotNumber": "13",
+    "coalition": "Juntos por São Paulo (PT / PCdoB / PV / PSB / PSOL / REDE)",
+    "age": 62,
+    "cityOrigin": "São Paulo - SP",
+    "declaredAssets": 1874500.00,
+    "currentOfficeNote": "Atual Ministro da Fazenda / Economia do Governo Federal",
+    "education": {
+      "level": "doutorado",
+      "institution": "Universidade de São Paulo (USP)",
+      "course": "Direito (Bacharelado), Economia (Mestrado) e Filosofia (Doutorado)",
+      "details": "Professor titular de Ciência Política da USP. Formação multidisciplinar de excelência acadêmica nas principais faculdades da USP.",
+      "complementaryCourses": ["Finanças Públicas", "Economia Política", "Teoria da Decisão"]
+    },
+    "experience": {
+      "yearsInPublicService": 22,
+      "summary": "Ministro da Fazenda (2023-atual), Ministro da Educação (2005-2012), Prefeito de São Paulo (2013-2016).",
+      "roles": [
+        {
+          "title": "Ministro da Fazenda do Brasil",
+          "period": "2023 - Atual",
+          "level": "federal",
+          "achievements": [
+            "Articulação e aprovação da histórica Reforma Tributária constitucional.",
+            "Criação do Novo Arcabouço Fiscal em substituição ao antigo Teto de Gastos rígido.",
+            "Programa Desenrola Brasil para renegociação de dívidas de milhões de famílias inadimplentes."
+          ]
+        },
+        {
+          "title": "Ministro da Educação",
+          "period": "2005 - 2012",
+          "level": "federal",
+          "achievements": [
+            "Criação do ProUni (Programa Universidade para Todos) beneficiando mais de 2 milhões de jovens.",
+            "Criação do IDEB (Índice de Desenvolvimento da Educação Básica) e reestruturação do ENEM e SiSU.",
+            "Expansão inédita da rede de Institutos Federais de Educação, Ciência e Tecnologia."
+          ]
+        },
+        {
+          "title": "Prefeito de São Paulo",
+          "period": "2013 - 2016",
+          "level": "municipal",
+          "achievements": [
+            "Aprovação do premiado Plano Diretor Estratégico (PDE) da capital com incentivo ao transporte coletivo.",
+            "Implantação de mais de 400 km de ciclovias e faixas exclusivas de ônibus.",
+            "Obtenção do Grau de Investimento para a cidade pela agência Fitch Ratings ao renegociar a dívida do município."
+          ]
+        }
+      ]
+    },
+    "debatesAndInterviews": {
+      "averageScore": 87,
+      "events": [
+        {
+          "title": "Debate TV Cultura / Folha",
+          "date": "2022-09-13",
+          "vehicle": "TV Cultura",
+          "score": 88,
+          "notes": "Apresentou planos para a educação básica em SP e defesa do SUS estadual.",
+          "factCheckingAccuracy": 89
+        }
+      ]
+    },
+    "integrityAndFacts": {
+      "cleanRecordCertificates": [
+        { "court": "Tribunal Superior Eleitoral (TSE)", "status": "regular" },
+        { "court": "Tribunal de Justiça de São Paulo (TJ-SP)", "status": "nada_consta" },
+        { "court": "Tribunal Regional Federal da 3ª Região (TRF-3)", "status": "nada_consta" }
+      ],
+      "factChecks": [
+        {
+          "id": "fc-haddad-1",
+          "title": "Anulação de Condenação Eleitoral de 2012 pelo TRE-SP",
+          "description": "Em fevereiro de 2021, os juízes do Tribunal Regional Eleitoral de São Paulo (TRE-SP) anularam por unanimidade a condenação anterior por suposto caixa dois na campanha de 2012, reconhecendo a ausência de provas materiais e a falsidade das delações.",
+          "vehicleOrOrgan": "Tribunal Regional Eleitoral (TRE-SP) / G1",
+          "category": "arquivado",
+          "date": "2021-02-26",
+          "sourceUrl": "https://g1.globo.com/sp/sao-paulo/noticia/2021/02/26/tre-sp-anula-condenacao-de-fernando-haddad-por-caixa-2-na-campanha-de-2012.ghtml",
+          "judicialLevel": "Plenário do TRE-SP"
+        },
+        {
+          "id": "fc-haddad-2",
+          "title": "Boato sobre taxa municipal para uso de bicicletas",
+          "description": "Publicações nas redes sociais afirmavam falsamente que Haddad havia criado um imposto sobre bicicletas em SP. Desmentido categoricamente como boato inventado sem base em qualquer projeto de lei.",
+          "vehicleOrOrgan": "Aos Fatos",
+          "category": "boato_desmentido",
+          "date": "2022-09-15",
+          "sourceUrl": "https://www.aosfatos.org/noticias/e-falso-que-haddad-criou-imposto-sobre-bicicletas-em-sao-paulo/"
+        }
+      ]
+    },
+    "governmentPlan": {
+      "summary": "Plano centrado no investimento em educação básica e valorização do magistério, proteção ao patrimônio público e fortalecimento da rede de hospitais regionais de SP.",
+      "pdfUrl": "https://divulgacandcontas.tse.jus.br",
+      "pillars": [
+        {
+          "key": "educacao",
+          "title": "São Paulo Nota 10 e Valorização dos Professores",
+          "icon": "GraduationCap",
+          "mainGoal": "Colocar as escolas públicas estaduais de SP no topo do IDEB nacional com valorização salarial.",
+          "proposals": [
+            "Plano de carreira com piso estadual acima do piso nacional para professores.",
+            "Criação do Bilhete Único Universitário para estudantes de baixa renda no interior.",
+            "Fortalecimento e expansão de vagas presenciais na USP, Unicamp e Unesp."
+          ],
+          "budgetSource": "Garantia de 30% da receita de impostos estaduais destinada à educação.",
+          "feasibilityScore": 89
+        },
+        {
+          "key": "saude",
+          "title": "Hospitais Regionais e Descentralização do Atendimento",
+          "icon": "Activity",
+          "mainGoal": "Zerar a espera por cirurgias eletivas nas regiões de Bauru, Marília, Ribeirão e Vale do Paraíba.",
+          "proposals": [
+            "Construção e ampliação de Ambulatórios Médicos de Especialidades (AMEs) no interior.",
+            "Criação de centros de diagnóstico rápido por imagem 24 horas."
+          ],
+          "budgetSource": "Orçamento Estadual da Saúde.",
+          "feasibilityScore": 86
+        }
+      ]
+    }
+  }
+]

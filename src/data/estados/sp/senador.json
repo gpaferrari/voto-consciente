@@ -1,0 +1,106 @@
+[
+  {
+    "id": "marcos-pontes-senador",
+    "name": "Marcos Cesar Pontes",
+    "popularName": "Marcos Pontes",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Marcos_Pontes_em_2022.jpg/640px-Marcos_Pontes_em_2022.jpg",
+    "role": "senador",
+    "state": "SP",
+    "party": "PL",
+    "ballotNumber": "222",
+    "coalition": "PL",
+    "age": 62,
+    "cityOrigin": "Bauru - SP",
+    "declaredAssets": 4350000.00,
+    "currentOfficeNote": "Atual Senador da República pelo Estado de São Paulo (2023-2031)",
+    "education": {
+      "level": "mestrado",
+      "institution": "ITA / Naval Postgraduate School (EUA)",
+      "course": "Engenharia Aeronáutica (ITA) e Mestrado em Engenharia de Sistemas (NPS)",
+      "details": "Nascido em Bauru/SP, oficial aviador da FAB e primeiro astronauta brasileiro e lusófono a ir ao espaço (Missão Centenário, 2006).",
+      "complementaryCourses": ["Piloto de Caça e Teste", "Treinamento Espacial NASA/Roscosmos", "Gestão Estratégica"]
+    },
+    "experience": {
+      "yearsInPublicService": 38,
+      "summary": "Senador da República por São Paulo (2023-2031, eleito com mais de 10,7 milhões de votos), Ministro da Ciência, Tecnologia e Inovações (2019-2022), Tenente-Coronel da Reserva da FAB.",
+      "roles": [
+        {
+          "title": "Senador da República por São Paulo",
+          "period": "2023 - Atual",
+          "level": "federal",
+          "achievements": [
+            "Presidente da Comissão de Ciência, Tecnologia, Inovação, Comunicação e Informática do Senado.",
+            "Relatoria de projetos de marco legal da inteligência artificial e incentivo a semicondutores no Brasil.",
+            "Destinação de emendas orçamentárias expressivas para a saúde e universidades da região de Bauru e centro-oeste paulista."
+          ]
+        },
+        {
+          "title": "Ministro da Ciência, Tecnologia e Inovações",
+          "period": "2019 - 2022",
+          "level": "federal",
+          "achievements": [
+            "Lançamento do satélite 100% brasileiro Amazonia-1.",
+            "Inauguração do Sirius (fonte de luz síncrotron de última geração em Campinas/SP).",
+            "Incentivo à Lei das Startups e apoio ao desenvolvimento de vacinas nacionais (SpiroNTec)."
+          ]
+        }
+      ],
+      "legislativeStats": {
+        "billsProposed": 34,
+        "billsApproved": 4,
+        "attendanceRate": 96.5,
+        "parliamentaryQuotaSpentYearlyAvg": 298000.00
+      }
+    },
+    "debatesAndInterviews": {
+      "averageScore": 83,
+      "events": [
+        {
+          "title": "Sabatina CNN Senado 2022",
+          "date": "2022-09-18",
+          "vehicle": "CNN Brasil",
+          "score": 85,
+          "notes": "Foco em soberania tecnológica, incentivos à pesquisa aplicada e formação técnica para jovens.",
+          "factCheckingAccuracy": 88
+        }
+      ]
+    },
+    "integrityAndFacts": {
+      "cleanRecordCertificates": [
+        { "court": "Tribunal Regional Eleitoral de SP (TRE-SP)", "status": "regular" },
+        { "court": "Supremo Tribunal Federal (STF)", "status": "nada_consta" }
+      ],
+      "factChecks": [
+        {
+          "id": "fc-pontes-1",
+          "title": "Investigação arquivada no MPM sobre atividade comercial",
+          "description": "Inquérito instaurado pelo Ministério Público Militar em 2006 para apurar suposto vínculo comercial durante período militar foi arquivado formalmente por ausência de irregularidade criminal militar.",
+          "vehicleOrOrgan": "Ministério Público Militar (MPM)",
+          "category": "arquivado",
+          "date": "2007-08-10",
+          "sourceUrl": "https://www.mpm.mp.br/noticias/inquerito-pontes-arquivado",
+          "judicialLevel": "Procuradoria de Justiça Militar"
+        }
+      ]
+    },
+    "governmentPlan": {
+      "summary": "Mandato parlamentar focado na transformação do Brasil e do Estado de SP em um polo global de biotecnologia, inteligência artificial e agritech.",
+      "pdfUrl": "https://www.senado.leg.br",
+      "pillars": [
+        {
+          "key": "infraestrutura",
+          "title": "Indústria 4.0 e Semicondutores",
+          "icon": "Cpu",
+          "mainGoal": "Criar incentivos tributários para atração de fábricas de chips e componentes eletrônicos no interior paulista.",
+          "proposals": [
+            "Renovação e fortalecimento do PADIS (Programa de Apoio ao Desenvolvimento Tecnológico da Indústria de Semicondutores).",
+            "Criação de centros de inovação tecnológica no interior (Bauru, São Carlos, Campinas).",
+            "Incentivo ao uso de inteligência artificial na agricultura de precisão."
+          ],
+          "budgetSource": "Fundos setoriais do FNDCT.",
+          "feasibilityScore": 88
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,1038 @@
+[
+  {
+    "id": "lula-presidente",
+    "name": "Luiz Inácio Lula da Silva",
+    "popularName": "Lula",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Luiz_In%C3%A1cio_Lula_da_Silva_%28foto_oficial%29.jpg/640px-Luiz_In%C3%A1cio_Lula_da_Silva_%28foto_oficial%29.jpg",
+    "role": "presidente",
+    "party": "PT",
+    "ballotNumber": "13",
+    "coalition": "Federação Brasil da Esperança (PT/PCdoB/PV) / Solidariedade / PSB",
+    "age": 80,
+    "cityOrigin": "Garanhuns - PE",
+    "declaredAssets": 7423625.00,
+    "education": {
+      "level": "fundamental",
+      "institution": "SENAI São Bernardo do Campo",
+      "course": "Torneiro Mecânico / Qualificação Técnica Industrial",
+      "details": "Conclusão do ensino fundamental e curso de torneiro mecânico pelo SENAI (1963). Possui múltiplos títulos de Doutor Honoris Causa conferidos por universidades nacionais e internacionais.",
+      "complementaryCourses": ["Negociação Coletiva", "Liderança Sindical", "Relações Trabalhistas"]
+    },
+    "experience": {
+      "yearsInPublicService": 35,
+      "summary": "3 mandatos como Presidente da República (2003-2006, 2007-2010 e 2023-atual), Deputado Federal Constituinte (1987-1991), líder sindical do setor metalúrgico.",
+      "roles": [
+        {
+          "title": "Presidente da República do Brasil",
+          "period": "2023 - Atual (3º mandato) e 2003 - 2010 (1º e 2º mandatos)",
+          "level": "federal",
+          "achievements": [
+            "Retirada do Brasil do Mapa da Fome da ONU nos mandatos anteriores e relançamento de programas sociais.",
+            "Crescimento do PIB em 2023 e 2024 acima das projeções do mercado financeiro (2,9% e ~3,0%).",
+            "Aprovação da histórica Reforma Tributária sobre o consumo após 30 anos de debates.",
+            "Aumento real anual do salário mínimo e isenção de IRPF para até 2 salários mínimos."
+          ]
+        },
+        {
+          "title": "Deputado Federal Constituinte",
+          "period": "1987 - 1991",
+          "level": "federal",
+          "achievements": [
+            "Participação na redação da Constituição Cidadã de 1988 com foco nos direitos trabalhistas."
+          ]
+        }
+      ]
+    },
+    "debatesAndInterviews": {
+      "averageScore": 84,
+      "events": [
+        {
+          "title": "Debate Presidencial TV Globo",
+          "date": "2022-10-28",
+          "vehicle": "TV Globo",
+          "score": 85,
+          "notes": "Foco em temas de renda, saúde, retomada de investimentos em educação e desarmamento.",
+          "factCheckingAccuracy": 82
+        },
+        {
+          "title": "Sabatina Jornal Nacional",
+          "date": "2022-08-25",
+          "vehicle": "TV Globo",
+          "score": 86,
+          "notes": "Reconheceu erros do passado em governos petistas e defendeu independência das instituições.",
+          "factCheckingAccuracy": 88
+        }
+      ]
+    },
+    "integrityAndFacts": {
+      "cleanRecordCertificates": [
+        { "court": "Tribunal Superior Eleitoral (TSE)", "status": "regular" },
+        { "court": "Supremo Tribunal Federal (STF)", "status": "nada_consta" },
+        { "court": "Tribunal de Contas da União (TCU)", "status": "regular" }
+      ],
+      "factChecks": [
+        {
+          "id": "fc-lula-1",
+          "title": "Anulação de Condenações da Lava Jato pelo STF",
+          "description": "Em 2021, o Plenário do Supremo Tribunal Federal julgou incompetente a 13ª Vara Federal de Curitiba e declarou a suspeição do ex-juiz Sergio Moro, restabelecendo plenamente os direitos políticos com base na garantia do juiz natural e devido processo legal.",
+          "vehicleOrOrgan": "Supremo Tribunal Federal (STF)",
+          "category": "arquivado",
+          "date": "2021-04-15",
+          "sourceUrl": "https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=464223",
+          "judicialLevel": "Plenário do STF (HC 193.726)"
+        },
+        {
+          "id": "fc-lula-2",
+          "title": "Boato sobre confisco de caderneta de poupança",
+          "description": "Publicações nas redes sociais afirmavam falsamente que o governo Lula iria confiscar a poupança. Desmentido categoricamente pelo Ministério da Fazenda e agências de checagem. A Constituição Federal proíbe expressamente o confisco por Medida Provisória.",
+          "vehicleOrOrgan": "Agência Lupa / Aos Fatos",
+          "category": "boato_desmentido",
+          "date": "2023-01-10",
+          "sourceUrl": "https://lupa.uol.com.br/jornalismo/2023/01/10/lula-nao-vai-confiscar-poupanca"
+        },
+        {
+          "id": "fc-lula-3",
+          "title": "Aprovação com ressalvas das Contas de Governo pelo TCU",
+          "description": "O Tribunal de Contas da União emitiu parecer prévio recomendando a aprovação com ressalvas das contas presidenciais do primeiro ano de mandato, alertando para despesas previdenciárias e cumprimento da meta fiscal.",
+          "vehicleOrOrgan": "Tribunal de Contas da União (TCU)",
+          "category": "comprovado_positivo",
+          "date": "2024-06-12",
+          "sourceUrl": "https://portal.tcu.gov.br"
+        }
+      ]
+    },
+    "governmentPlan": {
+      "summary": "Plano centrado no desenvolvimento sustentável, neoindustrialização verde, fortalecimento do mercado interno, responsabilidade social com responsabilidade fiscal e recomposição orçamentária de saúde e educação.",
+      "pdfUrl": "https://divulgacandcontas.tse.jus.br",
+      "pillars": [
+        {
+          "key": "economia",
+          "title": "Crescimento com Estabilidade e Neoindustrialização",
+          "icon": "TrendingUp",
+          "mainGoal": "Manter o PIB crescendo acima de 2,5% ao ano com controle inflacionário e transição energética.",
+          "proposals": [
+            "Regulamentação completa da Reforma Tributária com simplificação de impostos sobre consumo.",
+            "Novo PAC (Programa de Aceleração do Crescimento) com foco em logística, energia limpa e saneamento.",
+            "Política de crédito produtivo através do BNDES voltada para inovação e pequenas empresas."
+          ],
+          "budgetSource": "Receitas correntes da União e parcerias público-privadas (PPPs) estimadas em R$ 1,7 trilhão.",
+          "feasibilityScore": 88
+        },
+        {
+          "key": "educacao",
+          "title": "Escola em Tempo Integral e Poupança Pé-de-Meia",
+          "icon": "GraduationCap",
+          "mainGoal": "Universalizar a educação em tempo integral e erradicar a evasão escolar no Ensino Médio.",
+          "proposals": [
+            "Expansão do programa Pé-de-Meia para estudantes de baixa renda do ensino médio público.",
+            "Reajuste anual das bolsas de pesquisa CNPq e Capes e investimento em novas universidades e IFs.",
+            "Apoio técnico e financeiro aos municípios prioritários no IDEB."
+          ],
+          "budgetSource": "Fundo Nacional de Desenvolvimento da Educação (FNDE) e Fundo Social do Pré-Sal.",
+          "feasibilityScore": 90
+        },
+        {
+          "key": "saude",
+          "title": "Fortalecimento do SUS e Programa Mais Médicos",
+          "icon": "Activity",
+          "mainGoal": "Reduzir filas para consultas especializadas e exames diagnósticos.",
+          "proposals": [
+            "Expansão do Programa Mais Médicos para periferias e municípios remotos.",
+            "Criação do Programa Agora Tem Especialista e digitalização da rede de saúde com prontuário eletrônico.",
+            "Retomada do programa Farmácia Popular com medicamentos gratuitos para diabetes, hipertensão e asma."
+          ],
+          "budgetSource": "Orçamento Geral da União (mínimo constitucional da saúde).",
+          "feasibilityScore": 86
+        },
+        {
+          "key": "seguranca",
+          "title": "Sistema Único de Segurança Pública e Combate ao Crime Organizado",
+          "icon": "ShieldAlert",
+          "mainGoal": "Fortalecer a inteligência policial e asfixiar financeiramente as facções criminosas.",
+          "proposals": [
+            "PEC da Segurança Pública para coordenar diretrizes federais, polícias civis e militares.",
+            "Integração de bancos de dados balísticos e de mandados de prisão em âmbito nacional.",
+            "Controle rigoroso de armas e munições em circulação e monitoramento de fronteiras terrestres e portos."
+          ],
+          "budgetSource": "Fundo Nacional de Segurança Pública (FNSP) e recursos de apreensões do narcotráfico.",
+          "feasibilityScore": 80
+        },
+        {
+          "key": "meio_ambiente",
+          "title": "Desmatamento Zero e Liderança na COP30",
+          "icon": "Leaf",
+          "mainGoal": "Zerar o desmatamento ilegal na Amazônia até 2030 e liderar a agenda climática mundial.",
+          "proposals": [
+            "Reativação e capitalização do Fundo Amazônia com doações internacionais.",
+            "Fortalecimento do IBAMA e ICMBio com novos concursos públicos e fiscalização via satélite.",
+            "Criação do mercado regulado de créditos de carbono no Brasil."
+          ],
+          "budgetSource": "Fundo Clima, Fundo Amazônia e créditos soberanos sustentáveis.",
+          "feasibilityScore": 92
+        }
+      ]
+    },
+    "mandateEvaluation": {
+      "mandatePeriod": "2023 - 2026 (Mandato Atual)",
+      "promisesStats": {
+        "total": 60,
+        "fulfilled": 29,
+        "inProgress": 22,
+        "notFulfilled": 9
+      },
+      "promisesList": [
+        {
+          "id": "prom-1",
+          "title": "Retomada do reajuste do Salário Mínimo acima da inflação",
+          "category": "Economia / Renda",
+          "status": "cumprida",
+          "details": "Lei sancionada em 2023 estabeleceu a política permanente de valorização: inflação (INPC) + variação do PIB dos dois anos anteriores.",
+          "sourceUrl": "https://www.planalto.gov.br"
+        },
+        {
+          "id": "prom-2",
+          "title": "Isenção do Imposto de Renda para quem ganha até 2 salários mínimos",
+          "category": "Economia / Tributação",
+          "status": "cumprida",
+          "details": "Faixa de isenção elevada para R$ 2.824,00 mensais com desconto simplificado garantido por lei.",
+          "sourceUrl": "https://www.gov.br/receitafederal"
+        },
+        {
+          "id": "prom-3",
+          "title": "Aprovação da Reforma Tributária",
+          "category": "Economia / Estrutural",
+          "status": "cumprida",
+          "details": "Emenda Constitucional 132/2023 promulgada pelo Congresso Nacional simplificando cinco tributos em IVA dual (IBS e CBS).",
+          "sourceUrl": "https://www.camara.leg.br"
+        },
+        {
+          "id": "prom-4",
+          "title": "Programa Pé-de-Meia (Poupança para estudantes do Ensino Médio)",
+          "category": "Educação",
+          "status": "cumprida",
+          "details": "Instituído pela Lei 14.818/2024, atendendo mais de 3,5 milhões de estudantes do CadÚnico com depósitos mensais e bônus no Enem.",
+          "sourceUrl": "https://www.gov.br/mec"
+        },
+        {
+          "id": "prom-5",
+          "title": "Zerar o déficit primário federal (Equilíbrio das Contas Públicas)",
+          "category": "Economia / Fiscal",
+          "status": "em_andamento",
+          "details": "Meta fiscal fixada no Arcabouço com intervalo de tolerância. O déficit fiscal foi reduzido em relação a 2023, mas equilibrar as contas exige medidas adicionais de contenção de despesas obrigatórias.",
+          "sourceUrl": "https://www.tesourotransparente.gov.br"
+        },
+        {
+          "id": "prom-6",
+          "title": "Isenção de Imposto de Renda para até R$ 5.000,00",
+          "category": "Economia / Tributação",
+          "status": "em_andamento",
+          "details": "Projeto de reforma da renda em fase de formatação técnica e tramitação legislativa com meta até o fim do mandato.",
+          "sourceUrl": "https://g1.globo.com"
+        },
+        {
+          "id": "prom-7",
+          "title": "Erradicação imediata do garimpo ilegal em terras indígenas",
+          "category": "Meio Ambiente / Indígena",
+          "status": "em_andamento",
+          "details": "Operações de desintrusão na Terra Indígena Yanomami destruíram dezenas de pistas e maquinários, porém núcleos de garimpeiros tentam retornar.",
+          "sourceUrl": "https://www.gov.br/povosindigenas"
+        }
+      ],
+      "economicIndicators": {
+        "pibGrowth": [
+          { "year": 2022, "value": 3.0, "benchmark": 2.5 },
+          { "year": 2023, "value": 2.9, "benchmark": 1.0 },
+          { "year": 2024, "value": 3.2, "benchmark": 1.8 },
+          { "year": 2025, "value": 2.4, "benchmark": 2.0 }
+        ],
+        "inflationIpca": [
+          { "year": 2022, "value": 5.79, "target": 3.5 },
+          { "year": 2023, "value": 4.62, "target": 3.25 },
+          { "year": 2024, "value": 4.25, "target": 3.0 },
+          { "year": 2025, "value": 3.95, "target": 3.0 }
+        ],
+        "unemploymentRate": [
+          { "year": 2022, "value": 9.3 },
+          { "year": 2023, "value": 7.8 },
+          { "year": 2024, "value": 6.8 },
+          { "year": 2025, "value": 6.5 }
+        ],
+        "primaryFiscalBalance": [
+          { "year": 2022, "value": 54.1, "label": "Superávit (+54 bi)" },
+          { "year": 2023, "value": -230.5, "label": "Déficit (-230 bi, incl. precatórios)" },
+          { "year": 2024, "value": -28.8, "label": "Déficit (-28 bi / ~0.2% PIB)" },
+          { "year": 2025, "value": -15.0, "label": "Estimativa (-15 bi)" }
+        ],
+        "publicDebtGdpRatio": [
+          { "year": 2022, "value": 71.7 },
+          { "year": 2023, "value": 74.3 },
+          { "year": 2024, "value": 77.8 },
+          { "year": 2025, "value": 79.2 }
+        ]
+      },
+      "socialAndEducationIndicators": {
+        "idebScore": [
+          { "year": 2021, "value": 5.8, "target": 6.0 },
+          { "year": 2023, "value": 6.0, "target": 6.0 }
+        ],
+        "socialProgramsInvestment": [
+          { "year": 2022, "valueInBillions": 89.2, "beneficiariesMillions": 21.0 },
+          { "year": 2023, "valueInBillions": 168.4, "beneficiariesMillions": 21.3 },
+          { "year": 2024, "valueInBillions": 172.0, "beneficiariesMillions": 20.8 }
+        ]
+      },
+      "mandateScore": 81,
+      "auditorSynthesis": "O mandato atual apresenta desempenho macroeconômico acima das expectativas iniciais de mercado, com forte redução da taxa de desemprego para os menores níveis em uma década, aprovação de reformas históricas (tributária e arcabouço) e ampliação de políticas de renda e permanência escolar (Pé-de-Meia). O principal desafio reside no campo fiscal: o crescimento da dívida pública sobre o PIB e a necessidade de corte estrutural de despesas públicas para consolidar a estabilidade das contas de longo prazo."
+    }
+  },
+  {
+    "id": "tarcisio-governador",
+    "name": "Tarcísio Gomes de Freitas",
+    "popularName": "Tarcísio de Freitas",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Tarc%C3%ADsio_de_Freitas_%28foto_oficial%29.jpg/640px-Tarc%C3%ADsio_de_Freitas_%28foto_oficial%29.jpg",
+    "role": "governador_sp",
+    "party": "Republicanos",
+    "ballotNumber": "10",
+    "coalition": "São Paulo Pode Mais (Republicanos / PL / PSD / PP / PTB / PSC)",
+    "age": 51,
+    "cityOrigin": "Rio de Janeiro - RJ",
+    "declaredAssets": 2345000.00,
+    "education": {
+      "level": "pos_graduacao",
+      "institution": "Instituto Militar de Engenharia (IME) / FGV",
+      "course": "Engenharia Civil e Especialização em Gestão de Projetos",
+      "details": "Primeiro colocado no IME na formação em Engenharia de Fortificação e Construção. Pós-graduado em Gestão de Projetos pela Fundação Getulio Vargas (FGV).",
+      "complementaryCourses": ["Engenharia de Transportes", "Auditoria de Obras Públicas", "Logística Pública"]
+    },
+    "experience": {
+      "yearsInPublicService": 26,
+      "summary": "Governador do Estado de São Paulo (2023-atual), Ministro da Infraestrutura do Brasil (2019-2022), Diretor-Geral do DNIT (2011-2014), Oficial Engenheiro do Exército Brasileiro.",
+      "roles": [
+        {
+          "title": "Governador do Estado de São Paulo",
+          "period": "2023 - Atual",
+          "level": "estadual",
+          "achievements": [
+            "Conclusão da desestatização da Sabesp com atração de R$ 68 bilhões em investimentos projetados em saneamento básico.",
+            "Leilão do Trem Intercidades ligando São Paulo a Campinas.",
+            "Implantação das Escolas Cívico-Militares no estado de SP e digitalização dos serviços estaduais.",
+            "Criação de novos batalhões da Polícia Militar e reajuste salarial para forças de segurança."
+          ]
+        },
+        {
+          "title": "Ministro da Infraestrutura",
+          "period": "2019 - 2022",
+          "level": "federal",
+          "achievements": [
+            "Leilão de mais de 80 ativos de infraestrutura (aeroportos, ferrovias e portos) sem escândalos de corrupção na pasta.",
+            "Conclusão da pavimentação da BR-163 e nova ponte do Guaíba no RS."
+          ]
+        },
+        {
+          "title": "Diretor Geral do DNIT",
+          "period": "2011 - 2014",
+          "level": "federal",
+          "achievements": [
+            "Liderou a reestruturação e auditoria do órgão após a chamada 'faxina ética' do governo federal."
+          ]
+        }
+      ]
+    },
+    "debatesAndInterviews": {
+      "averageScore": 86,
+      "events": [
+        {
+          "title": "Roda Viva TV Cultura",
+          "date": "2023-08-14",
+          "vehicle": "TV Cultura",
+          "score": 88,
+          "notes": "Demonstrou domínio exaustivo de números e projetos de infraestrutura, com postura técnica e pragmática.",
+          "factCheckingAccuracy": 90
+        },
+        {
+          "title": "Debate Eleitoral TV Bandeirantes",
+          "date": "2022-10-10",
+          "vehicle": "Band",
+          "score": 84,
+          "notes": "Apresentou propostas de atração de investimentos privados e segurança pública em SP.",
+          "factCheckingAccuracy": 85
+        }
+      ]
+    },
+    "integrityAndFacts": {
+      "cleanRecordCertificates": [
+        { "court": "Tribunal Regional Eleitoral de SP (TRE-SP)", "status": "regular" },
+        { "court": "Tribunal de Contas do Estado de SP (TCE-SP)", "status": "regular" },
+        { "court": "Tribunal de Justiça de SP (TJ-SP)", "status": "nada_consta" }
+      ],
+      "factChecks": [
+        {
+          "id": "fc-tarcisio-1",
+          "title": "Questionamento de Domicílio Eleitoral em São José dos Campos",
+          "description": "Em 2022, o Ministério Público Eleitoral analisou o contrato de locação do candidato em São José dos Campos. A Justiça Eleitoral validou a legalidade do domicílio eleitoral, rejeitando as impugnações.",
+          "vehicleOrOrgan": "Tribunal Regional Eleitoral (TRE-SP)",
+          "category": "arquivado",
+          "date": "2022-09-08",
+          "sourceUrl": "https://www.tre-sp.jus.br"
+        },
+        {
+          "id": "fc-tarcisio-2",
+          "title": "Checagem sobre Privatização da Sabesp e Redução de Tarifas",
+          "description": "Estudo e modelagem econômica apresentaram tarifas sociais mais baixas subsidiadas pelo fundo de universalização. Checagem independente confirmou os termos contratuais regulados pela Arsesp.",
+          "vehicleOrOrgan": "Estadão Verifica",
+          "category": "comprovado_positivo",
+          "date": "2024-05-20",
+          "sourceUrl": "https://www.estadao.com.br"
+        }
+      ]
+    },
+    "governmentPlan": {
+      "summary": "Plano focado em eficiência administrativa, atração massiva de capital privado via PPPs e concessões, segurança pública integrada por câmeras inteligentes e conectividade ferroviária no estado.",
+      "pdfUrl": "https://divulgacandcontas.tse.jus.br",
+      "pillars": [
+        {
+          "key": "infraestrutura",
+          "title": "São Paulo sobre Trilhos e Concessões Rodoviárias",
+          "icon": "Building2",
+          "mainGoal": "Implantar trens regionais de passageiros e duplicar rodovias no interior.",
+          "proposals": [
+            "Concretização das linhas do Trem Intercidades (TIC Eixo Norte e TIC Eixo Oeste ligando Sorocaba).",
+            "Extensão das linhas 2-Verde e 15-Prata do Metrô e privatização das linhas restantes da CPTM.",
+            "Pavimentação de mais de 3.000 km de estradas vicinais no interior paulista."
+          ],
+          "budgetSource": "Recursos da desestatização da Sabesp e capital privado em regime de concessão patrocinada.",
+          "feasibilityScore": 91
+        },
+        {
+          "key": "seguranca",
+          "title": "Muralha Paulista e Valorização Policial",
+          "icon": "ShieldAlert",
+          "mainGoal": "Reduzir os índices de roubos e latrocínios com inteligência e monitoramento digital.",
+          "proposals": [
+            "Criação do Sistema Muralha Paulista com integração de milhares de câmeras com reconhecimento de placas e faces.",
+            "Reajustes salariais escalonados para a Polícia Militar e Polícia Civil.",
+            "Modernização do armamento e equipamentos do Batalhão de Ações Especiais de Polícia (BAEP)."
+          ],
+          "budgetSource": "Tesouro do Estado de São Paulo.",
+          "feasibilityScore": 88
+        },
+        {
+          "key": "educacao",
+          "title": "Educação Profissionalizante e Ensino Conectado",
+          "icon": "GraduationCap",
+          "mainGoal": "Conectar o ensino médio técnico diretamente à demanda do parque industrial paulista.",
+          "proposals": [
+            "Parceria das escolas estaduais com o Centro Paula Souza (ETECs e FATECs).",
+            "Programa de climatização e instalação de laboratórios de informática em 100% das escolas estaduais.",
+            "Bolsas de apoio financeiro para formação continuada de professores da rede estadual."
+          ],
+          "budgetSource": "Fundo de Manutenção da Educação do Estado de SP.",
+          "feasibilityScore": 87
+        },
+        {
+          "key": "economia",
+          "title": "Menos Burocracia e Estímulo ao Agronegócio",
+          "icon": "Briefcase",
+          "mainGoal": "Tornar São Paulo o estado mais competitivo da América Latina para abertura de empresas.",
+          "proposals": [
+            "Abertura de empresas de baixo risco em até 2 horas de forma 100% digital.",
+            "Linhas de crédito facilitado via Desenvolve SP e Banco do Povo Paulista.",
+            "Defesa sanitária vegetal e animal para sustentar recordes de exportação de soja, cana e citros."
+          ],
+          "budgetSource": "Desenvolve SP e parcerias com o setor privado.",
+          "feasibilityScore": 90
+        }
+      ]
+    }
+  },
+  {
+    "id": "haddad-governador",
+    "name": "Fernando Haddad",
+    "popularName": "Fernando Haddad",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Fernando_Haddad_%28foto_oficial%29.jpg/640px-Fernando_Haddad_%28foto_oficial%29.jpg",
+    "role": "governador_sp",
+    "party": "PT",
+    "ballotNumber": "13",
+    "coalition": "Juntos por São Paulo (PT / PCdoB / PV / PSB / PSOL / REDE)",
+    "age": 62,
+    "cityOrigin": "São Paulo - SP",
+    "declaredAssets": 1874500.00,
+    "education": {
+      "level": "doutorado",
+      "institution": "Universidade de São Paulo (USP)",
+      "course": "Direito (Bacharelado), Economia (Mestrado) e Filosofia (Doutorado)",
+      "details": "Professor titular de Ciência Política da USP. Formação multidisciplinar de excelência acadêmica nas principais faculdades da USP.",
+      "complementaryCourses": ["Finanças Públicas", "Economia Política", "Teoria da Decisão"]
+    },
+    "experience": {
+      "yearsInPublicService": 22,
+      "summary": "Ministro da Fazenda (2023-atual), Ministro da Educação (2005-2012), Prefeito de São Paulo (2013-2016).",
+      "roles": [
+        {
+          "title": "Ministro da Fazenda do Brasil",
+          "period": "2023 - Atual",
+          "level": "federal",
+          "achievements": [
+            "Articulação e aprovação da histórica Reforma Tributária constitucional.",
+            "Criação do Novo Arcabouço Fiscal em substituição ao antigo Teto de Gastos rígido.",
+            "Programa Desenrola Brasil para renegociação de dívidas de milhões de famílias inadimplentes."
+          ]
+        },
+        {
+          "title": "Ministro da Educação",
+          "period": "2005 - 2012",
+          "level": "federal",
+          "achievements": [
+            "Criação do ProUni (Programa Universidade para Todos) beneficiando mais de 2 milhões de jovens.",
+            "Criação do IDEB (Índice de Desenvolvimento da Educação Básica) e reestruturação do ENEM e SiSU.",
+            "Expansão inédita da rede de Institutos Federais de Educação, Ciência e Tecnologia."
+          ]
+        },
+        {
+          "title": "Prefeito de São Paulo",
+          "period": "2013 - 2016",
+          "level": "municipal",
+          "achievements": [
+            "Aprovação do premiado Plano Diretor Estratégico (PDE) da capital com incentivo ao transporte coletivo.",
+            "Implantação de mais de 400 km de ciclovias e faixas exclusivas de ônibus.",
+            "Obtenção do Grau de Investimento para a cidade pela agência Fitch Ratings ao renegociar a dívida do município."
+          ]
+        }
+      ]
+    },
+    "debatesAndInterviews": {
+      "averageScore": 87,
+      "events": [
+        {
+          "title": "Debate TV Cultura / Folha",
+          "date": "2022-09-13",
+          "vehicle": "TV Cultura",
+          "score": 88,
+          "notes": "Apresentou planos detalhados para a educação básica em SP e defesa do SUS estadual.",
+          "factCheckingAccuracy": 89
+        },
+        {
+          "title": "Sabatina CNN Brasil",
+          "date": "2022-08-20",
+          "vehicle": "CNN",
+          "score": 86,
+          "notes": "Abordou a interiorização do desenvolvimento tecnológico no estado de SP.",
+          "factCheckingAccuracy": 87
+        }
+      ]
+    },
+    "integrityAndFacts": {
+      "cleanRecordCertificates": [
+        { "court": "Tribunal Superior Eleitoral (TSE)", "status": "regular" },
+        { "court": "Tribunal de Justiça de São Paulo (TJ-SP)", "status": "nada_consta" },
+        { "court": "Tribunal Regional Federal da 3ª Região (TRF-3)", "status": "nada_consta" }
+      ],
+      "factChecks": [
+        {
+          "id": "fc-haddad-1",
+          "title": "Absolvição de Acusação Eleitoral de 2012 pelo TRE-SP",
+          "description": "Em 2021, o Tribunal Regional Eleitoral de São Paulo arquivou e absolveu expressamente as acusações de suposta caixa dois na campanha de 2012 por completa falta de provas e inconsistência das delações.",
+          "vehicleOrOrgan": "Tribunal Regional Eleitoral (TRE-SP)",
+          "category": "arquivado",
+          "date": "2021-02-26",
+          "sourceUrl": "https://www.tre-sp.jus.br"
+        },
+        {
+          "id": "fc-haddad-2",
+          "title": "Boato sobre taxa de iluminação e criação de novos impostos municipais",
+          "description": "Agências de checagem desmentiram publicações manipuladas que atribuíam ao ex-prefeito criação de impostos inexistentes sobre bicicletas.",
+          "vehicleOrOrgan": "Aos Fatos / Agência Lupa",
+          "category": "boato_desmentido",
+          "date": "2022-09-15",
+          "sourceUrl": "https://aosfatos.org"
+        }
+      ]
+    },
+    "governmentPlan": {
+      "summary": "Plano centrado no investimento em educação básica e valorização do magistério, proteção ao patrimônio público e fortalecimento da rede de hospitais regionais de SP.",
+      "pdfUrl": "https://divulgacandcontas.tse.jus.br",
+      "pillars": [
+        {
+          "key": "educacao",
+          "title": "São Paulo Nota 10 e Valorização dos Professores",
+          "icon": "GraduationCap",
+          "mainGoal": "Colocar as escolas públicas estaduais de SP no topo do IDEB nacional com valorização salarial.",
+          "proposals": [
+            "Plano de carreira atraente com piso estadual acima do piso nacional para professores.",
+            "Criação do Bilhete Único Universitário para estudantes de baixa renda no interior.",
+            "Fortalecimento e expansão de vagas presenciais na USP, Unicamp e Unesp."
+          ],
+          "budgetSource": "Garantia de 30% da receita de impostos estaduais destinada à educação.",
+          "feasibilityScore": 89
+        },
+        {
+          "key": "saude",
+          "title": "Hospitais Regionais e Descentralização do Atendimento",
+          "icon": "Activity",
+          "mainGoal": "Zerar a espera por cirurgias eletivas nas regiões de Bauru, Marília, Ribeirão e Vale do Paraíba.",
+          "proposals": [
+            "Construção e ampliação de Ambulatórios Médicos de Especialidades (AMEs) no interior.",
+            "Parceria com as faculdades de medicina estaduais para residência médica no SUS.",
+            "Criação de centros de diagnóstico rápido por imagem 24 horas."
+          ],
+          "budgetSource": "Orçamento Estadual da Saúde.",
+          "feasibilityScore": 86
+        },
+        {
+          "key": "economia",
+          "title": "Industrialização Tecnológica e Apoio a PMEs",
+          "icon": "TrendingUp",
+          "mainGoal": "Estímulo à indústria 4.0 e criação de polos de inovação no interior paulista.",
+          "proposals": [
+            "Uso da FAPESP para financiar startups e projetos de ciência aplicada nas indústrias.",
+            "Redução progressiva de ICMS sobre alimentos da cesta básica e combustíveis de frotas agrícolas.",
+            "Banco do Povo com juros subsidiados para microempreendedores."
+          ],
+          "budgetSource": "Fundo Estadual de Desenvolvimento Econômico.",
+          "feasibilityScore": 85
+        }
+      ]
+    }
+  },
+  {
+    "id": "simone-tebet",
+    "name": "Simone Nassar Tebet",
+    "popularName": "Simone Tebet",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Simone_Tebet_%28foto_oficial%29.jpg/640px-Simone_Tebet_%28foto_oficial%29.jpg",
+    "role": "presidente",
+    "party": "MDB",
+    "ballotNumber": "15",
+    "coalition": "Brasil para Todos (MDB / Federação PSDB-Cidadania / Podemos)",
+    "age": 55,
+    "cityOrigin": "Três Lagoas - MS",
+    "declaredAssets": 3200000.00,
+    "education": {
+      "level": "mestrado",
+      "institution": "UFRJ / PUC-SP",
+      "course": "Direito (Bacharelado UFRJ) e Direito Constitucional (Mestrado PUC-SP)",
+      "details": "Professora de Direito Constitucional por mais de 12 anos. Formação jurídica sólida.",
+      "complementaryCourses": ["Direito Público", "Planejamento Orçamentário", "Políticas Públicas"]
+    },
+    "experience": {
+      "yearsInPublicService": 24,
+      "summary": "Ministra do Planejamento e Orçamento (2023-atual), Senadora da República (2015-2022), Vice-Governadora do MS (2011-2014), Prefeita de Três Lagoas por 2 mandatos (2005-2010), Deputada Estadual.",
+      "roles": [
+        {
+          "title": "Ministra do Planejamento e Orçamento do Brasil",
+          "period": "2023 - Atual",
+          "level": "federal",
+          "achievements": [
+            "Elaboração do PPA (Plano Plurianual) Participativo com foco em 5 eixos prioritários.",
+            "Lançamento do projeto das 5 Rotas de Integração Sul-Americana para escoamento de produção.",
+            "Revisão e qualificação de gastos públicos e monitoramento de políticas públicas."
+          ]
+        },
+        {
+          "title": "Senadora da República",
+          "period": "2015 - 2022",
+          "level": "federal",
+          "achievements": [
+            "Primeira mulher a presidir a Comissão de Constituição e Justiça (CCJ) do Senado.",
+            "Líder da bancada feminina e atuação de destaque na CPI da Pandemia em 2021."
+          ]
+        }
+      ]
+    },
+    "debatesAndInterviews": {
+      "averageScore": 90,
+      "events": [
+        {
+          "title": "Debate Band Presidencial 2022",
+          "date": "2022-08-28",
+          "vehicle": "Rede Bandeirantes",
+          "score": 92,
+          "notes": "Eleita por analistas políticos como um dos maiores destaques do debate pela firmeza e propostas claras.",
+          "factCheckingAccuracy": 91
+        },
+        {
+          "title": "Sabatina GloboNews",
+          "date": "2022-09-02",
+          "vehicle": "GloboNews",
+          "score": 89,
+          "notes": "Detalhamento técnico da proposta de poupança para estudantes do ensino médio.",
+          "factCheckingAccuracy": 90
+        }
+      ]
+    },
+    "integrityAndFacts": {
+      "cleanRecordCertificates": [
+        { "court": "Tribunal Superior Eleitoral (TSE)", "status": "regular" },
+        { "court": "Supremo Tribunal Federal (STF)", "status": "nada_consta" },
+        { "court": "Tribunal de Contas da União (TCU)", "status": "regular" }
+      ],
+      "factChecks": [
+        {
+          "id": "fc-tebet-1",
+          "title": "Regularidade de Contas de Mandatos Municipais",
+          "description": "Contas dos dois mandatos como prefeita de Três Lagoas foram analisadas e aprovadas pelo Tribunal de Contas do Estado (TCE-MS).",
+          "vehicleOrOrgan": "TCE-MS",
+          "category": "comprovado_positivo",
+          "date": "2012-10-10",
+          "sourceUrl": "https://www.tce.ms.gov.br"
+        }
+      ]
+    },
+    "governmentPlan": {
+      "summary": "Plano baseado no tripé: Responsabilidade Fiscal, Justiça Social e Desenvolvimento Sustentável, com ênfase na primeira infância e qualidade do gasto público.",
+      "pdfUrl": "https://divulgacandcontas.tse.jus.br",
+      "pillars": [
+        {
+          "key": "economia",
+          "title": "Responsabilidade Fiscal com Olhar Social",
+          "icon": "TrendingUp",
+          "mainGoal": "Equilíbrio das contas públicas através de corte de desperdícios e atração de investimento privado.",
+          "proposals": [
+            "Revisão sistemática de subsídios fiscais ineficientes que consom bilhões do orçamento federal.",
+            "Segurança jurídica e marcos regulatórios estáveis para investidores de longo prazo.",
+            "Reforma Administrativa com foco na meritocracia e digitalização do serviço público."
+          ],
+          "budgetSource": "Economia com revisão de renúncias fiscais e modernização de compras públicas.",
+          "feasibilityScore": 91
+        },
+        {
+          "key": "educacao",
+          "title": "Primeira Infância e Poupança do Ensino Médio",
+          "icon": "GraduationCap",
+          "mainGoal": "Prioridade absoluta às creches e erradicação da evasão escolar dos adolescentes.",
+          "proposals": [
+            "Criação da poupança para jovens ao concluir o ensino médio (ideia que originou o atual Pé-de-Meia).",
+            "Universalização do acesso a creches públicas em regime de coparticipação com municípios.",
+            "Formação contínua de professores para alfabetização na idade certa."
+          ],
+          "budgetSource": "Fundo de Manutenção da Educação Básica (Fundeb) e Fundo Social.",
+          "feasibilityScore": 92
+        }
+      ]
+    }
+  },
+  {
+    "id": "marcos-pontes-senador",
+    "name": "Marcos Cesar Pontes",
+    "popularName": "Marcos Pontes",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Marcos_Pontes_em_2022.jpg/640px-Marcos_Pontes_em_2022.jpg",
+    "role": "senador",
+    "party": "PL",
+    "ballotNumber": "222",
+    "coalition": "PL",
+    "age": 62,
+    "cityOrigin": "Bauru - SP",
+    "declaredAssets": 4350000.00,
+    "education": {
+      "level": "mestrado",
+      "institution": "ITA / Naval Postgraduate School (EUA)",
+      "course": "Engenharia Aeronáutica (ITA) e Mestrado em Engenharia de Sistemas (NPS)",
+      "details": "Nascido em Bauru/SP, oficial aviador da FAB e primeiro astronauta brasileiro e lusófono a ir ao espaço (Missão Centenário, 2006).",
+      "complementaryCourses": ["Piloto de Caça e Teste", "Treinamento Espacial NASA/Roscosmos", "Gestão Estratégica"]
+    },
+    "experience": {
+      "yearsInPublicService": 38,
+      "summary": "Senador da República por São Paulo (2023-2031, eleito com mais de 10,7 milhões de votos), Ministro da Ciência, Tecnologia e Inovações (2019-2022), Tenente-Coronel da Reserva da FAB.",
+      "roles": [
+        {
+          "title": "Senador da República por São Paulo",
+          "period": "2023 - Atual",
+          "level": "federal",
+          "achievements": [
+            "Presidente da Comissão de Ciência, Tecnologia, Inovação, Comunicação e Informática do Senado.",
+            "Relatoria de projetos de marco legal da inteligência artificial e incentivo a semicondutores no Brasil.",
+            "Destinação de emendas orçamentárias expressivas para a saúde e universidades da região de Bauru e centro-oeste paulista."
+          ]
+        },
+        {
+          "title": "Ministro da Ciência, Tecnologia e Inovações",
+          "period": "2019 - 2022",
+          "level": "federal",
+          "achievements": [
+            "Lançamento do satélite 100% brasileiro Amazonia-1.",
+            "Inauguração do Sirius (fonte de luz síncrotron de última geração em Campinas/SP).",
+            "Incentivo à Lei das Startups e apoio ao desenvolvimento de vacinas nacionais (SpiroNTec)."
+          ]
+        }
+      ],
+      "legislativeStats": {
+        "billsProposed": 34,
+        "billsApproved": 4,
+        "attendanceRate": 96.5,
+        "parliamentaryQuotaSpentYearlyAvg": 298000.00
+      }
+    },
+    "debatesAndInterviews": {
+      "averageScore": 83,
+      "events": [
+        {
+          "title": "Sabatina CNN Senado 2022",
+          "date": "2022-09-18",
+          "vehicle": "CNN Brasil",
+          "score": 85,
+          "notes": "Foco em soberania tecnológica, incentivos à pesquisa aplicada e formação técnica para jovens.",
+          "factCheckingAccuracy": 88
+        }
+      ]
+    },
+    "integrityAndFacts": {
+      "cleanRecordCertificates": [
+        { "court": "Tribunal Regional Eleitoral de SP (TRE-SP)", "status": "regular" },
+        { "court": "Supremo Tribunal Federal (STF)", "status": "nada_consta" }
+      ],
+      "factChecks": [
+        {
+          "id": "fc-pontes-1",
+          "title": "Investigação arquivada no MPM sobre atividade comercial",
+          "description": "Inquérito instaurado pelo Ministério Público Militar em 2006 para apurar suposto vínculo comercial durante período militar foi arquivado por ausência de irregularidade criminal militar.",
+          "vehicleOrOrgan": "Ministério Público Militar (MPM)",
+          "category": "arquivado",
+          "date": "2007-08-10",
+          "sourceUrl": "https://www.mpm.mp.br"
+        }
+      ]
+    },
+    "governmentPlan": {
+      "summary": "Mandato parlamentar focado na transformação do Brasil e do Estado de SP em um polo global de biotecnologia, inteligência artificial e agritech.",
+      "pdfUrl": "https://www.senado.leg.br",
+      "pillars": [
+        {
+          "key": "infraestrutura",
+          "title": "Indústria 4.0 e Semicondutores",
+          "icon": "Cpu",
+          "mainGoal": "Criar incentivos tributários para atração de fábricas de chips e componentes eletrônicos no interior paulista.",
+          "proposals": [
+            "Renovação e fortalecimento do PADIS (Programa de Apoio ao Desenvolvimento Tecnológico da Indústria de Semicondutores).",
+            "Criação de centros de inovação tecnológica no interior (Bauru, São Carlos, Campinas).",
+            "Incentivo ao uso de inteligência artificial na agricultura de precisão."
+          ],
+          "budgetSource": "Fundos setoriais do FNDCT.",
+          "feasibilityScore": 88
+        }
+      ]
+    }
+  },
+  {
+    "id": "rodrigo-agostinho-deputado",
+    "name": "Rodrigo Antonio de Agostinho Mendonça",
+    "popularName": "Rodrigo Agostinho",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Rodrigo_Agostinho_%28foto_oficial%29.jpg/640px-Rodrigo_Agostinho_%28foto_oficial%29.jpg",
+    "role": "deputado_federal_bauru",
+    "party": "PSB",
+    "ballotNumber": "4010",
+    "coalition": "Federação Brasil da Esperança / PSB",
+    "age": 48,
+    "cityOrigin": "Cafelândia / Bauru - SP",
+    "declaredAssets": 1250000.00,
+    "education": {
+      "level": "mestrado",
+      "institution": "ITE Bauru / USP",
+      "course": "Direito (ITE Bauru) e Mestrado em Ciência e Tecnologia Ambiental (USP)",
+      "details": "Advogado ambientalista com especialização em Gestão e Política Ambiental pela Unicamp e mestrado pela USP.",
+      "complementaryCourses": ["Direito Administrativo", "Gestão de Recursos Hídricos", "Políticas Urbanas"]
+    },
+    "experience": {
+      "yearsInPublicService": 24,
+      "summary": "Presidente do IBAMA (2023-atual), Deputado Federal por SP (2019-2023 com base central em Bauru), Prefeito de Bauru por 2 mandatos (2009-2016), Vereador de Bauru (2001-2008), Secretário Municipal do Meio Ambiente.",
+      "roles": [
+        {
+          "title": "Presidente do IBAMA",
+          "period": "2023 - Atual",
+          "level": "federal",
+          "achievements": [
+            "Redução histórica de mais de 50% nos índices de desmatamento na Amazônia Legal entre 2023 e 2024.",
+            "Modernização do processo de licenciamento ambiental e digitalização de autos de infração.",
+            "Fortalecimento das ações conjuntas com a Polícia Federal contra o comércio ilegal de madeira e ouro."
+          ]
+        },
+        {
+          "title": "Deputado Federal por São Paulo",
+          "period": "2019 - 2023",
+          "level": "federal",
+          "achievements": [
+            "Presidente da Comissão de Meio Ambiente e Desenvolvimento Sustentável da Câmara dos Deputados.",
+            "Destinação de dezenas de milhões de reais em emendas parlamentares diretas para os hospitais e entidades de Bauru (Hospital de Base, Maternidade Santa Isabel e Centrinho-USP).",
+            "Avaliado repetidamente entre os parlamentares mais qualificados pelo ranking do DIAP e Prêmio Congresso em Foco."
+          ]
+        },
+        {
+          "title": "Prefeito de Bauru por 2 mandatos",
+          "period": "2009 - 2016",
+          "level": "municipal",
+          "achievements": [
+            "Eleito e reeleito com expressiva votação popular (mais de 82% dos votos válidos no segundo mandato).",
+            "Construção e entrega da Estação de Tratamento de Esgoto (ETE Vargem Limpa) e ampliação da rede de creches e escolas municipais.",
+            "Sanou o endividamento crônico da prefeitura e regularizou o pagamento de servidores."
+          ]
+        }
+      ],
+      "legislativeStats": {
+        "billsProposed": 58,
+        "billsApproved": 6,
+        "attendanceRate": 98.2,
+        "parliamentaryQuotaSpentYearlyAvg": 245000.00
+      }
+    },
+    "debatesAndInterviews": {
+      "averageScore": 91,
+      "events": [
+        {
+          "title": "Sabatina Eleições Band Interior / Bauru",
+          "date": "2022-09-10",
+          "vehicle": "Band Interior",
+          "score": 92,
+          "notes": "Detalhamento profundo das demandas de saúde e infraestrutura rodoferroviária da região de Bauru e Jaú.",
+          "factCheckingAccuracy": 94
+        }
+      ]
+    },
+    "integrityAndFacts": {
+      "cleanRecordCertificates": [
+        { "court": "Tribunal de Contas do Estado de SP (TCE-SP)", "status": "regular" },
+        { "court": "Tribunal Regional Eleitoral (TRE-SP)", "status": "regular" },
+        { "court": "Tribunal de Justiça de SP (TJ-SP)", "status": "nada_consta" }
+      ],
+      "factChecks": [
+        {
+          "id": "fc-rodrigo-1",
+          "title": "Aprovação das Contas de Governo dos Mandatos em Bauru",
+          "description": "As contas de governo de ambos os mandatos à frente da Prefeitura de Bauru foram avaliadas pelo TCE-SP e aprovadas pela Câmara Municipal de Bauru.",
+          "vehicleOrOrgan": "Tribunal de Contas do Estado de SP (TCE-SP)",
+          "category": "comprovado_positivo",
+          "date": "2018-04-20",
+          "sourceUrl": "https://www.tce.sp.gov.br"
+        }
+      ]
+    },
+    "governmentPlan": {
+      "summary": "Foco na representação regional de Bauru e Centro-Oeste Paulista em Brasília, fortalecimento do polo de saúde de Bauru (USP e Centrinho) e transição ecológica da indústria paulista.",
+      "pdfUrl": "https://www.camara.leg.br",
+      "pillars": [
+        {
+          "key": "saude",
+          "title": "Consolidação do Polo de Saúde e Centrinho-USP em Bauru",
+          "icon": "Activity",
+          "mainGoal": "Garantir orçamento federal perene para o Hospital das Clínicas e faculdade de medicina de Bauru.",
+          "proposals": [
+            "Aporte de emendas de bancada para o custeio do Hospital das Clínicas de Bauru.",
+            "Ampliação do atendimento odontológico e de anomalias craniofaciais pelo Centrinho-USP.",
+            "Recapeamento e melhoria de acessos aos distritos industriais de Bauru e cidades vizinhas."
+          ],
+          "budgetSource": "Emendas parlamentares impositivas e Orçamento da Seguridade Social.",
+          "feasibilityScore": 94
+        },
+        {
+          "key": "educacao",
+          "title": "Apoio às Universidades Públicas do Interior",
+          "icon": "GraduationCap",
+          "mainGoal": "Fortalecer os campi da UNESP Bauru, USP Bauru e FATEC.",
+          "proposals": [
+            "Criação de linhas de fomento a pesquisas de ponta em engenharia, química e design em Bauru.",
+            "Conexão dos alunos recém-formados com o parque tecnológico regional."
+          ],
+          "budgetSource": "Fundo Nacional de Desenvolvimento Científico e Tecnológico.",
+          "feasibilityScore": 90
+        }
+      ]
+    }
+  },
+  {
+    "id": "capitao-augusto-deputado",
+    "name": "José Augusto Rosa",
+    "popularName": "Capitão Augusto",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Capit%C3%A3o_Augusto_%28foto_oficial%29.jpg/640px-Capit%C3%A3o_Augusto_%28foto_oficial%29.jpg",
+    "role": "deputado_federal_bauru",
+    "party": "PL",
+    "ballotNumber": "2200",
+    "coalition": "PL",
+    "age": 59,
+    "cityOrigin": "Ourinhos / Bauru - SP",
+    "declaredAssets": 2100000.00,
+    "education": {
+      "level": "superior_completo",
+      "institution": "Academia de Polícia Militar do Barro Branco / Uniesp",
+      "course": "Ciências Policiais de Segurança e Ordem Pública (APMBB) e Direito",
+      "details": "Oficial da Polícia Militar do Estado de São Paulo (Capitão da Reserva) e Bacharel em Direito.",
+      "complementaryCourses": ["Táticas Policiais", "Gestão de Segurança Pública", "Legislação Penal"]
+    },
+    "experience": {
+      "yearsInPublicService": 34,
+      "summary": "Deputado Federal por São Paulo reeleito por 3 legislaturas consecutivas (2015-atual), Presidente e fundador da Frente Parlamentar da Segurança Pública ('Bancada da Bala'), Capitão da Polícia Militar de SP.",
+      "roles": [
+        {
+          "title": "Deputado Federal por São Paulo",
+          "period": "2015 - Atual (3 mandatos consecutivos)",
+          "level": "federal",
+          "achievements": [
+            "Líder influente da Bancada da Segurança Pública na Câmara dos Deputados.",
+            "Autor e relator de projetos de endurecimento da Lei de Execução Penal e combate a facções.",
+            "Destinação de emendas parlamentares para prefeituras, polícias e entidades assistenciais de Bauru, Ourinhos e região centro-oeste."
+          ]
+        },
+        {
+          "title": "Oficial da Polícia Militar do Estado de SP",
+          "period": "1988 - 2014",
+          "level": "estadual",
+          "achievements": [
+            "Comando de companhias de policiamento ostensivo no interior paulista.",
+            "Criação e incentivo a projetos sociais voltados a jovens e atletas."
+          ]
+        }
+      ],
+      "legislativeStats": {
+        "billsProposed": 72,
+        "billsApproved": 5,
+        "attendanceRate": 94.8,
+        "parliamentaryQuotaSpentYearlyAvg": 340000.00
+      }
+    },
+    "debatesAndInterviews": {
+      "averageScore": 79,
+      "events": [
+        {
+          "title": "Entrevista Rádio Jovem Pan Bauru",
+          "date": "2022-09-12",
+          "vehicle": "Jovem Pan Bauru",
+          "score": 80,
+          "notes": "Defesa intransigente da atuação policial, redução da maioridade penal e verbas para entidades sociais de Bauru.",
+          "factCheckingAccuracy": 81
+        }
+      ]
+    },
+    "integrityAndFacts": {
+      "cleanRecordCertificates": [
+        { "court": "Tribunal Regional Eleitoral (TRE-SP)", "status": "regular" },
+        { "court": "Supremo Tribunal Federal (STF)", "status": "nada_consta" }
+      ],
+      "factChecks": [
+        {
+          "id": "fc-augusto-1",
+          "title": "Votação a favor do Fim das Saidinhas de Presos",
+          "description": "Fato comprovado: foi um dos principais articuladores e relatores do projeto de lei que restringiu as saídas temporárias de presos condenados por crimes hediondos no Brasil.",
+          "vehicleOrOrgan": "Câmara dos Deputados / Agência Câmara",
+          "category": "comprovado_positivo",
+          "date": "2024-03-20",
+          "sourceUrl": "https://www.camara.leg.br"
+        }
+      ]
+    },
+    "governmentPlan": {
+      "summary": "Plano focado na defesa da ordem pública, valorização das polícias civis e militares e destinação de recursos para entidades assistenciais e hospitais do interior paulista.",
+      "pdfUrl": "https://www.camara.leg.br",
+      "pillars": [
+        {
+          "key": "seguranca",
+          "title": "Endurecimento Penal e Apoio aos Policiais",
+          "icon": "ShieldAlert",
+          "mainGoal": "Garantir retaguarda jurídica para policiais e restringir benefícios a criminosos reincidentes.",
+          "proposals": [
+            "Fim definitivo de qualquer progressão de regime para crimes cometidos com violência.",
+            "Isenção de IPI e impostos federais para compra de armamento e equipamentos táticos por policiais.",
+            "Destinação de emendas orçamentárias diretas para compra de viaturas blindadas no interior de SP."
+          ],
+          "budgetSource": "Fundo Nacional de Segurança Pública.",
+          "feasibilityScore": 85
+        }
+      ]
+    }
+  }
+]
