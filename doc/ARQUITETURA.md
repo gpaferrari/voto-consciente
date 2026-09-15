@@ -91,3 +91,29 @@ A interface segue uma estética **minimalista nórdica/suíça**:
 - Cores semafóricas utilizadas com parcimônia, exclusivamente para indicar status de checagem ou viabilidade.
 - Tipografia legível, com micro-rótulos em caixa alta e espaçamento generoso.
 - Modal reutilizável (`BaseModal.vue`) e aviso ético automático no primeiro acesso com cache em `localStorage`.
+
+---
+
+## 6. Departamento de Backend & Análise de Dados (Supabase / PostgreSQL)
+
+Para suportar análises quantitativas avançadas, ingestão em tempo real e agregação de dados eleitorais, a plataforma integra-se ao **Supabase**:
+
+```
+supabase/
+├── config.toml
+└── migrations/
+    └── 20260915000000_voto_consciente_schema.sql  # DDL, Tabelas, Índices, RLS e Views Analíticas
+```
+
+### Principais Capacidades Analíticas Habilitadas:
+1. **Agregador Ponderado de Pesquisas (`v_media_movel_pesquisas`):**
+   - Agrupamento estatístico ponderando pelo inverso da margem de erro ($\frac{1}{\text{margem}}$).
+2. **Perfil Analítico Integrado (`v_perfil_analitico_candidatos`):**
+   - Consolidação de patrimônio declarado, histórico de mandatos, média de sabatinas e certidões ativas.
+3. **Métricas de Cobertura de Imprensa (`v_cobertura_imprensa_stats`):**
+   - Análise de frequência e distribuição temática de reportagens extraídas via web scraping.
+4. **Segurança e Isolamento (RLS):**
+   - Políticas de leitura pública irrestrita (`SELECT true`) para clientes anônimos e gravação protegida por `service_role`.
+5. **Fallback Transparente:**
+   - O serviço `src/services/supabaseClient.ts` garante que a aplicação continue funcionando normalmente a partir dos arquivos JSON locais caso a conexão remota não esteja configurada.
+
