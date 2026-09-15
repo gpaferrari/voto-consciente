@@ -203,5 +203,203 @@
         }
       ]
     }
+  },
+  {
+    "id": "arnaldo-jardim-deputado",
+    "name": "Arnaldo Calil Pereira Jardim",
+    "popularName": "Arnaldo Jardim",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Arnaldo_Jardim_%28foto_oficial_2019%29.jpg/640px-Arnaldo_Jardim_%28foto_oficial_2019%29.jpg",
+    "role": "deputado_federal_bauru",
+    "state": "SP",
+    "party": "Cidadania",
+    "ballotNumber": "2323",
+    "coalition": "Federação PSDB/Cidadania",
+    "age": 69,
+    "cityOrigin": "Itaverava - MG (Radicado no interior paulista)",
+    "declaredAssets": 6850000.00,
+    "education": {
+      "level": "superior_completo",
+      "institution": "Escola Politécnica da Universidade de São Paulo (Poli-USP)",
+      "course": "Engenharia Civil",
+      "details": "Engenheiro Civil formado pela tradicional Escola Politécnica da USP. Especialista em infraestrutura energética e recursos hídricos.",
+      "complementaryCourses": ["Transição Energética e Biocombustíveis", "Engenharia de Transportes"]
+    },
+    "experience": {
+      "yearsInPublicService": 36,
+      "summary": "Deputado Federal por São Paulo (5 mandatos consecutivos), Secretário de Agricultura e Abastecimento do Estado de SP (2015-2018), Secretário Estadual de Habitação de SP, Deputado Estadual por SP (4 mandatos).",
+      "roles": [
+        {
+          "title": "Deputado Federal por São Paulo",
+          "period": "2007 - Atual",
+          "level": "federal",
+          "achievements": [
+            "Relator da Lei do Combustível do Futuro (Lei Federal nº 14.993/2024), marco mundial da descarbonização e biocombustíveis.",
+            "Autor da Lei dos Fiagros (Fundos de Investimento nas Cadeias Produtivas Agroindustriais - Lei 14.130/2021).",
+            "Presidente da Frente Parlamentar pelo Brasil Competitivo e líder na defesa da energia solar e biometano no interior paulista."
+          ]
+        },
+        {
+          "title": "Secretário de Estado da Agricultura e Abastecimento de SP",
+          "period": "2015 - 2018",
+          "level": "estadual",
+          "achievements": [
+            "Modernização da defesa agropecuária paulista e fortalecimento do Instituto Agronômico de Campinas (IAC)."
+          ]
+        }
+      ],
+      "legislativeStats": {
+        "billsProposed": 94,
+        "billsApproved": 12,
+        "attendanceRate": 98.6,
+        "parliamentaryQuotaSpentYearlyAvg": 235000.00
+      }
+    },
+    "debatesAndInterviews": {
+      "averageScore": 89,
+      "events": [
+        {
+          "title": "Painel de Transição Energética CNN Brasil",
+          "date": "2024-03-15",
+          "vehicle": "CNN Brasil",
+          "score": 90,
+          "notes": "Rigor técnico absoluto sobre descarbonização, etanol de segunda geração e transição justa.",
+          "factCheckingAccuracy": 93
+        }
+      ]
+    },
+    "integrityAndFacts": {
+      "cleanRecordCertificates": [
+        { "court": "Tribunal Regional Eleitoral de SP (TRE-SP)", "status": "regular" },
+        { "court": "Supremo Tribunal Federal (STF)", "status": "nada_consta" }
+      ],
+      "factChecks": [
+        {
+          "id": "fc-jardim-1",
+          "title": "Aprovação da Lei dos Fiagros e Combustível do Futuro",
+          "description": "Comprovação documental de autoria e relatoria das duas principais legislações econômico-ambientais de financiamento privado da agroindústria limpa no Brasil.",
+          "vehicleOrOrgan": "Câmara dos Deputados",
+          "category": "comprovado_positivo",
+          "date": "2024-10-09",
+          "sourceUrl": "https://www.camara.leg.br/noticias/1102928-sancionada-lei-do-combustivel-do-futuro/"
+        }
+      ]
+    },
+    "governmentPlan": {
+      "summary": "Mandato parlamentar dedicado à transição energética verde, fortalecimento das cooperativas agropecuárias do Centro-Oeste de SP e investimentos em biometano e energia solar distribuída.",
+      "pdfUrl": "https://www.camara.leg.br",
+      "pillars": [
+        {
+          "key": "economia",
+          "title": "Bioeconomia e Agro Verde Paulista",
+          "icon": "Building2",
+          "mainGoal": "Tornar o interior paulista o maior polo mundial de hidrogênio verde, biometano e etanol sustentável.",
+          "proposals": [
+            "Incentivos fiscais para frotas de caminhões e tratores movidos a biometano no interior.",
+            "Aporte de recursos em pesquisa agronômica para irrigação de precisão na bacia Tietê-Batalha."
+          ],
+          "budgetSource": "Fundo Clima e Financiamentos BNDES Verde.",
+          "feasibilityScore": 93
+        }
+      ]
+    }
+  },
+  {
+    "id": "baleia-rossi-deputado",
+    "name": "Luiz Felipe Baleia Tenuto Rossi",
+    "popularName": "Baleia Rossi",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Baleia_Rossi_%28foto_oficial_2019%29.jpg/640px-Baleia_Rossi_%28foto_oficial_2019%29.jpg",
+    "role": "deputado_federal_bauru",
+    "state": "SP",
+    "party": "MDB",
+    "ballotNumber": "1515",
+    "coalition": "MDB",
+    "age": 53,
+    "cityOrigin": "São Paulo - SP (Base política em Ribeirão Preto/Região Central de SP)",
+    "declaredAssets": 3950000.00,
+    "education": {
+      "level": "superior_completo",
+      "institution": "Universidade de Ribeirão Preto (UNAERP)",
+      "course": "Direito",
+      "details": "Bacharel em Direito pela UNAERP. Presidente Nacional do Movimento Democrático Brasileiro (MDB).",
+      "complementaryCourses": ["Direito Tributário Constitucional", "Gestão Partidária"]
+    },
+    "experience": {
+      "yearsInPublicService": 32,
+      "summary": "Deputado Federal por São Paulo (3 mandatos consecutivos), Presidente Nacional do MDB, Deputado Estadual por SP (3 mandatos na Alesp), Vereador de Ribeirão Preto.",
+      "roles": [
+        {
+          "title": "Deputado Federal por São Paulo",
+          "period": "2015 - Atual",
+          "level": "federal",
+          "achievements": [
+            "Autor da PEC 45/2019 (Proposta de Emenda Constitucional da Reforma Tributária sobre o consumo, promulgada como EC 132/2023).",
+            "Candidato à Presidência da Câmara dos Deputados em 2021 pela frente democrática.",
+            "Destinação continuada de emendas parlamentares diretas para Santas Casas e hospitais filantrópicos de mais de 100 municípios do interior paulista."
+          ]
+        },
+        {
+          "title": "Deputado Estadual de São Paulo",
+          "period": "2003 - 2015 (3 mandatos)",
+          "level": "estadual",
+          "achievements": [
+            "Líder da bancada do MDB na Alesp e autor de leis de incentivo à doação de órgãos e sangue em SP."
+          ]
+        }
+      ],
+      "legislativeStats": {
+        "billsProposed": 72,
+        "billsApproved": 8,
+        "attendanceRate": 97.4,
+        "parliamentaryQuotaSpentYearlyAvg": 280000.00
+      }
+    },
+    "debatesAndInterviews": {
+      "averageScore": 87,
+      "events": [
+        {
+          "title": "Entrevista Roda Viva TV Cultura",
+          "date": "2023-07-10",
+          "vehicle": "TV Cultura",
+          "score": 88,
+          "notes": "Explicação didática da transição dos 5 tributos para o IBS/CBS e do impacto da simplificação tributária no PIB.",
+          "factCheckingAccuracy": 90
+        }
+      ]
+    },
+    "integrityAndFacts": {
+      "cleanRecordCertificates": [
+        { "court": "Tribunal Regional Eleitoral de SP (TRE-SP)", "status": "regular" },
+        { "court": "Supremo Tribunal Federal (STF)", "status": "nada_consta" }
+      ],
+      "factChecks": [
+        {
+          "id": "fc-baleia-1",
+          "title": "Autoria da Reforma Tributária (PEC 45/2019)",
+          "description": "Fato comprovado nos anais do Congresso Nacional: autor originário da matéria que unificou PIS, Cofins, IPI, ICMS e ISS no modelo do IVA Dual.",
+          "vehicleOrOrgan": "Câmara dos Deputados",
+          "category": "comprovado_positivo",
+          "date": "2023-12-20",
+          "sourceUrl": "https://www.camara.leg.br/noticias/1027110-congresso-promulga-reforma-tributaria-aprovada-apos-mais-de-30-anos-de-debates/"
+        }
+      ]
+    },
+    "governmentPlan": {
+      "summary": "Atuação legislativa centrada na regulamentação justa da Reforma Tributária, defesa do pacto federativo municipalista e canalização de recursos para a rede hospitalar conveniada ao SUS no interior paulista.",
+      "pdfUrl": "https://www.camara.leg.br",
+      "pillars": [
+        {
+          "key": "economia",
+          "title": "Reforma Tributária e Fim da Burocracia",
+          "icon": "Scale",
+          "mainGoal": "Garantir que a regulamentação do IVA não aumente a carga sobre serviços e alimentos essenciais da cesta básica nacional.",
+          "proposals": [
+            "Isenção total de impostos para a cesta básica nacional de alimentos saudáveis.",
+            "Criação do Cashback Tributário para devolução de impostos às famílias do Cadastro Único."
+          ],
+          "budgetSource": "Equilíbrio neutro de arrecadação do IBS e CBS.",
+          "feasibilityScore": 92
+        }
+      ]
+    }
   }
 ]

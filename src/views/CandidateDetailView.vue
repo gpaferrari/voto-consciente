@@ -6,6 +6,7 @@ import ScoreGauge from '../components/shared/ScoreGauge.vue';
 import RadarChart from '../components/shared/RadarChart.vue';
 import GovPlanViewer from '../components/candidate/GovPlanViewer.vue';
 import FactCheckTimeline from '../components/candidate/FactCheckTimeline.vue';
+import LiveNewsFeed from '../components/candidate/LiveNewsFeed.vue';
 import { 
   ArrowLeft, 
   MapPin, 
@@ -379,6 +380,9 @@ function toggleCompare() {
       :items="candidate.integrityAndFacts.factChecks"
       :cleanCertificates="candidate.integrityAndFacts.cleanRecordCertificates"
     />
+
+    <!-- Notícias em Tempo Real & Cobertura da Imprensa -->
+    <LiveNewsFeed :candidateId="candidate.id" />
   </div>
 
   <div v-else class="text-center py-24">

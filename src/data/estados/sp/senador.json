@@ -102,5 +102,339 @@
         }
       ]
     }
+  },
+  {
+    "id": "mara-gabrilli",
+    "name": "Mara Cristina Gabrilli",
+    "popularName": "Mara Gabrilli",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Mara_Gabrilli_%28foto_oficial%29.jpg/640px-Mara_Gabrilli_%28foto_oficial%29.jpg",
+    "role": "senador",
+    "state": "SP",
+    "party": "PSD",
+    "ballotNumber": "555",
+    "coalition": "Partido Social Democrático",
+    "age": 58,
+    "cityOrigin": "São Paulo - SP",
+    "declaredAssets": 12890000.00,
+    "currentOfficeNote": "Atual Senadora da República pelo Estado de São Paulo (2019-2027)",
+    "education": {
+      "level": "superior_completo",
+      "institution": "Pontifícia Universidade Católica de São Paulo (PUC-SP) / ESPM",
+      "course": "Psicologia (PUC-SP) e Comunicação Social / Publicidade (ESPM)",
+      "details": "Formada em Psicologia pela PUC-SP e em Comunicação Social pela Escola Superior de Propaganda e Marketing (ESPM). Fundadora do Instituto Mara Gabrilli.",
+      "complementaryCourses": ["Políticas de Inclusão da Pessoa com Deficiência", "Direitos Humanos Internacionais", "Acessibilidade Universal"]
+    },
+    "experience": {
+      "yearsInPublicService": 21,
+      "summary": "Senadora da República por São Paulo (eleita com 6,5 milhões de votos), membro do Comitê da ONU sobre os Direitos das Pessoas com Deficiência (Genebra), Deputada Federal por SP (2011-2019), Secretária Municipal da Pessoa com Deficiência de SP (2005-2007) e Vereadora de SP.",
+      "roles": [
+        {
+          "title": "Senadora da República por São Paulo",
+          "period": "2019 - Atual",
+          "level": "federal",
+          "achievements": [
+            "Autora e relatora da Lei Brasileira de Inclusão (Estatuto da Pessoa com Deficiência - Lei 13.146/2015).",
+            "Atuação destacada na Comissão de Assuntos Sociais do Senado e na expansão do SUS para doenças raras.",
+            "Destinação recorde de recursos orçamentários para hospitais de reabilitação e Santas Casas de SP."
+          ]
+        },
+        {
+          "title": "Deputada Federal por São Paulo",
+          "period": "2011 - 2019",
+          "level": "federal",
+          "achievements": [
+            "Eleita uma das parlamentares mais influentes do Congresso pelo DIAP em todas as legislaturas."
+          ]
+        }
+      ],
+      "legislativeStats": {
+        "billsProposed": 48,
+        "billsApproved": 6,
+        "attendanceRate": 98.2,
+        "parliamentaryQuotaSpentYearlyAvg": 220000.00
+      }
+    },
+    "debatesAndInterviews": {
+      "averageScore": 86,
+      "events": [
+        {
+          "title": "Sabatina Eleições Rádio Eldorado",
+          "date": "2022-09-05",
+          "vehicle": "Rádio Eldorado",
+          "score": 87,
+          "notes": "Foco em direitos humanos, saúde pública inclusiva, assistência social e combate à corrupção.",
+          "factCheckingAccuracy": 90
+        }
+      ]
+    },
+    "integrityAndFacts": {
+      "cleanRecordCertificates": [
+        {
+          "type": "TSE - Quitação Eleitoral e Ficha Limpa",
+          "issuer": "Tribunal Superior Eleitoral",
+          "status": "regular",
+          "emissionDate": "2024-01-10",
+          "verificationCode": "TSE-GABRILLI-SP-2024",
+          "linkUrl": "https://www.tse.jus.br"
+        },
+        {
+          "type": "Certidão Negativa Criminal",
+          "issuer": "Supremo Tribunal Federal (STF)",
+          "status": "nada_consta",
+          "emissionDate": "2024-01-15",
+          "verificationCode": "STF-GABRILLI-001",
+          "linkUrl": "https://portal.stf.jus.br"
+        }
+      ],
+      "factChecks": [
+        {
+          "id": "fc-gabrilli-1",
+          "title": "Inexistência de Condenações ou Processos de Improbidade",
+          "description": "Certidões do Ministério Público e Justiça Eleitoral comprovam ficha 100% limpa ao longo de mais de duas décadas de mandatos legislativos e executivos.",
+          "vehicleOrOrgan": "Aos Fatos",
+          "category": "comprovado_positivo",
+          "date": "2022-09-20",
+          "sourceUrl": "https://www.aosfatos.org"
+        }
+      ]
+    },
+    "governmentPlan": {
+      "summary": "Mandato legislativo com foco em acessibilidade universal, financiamento sustentável do SUS, proteção à primeira infância e combate intransigente à violência contra a mulher e minorias.",
+      "pdfUrl": "https://www.senado.leg.br",
+      "pillars": [
+        {
+          "key": "saude",
+          "title": "SUS Acessível e Doenças Raras",
+          "icon": "Activity",
+          "mainGoal": "Garantir acesso célere a medicamentos de alta complexidade e centros de reabilitação física em todas as macrorregiões de SP.",
+          "proposals": [
+            "Incentivo à incorporação rápida de terapias de precisão no rol do SUS.",
+            "Criação da Rede Paulista de Diagnóstico Precoce de Transtornos do Neurodesenvolvimento."
+          ],
+          "budgetSource": "Orçamento Geral da União (Saúde) e Emendas de Bancada.",
+          "feasibilityScore": 92
+        }
+      ]
+    }
+  },
+  {
+    "id": "eduardo-suplicy",
+    "name": "Eduardo Matarazzo Suplicy",
+    "popularName": "Eduardo Suplicy",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Eduardo_Suplicy_em_2023.jpg/640px-Eduardo_Suplicy_em_2023.jpg",
+    "role": "senador",
+    "state": "SP",
+    "party": "PT",
+    "ballotNumber": "131",
+    "coalition": "Federação Brasil da Esperança (PT/PCdoB/PV)",
+    "age": 84,
+    "cityOrigin": "São Paulo - SP",
+    "declaredAssets": 3850000.00,
+    "currentOfficeNote": "Atual Deputado Estadual por São Paulo (mais votado do estado com 807.015 votos)",
+    "education": {
+      "level": "doutorado",
+      "institution": "Michigan State University (EUA) / FGV EAESP",
+      "course": "Doutorado e Mestrado em Economia (Michigan) / Administração de Empresas (FGV)",
+      "details": "Doutor e Mestre em Economia pela renomada Michigan State University. Graduado em Administração pela FGV. Professor titular emérito da Fundação Getulio Vargas.",
+      "complementaryCourses": ["Macroeconomia do Desenvolvimento", "Economia do Bem-Estar Social", "História Econômica"]
+    },
+    "experience": {
+      "yearsInPublicService": 44,
+      "summary": "Senador da República por São Paulo por 24 anos consecutivos (1991-2015), Deputado Estadual por SP (2023-atual e 1979-1983), Secretário Municipal de Direitos Humanos de SP (2015-2016), Vereador de SP e Deputado Federal.",
+      "roles": [
+        {
+          "title": "Senador da República por São Paulo",
+          "period": "1991 - 2015 (3 mandatos de 8 anos)",
+          "level": "federal",
+          "achievements": [
+            "Autor da Lei da Renda Básica de Cidadania Universal (Lei Federal nº 10.835/2004).",
+            "Atuação contínua como ouvidor informal de direitos humanos e mediação pacífica de conflitos fundiários e carcerários.",
+            "Um dos senadores com menor gasto de cota e maior assiduidade da história republicana."
+          ]
+        },
+        {
+          "title": "Deputado Estadual de São Paulo",
+          "period": "2023 - Atual",
+          "level": "estadual",
+          "achievements": [
+            "Parlamentar mais votado do estado de São Paulo na eleição de 2022 com 807 mil votos.",
+            "Liderança na aprovação do uso medicinal de medicamentos derivados de cannabis no SUS estadual de SP."
+          ]
+        }
+      ],
+      "legislativeStats": {
+        "billsProposed": 85,
+        "billsApproved": 8,
+        "attendanceRate": 99.1,
+        "parliamentaryQuotaSpentYearlyAvg": 115000.00
+      }
+    },
+    "debatesAndInterviews": {
+      "averageScore": 85,
+      "events": [
+        {
+          "title": "Entrevista Roda Viva TV Cultura",
+          "date": "2023-03-27",
+          "vehicle": "TV Cultura",
+          "score": 86,
+          "notes": "Defesa apaixonada da dignidade humana, renda básica universal e justiça social.",
+          "factCheckingAccuracy": 89
+        }
+      ]
+    },
+    "integrityAndFacts": {
+      "cleanRecordCertificates": [
+        {
+          "type": "TSE - Quitação Eleitoral e Ficha Limpa",
+          "issuer": "Tribunal Superior Eleitoral",
+          "status": "regular",
+          "emissionDate": "2024-01-10",
+          "verificationCode": "TSE-SUPLICY-SP-2024",
+          "linkUrl": "https://www.tse.jus.br"
+        },
+        {
+          "type": "Certidão Negativa Cível e Criminal",
+          "issuer": "Tribunal de Justiça de São Paulo (TJSP)",
+          "status": "nada_consta",
+          "emissionDate": "2024-01-22",
+          "verificationCode": "TJSP-SUPLICY-001",
+          "linkUrl": "https://esaj.tjsp.jus.br"
+        }
+      ],
+      "factChecks": [
+        {
+          "id": "fc-suplicy-1",
+          "title": "Atestado de Conduta Ética e Ausência de Condenações Judiciais",
+          "description": "Em mais de 40 anos de vida pública ininterrupta, não possui nenhuma condenação por corrupção ou malversação de verbas públicas.",
+          "vehicleOrOrgan": "Congresso em Foco",
+          "category": "comprovado_positivo",
+          "date": "2022-09-30",
+          "sourceUrl": "https://congressoemfoco.uol.com.br"
+        }
+      ]
+    },
+    "governmentPlan": {
+      "summary": "Mandato parlamentar voltado para a regulamentação definitiva da Renda Básica de Cidadania incondicional, ampliação de programas de segurança alimentar e direitos da população em situação de vulnerabilidade extrema.",
+      "pdfUrl": "https://www.al.sp.gov.br",
+      "pillars": [
+        {
+          "key": "social",
+          "title": "Renda Básica Universal e Erradicação da Miséria",
+          "icon": "ShieldCheck",
+          "mainGoal": "Efetivar a Lei 10.835/2004 garantindo um piso mínimo de dignidade para todos os cidadãos brasileiros.",
+          "proposals": [
+            "Integração do Bolsa Família em direção à universalidade da renda cidadã.",
+            "Reforma tributária progressiva com alíquotas efetivas maiores sobre lucros extraordinários e heranças."
+          ],
+          "budgetSource": "Revisão de renúncias fiscais federais e tributação de altas rendas.",
+          "feasibilityScore": 86
+        }
+      ]
+    }
+  },
+  {
+    "id": "janaina-paschoal",
+    "name": "Janaína Conceição Paschoal",
+    "popularName": "Janaína Paschoal",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Janaina_Paschoal_em_2019.jpg/640px-Janaina_Paschoal_em_2019.jpg",
+    "role": "senador",
+    "state": "SP",
+    "party": "PP",
+    "ballotNumber": "111",
+    "coalition": "Progressistas",
+    "age": 51,
+    "cityOrigin": "São Paulo - SP",
+    "declaredAssets": 2150000.00,
+    "education": {
+      "level": "doutorado",
+      "institution": "Universidade de São Paulo (USP)",
+      "course": "Doutorado e Bacharelado em Direito Penal (Largo São Francisco)",
+      "details": "Professora Doutora de Direito Penal da Universidade de São Paulo (USP). Livre-docente e advogada com ampla produção acadêmica sobre crimes contra a administração pública.",
+      "complementaryCourses": ["Direito Processual Penal", "Teoria do Delito", "Criminologia Aplicada"]
+    },
+    "experience": {
+      "yearsInPublicService": 6,
+      "summary": "Deputada Estadual mais votada da história do Brasil (mais de 2 milhões de votos na eleição de 2018 para a Alesp), coautora do pedido de impeachment presidencial de 2016, professora associada do Largo São Francisco (USP) desde 2003.",
+      "roles": [
+        {
+          "title": "Deputada Estadual de São Paulo",
+          "period": "2019 - 2023",
+          "level": "estadual",
+          "achievements": [
+            "Recordista histórica absoluta de votos nominais para o legislativo em todo o Brasil (2.060.786 votos).",
+            "Autora de leis de transparência na saúde e educação, além de fiscalização rigorosa de contratos da Alesp.",
+            "Renúncia expressa ao uso de carro oficial, verba de gabinete excedente e privilégios parlamentares."
+          ]
+        }
+      ],
+      "legislativeStats": {
+        "billsProposed": 52,
+        "billsApproved": 7,
+        "attendanceRate": 99.4,
+        "parliamentaryQuotaSpentYearlyAvg": 98000.00
+      }
+    },
+    "debatesAndInterviews": {
+      "averageScore": 84,
+      "events": [
+        {
+          "title": "Sabatina Jovem Pan News",
+          "date": "2022-09-12",
+          "vehicle": "Jovem Pan",
+          "score": 85,
+          "notes": "Rigor técnico jurídico, defesa da independência entre os poderes e combate à politização do Judiciário.",
+          "factCheckingAccuracy": 88
+        }
+      ]
+    },
+    "integrityAndFacts": {
+      "cleanRecordCertificates": [
+        {
+          "type": "TSE - Quitação Eleitoral e Ficha Limpa",
+          "issuer": "Tribunal Superior Eleitoral",
+          "status": "regular",
+          "emissionDate": "2024-01-10",
+          "verificationCode": "TSE-PASCHOAL-SP-2024",
+          "linkUrl": "https://www.tse.jus.br"
+        },
+        {
+          "type": "Certidão Negativa Cível e Criminal",
+          "issuer": "Tribunal de Justiça de São Paulo (TJSP)",
+          "status": "nada_consta",
+          "emissionDate": "2024-01-18",
+          "verificationCode": "TJSP-PASCHOAL-001",
+          "linkUrl": "https://esaj.tjsp.jus.br"
+        }
+      ],
+      "factChecks": [
+        {
+          "id": "fc-janaina-1",
+          "title": "Certidão Negativa de Processos no CNJ e OAB",
+          "description": "Atuação acadêmica e parlamentar com ficha ilibada atestada perante os órgãos de fiscalização profissional e da magistratura.",
+          "vehicleOrOrgan": "OAB-SP",
+          "category": "comprovado_positivo",
+          "date": "2022-08-10",
+          "sourceUrl": "https://www.oabsp.org.br"
+        }
+      ]
+    },
+    "governmentPlan": {
+      "summary": "Atuação no Senado com foco em reforma do Poder Judiciário, limitação de decisões monocráticas em cortes superiores, combate à impunidade de crimes de colarinho branco e austeridade de gastos parlamentares.",
+      "pdfUrl": "https://www.senado.leg.br",
+      "pillars": [
+        {
+          "key": "justica",
+          "title": "Independência dos Poderes e Reforma da Justiça",
+          "icon": "ShieldCheck",
+          "mainGoal": "Estabelecer mandatos fixos para ministros do STF e acelerar o julgamento de ações penais originárias.",
+          "proposals": [
+            "Proposta de Emenda Constitucional fixando mandato de 10 a 12 anos para ministros do Supremo Tribunal Federal.",
+            "Extinção definitiva de privilégios como auxílio-moradia abusivo no serviço público de alto escalão."
+          ],
+          "budgetSource": "Economia orçamentária decorrente da redução de privilégios e penduricalhos na cúpula dos três poderes.",
+          "feasibilityScore": 87
+        }
+      ]
+    }
   }
 ]

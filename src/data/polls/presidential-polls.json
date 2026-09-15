@@ -1,0 +1,170 @@
+[
+  {
+    "id": "poll-br-2026-quaest-01",
+    "tseRegistration": "BR-01248/2026",
+    "institute": "Quaest",
+    "fieldStartDate": "2026-02-02",
+    "fieldEndDate": "2026-02-05",
+    "releaseDate": "2026-02-07",
+    "sampleSize": 2004,
+    "marginOfError": 2.2,
+    "confidenceLevel": 95,
+    "contractor": "Genial Investimentos",
+    "methodology": "Presencial (face a face)",
+    "targetOffice": "presidente",
+    "state": "BR",
+    "sourceUrl": "https://agenciabrasil.ebc.com.br",
+    "scenarios": [
+      {
+        "id": "sc-br-quaest-est-1",
+        "title": "1º Turno - Cenário Estimulado Principal",
+        "type": "estimulada",
+        "results": [
+          { "candidateId": "lula-2026", "candidateName": "Lula", "party": "PT", "percentage": 37.0, "color": "#dc2626" },
+          { "candidateId": "tarcisio-2026", "candidateName": "Tarcísio de Freitas", "party": "Republicanos", "percentage": 24.0, "color": "#2563eb" },
+          { "candidateId": "caiado-2026", "candidateName": "Ronaldo Caiado", "party": "União Brasil", "percentage": 7.0, "color": "#059669" },
+          { "candidateId": "ciro-gomes-2026", "candidateName": "Ciro Gomes", "party": "PDT", "percentage": 8.0, "color": "#ea580c" },
+          { "candidateId": "romeu-zema-2026", "candidateName": "Romeu Zema", "party": "Novo", "percentage": 6.0, "color": "#f59e0b" },
+          { "candidateId": "ratinho-junior-2026", "candidateName": "Ratinho Júnior", "party": "PSD", "percentage": 5.0, "color": "#7c3aed" }
+        ],
+        "blankNull": 8.0,
+        "undecided": 5.0
+      },
+      {
+        "id": "sc-br-quaest-2t-1",
+        "title": "2º Turno: Lula vs Tarcísio de Freitas",
+        "type": "segundo_turno",
+        "results": [
+          { "candidateId": "lula-2026", "candidateName": "Lula", "party": "PT", "percentage": 46.0, "color": "#dc2626" },
+          { "candidateId": "tarcisio-2026", "candidateName": "Tarcísio de Freitas", "party": "Republicanos", "percentage": 41.0, "color": "#2563eb" }
+        ],
+        "blankNull": 9.0,
+        "undecided": 4.0
+      }
+    ]
+  },
+  {
+    "id": "poll-br-2026-parana-01",
+    "tseRegistration": "BR-03892/2026",
+    "institute": "Paraná Pesquisas",
+    "fieldStartDate": "2026-02-14",
+    "fieldEndDate": "2026-02-18",
+    "releaseDate": "2026-02-20",
+    "sampleSize": 2020,
+    "marginOfError": 2.2,
+    "confidenceLevel": 95,
+    "contractor": "Paraná Pesquisas / Próprio",
+    "methodology": "Presencial (face a face)",
+    "targetOffice": "presidente",
+    "state": "BR",
+    "sourceUrl": "https://www.paranapesquisas.com.br",
+    "scenarios": [
+      {
+        "id": "sc-br-parana-est-1",
+        "title": "1º Turno - Cenário Estimulado",
+        "type": "estimulada",
+        "results": [
+          { "candidateId": "lula-2026", "candidateName": "Lula", "party": "PT", "percentage": 36.2, "color": "#dc2626" },
+          { "candidateId": "tarcisio-2026", "candidateName": "Tarcísio de Freitas", "party": "Republicanos", "percentage": 25.8, "color": "#2563eb" },
+          { "candidateId": "caiado-2026", "candidateName": "Ronaldo Caiado", "party": "União Brasil", "percentage": 8.1, "color": "#059669" },
+          { "candidateId": "ciro-gomes-2026", "candidateName": "Ciro Gomes", "party": "PDT", "percentage": 7.4, "color": "#ea580c" },
+          { "candidateId": "romeu-zema-2026", "candidateName": "Romeu Zema", "party": "Novo", "percentage": 6.3, "color": "#f59e0b" },
+          { "candidateId": "ratinho-junior-2026", "candidateName": "Ratinho Júnior", "party": "PSD", "percentage": 5.4, "color": "#7c3aed" }
+        ],
+        "blankNull": 6.8,
+        "undecided": 4.0
+      },
+      {
+        "id": "sc-br-parana-esp-1",
+        "title": "1º Turno - Espontânea (sem apresentação de nomes)",
+        "type": "espontanea",
+        "results": [
+          { "candidateId": "lula-2026", "candidateName": "Lula", "party": "PT", "percentage": 24.1, "color": "#dc2626" },
+          { "candidateId": "tarcisio-2026", "candidateName": "Tarcísio de Freitas", "party": "Republicanos", "percentage": 13.5, "color": "#2563eb" },
+          { "candidateId": "caiado-2026", "candidateName": "Ronaldo Caiado", "party": "União Brasil", "percentage": 3.1, "color": "#059669" },
+          { "candidateId": "outros", "candidateName": "Outros citados", "party": "-", "percentage": 5.8, "color": "#94a3b8" }
+        ],
+        "blankNull": 7.5,
+        "undecided": 46.0
+      }
+    ]
+  },
+  {
+    "id": "poll-br-2026-datafolha-01",
+    "tseRegistration": "BR-05419/2026",
+    "institute": "Datafolha",
+    "fieldStartDate": "2026-03-01",
+    "fieldEndDate": "2026-03-03",
+    "releaseDate": "2026-03-05",
+    "sampleSize": 2540,
+    "marginOfError": 2.0,
+    "confidenceLevel": 95,
+    "contractor": "Folha de S.Paulo / TV Globo",
+    "methodology": "Presencial (face a face)",
+    "targetOffice": "presidente",
+    "state": "BR",
+    "sourceUrl": "https://www1.folha.uol.com.br/poder",
+    "scenarios": [
+      {
+        "id": "sc-br-datafolha-est-1",
+        "title": "1º Turno - Cenário Estimulado Principal",
+        "type": "estimulada",
+        "results": [
+          { "candidateId": "lula-2026", "candidateName": "Lula", "party": "PT", "percentage": 38.0, "color": "#dc2626" },
+          { "candidateId": "tarcisio-2026", "candidateName": "Tarcísio de Freitas", "party": "Republicanos", "percentage": 26.0, "color": "#2563eb" },
+          { "candidateId": "ciro-gomes-2026", "candidateName": "Ciro Gomes", "party": "PDT", "percentage": 7.0, "color": "#ea580c" },
+          { "candidateId": "caiado-2026", "candidateName": "Ronaldo Caiado", "party": "União Brasil", "percentage": 6.0, "color": "#059669" },
+          { "candidateId": "romeu-zema-2026", "candidateName": "Romeu Zema", "party": "Novo", "percentage": 5.0, "color": "#f59e0b" },
+          { "candidateId": "ratinho-junior-2026", "candidateName": "Ratinho Júnior", "party": "PSD", "percentage": 5.0, "color": "#7c3aed" },
+          { "candidateId": "eduardo-leite-2026", "candidateName": "Eduardo Leite", "party": "PSDB", "percentage": 3.0, "color": "#0284c7" }
+        ],
+        "blankNull": 6.0,
+        "undecided": 4.0
+      },
+      {
+        "id": "sc-br-datafolha-2t-1",
+        "title": "2º Turno: Lula vs Tarcísio de Freitas",
+        "type": "segundo_turno",
+        "results": [
+          { "candidateId": "lula-2026", "candidateName": "Lula", "party": "PT", "percentage": 47.0, "color": "#dc2626" },
+          { "candidateId": "tarcisio-2026", "candidateName": "Tarcísio de Freitas", "party": "Republicanos", "percentage": 42.0, "color": "#2563eb" }
+        ],
+        "blankNull": 8.0,
+        "undecided": 3.0
+      }
+    ]
+  },
+  {
+    "id": "poll-br-2026-atlas-01",
+    "tseRegistration": "BR-07821/2026",
+    "institute": "AtlasIntel",
+    "fieldStartDate": "2026-03-08",
+    "fieldEndDate": "2026-03-12",
+    "releaseDate": "2026-03-14",
+    "sampleSize": 3120,
+    "marginOfError": 2.0,
+    "confidenceLevel": 95,
+    "contractor": "AtlasIntel / Bloomberg",
+    "methodology": "Painel Web Probabilístico (RDR)",
+    "targetOffice": "presidente",
+    "state": "BR",
+    "sourceUrl": "https://www.atlasintel.org",
+    "scenarios": [
+      {
+        "id": "sc-br-atlas-est-1",
+        "title": "1º Turno - Cenário Estimulado Principal",
+        "type": "estimulada",
+        "results": [
+          { "candidateId": "lula-2026", "candidateName": "Lula", "party": "PT", "percentage": 39.4, "color": "#dc2626" },
+          { "candidateId": "tarcisio-2026", "candidateName": "Tarcísio de Freitas", "party": "Republicanos", "percentage": 27.2, "color": "#2563eb" },
+          { "candidateId": "caiado-2026", "candidateName": "Ronaldo Caiado", "party": "União Brasil", "percentage": 8.3, "color": "#059669" },
+          { "candidateId": "ciro-gomes-2026", "candidateName": "Ciro Gomes", "party": "PDT", "percentage": 6.8, "color": "#ea580c" },
+          { "candidateId": "romeu-zema-2026", "candidateName": "Romeu Zema", "party": "Novo", "percentage": 5.5, "color": "#f59e0b" },
+          { "candidateId": "ratinho-junior-2026", "candidateName": "Ratinho Júnior", "party": "PSD", "percentage": 4.1, "color": "#7c3aed" }
+        ],
+        "blankNull": 5.2,
+        "undecided": 3.5
+      }
+    ]
+  }
+]

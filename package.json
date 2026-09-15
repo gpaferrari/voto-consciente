@@ -6,7 +6,10 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "scrape:news": "npx tsx scripts/scrape-news.ts",
+    "test:scoring": "npx tsx scripts/test-scoring.ts",
+    "sync:tse": "npx tsx scripts/sync-tse.ts"
   },
   "dependencies": {
     "vue": "^3.5.13",

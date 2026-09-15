@@ -4,6 +4,7 @@ import { useRouter } from 'vue-router';
 import { useCandidateStore } from '../stores/candidateStore';
 import CandidateCard from '../components/candidate/CandidateCard.vue';
 import ScoreGauge from '../components/shared/ScoreGauge.vue';
+import LiveNewsFeed from '../components/candidate/LiveNewsFeed.vue';
 import { 
   Vote, 
   ShieldCheck, 
@@ -15,7 +16,8 @@ import {
   TrendingUp,
   Award,
   Sparkles,
-  ChevronRight
+  ChevronRight,
+  BarChart3
 } from 'lucide-vue-next';
 
 const router = useRouter();
@@ -268,6 +270,41 @@ function navigateToRole(role: string) {
           :candidate="candidate"
         />
       </div>
+    </section>
+
+    <!-- Banner Agregador de Pesquisas Registradas no TSE -->
+    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="bg-linear-to-r from-blue-900 via-indigo-900 to-slate-900 text-white rounded-3xl p-6 sm:p-8 border border-blue-800 shadow-xl overflow-hidden relative">
+        <div class="flex flex-col md:flex-row md:items-center justify-between gap-6 relative z-10">
+          <div class="space-y-2.5 max-w-2xl">
+            <div class="flex items-center gap-2">
+              <span class="px-3 py-0.5 rounded-full bg-blue-500/20 text-blue-300 border border-blue-500/30 text-xs font-bold uppercase tracking-wider">
+                Módulo Oficial de Intenção de Voto
+              </span>
+            </div>
+            <h3 class="text-2xl font-black">
+              Agregador de Pesquisas Eleitorais 2026 (TSE)
+            </h3>
+            <p class="text-xs sm:text-sm text-slate-300 leading-relaxed">
+              Consulte séries históricas e comparações entre levantamentos de institutos registrados na Justiça Eleitoral (Datafolha, Quaest, Paraná Pesquisas e AtlasIntel). Acompanhe cenários de 1º e 2º turnos com margens de erro auditáveis.
+            </p>
+          </div>
+
+          <button
+            @click="router.push('/pesquisas')"
+            class="px-6 py-3.5 rounded-2xl bg-white text-slate-950 hover:bg-slate-100 font-extrabold text-sm shadow-md transition-all flex items-center gap-2 shrink-0 self-start md:self-center"
+          >
+            <BarChart3 class="w-4 h-4 text-blue-600" />
+            <span>Ver Pesquisas & Séries Históricas</span>
+            <ArrowRight class="w-4 h-4" />
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Notícias em Tempo Real & Cobertura da Imprensa -->
+    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <LiveNewsFeed :limit="6" />
     </section>
 
     <!-- Como Funciona o Score (Explicação Metodológica Transparente) -->

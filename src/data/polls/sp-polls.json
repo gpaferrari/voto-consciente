@@ -1,0 +1,75 @@
+[
+  {
+    "id": "poll-sp-2026-datafolha-01",
+    "tseRegistration": "SP-02941/2026",
+    "institute": "Datafolha",
+    "fieldStartDate": "2026-02-18",
+    "fieldEndDate": "2026-02-21",
+    "releaseDate": "2026-02-23",
+    "sampleSize": 1806,
+    "marginOfError": 2.3,
+    "confidenceLevel": 95,
+    "contractor": "Folha de S.Paulo",
+    "methodology": "Presencial (face a face)",
+    "targetOffice": "governador",
+    "state": "SP",
+    "sourceUrl": "https://www1.folha.uol.com.br/poder",
+    "scenarios": [
+      {
+        "id": "sc-sp-datafolha-est-1",
+        "title": "1º Turno Governo SP - Cenário Principal",
+        "type": "estimulada",
+        "results": [
+          { "candidateId": "tarcisio-de-freitas", "candidateName": "Tarcísio de Freitas", "party": "Republicanos", "percentage": 42.0, "color": "#2563eb" },
+          { "candidateId": "fernando-haddad", "candidateName": "Fernando Haddad", "party": "PT", "percentage": 28.0, "color": "#dc2626" },
+          { "candidateId": "guilherme-boulos", "candidateName": "Guilherme Boulos", "party": "PSOL", "percentage": 11.0, "color": "#f97316" },
+          { "candidateId": "marcio-franca", "candidateName": "Márcio França", "party": "PSB", "percentage": 7.0, "color": "#eab308" }
+        ],
+        "blankNull": 7.0,
+        "undecided": 5.0
+      },
+      {
+        "id": "sc-sp-datafolha-2t-1",
+        "title": "2º Turno Governo SP: Tarcísio vs Haddad",
+        "type": "segundo_turno",
+        "results": [
+          { "candidateId": "tarcisio-de-freitas", "candidateName": "Tarcísio de Freitas", "party": "Republicanos", "percentage": 52.0, "color": "#2563eb" },
+          { "candidateId": "fernando-haddad", "candidateName": "Fernando Haddad", "party": "PT", "percentage": 36.0, "color": "#dc2626" }
+        ],
+        "blankNull": 8.0,
+        "undecided": 4.0
+      }
+    ]
+  },
+  {
+    "id": "poll-sp-2026-parana-01",
+    "tseRegistration": "SP-04312/2026",
+    "institute": "Paraná Pesquisas",
+    "fieldStartDate": "2026-03-02",
+    "fieldEndDate": "2026-03-06",
+    "releaseDate": "2026-03-08",
+    "sampleSize": 1650,
+    "marginOfError": 2.4,
+    "confidenceLevel": 95,
+    "contractor": "Paraná Pesquisas",
+    "methodology": "Presencial (face a face)",
+    "targetOffice": "governador",
+    "state": "SP",
+    "sourceUrl": "https://www.paranapesquisas.com.br",
+    "scenarios": [
+      {
+        "id": "sc-sp-parana-est-1",
+        "title": "1º Turno Governo SP - Cenário Estimulado",
+        "type": "estimulada",
+        "results": [
+          { "candidateId": "tarcisio-de-freitas", "candidateName": "Tarcísio de Freitas", "party": "Republicanos", "percentage": 44.5, "color": "#2563eb" },
+          { "candidateId": "fernando-haddad", "candidateName": "Fernando Haddad", "party": "PT", "percentage": 27.2, "color": "#dc2626" },
+          { "candidateId": "guilherme-boulos", "candidateName": "Guilherme Boulos", "party": "PSOL", "percentage": 10.3, "color": "#f97316" },
+          { "candidateId": "marcio-franca", "candidateName": "Márcio França", "party": "PSB", "percentage": 6.8, "color": "#eab308" }
+        ],
+        "blankNull": 6.2,
+        "undecided": 5.0
+      }
+    ]
+  }
+]

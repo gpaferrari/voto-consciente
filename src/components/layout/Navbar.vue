@@ -11,7 +11,8 @@ import {
   Moon, 
   Menu, 
   X, 
-  ActivitySquare
+  ActivitySquare,
+  BarChart3
 } from 'lucide-vue-next';
 
 const router = useRouter();
@@ -133,6 +134,19 @@ function navigate(path: string) {
         </button>
 
         <button
+          @click="navigate('/pesquisas')"
+          :class="[
+            'px-3 py-2 rounded-xl transition-all flex items-center gap-1.5',
+            route.path === '/pesquisas' 
+              ? 'bg-white dark:bg-slate-800 text-emerald-600 dark:text-emerald-400 shadow-xs' 
+              : 'text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white'
+          ]"
+        >
+          <BarChart3 class="w-3.5 h-3.5 text-blue-500" />
+          <span>Pesquisas TSE</span>
+        </button>
+
+        <button
           @click="navigate('/mandato-atual')"
           :class="[
             'px-3 py-2 rounded-xl transition-all flex items-center gap-1.5',
@@ -243,6 +257,13 @@ function navigate(path: string) {
         class="w-full text-left px-3 py-2.5 rounded-xl text-sm font-semibold text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800"
       >
         Deputados Federais (Foco Bauru)
+      </button>
+      <button
+        @click="navigate('/pesquisas')"
+        class="w-full text-left px-3 py-2.5 rounded-xl text-sm font-semibold text-blue-600 dark:text-blue-400 hover:bg-slate-100 dark:hover:bg-slate-800 flex items-center gap-2"
+      >
+        <BarChart3 class="w-4 h-4 text-blue-500" />
+        <span>Pesquisas TSE Registradas</span>
       </button>
       <button
         @click="navigate('/mandato-atual')"

@@ -248,5 +248,330 @@
         }
       ]
     }
+  },
+  {
+    "id": "guilherme-boulos",
+    "name": "Guilherme Castro Boulos",
+    "popularName": "Guilherme Boulos",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Guilherme_Boulos_em_2023.jpg/640px-Guilherme_Boulos_em_2023.jpg",
+    "role": "governador_sp",
+    "state": "SP",
+    "party": "PSOL",
+    "ballotNumber": "50",
+    "coalition": "Federação PSOL/REDE / Federação Brasil da Esperança (PT/PCdoB/PV)",
+    "age": 43,
+    "cityOrigin": "São Paulo - SP",
+    "declaredAssets": 199522.00,
+    "currentOfficeNote": "Atual Deputado Federal por São Paulo (mais votado do estado com 1.001.472 votos)",
+    "education": {
+      "level": "mestrado",
+      "institution": "Universidade de São Paulo (USP)",
+      "course": "Bacharelado em Filosofia / Mestrado em Psiquiatria e Psicologia Clínica",
+      "details": "Graduado em Filosofia pela FFLCH-USP e Mestre pela Faculdade de Medicina da USP (FMUSP). Professor, escritor e ativista social.",
+      "complementaryCourses": ["Políticas Públicas Urbanas", "Direito à Moradia", "Sociologia Econômica"]
+    },
+    "experience": {
+      "yearsInPublicService": 3,
+      "summary": "Deputado Federal por São Paulo (recordista de votos em 2022), vice-líder da Federação PSOL/REDE na Câmara, histórico de mais de 20 anos na liderança de movimentos populares de moradia urbana.",
+      "roles": [
+        {
+          "title": "Deputado Federal por São Paulo",
+          "period": "2023 - Atual",
+          "level": "federal",
+          "achievements": [
+            "Autor da relatoria da Medida Provisória do programa Minha Casa, Minha Vida na Câmara.",
+            "Apresentação de mais de 30 projetos de lei com foco em justiça tributária e habitação popular.",
+            "Destinação de 100% das emendas parlamentares individuais para saúde e educação pública no estado de SP."
+          ]
+        }
+      ],
+      "legislativeStats": {
+        "billsProposed": 34,
+        "billsApproved": 2,
+        "attendanceRate": 96.5,
+        "parliamentaryQuotaSpentYearlyAvg": 210000.00
+      }
+    },
+    "debatesAndInterviews": {
+      "averageScore": 87,
+      "events": [
+        {
+          "title": "Debate Eleitoral TV Band SP",
+          "date": "2024-08-08",
+          "vehicle": "Band",
+          "score": 88,
+          "notes": "Oratória articulada, propostas voltadas a saneamento periférico, transparência e redução de desigualdades.",
+          "factCheckingAccuracy": 85
+        }
+      ]
+    },
+    "integrityAndFacts": {
+      "cleanRecordCertificates": [
+        {
+          "type": "TSE - Quitação Eleitoral e Ficha Limpa",
+          "issuer": "Tribunal Superior Eleitoral",
+          "status": "regular",
+          "emissionDate": "2024-01-10",
+          "verificationCode": "TSE-BOULOS-SP-2024",
+          "linkUrl": "https://www.tse.jus.br"
+        },
+        {
+          "type": "Certidão Negativa Cível e Criminal",
+          "issuer": "Tribunal Regional Federal da 3ª Região (TRF-3)",
+          "status": "nada_consta",
+          "emissionDate": "2024-01-25",
+          "verificationCode": "TRF3-BOULOS-001",
+          "linkUrl": "https://www.trf3.jus.br"
+        }
+      ],
+      "factChecks": [
+        {
+          "id": "fc-boulos-1",
+          "title": "Inexistência de Condenação por Desapropriação ou Ocupações",
+          "description": "Inquéritos policiais abertos no passado relativos a manifestações sociais foram todos arquivados pelo Poder Judiciário por ausência de dolo criminoso.",
+          "vehicleOrOrgan": "Aos Fatos / Agência Lupa",
+          "category": "esclarecido",
+          "date": "2022-10-01",
+          "sourceUrl": "https://www.aosfatos.org"
+        }
+      ]
+    },
+    "governmentPlan": {
+      "summary": "Plano focado em inclusão territorial, transporte público de tarifa zero progressiva no interior e regiões metropolitanas, reestatização e controle rigoroso de serviços essenciais como água e energia.",
+      "pdfUrl": "https://divulgacandcontas.tse.jus.br",
+      "pillars": [
+        {
+          "key": "habitacao",
+          "title": "Moradia Digna e Reforma Urbana",
+          "icon": "Building2",
+          "mainGoal": "Zerar o déficit habitacional do estado de São Paulo priorizando áreas centrais desocupadas.",
+          "proposals": [
+            "Conversão de edifícios estaduais abandonados em habitação de interesse social.",
+            "Regularização fundiária de loteamentos na Grande São Paulo e interior."
+          ],
+          "budgetSource": "Fundo Estadual de Habitação e Parcerias Público-Comunitárias.",
+          "feasibilityScore": 84
+        },
+        {
+          "key": "saude",
+          "title": "Mais Médicos Especialistas no SUS Paulista",
+          "icon": "Activity",
+          "mainGoal": "Reduzir o tempo de espera para consultas com cardiologistas, neuropediatras e oftalmologistas.",
+          "proposals": [
+            "Criação de policlínicas regionais integradas de especialidades.",
+            "Telemedicina pública para suporte a postos de saúde de municípios de pequeno porte."
+          ],
+          "budgetSource": "Receita vinculada da Secretaria de Estado da Saúde de SP.",
+          "feasibilityScore": 87
+        }
+      ]
+    }
+  },
+  {
+    "id": "marcio-franca",
+    "name": "Márcio Luiz França Gomes",
+    "popularName": "Márcio França",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/M%C3%A1rcio_Fran%C3%A7a_%28foto_oficial%29.jpg/640px-M%C3%A1rcio_Fran%C3%A7a_%28foto_oficial%29.jpg",
+    "role": "governador_sp",
+    "state": "SP",
+    "party": "PSB",
+    "ballotNumber": "40",
+    "coalition": "Partido Socialista Brasileiro / Alianças de Centro-Esquerda",
+    "age": 62,
+    "cityOrigin": "Santos - SP",
+    "declaredAssets": 1540000.00,
+    "currentOfficeNote": "Atual Ministro do Empreendedorismo, da Microempresa e da Empresa de Pequeno Porte",
+    "education": {
+      "level": "superior_completo",
+      "institution": "Universidade Católica de Santos (UniSantos)",
+      "course": "Direito",
+      "details": "Graduado em Direito pela tradicional Faculdade de Direito de Santos (UniSantos). Ampla atuação como oficial de justiça e procurador público concursado.",
+      "complementaryCourses": ["Direito Administrativo Municipal", "Finanças Municipais"]
+    },
+    "experience": {
+      "yearsInPublicService": 36,
+      "summary": "Ministro de Estado (Empreendedorismo e Portos/Aeroportos), Governador do Estado de São Paulo (2018), Vice-Governador de SP (2015-2018), Secretário Estadual de Desenvolvimento Econômico, Deputado Federal (2 mandatos) e Prefeito de São Vicente (reeleito com mais de 90% dos votos).",
+      "roles": [
+        {
+          "title": "Governador do Estado de São Paulo",
+          "period": "2018 - 2018",
+          "level": "estadual",
+          "achievements": [
+            "Gestão de transição com foco em segurança escolar, expansão do Poupatempo e ampliação de convênios com municípios paulistas."
+          ]
+        },
+        {
+          "title": "Prefeito de São Vicente",
+          "period": "1997 - 2004 (2 mandatos)",
+          "level": "municipal",
+          "achievements": [
+            "Transformação urbana da Baixada Santista com revitalização da orla e construção de centros comunitários; reeleito com 93% dos votos válidos."
+          ]
+        }
+      ]
+    },
+    "debatesAndInterviews": {
+      "averageScore": 84,
+      "events": [
+        {
+          "title": "Debate TV Globo São Paulo",
+          "date": "2018-10-25",
+          "vehicle": "TV Globo",
+          "score": 86,
+          "notes": "Habilidade política conciliadora e grande conhecimento geográfico das regiões administrativas paulistas.",
+          "factCheckingAccuracy": 88
+        }
+      ]
+    },
+    "integrityAndFacts": {
+      "cleanRecordCertificates": [
+        {
+          "type": "TSE - Quitação Eleitoral e Ficha Limpa",
+          "issuer": "Tribunal Superior Eleitoral",
+          "status": "regular",
+          "emissionDate": "2024-01-10",
+          "verificationCode": "TSE-FRANCA-SP-2024",
+          "linkUrl": "https://www.tse.jus.br"
+        },
+        {
+          "type": "Certidão Negativa Cível e Criminal",
+          "issuer": "Tribunal de Justiça de São Paulo (TJSP)",
+          "status": "nada_consta",
+          "emissionDate": "2024-01-18",
+          "verificationCode": "TJSP-FRANCA-001",
+          "linkUrl": "https://esaj.tjsp.jus.br"
+        }
+      ],
+      "factChecks": [
+        {
+          "id": "fc-franca-1",
+          "title": "Aprovação de Contas de Mandato pelo Tribunal de Contas de SP",
+          "description": "Contas da prefeitura e do governo de transição aprovadas pelo Tribunal de Contas do Estado de São Paulo (TCESP).",
+          "vehicleOrOrgan": "TCESP",
+          "category": "comprovado_positivo",
+          "date": "2020-04-15",
+          "sourceUrl": "https://www.tce.sp.gov.br"
+        }
+      ]
+    },
+    "governmentPlan": {
+      "summary": "Plano de fortalecimento do empreendedorismo paulista, crédito produtivo facilitado pelo Desenvolve SP, programas de primeiro emprego para a juventude e investimentos em cidades de médio e pequeno porte.",
+      "pdfUrl": "https://divulgacandcontas.tse.jus.br",
+      "pillars": [
+        {
+          "key": "empreendedorismo",
+          "title": "São Paulo Empreendedor e Crédito Popular",
+          "icon": "Building2",
+          "mainGoal": "Transformar SP na capital latino-americana das micro e pequenas empresas e startups industriais.",
+          "proposals": [
+            "Linhas de crédito a juro zero pelo Banco do Povo Paulista para MEIs e pequenos negócios.",
+            "Desburocratização da abertura de empresas com alvará estadual em 1 hora."
+          ],
+          "budgetSource": "Fundo de Amparo ao Trabalhador (FAT) e recursos do Desenvolve SP.",
+          "feasibilityScore": 91
+        }
+      ]
+    }
+  },
+  {
+    "id": "ricardo-nunes",
+    "name": "Ricardo Luís Reis Nunes",
+    "popularName": "Ricardo Nunes",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Ricardo_Nunes_%28foto_oficial_2021%29.jpg/640px-Ricardo_Nunes_%28foto_oficial_2021%29.jpg",
+    "role": "governador_sp",
+    "state": "SP",
+    "party": "MDB",
+    "ballotNumber": "15",
+    "coalition": "MDB / PL / PP / União Brasil / Podemos / Solidariedade",
+    "age": 58,
+    "cityOrigin": "São Paulo - SP",
+    "declaredAssets": 4843350.00,
+    "currentOfficeNote": "Atual Prefeito Reeleito da Cidade de São Paulo",
+    "education": {
+      "level": "superior_completo",
+      "institution": "Centro Universitário das Faculdades Metropolitanas Unidas (FMU)",
+      "course": "Direito",
+      "details": "Bacharel em Direito pela FMU. Empresário do ramo de controle de pragas urbanas e transporte hidroviário.",
+      "complementaryCourses": ["Gestão Empresarial", "Direito Tributário Municipal"]
+    },
+    "experience": {
+      "yearsInPublicService": 14,
+      "summary": "Prefeito da Cidade de São Paulo (2021-atual, reeleito em 2024), Vice-Prefeito de São Paulo (2021), 2 mandatos como Vereador de São Paulo (2013-2020).",
+      "roles": [
+        {
+          "title": "Prefeito da Cidade de São Paulo",
+          "period": "2021 - Atual",
+          "level": "municipal",
+          "achievements": [
+            "Condução do maior programa de recapeamento asfáltico da história da capital paulista.",
+            "Implementação da Tarifa Zero nos ônibus municipais aos domingos.",
+            "Superávit de caixa municipal histórico acima de R$ 30 bilhões para investimentos em drenagem e escolas.",
+            "Expansão das Unidades de Pronto Atendimento (UPAs) 24h na periferia."
+          ]
+        }
+      ]
+    },
+    "debatesAndInterviews": {
+      "averageScore": 81,
+      "events": [
+        {
+          "title": "Debate Prefeito SP TV Globo (2º Turno)",
+          "date": "2024-10-25",
+          "vehicle": "TV Globo",
+          "score": 83,
+          "notes": "Foco em entregas de zeladoria urbana, equilíbrio fiscal e capacidade de execução da prefeitura.",
+          "factCheckingAccuracy": 84
+        }
+      ]
+    },
+    "integrityAndFacts": {
+      "cleanRecordCertificates": [
+        {
+          "type": "TSE - Quitação Eleitoral e Ficha Limpa",
+          "issuer": "Tribunal Superior Eleitoral",
+          "status": "regular",
+          "emissionDate": "2024-08-01",
+          "verificationCode": "TSE-NUNES-SP-2024",
+          "linkUrl": "https://www.tse.jus.br"
+        },
+        {
+          "type": "Certidão Negativa Cível e Criminal",
+          "issuer": "Tribunal de Justiça de São Paulo (TJSP)",
+          "status": "nada_consta",
+          "emissionDate": "2024-07-20",
+          "verificationCode": "TJSP-NUNES-001",
+          "linkUrl": "https://esaj.tjsp.jus.br"
+        }
+      ],
+      "factChecks": [
+        {
+          "id": "fc-nunes-1",
+          "title": "Aprovação das Contas de Governo pelo Tribunal de Contas do Município (TCM-SP)",
+          "description": "O TCM-SP emitiu parecer prévio favorável à aprovação das contas do Executivo Paulistano referentes aos exercícios de 2021, 2022 e 2023.",
+          "vehicleOrOrgan": "TCM-SP",
+          "category": "comprovado_positivo",
+          "date": "2024-06-19",
+          "sourceUrl": "https://www.tcm.sp.gov.br"
+        }
+      ]
+    },
+    "governmentPlan": {
+      "summary": "Plano focado em choque de zeladoria e infraestrutura viária em todo o estado, apoio ao agronegócio do interior, atração de investimentos industriais e integração entre a Polícia Militar e guardas civis municipais.",
+      "pdfUrl": "https://divulgacandcontas.tse.jus.br",
+      "pillars": [
+        {
+          "key": "infraestrutura",
+          "title": "Zeladoria Integrada e Obras Regionais",
+          "icon": "Building2",
+          "mainGoal": "Expandir para as rodovias vicinais do interior a tecnologia e agilidade de recapeamento e contenção de encostas.",
+          "proposals": [
+            "Programa Asfalto Novo Regional ligando polos agrícolas às rodovias concedidas.",
+            "Obras de macrodrenagem e controle de cheias em bacias hidrográficas críticas do estado."
+          ],
+          "budgetSource": "Tesouro Estadual e financiamentos com a Caixa Econômica Federal.",
+          "feasibilityScore": 88
+        }
+      ]
+    }
   }
 ]

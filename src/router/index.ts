@@ -4,12 +4,18 @@ import CandidatesListView from '../views/CandidatesListView.vue';
 import CandidateDetailView from '../views/CandidateDetailView.vue';
 import CurrentMandateView from '../views/CurrentMandateView.vue';
 import ComparisonView from '../views/ComparisonView.vue';
+import PollsAggregatorView from '../views/PollsAggregatorView.vue';
 
 const routes: Array<RouteRecordRaw> = [
   {
     path: '/',
     name: 'Home',
     component: HomeView
+  },
+  {
+    path: '/pesquisas',
+    name: 'PollsAggregator',
+    component: PollsAggregatorView
   },
   {
     path: '/candidatos',
