@@ -1,25 +1,45 @@
 <script setup lang="ts">
-import { ref, computed } from 'vue';
+import { ref, computed, onMounted } from 'vue';
 import PollingTrackerChart from '../components/polls/PollingTrackerChart.vue';
 import presidentialPollsData from '../data/polls/presidential-polls.json';
 import spPollsData from '../data/polls/sp-polls.json';
 import type { PollSurvey } from '../types/polling';
+import { getPolls } from '../services/supabaseClient';
 
 const activeTab = ref<'presidente' | 'governador'>('presidente');
 const selectedInstituteFilter = ref<string>('todos');
 
-const presidentialPolls = presidentialPollsData as unknown as PollSurvey[];
-const spPolls = spPollsData as unknown as PollSurvey[];
+const presidentialPolls = ref<PollSurvey[]>(presidentialPollsData as unknown as PollSurvey[]);
+const spPolls = ref<PollSurvey[]>(spPollsData as unknown as PollSurvey[]);
+const isSyncing = ref(false);
+const isLiveSupabase = ref(false);
+
+onMounted(async () => {
+  isSyncing.value = true;
+  try {
+    const [pres, sp] = await Promise.all([
+      getPolls('presidente'),
+      getPolls('governador')
+    ]);
+    if (pres && pres.length > 0) presidentialPolls.value = pres;
+    if (sp && sp.length > 0) spPolls.value = sp;
+    isLiveSupabase.value = true;
+  } catch (err) {
+    console.warn('[PollsView] Usando fallback local:', err);
+  } finally {
+    isSyncing.value = false;
+  }
+});
 
 const currentPolls = computed(() => {
-  const list = activeTab.value === 'presidente' ? presidentialPolls : spPolls;
+  const list = activeTab.value === 'presidente' ? presidentialPolls.value : spPolls.value;
   if (selectedInstituteFilter.value === 'todos') return list;
   return list.filter(p => p.institute === selectedInstituteFilter.value);
 });
 
 // Unique institutes in the current office
 const availableInstitutes = computed(() => {
-  const list = activeTab.value === 'presidente' ? presidentialPolls : spPolls;
+  const list = activeTab.value === 'presidente' ? presidentialPolls.value : spPolls.value;
   return Array.from(new Set(list.map(p => p.institute)));
 });
 
@@ -43,6 +63,9 @@ const formatDate = (iso: string) => {
       <div class="flex items-center gap-2 mb-2">
         <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-semibold bg-blue-50 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 border border-blue-200 dark:border-blue-800">
           Dados Oficiais Registrados
+        </span>
+        <span v-if="isLiveSupabase" class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-semibold bg-emerald-50 dark:bg-emerald-950/40 text-emerald-700 dark:text-emerald-300 border border-emerald-200 dark:border-emerald-800">
+          Sincronizado Supabase
         </span>
         <span class="text-xs text-slate-500 font-mono">TSE / Res. 23.600</span>
       </div>

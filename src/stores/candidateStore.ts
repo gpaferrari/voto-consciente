@@ -1,14 +1,20 @@
 import { defineStore } from 'pinia';
 import { ref, computed } from 'vue';
-import { Candidate, RoleType, ScoreWeights, ScoreBreakdown } from '../types/candidate';
+import type { Candidate, RoleType, ScoreWeights, ScoreBreakdown } from '../types/candidate';
 import { calculateCandidateScore, DEFAULT_WEIGHTS } from '../services/scoringEngine';
 import { ALL_CANDIDATES, SUPPORTED_STATES, StateInfo } from '../data/registry';
+import { getCandidatesFromSupabase } from '../services/supabaseClient';
+
+export type ScoredCandidate = Candidate & { breakdown: ScoreBreakdown };
 
 export const useCandidateStore = defineStore('candidates', () => {
   // Estado
   const candidates = ref<Candidate[]>(ALL_CANDIDATES);
   const supportedStates = ref<StateInfo[]>(SUPPORTED_STATES);
   const selectedState = ref<string>('SP');
+  const isSyncing = ref<boolean>(false);
+  const isLiveFromSupabase = ref<boolean>(false);
+  const lastSyncTime = ref<string | null>(null);
   
   // Recuperar pesos salvos ou usar padrão
   const savedWeights = localStorage.getItem('voto_consciente_weights');
@@ -21,7 +27,7 @@ export const useCandidateStore = defineStore('candidates', () => {
   const searchQuery = ref<string>('');
 
   // Getters
-  const scoredCandidates = computed(() => {
+  const scoredCandidates = computed<ScoredCandidate[]>(() => {
     return candidates.value.map(c => {
       const breakdown: ScoreBreakdown = calculateCandidateScore(c, weights.value);
       return {
@@ -31,7 +37,7 @@ export const useCandidateStore = defineStore('candidates', () => {
     });
   });
 
-  const filteredCandidates = computed(() => {
+  const filteredCandidates = computed<ScoredCandidate[]>(() => {
     return scoredCandidates.value.filter(c => {
       // Presidente é federal (vale para todos os estados).
       // Se for governador, senador ou deputado, filtra pelo estado selecionado quando aplicável.
@@ -48,11 +54,11 @@ export const useCandidateStore = defineStore('candidates', () => {
     }).sort((a, b) => b.breakdown.finalScore - a.breakdown.finalScore);
   });
 
-  const comparisonCandidates = computed(() => {
+  const comparisonCandidates = computed<ScoredCandidate[]>(() => {
     return scoredCandidates.value.filter(c => selectedForComparison.value.includes(c.id));
   });
 
-  const currentPresident = computed(() => {
+  const currentPresident = computed<ScoredCandidate | undefined>(() => {
     return scoredCandidates.value.find(c => c.id === 'lula-presidente');
   });
 
@@ -87,7 +93,7 @@ export const useCandidateStore = defineStore('candidates', () => {
     selectedForComparison.value = [];
   }
 
-  function getCandidateById(id: string) {
+  function getCandidateById(id: string): ScoredCandidate | undefined {
     return scoredCandidates.value.find(c => c.id === id);
   }
 
@@ -95,10 +101,32 @@ export const useCandidateStore = defineStore('candidates', () => {
     candidates.value.push(candidate);
   }
 
+  async function loadCandidatesFromSupabase() {
+    isSyncing.value = true;
+    try {
+      const data = await getCandidatesFromSupabase();
+      if (data && data.length > 0) {
+        candidates.value = data;
+        isLiveFromSupabase.value = true;
+        lastSyncTime.value = new Date().toISOString();
+      }
+    } catch (err) {
+      console.warn('[Store] Falha ao sincronizar candidatos remotos:', err);
+    } finally {
+      isSyncing.value = false;
+    }
+  }
+
+  // Auto-sincronizar dados do Supabase
+  loadCandidatesFromSupabase();
+
   return {
     candidates,
     supportedStates,
     selectedState,
+    isSyncing,
+    isLiveFromSupabase,
+    lastSyncTime,
     weights,
     selectedForComparison,
     selectedRole,
@@ -113,6 +141,7 @@ export const useCandidateStore = defineStore('candidates', () => {
     toggleComparison,
     clearComparison,
     getCandidateById,
-    addCandidate
+    addCandidate,
+    loadCandidatesFromSupabase
   };
 });

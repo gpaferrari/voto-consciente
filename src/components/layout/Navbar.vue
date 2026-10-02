@@ -64,7 +64,13 @@ function navigate(path: string) {
         <div>
           <span class="text-base font-extrabold tracking-tight text-slate-900 dark:text-white flex items-center gap-1.5">
             Voto Consciente
-            <span class="text-[10px] font-bold px-1.5 py-0.5 rounded-sm bg-emerald-100 dark:bg-emerald-950 text-emerald-700 dark:text-emerald-400">OFICIAL</span>
+            <span 
+              :title="store.isLiveFromSupabase ? 'Sincronizado em tempo real com Supabase' : 'Modo Dados Oficiais'"
+              class="text-[10px] font-bold px-1.5 py-0.5 rounded-sm inline-flex items-center gap-1 bg-emerald-100 dark:bg-emerald-950 text-emerald-700 dark:text-emerald-400"
+            >
+              <span v-if="store.isLiveFromSupabase" class="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
+              OFICIAL
+            </span>
           </span>
           <p class="text-[11px] text-slate-500 dark:text-slate-400 font-medium">Fatos Comprovados & Scores</p>
         </div>

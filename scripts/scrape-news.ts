@@ -4,6 +4,7 @@
  * Pipeline de Web Scraping & Ingestão de Notícias em Tempo Real
  * Consulta feeds RSS oficiais (Google News Brasil com filtros por candidato e Agência Brasil)
  * Extrai: Título, Veículo de Imprensa Confiável, Data de Publicação, Link Direto e Vinculação ao Candidato.
+ * Atualiza localmente `src/data/live-news.json` e sincroniza diretamente no Supabase (`noticias_monitoradas`).
  * 
  * Execução: npm run scrape:news
  */
@@ -11,9 +12,32 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import pg from 'pg';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
+
+// Carregar .env se existir
+const envPath = path.resolve(__dirname, '../.env');
+if (fs.existsSync(envPath)) {
+  const envContent = fs.readFileSync(envPath, 'utf-8');
+  for (const line of envContent.split('\n')) {
+    const trimmed = line.trim();
+    if (trimmed && !trimmed.startsWith('#')) {
+      const [key, ...valParts] = trimmed.split('=');
+      const val = valParts.join('=').replace(/^["'](.*)["']$/, '$1');
+      if (key && !process.env[key]) {
+        process.env[key] = val;
+      }
+    }
+  }
+}
+
+const DATABASE_URL = 
+  process.env.DATABASE_URL || 
+  process.env.SECRET_kEY || 
+  process.env.SECRET_KEY || 
+  'postgresql://postgres:Gu97232544*@db.wpfkatojghlrdbfivqjv.supabase.co:5432/postgres';
 
 interface ScrapedNewsItem {
   id: string;
@@ -29,20 +53,33 @@ interface ScrapedNewsItem {
 
 // Candidatos monitorados e termos de busca com palavras-chave factuais
 const CANDIDATE_TARGETS = [
-  { id: 'lula-2026', name: 'Lula', query: 'Lula governo OR economia OR plano' },
-  { id: 'tarcisio-2026', name: 'Tarcísio de Freitas', query: 'Tarcísio de Freitas governo SP OR obras' },
-  { id: 'caiado-2026', name: 'Ronaldo Caiado', query: 'Ronaldo Caiado Goiás segurança OR governo' },
-  { id: 'ciro-gomes-2026', name: 'Ciro Gomes', query: 'Ciro Gomes propostas OR economia' },
-  { id: 'romeu-zema-2026', name: 'Romeu Zema', query: 'Romeu Zema Minas Gerais OR gestão' },
-  { id: 'ratinho-junior-2026', name: 'Ratinho Júnior', query: 'Ratinho Júnior Paraná OR investimentos' },
-  { id: 'eduardo-leite-2026', name: 'Eduardo Leite', query: 'Eduardo Leite Rio Grande do Sul OR gestão' },
-  { id: 'fernando-haddad', name: 'Fernando Haddad', query: 'Fernando Haddad Fazenda OR reforma tributaria' },
+  // Presidência
+  { id: 'lula-presidente', name: 'Lula', query: 'Lula governo OR economia OR plano' },
+  { id: 'ronaldo-caiado-presidente', name: 'Ronaldo Caiado', query: 'Ronaldo Caiado Goiás segurança OR governo' },
+  { id: 'ratinho-junior-presidente', name: 'Ratinho Júnior', query: 'Ratinho Júnior Paraná OR investimentos' },
+  { id: 'romeu-zema-presidente', name: 'Romeu Zema', query: 'Romeu Zema Minas Gerais OR gestão' },
+  { id: 'ciro-gomes-presidente', name: 'Ciro Gomes', query: 'Ciro Gomes propostas OR economia' },
+  { id: 'eduardo-leite-presidente', name: 'Eduardo Leite', query: 'Eduardo Leite Rio Grande do Sul OR gestão' },
+  { id: 'jair-bolsonaro-presidente', name: 'Jair Bolsonaro', query: 'Jair Bolsonaro TSE OR inelegibilidade OR recursos' },
+  
+  // Governador de SP
+  { id: 'tarcisio-governador', name: 'Tarcísio de Freitas', query: 'Tarcísio de Freitas governo SP OR obras' },
+  { id: 'haddad-governador', name: 'Fernando Haddad', query: 'Fernando Haddad Fazenda OR reforma tributaria' },
   { id: 'guilherme-boulos', name: 'Guilherme Boulos', query: 'Guilherme Boulos projeto OR câmara' },
-  { id: 'marcos-pontes', name: 'Marcos Pontes', query: 'Marcos Pontes Senado OR ciência' },
-  { id: 'rodrigo-agostinho', name: 'Rodrigo Agostinho', query: 'Rodrigo Agostinho Ibama OR meio ambiente' },
-  { id: 'capitao-augusto', name: 'Capitão Augusto', query: 'Capitão Augusto Câmara OR segurança' },
-  { id: 'arnaldo-jardim', name: 'Arnaldo Jardim', query: 'Arnaldo Jardim bioeconomia OR reforma tributária' },
-  { id: 'baleia-rossi', name: 'Baleia Rossi', query: 'Baleia Rossi PEC 45 OR reforma tributária' }
+  { id: 'marcio-franca', name: 'Márcio França', query: 'Márcio França empreendedorismo OR microempresa' },
+  { id: 'ricardo-nunes', name: 'Ricardo Nunes', query: 'Ricardo Nunes prefeitura SP OR obras' },
+
+  // Senador SP
+  { id: 'marcos-pontes-senador', name: 'Marcos Pontes', query: 'Marcos Pontes Senado OR ciência tecnologia' },
+  { id: 'mara-gabrilli', name: 'Mara Gabrilli', query: 'Mara Gabrilli Senado inclusão saúde' },
+  { id: 'eduardo-suplicy', name: 'Eduardo Suplicy', query: 'Eduardo Suplicy renda basica Alesp' },
+  { id: 'janaina-paschoal', name: 'Janaína Paschoal', query: 'Janaína Paschoal direito penal USP' },
+
+  // Deputados Federais (Bauru / SP)
+  { id: 'rodrigo-agostinho-deputado', name: 'Rodrigo Agostinho', query: 'Rodrigo Agostinho Ibama OR meio ambiente' },
+  { id: 'capitao-augusto-deputado', name: 'Capitão Augusto', query: 'Capitão Augusto Câmara OR segurança' },
+  { id: 'arnaldo-jardim-deputado', name: 'Arnaldo Jardim', query: 'Arnaldo Jardim bioeconomia OR reforma tributária' },
+  { id: 'baleia-rossi-deputado', name: 'Baleia Rossi', query: 'Baleia Rossi PEC 45 OR reforma tributária' }
 ];
 
 function determineCategory(title: string): ScrapedNewsItem['category'] {
@@ -50,7 +87,7 @@ function determineCategory(title: string): ScrapedNewsItem['category'] {
   if (lower.includes('pesquisa') || lower.includes('datafolha') || lower.includes('quaest') || lower.includes('pontos') || lower.includes('empate')) {
     return 'pesquisa';
   }
-  if (lower.includes('processo') || lower.includes('tse') || lower.includes('stf') || lower.includes('tcu') || lower.includes('justiça') || lower.includes('decisão')) {
+  if (lower.includes('processo') || lower.includes('tse') || lower.includes('stf') || lower.includes('tcu') || lower.includes('justiça') || lower.includes('decisão') || lower.includes('inelegível')) {
     return 'juridico';
   }
   if (lower.includes('proposta') || lower.includes('plano') || lower.includes('promete') || lower.includes('projeto') || lower.includes('reforma')) {
@@ -79,7 +116,7 @@ function parseRssXml(xml: string, candidateId: string, candidateName: string): S
       let rawTitle = titleMatch[1].replace(/<!\[CDATA\[(.*?)\]\]>/gi, '$1').trim();
       let sourceName = 'Imprensa Oficial';
 
-      // Google News formats title as: "Headline - Source Name"
+      // Google News formata título como: "Manchete - Nome da Fonte"
       if (rawTitle.includes(' - ')) {
         const parts = rawTitle.split(' - ');
         sourceName = parts.pop() || sourceName;
@@ -96,7 +133,7 @@ function parseRssXml(xml: string, candidateId: string, candidateName: string): S
             dateIso = parsed.toISOString().split('T')[0];
           }
         } catch {
-          // keep fallback
+          // fallback
         }
       }
 
@@ -142,6 +179,86 @@ async function fetchCandidateNews(target: typeof CANDIDATE_TARGETS[0]): Promise<
   } catch (err: any) {
     console.warn(`[Aviso] Timeout ou erro ao consultar feed para ${target.name}: ${err?.message || err}`);
     return [];
+  }
+}
+
+async function syncToSupabase(newsItems: ScrapedNewsItem[]) {
+  if (!DATABASE_URL) {
+    console.log('ℹ️ DATABASE_URL não encontrada. Sincronização remota ignorada.');
+    return;
+  }
+
+  console.log('\n☁️ SINCRONIZANDO NOTÍCIAS NO SUPABASE...');
+  const client = new pg.Client({
+    connectionString: DATABASE_URL,
+    ssl: { rejectUnauthorized: false }
+  });
+
+  try {
+    await client.connect();
+
+    // Buscar IDs válidos de candidatos existentes no Supabase
+    const candRes = await client.query('SELECT id FROM public.candidatos');
+    const validCandidateIds = new Set(candRes.rows.map(r => r.id));
+
+    const ID_MAPPINGS: Record<string, string> = {
+      'fernando-haddad': 'haddad-governador',
+      'lula-2026': 'lula-presidente',
+      'tarcisio-2026': 'tarcisio-governador',
+      'caiado-2026': 'ronaldo-caiado-presidente',
+      'ratinho-junior-2026': 'ratinho-junior-presidente',
+      'ciro-gomes-2026': 'ciro-gomes-presidente',
+      'romeu-zema-2026': 'romeu-zema-presidente',
+      'eduardo-leite-2026': 'eduardo-leite-presidente',
+      'marcos-pontes': 'marcos-pontes-senador',
+      'rodrigo-agostinho': 'rodrigo-agostinho-deputado',
+      'capitao-augusto': 'capitao-augusto-deputado',
+      'arnaldo-jardim': 'arnaldo-jardim-deputado',
+      'baleia-rossi': 'baleia-rossi-deputado'
+    };
+
+    let insertedCount = 0;
+    let skippedCount = 0;
+
+    for (const item of newsItems) {
+      const canonicalId = ID_MAPPINGS[item.candidateId] || item.candidateId;
+      
+      if (!validCandidateIds.has(canonicalId)) {
+        skippedCount++;
+        continue;
+      }
+
+      try {
+        const res = await client.query(`
+          INSERT INTO public.noticias_monitoradas (id, candidato_id, nome_candidato, titulo, veiculo, url_noticia, data_publicacao, categoria, resumo)
+          VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9)
+          ON CONFLICT (id) DO UPDATE SET
+            titulo = EXCLUDED.titulo,
+            url_noticia = EXCLUDED.url_noticia
+          RETURNING id;
+        `, [
+          item.id,
+          canonicalId,
+          item.candidateName,
+          item.title,
+          item.source,
+          item.url,
+          item.publishedAt,
+          item.category,
+          item.summary || null
+        ]);
+
+        if (res.rowCount && res.rowCount > 0) insertedCount++;
+      } catch (itemErr: any) {
+        console.warn(`[Supabase] Erro ao sincronizar notícia (${item.title}):`, itemErr.message);
+      }
+    }
+
+    console.log(`✅ ${insertedCount} notícias sincronizadas no Supabase com sucesso! (${skippedCount} ignoradas por falta de candidato correspondente)`);
+    await client.end();
+  } catch (err: any) {
+    console.warn('⚠️ Falha ao conectar ao Supabase (fallback local preservado):', err.message);
+    try { await client.end(); } catch {}
   }
 }
 
@@ -195,6 +312,9 @@ async function run() {
   console.log(`✅ Sucesso! ${finalNews.length} notícias atualizadas em:`);
   console.log(`   ${outputPath}`);
   console.log('='.repeat(65));
+
+  // Sincronizar remotamente com o Supabase
+  await syncToSupabase(allNews);
 }
 
 run();

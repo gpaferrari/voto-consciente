@@ -1,19 +1,10 @@
 <script setup lang="ts">
-import { ref, computed } from 'vue';
-import { Newspaper, ExternalLink, Search, Filter, ShieldCheck } from 'lucide-vue-next';
+import { ref, computed, onMounted } from 'vue';
+import { Newspaper, ExternalLink, Search, Filter, ShieldCheck, RefreshCw } from 'lucide-vue-next';
 import liveNewsData from '../../data/live-news.json';
+import { getLiveNews, type LiveNewsItem } from '../../services/supabaseClient';
 
-interface NewsItem {
-  id: string;
-  candidateId: string;
-  candidateName: string;
-  title: string;
-  source: string;
-  url: string;
-  publishedAt: string;
-  category: 'proposta' | 'gestao' | 'juridico' | 'declaracao' | 'pesquisa';
-  summary?: string;
-}
+type NewsItem = LiveNewsItem;
 
 const props = defineProps<{
   candidateId?: string; // If supplied, filters by candidate; if omitted, shows all
@@ -24,6 +15,23 @@ const props = defineProps<{
 const allNews = ref<NewsItem[]>(liveNewsData as unknown as NewsItem[]);
 const searchQuery = ref('');
 const selectedCategory = ref<string>('todos');
+const isSyncing = ref(false);
+const isLiveSupabase = ref(false);
+
+onMounted(async () => {
+  isSyncing.value = true;
+  try {
+    const remote = await getLiveNews(props.limit || 100, props.candidateId);
+    if (remote && remote.length > 0) {
+      allNews.value = remote;
+      isLiveSupabase.value = true;
+    }
+  } catch (err) {
+    console.warn('[LiveNewsFeed] Usando fallback local:', err);
+  } finally {
+    isSyncing.value = false;
+  }
+});
 
 const filteredNews = computed(() => {
   let list = props.candidateId 
@@ -83,8 +91,16 @@ const formatDate = (iso: string) => {
         <div>
           <h3 class="text-base font-bold text-slate-900 dark:text-white flex items-center gap-2">
             <span>Notícias & Cobertura em Tempo Real</span>
-            <span class="text-[10px] font-bold px-2 py-0.5 rounded-full bg-emerald-100 dark:bg-emerald-950/60 text-emerald-700 dark:text-emerald-400">
-              Ao Vivo
+            <span 
+              :class="[
+                'text-[10px] font-bold px-2 py-0.5 rounded-full inline-flex items-center gap-1 transition-all',
+                isLiveSupabase 
+                  ? 'bg-emerald-100 dark:bg-emerald-950/60 text-emerald-700 dark:text-emerald-400' 
+                  : 'bg-blue-100 dark:bg-blue-950/60 text-blue-700 dark:text-blue-400'
+              ]"
+            >
+              <RefreshCw v-if="isSyncing" class="w-2.5 h-2.5 animate-spin" />
+              <span>{{ isLiveSupabase ? 'Ao Vivo (Supabase)' : 'Ao Vivo' }}</span>
             </span>
           </h3>
           <p class="text-xs text-slate-500 dark:text-slate-400">

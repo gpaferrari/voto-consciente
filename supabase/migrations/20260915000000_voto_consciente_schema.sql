@@ -264,3 +264,15 @@ CREATE POLICY "Leitura pública permitida para pesquisas eleitorais" ON public.p
 CREATE POLICY "Leitura pública permitida para cenários de pesquisas" ON public.pesquisas_cenarios FOR SELECT USING (true);
 CREATE POLICY "Leitura pública permitida para resultados de pesquisas" ON public.pesquisas_resultados FOR SELECT USING (true);
 CREATE POLICY "Leitura pública permitida para notícias monitoradas" ON public.noticias_monitoradas FOR SELECT USING (true);
+
+-- ==============================================================================
+-- 6. PERMISSÕES EXPLÍCITAS (GRANTS) - Compatibilidade Supabase Outubro/2026
+-- ==============================================================================
+-- Concede leitura pública na API (anon e authenticated)
+GRANT SELECT ON ALL TABLES IN SCHEMA public TO anon, authenticated;
+GRANT SELECT ON ALL SEQUENCES IN SCHEMA public TO anon, authenticated;
+
+-- Concede acesso total para rotinas administrativas e de seed (service_role)
+GRANT ALL ON ALL TABLES IN SCHEMA public TO service_role;
+GRANT ALL ON ALL SEQUENCES IN SCHEMA public TO service_role;
+
