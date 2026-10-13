@@ -1,6 +1,56 @@
 [
   {
-    "id": "news-lula-presidente-1791839212440-f1vt",
+    "id": "news-romeu-zema-presidente-1791872101700-a4xe",
+    "candidateId": "romeu-zema-presidente",
+    "candidateName": "Romeu Zema",
+    "title": "Romeu Zema é candidato à Presidência pelo partido Novo",
+    "source": "Agência Brasil",
+    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBYT3ZMdDV1SndVV2p4a3JaVVVqMmFKUFhwa2pmOFBwRTJSWVBuOUl6UjFVdzNPeUxKVkRhdzhEbkxEUU1oQkYxYjJuQkFoTTdXeWRCalRfRC1iUC1z?oc=5",
+    "publishedAt": "2026-10-13",
+    "category": "declaracao"
+  },
+  {
+    "id": "news-romeu-zema-presidente-1791872101700-o2cr",
+    "candidateId": "romeu-zema-presidente",
+    "candidateName": "Romeu Zema",
+    "title": "Após derrota eleitoral,Romeu Zema sinaliza que pretende se afastar da política",
+    "source": "Tribuna da Internet",
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOX3dQTlotd1k4RUNYNnF6TVBwanhzbkZPUHJ1dThkaFdjQWZtNVcxbkd4eWhyc3V2M0Vwa2xBMzRsY25oZmZtcXdjd005dU9BUnl2RnJ4UDNndldDcmFxUU1JZ1pnWUxyOW5kVlpaWjQ1bENwZ25LbkNoMnJ2elBNV05MVDVydWZyaVBSRzd3NzZ5NjFwLS1PVS1xOGZkZkE1c21EeXhGdDhYSGFjZFJENGZmaTg4V2VHaWNrN3NkNng?oc=5",
+    "publishedAt": "2026-10-13",
+    "category": "declaracao"
+  },
+  {
+    "id": "news-eduardo-leite-presidente-1791872103367-db5b",
+    "candidateId": "eduardo-leite-presidente",
+    "candidateName": "Eduardo Leite",
+    "title": "Eduardo Leite e Luciano Zucco inauguram nesta terça-feira o Escritório de Transição do governo gaúcho",
+    "source": "Jornal O Sul",
+    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQWUFicmMyVUhJV05SQjVjczNRVkZ1OVNmb01ZVTlDM3VXQzZoNFc1Q0JEZkI5dEVVOWxwdzQybnk4RHBwMk9uUk4zeVc3ZXFLend2UlNzdWVTSHdoZHZBbHc3Z0JZYVc2Skg0MG5MWkt2LVNTSjlmMnJsb3lSQ2ZDV1ZhZlZVUjlWUnlQSG85dU51UDRGalBKTXBoQktCZXZ6VHd1SldYQTFGMk1wVXZ6NlBLQXRDQU9JekNQeHUzSV9sLWE50gHKAUFVX3lxTE1keFpaMjJoZUgxS2QyRVQ2UnF1Ym5QNjBfc0pXN3FjSmJCaXJqLW1lWFZWWktZOENTZFcyWF91cml1Mkh3em1FNzc2SkVrYWpQQTJqa25CY1pYX05JQ0FCWFV1Yi1aaE9wZk1QalQ1OEpvWThkQXQwd1VFUHZDSDZpZ0NRSkNFUGNCbUVIcUxnSFJFMU9tSTJQU3JBN05NNVZhUnNiaU5PaHhBby1mUWdRU1dFNjV2djRpaUVuLWdyWVR3MnllZC1NWmc?oc=5",
+    "publishedAt": "2026-10-13",
+    "category": "declaracao"
+  },
+  {
+    "id": "news-jair-bolsonaro-presidente-1791872104190-shn0",
+    "candidateId": "jair-bolsonaro-presidente",
+    "candidateName": "Jair Bolsonaro",
+    "title": "Por que TSE mandou Flávio Bolsonaro apagar vídeo enganoso que associa uso de drogas a ato pró-Lula na Paulista",
+    "source": "BBC",
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1NOFVKVWh3Z0dPM2QwSldNVjZlN1ctcm94NWliZjZTaXRmSlIxVVc2a2JZSVFiQUNJbE14OGYxNlNraDV6WUF1SEFnLVhfOTlnOE9RSDVvazQyTm80NUxQa0dFc9IBaEFVX3lxTE55VWpORjBiTzJwd0d2QktTa256ZGhfMGxNLUhRWFp1aU4xaFpOUEZoLVBMQ003VTdMRmNMRXFIN1Q0bC1KeXNCNzI2RENhQUxVWDFfdWdZejVuQ290bmVmWlI3enJfbEdh?oc=5",
+    "publishedAt": "2026-10-13",
+    "category": "juridico"
+  },
+  {
+    "id": "news-jair-bolsonaro-presidente-1791872104190-kydx",
+    "candidateId": "jair-bolsonaro-presidente",
+    "candidateName": "Jair Bolsonaro",
+    "title": "TSE manda Flávio e aliados removerem vídeo fake que critica ato pró-Lula",
+    "source": "UOL Notícias",
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPWFo2RWhsMGdFMk04VTlSVWdnb3FadzR6WXFBT1Y5S0k1VUEyNVlJNkpSbGxEWG9oNHJmU3FiMzVQWjItdFl2ZG9RRTlzWVVKOG9ZM3hzbTNTUnlwUDVjbEhzVUR4ODN2dFZZUUJ2RVRHc09XVnBIZFhTVG9hdGVwZ2kyVmVrbWRzWHdpdkloVnM0WVI0Z0l6aHVVNHhjMXhmSGVrRlhEeE9zczBGeW5wWnQ5dU8ydGtmNnlxU25MaDBpQzg?oc=5",
+    "publishedAt": "2026-10-13",
+    "category": "juridico"
+  },
+  {
+    "id": "news-lula-presidente-1791872099156-7bs0",
     "candidateId": "lula-presidente",
     "candidateName": "Lula",
     "title": "Lula quer aumentar incentivos à cultura; Flávio defende patrimônio",
@@ -10,7 +60,7 @@
     "category": "declaracao"
   },
   {
-    "id": "news-lula-presidente-1791839212440-4jt5",
+    "id": "news-lula-presidente-1791872099156-chd4",
     "candidateId": "lula-presidente",
     "candidateName": "Lula",
     "title": "Ministro diz que Lula fará ajuste das contas em 4 anos e vê 'conversa fiada' de Flávio",
@@ -20,12 +70,72 @@
     "category": "declaracao"
   },
   {
-    "id": "news-lula-presidente-1791839212440-8cxg",
+    "id": "news-lula-presidente-1791872099156-khh5",
+    "candidateId": "lula-presidente",
+    "candidateName": "Lula",
+    "title": "O plano de Flávio é melhor do que o de Lula. Afinal, para que servem planos de governo?",
+    "source": "Estadão",
+    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNZ0lOM0ZpaHVfSnAweDcyeFdEeXVGVUNUVXQydjlCbVZkSzFqTUNFdHRFNk5pSExQUmRZR0JyMHBLMFJVZWtjOVdmV0pXdW03YjBfdS0tME55aS1yTV9zSGNoSlNkQXp0Y2xLeTFIaHVzUkZ4cVhMZUx1X1lzOFAtUldYN1c1dzNJWnRMS2lObW5ucTQyQTJJU0xYS3FBNHVkd3g2RHpnVFowU2Q4dTNjSWpqVGZCWE96Z2RpWDR6bTRHWHpad3pjNXVkVkozUEVqZ1FTdUpRWHXSAd4BQVVfeXFMUDZBVEtpRFl1VURBeGNZZ3pkNHgzSGpLM3ZjS25OWnF3eUt1UnJ1ZDloMGRjaGtObmhDR1VHcndIUW1ITDVsbEprcTYwZElkSENOQWJmY2QyZTVQV3Jfc0gtQjRZcnltbjFnbVlJak4wQUlUUmNVN0laUmFiTmxxUGJreS1QaFZNSExzQS12YS16dlpGY0hQMHVGQ0FxMHR6ZW1BUTRGdm5IUGZiZFZLdE5aY0hSNUFzTjNDd3hyTWxPZ0Q0cnVtc01XdW5BYmg2UkVOdXJqc2pzY1pNeGp3?oc=5",
+    "publishedAt": "2026-10-12",
+    "category": "proposta"
+  },
+  {
+    "id": "news-lula-presidente-1791872099156-oro1",
+    "candidateId": "lula-presidente",
+    "candidateName": "Lula",
+    "title": "O que dizem os planos de governo de Lula e Flávio Bolsonaro para a economia",
+    "source": "O GLOBO",
+    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPWHpDT2ZrQ3J0TTBVaTM3UG5Wbll1aUx0TWk3V2xYRjRCdTNQNXNwajZBV29ZbGtkdmlpZF9qaE0wODl0MkdSTjJrUlkwUkRqZzBGd19tMlpNSWg1SlRHMkZadGJnMHk3X2VXOWc1R0NVMDI4eUlRc3FJQVltcnV1Y1BrcXl5ZENoZTQtV2hWeWVtRkxyMFZ1ZERHdmo5cEI2Uml1eEM3S01GdGdNekZ0ZTdBT0JZWW1RR1lidE4xbU1UamgtRnRRdVpNT1JTaExHZjFsdm1n0gHkAUFVX3lxTE9PcnZNRVlPVk1NNDg5eXZFdnA1ekl0VjBuUEo1YzlYMjN3N3hQZkcyQldoVmhYVERxcDNpSFBoU0ZsbzN1UGNiZ1pWWjFPa1VjR1BvS01Lb19xUW90MUd6LThTM1pSMzlJTGRvc3dHWlA4em81S1hWNkg3TmhRcXJuMXBWS2p4TkpuV1I0QjEwRFoxOTBseE1WZDhySDBESG91bDVBaWdYcDJ2LTJkRzFpU1NyUWdzNHBnQVBid0NRMFRHR2U1anJqRVZPZkhqNGF0YW1STi1OeDRURU1LQ1M2UVpIOQ?oc=5",
+    "publishedAt": "2026-10-12",
+    "category": "proposta"
+  },
+  {
+    "id": "news-lula-presidente-1791872099156-q77j",
     "candidateId": "lula-presidente",
     "candidateName": "Lula",
     "title": "O que Flávio Bolsonaro e Lula propõem sobre concursos públicos e o funcionalismo",
     "source": "BBC",
     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBQZ1ZIUkFfNTlDQmh2UmxSMnFzOGJNQ0s0cHFlSWVOZ29nY1hoM25iMHJWaTE2c2FnellKLUtOY1lnV2pxTm41RThyQVViS0VXSExpOXVzbEtxbXFmMzd4MklaTQ?oc=5",
+    "publishedAt": "2026-10-12",
+    "category": "declaracao"
+  },
+  {
+    "id": "news-jair-bolsonaro-presidente-1791872104190-k298",
+    "candidateId": "jair-bolsonaro-presidente",
+    "candidateName": "Jair Bolsonaro",
+    "title": "TSE proíbe distribuição de jornal sindical sobre propostas para a Petrobras após pedido de Flávio Bolsonaro",
+    "source": "Alma Preta Jornalismo",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNb0Q2aktmVHdWX1BOTjRhVG44bUpIRW5YaHE4QWVHeUNTekcyOGY3aE1WeE0tbVRPZ1NJN2k4b0k1aTdaZTUydnFKdElUVV8ydFgtWV9ZbTNkTldLdVBpc2tOdi01OHMtcnZRVTBKS2RxajlXaEhQa2xHaVpXeVNUc2Z2eVQ4Mmd3c25iRmNOLXpCNkNmY0FSd3p4d2s?oc=5",
+    "publishedAt": "2026-10-12",
+    "category": "juridico"
+  },
+  {
+    "id": "news-jair-bolsonaro-presidente-1791872104190-mkqu",
+    "candidateId": "jair-bolsonaro-presidente",
+    "candidateName": "Jair Bolsonaro",
+    "title": "Presidente do TSE marca reunião entre campanhas de Lula e Flávio Bolsonaro amanhã",
+    "source": "Valor Econômico",
+    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOTzlOcFUwaWgzaTVDQXMzU1k1elRQVDZpQ3dOb05ESUR1T2x2WkJxR1luWVF4azg1cWJxY2Y1WFBUYlJZcjB5OWtNN090bHZvSlpWQWJmcDNhbTEtVTBHV09zcVFrMmdJSTJhbTNCRFZpUmlvZ2J1ZnFUT0ZRbHVORXUycC1JRG0xRFc4bF9VVUx5czI2Y2lvb2xsdXYyeC1YcHFONUxOcUlpNWlqSkg1NjlienJKTGVGZkNzeHZVWmxqeWdyVDRvX1VvakhWbGhPaGVCTDk0SmpBb0wtQ1VBQnJtTjTSAfMBQVVfeXFMTWYzbnZkLTJjWTJVMEtLUmpUTFhfdlFYYU1PeTF2QmFWVTR3T3FsYVJXdzlqb2xpZjNLT2xLYk16ekY0TnFhaHJGc1A0V0dBNDRBWnNaODBWbWJ5UjU4Nkl2ZXlNRkt5OFRXRDM1Qzg2ODc4VVdfbERMdGV3Y0VJYWhaR0xENGJLeXhjc1hFcTM0a200TzNxMTBMYzJzaUk4ZE1WUEYxbU92U01jMWRKSU0tcURINUdUbWlUNFNNaGNrZThPWVQ3cXZaT1dUcXJfb3hIaE13VFhkTldVUEZ3MHZKT3pvVnRYRmdwcVRzZ20tUV9r?oc=5",
+    "publishedAt": "2026-10-12",
+    "category": "juridico"
+  },
+  {
+    "id": "news-tarcisio-governador-1791872105019-9ee9",
+    "candidateId": "tarcisio-governador",
+    "candidateName": "Tarcísio de Freitas",
+    "title": "Tarcísio e Flávio usam vídeo fake com droga na Paulista e atacam ato do PT",
+    "source": "UOL Notícias",
+    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQOEpCQVhHempTRWxxaGp3UzJFT003SEN4TU54T3ZZVjgwS3U3clZ6eUtJanRKdDJhS0JLUHM5V1RaSTNCTVZrazZ5MGF2bUhLOEV2NHV3NUI3ZlgteG1aWnlZZHBaaDJDNlp2M05SVElrSF8xWTFIODFLWm5VQzNlTzRDdkRucmJwZXRpV0dhVlB5LW1NQS1ySERpLXB4Q19LaTYySFgwN1FfcENWTjVac24tWE5va0VsNGZBVEJzd19YYjZadjRr?oc=5",
+    "publishedAt": "2026-10-12",
+    "category": "declaracao"
+  },
+  {
+    "id": "news-haddad-governador-1791872105953-ayn3",
+    "candidateId": "haddad-governador",
+    "candidateName": "Fernando Haddad",
+    "title": "Fernando Haddad condenou corte de impostos de Bolsonaro por impacto fiscal, mas apoia desoneração de Lula",
+    "source": "Times Brasil | CNBC",
+    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOQmxadzZBQnJBVDNDMTdVZDA1S05sOGY3UWRDX2U0eUhNWEJBNVF5b09BbTNLQ2NDaDVncXZiSmpaMzRTRENoS3pFSzJPc3FnZ2cxSTJIb05vR0FhQ2J0dFU2Zkd6Tzh3UmFTQmlWaDZoSTJrUnZJLUNxN2o2Nmg5S1FKcVh0NmNNX2ZqVGpTRXpGbjN5cjFWM3JfYTBUUWxmY3BiTXZlbnV1YVAycmJEWEhnMEJxTkFZVmhPd2FhVVJrQVg0bDhRUzBneTJrUmdfbkUxa29B?oc=5",
     "publishedAt": "2026-10-12",
     "category": "declaracao"
   },
@@ -68,26 +178,6 @@
     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPODdxWHVQcURCTF90eXdfX0IwZnVNNHNXQ05zM3hvMHY3ZVg0UHUzdVZhMTFEeDZ3SHp2b0YwbmRYd1JST1g0eWcwV0hreEJBd2xxanpIaU9teVJuN25UZ0ZvWU5CbnBjb2RCdXAwYVRCZ09TSW9rMGh4QjlNWDJGQVBIUkxQVVZfb3doYmVKbHpJY1ZVdXNpWGFuRGoxcU5Yc1ZlaGEwWEVhQW1jaVU3SllvUjBVU0nSAbwBQVVfeXFMTU9mOHQwQVh3NU9RN1dQd0h4U19wWk5kSUVpalVzaUdqZ2N6aDhGeGdrZVYwblR2UHJyYjlXWVVmNU53RUFZalQxWFItakhPamhqTmNyQm5RQWVFbE84dVZ3aEVqX01Gd2lUOXNlbnFvZ0F3emg0QXBNTTBsMjNmRkpDdHFOMmRiUU9ycjh6S0dKNXFoOGJsT0VCa2pEWmxyeTJhbWNDMFJxM0Y3bUhQaDZYb3lTanFGNGxULWk?oc=5",
     "publishedAt": "2026-10-12",
     "category": "declaracao"
-  },
-  {
-    "id": "news-jair-bolsonaro-presidente-1791839217526-3cq9",
-    "candidateId": "jair-bolsonaro-presidente",
-    "candidateName": "Jair Bolsonaro",
-    "title": "Presidente do TSE marca reunião entre campanhas de Lula e Flávio Bolsonaro amanhã",
-    "source": "Valor Econômico",
-    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOTzlOcFUwaWgzaTVDQXMzU1k1elRQVDZpQ3dOb05ESUR1T2x2WkJxR1luWVF4azg1cWJxY2Y1WFBUYlJZcjB5OWtNN090bHZvSlpWQWJmcDNhbTEtVTBHV09zcVFrMmdJSTJhbTNCRFZpUmlvZ2J1ZnFUT0ZRbHVORXUycC1JRG0xRFc4bF9VVUx5czI2Y2lvb2xsdXYyeC1YcHFONUxOcUlpNWlqSkg1NjlienJKTGVGZkNzeHZVWmxqeWdyVDRvX1VvakhWbGhPaGVCTDk0SmpBb0wtQ1VBQnJtTjTSAfMBQVVfeXFMTWYzbnZkLTJjWTJVMEtLUmpUTFhfdlFYYU1PeTF2QmFWVTR3T3FsYVJXdzlqb2xpZjNLT2xLYk16ekY0TnFhaHJGc1A0V0dBNDRBWnNaODBWbWJ5UjU4Nkl2ZXlNRkt5OFRXRDM1Qzg2ODc4VVdfbERMdGV3Y0VJYWhaR0xENGJLeXhjc1hFcTM0a200TzNxMTBMYzJzaUk4ZE1WUEYxbU92U01jMWRKSU0tcURINUdUbWlUNFNNaGNrZThPWVQ3cXZaT1dUcXJfb3hIaE13VFhkTldVUEZ3MHZKT3pvVnRYRmdwcVRzZ20tUV9r?oc=5",
-    "publishedAt": "2026-10-12",
-    "category": "juridico"
-  },
-  {
-    "id": "news-jair-bolsonaro-presidente-1791839217526-mjzp",
-    "candidateId": "jair-bolsonaro-presidente",
-    "candidateName": "Jair Bolsonaro",
-    "title": "TSE proíbe distribuição de jornal sindical sobre propostas para a Petrobras após pedido de Flávio Bolsonaro",
-    "source": "Alma Preta Jornalismo",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNb0Q2aktmVHdWX1BOTjRhVG44bUpIRW5YaHE4QWVHeUNTekcyOGY3aE1WeE0tbVRPZ1NJN2k4b0k1aTdaZTUydnFKdElUVV8ydFgtWV9ZbTNkTldLdVBpc2tOdi01OHMtcnZRVTBKS2RxajlXaEhQa2xHaVpXeVNUc2Z2eVQ4Mmd3c25iRmNOLXpCNkNmY0FSd3p4d2s?oc=5",
-    "publishedAt": "2026-10-12",
-    "category": "juridico"
   },
   {
     "id": "news-jair-bolsonaro-presidente-1791839217526-4zna",
@@ -270,27 +360,7 @@
     "category": "juridico"
   },
   {
-    "id": "news-ratinho-junior-presidente-1791839214213-lthk",
-    "candidateId": "ratinho-junior-presidente",
-    "candidateName": "Ratinho Júnior",
-    "title": "Flávio Bolsonaro acerta apoio de Ratinho Jr à sua candidatura",
-    "source": "Poder360",
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNZDVsWUVJeUVvTERNbVprbjlrR3hTV2V4dE1WQWhIcFlLa1N1TmhaQVFIbS1MaXgyODBlcHhJbWpyaV9jNldqV21fVWN0U3U4R3NwRzBiQWFoZlVuTnFXdHJVaWFQc2NtckpRbG5wU083cUlHZ2VJX19VZ3pRb3pjNzhDQnRNVzgySUFvcEJhSG5jOHRneW9MRW9NQmlEOF9mdzMtSkl6WmZ5T0gyeE9R?oc=5",
-    "publishedAt": "2026-10-10",
-    "category": "declaracao"
-  },
-  {
-    "id": "news-ratinho-junior-presidente-1791839214213-7sg5",
-    "candidateId": "ratinho-junior-presidente",
-    "candidateName": "Ratinho Júnior",
-    "title": "Painel: Flávio liga para Ratinho Jr e acerta apoio de governador a sua candidatura",
-    "source": "Folha de S.Paulo",
-    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOeUpCNllXM2VGRm9ZYW1EazlCTk5nTmxOT2JXWmFyM1dDcUhsbFBPSzBMVnFCNFVrdE01S1Y3WExQRzhoTmRtSjlNMmRxYXhjX1NEUnBLY193ZmQzTG5zdklJcy1odjNrOHRvN2tfQUJoUTJRZXVMaE5UeVZhY1ctWlZLRVNyUUJFUjRwUkF0Qkh3Y2x0LWh0cnVmNWZwUmdwRmthNnplUklGZVNaeXNvUlZERHY5STN2N2dQMzhxcXh6eHI4N2hGSE8tS1BTUQ?oc=5",
-    "publishedAt": "2026-10-10",
-    "category": "declaracao"
-  },
-  {
-    "id": "news-ratinho-junior-presidente-1791839214213-j03r",
+    "id": "news-ratinho-junior-presidente-1791872100832-wwt0",
     "candidateId": "ratinho-junior-presidente",
     "candidateName": "Ratinho Júnior",
     "title": "Ratinho Jr declara apoio a Flávio Bolsonaro no 2º turno",
@@ -300,7 +370,37 @@
     "category": "declaracao"
   },
   {
-    "id": "news-eduardo-leite-presidente-1791839216676-on1e",
+    "id": "news-ratinho-junior-presidente-1791872100832-gcoq",
+    "candidateId": "ratinho-junior-presidente",
+    "candidateName": "Ratinho Júnior",
+    "title": "Flávio Bolsonaro acerta apoio de Ratinho Jr à sua candidatura",
+    "source": "Poder360",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNZDVsWUVJeUVvTERNbVprbjlrR3hTV2V4dE1WQWhIcFlLa1N1TmhaQVFIbS1MaXgyODBlcHhJbWpyaV9jNldqV21fVWN0U3U4R3NwRzBiQWFoZlVuTnFXdHJVaWFQc2NtckpRbG5wU083cUlHZ2VJX19VZ3pRb3pjNzhDQnRNVzgySUFvcEJhSG5jOHRneW9MRW9NQmlEOF9mdzMtSkl6WmZ5T0gyeE9R?oc=5",
+    "publishedAt": "2026-10-10",
+    "category": "declaracao"
+  },
+  {
+    "id": "news-ratinho-junior-presidente-1791872100832-fusq",
+    "candidateId": "ratinho-junior-presidente",
+    "candidateName": "Ratinho Júnior",
+    "title": "Painel: Flávio liga para Ratinho Jr e acerta apoio de governador a sua candidatura",
+    "source": "Folha de S.Paulo",
+    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOeUpCNllXM2VGRm9ZYW1EazlCTk5nTmxOT2JXWmFyM1dDcUhsbFBPSzBMVnFCNFVrdE01S1Y3WExQRzhoTmRtSjlNMmRxYXhjX1NEUnBLY193ZmQzTG5zdklJcy1odjNrOHRvN2tfQUJoUTJRZXVMaE5UeVZhY1ctWlZLRVNyUUJFUjRwUkF0Qkh3Y2x0LWh0cnVmNWZwUmdwRmthNnplUklGZVNaeXNvUlZERHY5STN2N2dQMzhxcXh6eHI4N2hGSE8tS1BTUQ?oc=5",
+    "publishedAt": "2026-10-10",
+    "category": "declaracao"
+  },
+  {
+    "id": "news-ratinho-junior-presidente-1791872100832-r4ph",
+    "candidateId": "ratinho-junior-presidente",
+    "candidateName": "Ratinho Júnior",
+    "title": "Ratinho Junior anuncia apoio a Flávio Bolsonaro: ‘Vamos caminhar juntos’",
+    "source": "Estadão",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZDg0UXV6ckFhZzZyWlM2UGh3WFZaQUFMZ3R1Zmw0a2h1MnlsTGJLS2lQYzB3OTNmTmFkN041cUtmdWx0YWpleDZJaHZ5dnRKZVozWDJwUThRVk5xbFJsNkVDYUdKZkdtcUFyWEVZQkgwZUR4S192ZlZRWGZ5UVJETGs1clFIR3RUZDlLMU8tYXM1MXRDSEdFSDkxZ0ZKSU82bDdaSTJyNEZNb3JNUG1qdXhjVFlad9IBuwFBVV95cUxOT25jeFk4S0s0M2g2NkJWaXJGUTFBRTQ5ZDU1R25PVTJZdVdkclUtOXNjcjR3TXUwTjFUa2dpc2tFU0l6WDZLbzMtcVdjVGQ3TTQ0VGJsOU9hRXY2WndDMkp0VF85TFZjdURNTkNoQ2dUM0VHMmtWckZWSExaOWVkODZhQ1BvOHAtLWl1NHRGY0gwMjVFckdNLUV3bjBuT1dDZTRfX2loOWNxb2JBSVdiV0p4QklWTnFCRmFJ?oc=5",
+    "publishedAt": "2026-10-10",
+    "category": "declaracao"
+  },
+  {
+    "id": "news-eduardo-leite-presidente-1791872103367-feee",
     "candidateId": "eduardo-leite-presidente",
     "candidateName": "Eduardo Leite",
     "title": "O que muda do governo Leite para o governo Zucco no RS? Reunião de transição definiu próximos passos",
@@ -318,16 +418,6 @@
     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5Vb3NQbXdGWjFkdEVxLVNvbUFKQzBzOHR6VzBoTWRId2VQOUZGYWE0dm80TmRidUpIZWZvZXNsbGdKeDNTZ29YYXBib3ViNmFNaEZHNnBGOFVpa1A4b3lGdmRPVdIBaEFVX3lxTE10SHlrOGVHOVJrUHp5dG43QVJJTUNMZjNudDdxYXAtTHBmY3ROUXExRDRQNV9OVGhQOFdySGNWOG9VdTlUYW9mcDB2Z2ZEeFR6UnFNSXZYdE8tZFRGYUNCcE11eEp2V2hq?oc=5",
     "publishedAt": "2026-10-10",
     "category": "proposta"
-  },
-  {
-    "id": "news-ratinho-junior-presidente-1791782190229-hv74",
-    "candidateId": "ratinho-junior-presidente",
-    "candidateName": "Ratinho Júnior",
-    "title": "Ratinho Junior anuncia apoio a Flávio Bolsonaro: ‘Vamos caminhar juntos’",
-    "source": "Estadão",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZDg0UXV6ckFhZzZyWlM2UGh3WFZaQUFMZ3R1Zmw0a2h1MnlsTGJLS2lQYzB3OTNmTmFkN041cUtmdWx0YWpleDZJaHZ5dnRKZVozWDJwUThRVk5xbFJsNkVDYUdKZkdtcUFyWEVZQkgwZUR4S192ZlZRWGZ5UVJETGs1clFIR3RUZDlLMU8tYXM1MXRDSEdFSDkxZ0ZKSU82bDdaSTJyNEZNb3JNUG1qdXhjVFlad9IBuwFBVV95cUxOT25jeFk4S0s0M2g2NkJWaXJGUTFBRTQ5ZDU1R25PVTJZdVdkclUtOXNjcjR3TXUwTjFUa2dpc2tFU0l6WDZLbzMtcVdjVGQ3TTQ0VGJsOU9hRXY2WndDMkp0VF85TFZjdURNTkNoQ2dUM0VHMmtWckZWSExaOWVkODZhQ1BvOHAtLWl1NHRGY0gwMjVFckdNLUV3bjBuT1dDZTRfX2loOWNxb2JBSVdiV0p4QklWTnFCRmFJ?oc=5",
-    "publishedAt": "2026-10-10",
-    "category": "declaracao"
   },
   {
     "id": "news-lula-presidente-1791740003638-kqlu",
@@ -420,7 +510,7 @@
     "category": "declaracao"
   },
   {
-    "id": "news-ratinho-junior-presidente-1791839214213-x23e",
+    "id": "news-ratinho-junior-presidente-1791872100832-ezg2",
     "candidateId": "ratinho-junior-presidente",
     "candidateName": "Ratinho Júnior",
     "title": "Escolha tardia e força do PL: como a sucessão de Ratinho Júnior saiu dos trilhos no Paraná",
@@ -430,7 +520,7 @@
     "category": "declaracao"
   },
   {
-    "id": "news-eduardo-leite-presidente-1791839216676-kb4s",
+    "id": "news-eduardo-leite-presidente-1791872103367-hi93",
     "candidateId": "eduardo-leite-presidente",
     "candidateName": "Eduardo Leite",
     "title": "'Transição será republicana, com transparência e profundo diálogo', garante Leite em primeira reunião com Zucco",
@@ -440,7 +530,7 @@
     "category": "declaracao"
   },
   {
-    "id": "news-eduardo-leite-presidente-1791839216676-0ts6",
+    "id": "news-eduardo-leite-presidente-1791872103367-o5pc",
     "candidateId": "eduardo-leite-presidente",
     "candidateName": "Eduardo Leite",
     "title": "Governador eleito do RS inicia transição com reunião no Palácio Piratini",
@@ -450,7 +540,7 @@
     "category": "declaracao"
   },
   {
-    "id": "news-ricardo-nunes-1791839221909-mw6k",
+    "id": "news-ricardo-nunes-1791872108432-pbzv",
     "candidateId": "ricardo-nunes",
     "candidateName": "Ricardo Nunes",
     "title": "Ricardo Nunes vence resistência no MDB, que fecha apoio a Flávio",
@@ -460,7 +550,7 @@
     "category": "declaracao"
   },
   {
-    "id": "news-capitao-augusto-deputado-1791839226187-01mq",
+    "id": "news-capitao-augusto-deputado-1791872113050-isyb",
     "candidateId": "capitao-augusto-deputado",
     "candidateName": "Capitão Augusto",
     "title": "Aeroporto de Olímpia: projeto do nome parou na Câmara",
@@ -620,7 +710,7 @@
     "category": "declaracao"
   },
   {
-    "id": "news-jair-bolsonaro-presidente-1791839217526-depc",
+    "id": "news-jair-bolsonaro-presidente-1791872104190-b474",
     "candidateId": "jair-bolsonaro-presidente",
     "candidateName": "Jair Bolsonaro",
     "title": "TSE manda retirar do ar vídeos com uso de IA publicados por Flávio Bolsonaro",
@@ -630,7 +720,17 @@
     "category": "juridico"
   },
   {
-    "id": "news-haddad-governador-1791839219313-f6hs",
+    "id": "news-tarcisio-governador-1791872105019-6jl9",
+    "candidateId": "tarcisio-governador",
+    "candidateName": "Tarcísio de Freitas",
+    "title": "Abertura da 9ª Edição do Incorpora ABRAINC, com Governador Tarcísio de Freitas; Presidente da Associação Brasileira de Incorporadoras Imobiliárias (ABRAINC) – Luiz França; Secretário de Estado de Desenvolvimento Urbano e Habitação – Marcelo Bran",
+    "source": "Prefeitura de São Paulo",
+    "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9JZUNwV0QxbHlWR2c4ajh5UE5NVFZWdUx4bmozSjkzT0k4QTNrQXlEMDFwWTVzanRvOGhBUV9LeEVxTS1QbWx0MmE3bXlJbWRN?oc=5",
+    "publishedAt": "2026-10-08",
+    "category": "declaracao"
+  },
+  {
+    "id": "news-haddad-governador-1791872105953-ylmr",
     "candidateId": "haddad-governador",
     "candidateName": "Fernando Haddad",
     "title": "O que é 'split payment' na Reforma Tributária e o que dizem equipes de Lula e Flávio sobre o mecanismo",
@@ -640,7 +740,7 @@
     "category": "proposta"
   },
   {
-    "id": "news-haddad-governador-1791839219313-kpp5",
+    "id": "news-haddad-governador-1791872105953-9hhm",
     "candidateId": "haddad-governador",
     "candidateName": "Fernando Haddad",
     "title": "Governo Bolsonaro não fez correção de rumo fiscal, diz Durigan à CNN",
@@ -650,7 +750,7 @@
     "category": "declaracao"
   },
   {
-    "id": "news-ricardo-nunes-1791839221909-nmw2",
+    "id": "news-ricardo-nunes-1791872108432-n4rn",
     "candidateId": "ricardo-nunes",
     "candidateName": "Ricardo Nunes",
     "title": "Mônica Bergamo: Ricardo Nunes reunirá 38 prefeitos da Grande São Paulo para apoio a Flávio Bolsonaro",
@@ -660,7 +760,7 @@
     "category": "declaracao"
   },
   {
-    "id": "news-capitao-augusto-deputado-1791839226187-02o0",
+    "id": "news-capitao-augusto-deputado-1791872113050-iamm",
     "candidateId": "capitao-augusto-deputado",
     "candidateName": "Capitão Augusto",
     "title": "Capitão Augusto (PL) é reeleito deputado federal por São Paulo com 153.745 votos",
@@ -676,16 +776,6 @@
     "title": "Romeu Zema e representantes das Forças de Segurança de Minas apresentam balanço do trabalho realizado no Carnaval",
     "source": "Agência Minas",
     "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQbUhaVTV2aVRibzFNSmJrc0xROVVLbTRNcVpYUGZBWVpNWXhwemlIdlpjbnYtWmhQbWpvMGRiaWJFNG81R0o1UUl6c3pKejRrVUczSjBJZm5DTml0NmNXanlCOVprd28xemFPU2xEWExJcF9pR3ltUGtYU0JPSlFCckJCNFR6TlAyQUh6OE9CcDVDNlN6S3B0MWh4SkdvVXkzX0h6cGlEejlFTjhpVmhGeVZVeDFvWXYwclJ3LTJJYnZiNmhRV3o3ZWlpN3lXUXJqbDZMY1lpZjlVTlhlTUVLeVJQaV9TdU5pdHMyc0tpeDBDODA1aktTZU84cFp0Z0k?oc=5",
-    "publishedAt": "2026-10-08",
-    "category": "declaracao"
-  },
-  {
-    "id": "news-tarcisio-governador-1791782195335-0169",
-    "candidateId": "tarcisio-governador",
-    "candidateName": "Tarcísio de Freitas",
-    "title": "Abertura da 9ª Edição do Incorpora ABRAINC, com Governador Tarcísio de Freitas; Presidente da Associação Brasileira de Incorporadoras Imobiliárias (ABRAINC) – Luiz França; Secretário de Estado de Desenvolvimento Urbano e Habitação – Marcelo Bran",
-    "source": "Prefeitura de São Paulo",
-    "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9JZUNwV0QxbHlWR2c4ajh5UE5NVFZWdUx4bmozSjkzT0k4QTNrQXlEMDFwWTVzanRvOGhBUV9LeEVxTS1QbWx0MmE3bXlJbWRN?oc=5",
     "publishedAt": "2026-10-08",
     "category": "declaracao"
   },
@@ -840,7 +930,7 @@
     "category": "declaracao"
   },
   {
-    "id": "news-ronaldo-caiado-presidente-1791839213318-2biw",
+    "id": "news-ronaldo-caiado-presidente-1791872099975-rfrk",
     "candidateId": "ronaldo-caiado-presidente",
     "candidateName": "Ronaldo Caiado",
     "title": "RONALDO CAIADO | O candidato à Presidência Flávio Bolsonaro recebeu o apoio do ex-governador de Goiás para o segundo turno da disputa presidencial.⁣ ⁣ Em evento na capital de Goiás, o senador do PL prometeu, se eleito, destinar mais verbas ao Es",
@@ -850,7 +940,7 @@
     "category": "proposta"
   },
   {
-    "id": "news-guilherme-boulos-1791839220111-38w1",
+    "id": "news-guilherme-boulos-1791872106773-dxdf",
     "candidateId": "guilherme-boulos",
     "candidateName": "Guilherme Boulos",
     "title": "Guilherme Boulos se manifesta após morte do tio, atropelado durante discussão de trânsito em São Paulo: ‘Violência humanamente inexplicável’",
@@ -860,7 +950,7 @@
     "category": "declaracao"
   },
   {
-    "id": "news-mara-gabrilli-1791839223305-zsbk",
+    "id": "news-mara-gabrilli-1791872109952-2jem",
     "candidateId": "mara-gabrilli",
     "candidateName": "Mara Gabrilli",
     "title": "Mara Gabrilli destaca ações pela inclusão e pela mulher - PSD",
@@ -870,7 +960,7 @@
     "category": "declaracao"
   },
   {
-    "id": "news-capitao-augusto-deputado-1791839226187-tiel",
+    "id": "news-capitao-augusto-deputado-1791872113050-go74",
     "candidateId": "capitao-augusto-deputado",
     "candidateName": "Capitão Augusto",
     "title": "Projeto do PL para extinguir Ancine volta a circular após eleições",
@@ -1040,12 +1130,52 @@
     "category": "declaracao"
   },
   {
-    "id": "news-ronaldo-caiado-presidente-1791839213318-zqgt",
+    "id": "news-ronaldo-caiado-presidente-1791872099975-ghi3",
     "candidateId": "ronaldo-caiado-presidente",
     "candidateName": "Ronaldo Caiado",
     "title": "Caiado oficializa apoio a Flávio Bolsonaro no segundo turno",
     "source": "Gazeta do Povo",
     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPN0daZUtaVTgwc2tBa2M0VjNKdUtxSXNjaThkdng1OThETEJxRVh3LURFcUFkNjZia0dhcTNtWDFhTDU0djZoc1gtbDl5VXBGaHFNOEtqRkZvSDV5Y3dibURvY1Z2aWI2NDJ4Y0NnTUR1aUloQWN6S0JKb25NeTdPaDhnTVotWVdPNC1zbFd3Z25NMXdwLWFaZ0VaY3pndDJ4X19Bel9KRHpDUQ?oc=5",
+    "publishedAt": "2026-10-06",
+    "category": "declaracao"
+  },
+  {
+    "id": "news-eduardo-leite-presidente-1791872103367-c429",
+    "candidateId": "eduardo-leite-presidente",
+    "candidateName": "Eduardo Leite",
+    "title": "Leite reúne secretariado para alinhar preparação do processo de transição de governo",
+    "source": "Portal do Estado do Rio Grande do Sul",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOMVlvNWhwZi1kMkY2YnRhNGJUWkpZQUItcERuM3ZwNHN1OUMxeEthcWJGV3o5Yzh3MWtRVTkyUDBfN3owNVBoazhMSUVEb2xjRlRzcWRXVlR6Yy1iUG1SN2o5VW1fbnFNaE56M3NaY1FiUzd0Vm05ZTEtUlJxa0p0Mlg4ZzZyVXBJeEc4LW1YUklaX25taldGcmV5Qk5pemhveVp3YWNacjhDSmhncS03RGg1VQ?oc=5",
+    "publishedAt": "2026-10-06",
+    "category": "juridico"
+  },
+  {
+    "id": "news-haddad-governador-1791872105953-7xtg",
+    "candidateId": "haddad-governador",
+    "candidateName": "Fernando Haddad",
+    "title": "Flávio promete rever impostos e reforma tributária",
+    "source": "Acia Araçatuba",
+    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE52Unl4R2E4dmdrYW5za29PRV9TMUU2c29yZWFCTEpYRzFEYkdkN2cxdlowM0xfUzdKU2tLRGpoXzlWcnprSHcxbl9JdUJpMUdEY1VQekZMMDREdUViWjNZcDNudVR1MTNWOVB5WkFMV0dnQndUU2tTUkVZbw?oc=5",
+    "publishedAt": "2026-10-06",
+    "category": "proposta"
+  },
+  {
+    "id": "news-guilherme-boulos-1791872106773-iwqk",
+    "candidateId": "guilherme-boulos",
+    "candidateName": "Guilherme Boulos",
+    "title": "Eduardo Bolsonaro, Zambelli, Boulos: veja o que aconteceu com os 10 deputados federais mais votados de 2022",
+    "source": "G1",
+    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxONWdVOElUU0JqbGxneFlkZTJoTFB1Q1Axc2puUlpWNk9NU0hYd2lsSFNrZzJ2cFpqV1ZlRGg4MTRleHlBVlROU0doVFBuZzhqQ3VzZkZDMEpaakxqdFk4WTZXTDBaal9NVFpfNWFpVVdjVFJwSzlETEdKY25BVjY1TTM1bWhEYkFwcFE4ZkdMcjBZdXVsbzUzZldvcWhkS1FYWDhXZUVxQWpWOWlQYlNoYmlHTWg3Q25nNWwxMk0ybU8zZHhEWldoaEpwZ9IB2gFBVV95cUxNMnd0czRObTlVZjNMN1k3UmJTTHlOOWlObnpxdmUtSWs2cDFFaEYway1Pbzl5cXBMNUZJS01Eb0xaaGVZaTkwTlU4cnNXLVdsTjNjTjg0eUU4SEtaLVBQakRQSFBiekRiRkpoejBEYnZjWmdYQ1Q4dFd4aFNLeW5EWk93dS0xUzUxNzY5c2pYRFozRFNBcDZ4Nm15blF1MUtubmcxYTQzT05Ba0VKWF9jTldRcWJpM19mMDZDOG5OWHdGYWJxbm9McWZsZWJOMEw3QVpHNWNUQ05QUQ?oc=5",
+    "publishedAt": "2026-10-06",
+    "category": "declaracao"
+  },
+  {
+    "id": "news-guilherme-boulos-1791872106773-y6x6",
+    "candidateId": "guilherme-boulos",
+    "candidateName": "Guilherme Boulos",
+    "title": "Tio do ministro Guilherme Boulos morre após ser atropelado em São Paulo",
+    "source": "VEJA",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNYXNuZk4yNm9jV3B5WVpiMUpwTmVnWC1sQVdGbmNtOGYyc245T0ZVZTdRc2pUa0ZvbDM5ck5Mal8yZVRLTmkxd2ZKdmtYUUNveS0wZUR0TnkxVjdvNGlDc2VkSzNHckdNVHZ0MlhybVJoQ25WeUZjeVdwaTNZMVRkektENm94VkY2TVJTZ0xnaDZRRHQzMDR2b1JOSFF2VFo2Vmx2RGtDcE0?oc=5",
     "publishedAt": "2026-10-06",
     "category": "declaracao"
   },
@@ -1056,46 +1186,6 @@
     "title": "Zema não vence em nenhuma cidade de MG e fica em 3º na cidade natal, Araxá",
     "source": "G1",
     "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPMDZpQTg1Z1JLLXNxSXRSSjBYNTVVQUxRN1luUWhCR0ZndENoa2E5ejdkRTRsS09ONm1ZU0hvem9ZZngwX2VJQXFSd3RFUVNIZ19TVFJ5MFFfS0kwMW5lSHhLa25ZWWV0MkRrMDVETm56OEFuaXNtMEVfLTJVQzlWaU04NE1lSW1KSHJpSlh2dWpkSTlfS1F6TnJ6Tl9nUVRUT0xOanpEbWE4NUY3eWs5TXdGZ0Z5eVhoT0ZlUEs4NUY4LWhNV2RYN0dpR2tWbTdydVZlbEc5ZHJzRTdzYzhmZHh4c9IB8gFBVV95cUxNcE9FQkFWOWcxSWduZjQwcXliSDZPRVpyUi00Q1pUSGJDd3NGd1V3ZnJuUkZTY2wtSXdCa21PeEsta1lIZ3VfMkIxdU5OUXl4NmdkeUxjd0pBbTJrTzMwblh4WjI3Vkp0ZnFqTEJVSHlnN290TEFlY0NFRzJDa2JKMTl2elVIMzZMYk91REtqREpTdkMxazdhUG5xaXhuRjhpMlZUWW0yMjgtbjdhVU5kdmpVRDQzVzdaeERLOEpLbEl2STk5S0I2ajFsT1MwUnhTeEVxODd1cHRRYnVNUUxwTW9XUHdOSmROa3hVVXdRcFhuUQ?oc=5",
-    "publishedAt": "2026-10-06",
-    "category": "declaracao"
-  },
-  {
-    "id": "news-eduardo-leite-presidente-1791839216676-tgyo",
-    "candidateId": "eduardo-leite-presidente",
-    "candidateName": "Eduardo Leite",
-    "title": "Leite reúne secretariado para alinhar preparação do processo de transição de governo",
-    "source": "Portal do Estado do Rio Grande do Sul",
-    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOMVlvNWhwZi1kMkY2YnRhNGJUWkpZQUItcERuM3ZwNHN1OUMxeEthcWJGV3o5Yzh3MWtRVTkyUDBfN3owNVBoazhMSUVEb2xjRlRzcWRXVlR6Yy1iUG1SN2o5VW1fbnFNaE56M3NaY1FiUzd0Vm05ZTEtUlJxa0p0Mlg4ZzZyVXBJeEc4LW1YUklaX25taldGcmV5Qk5pemhveVp3YWNacjhDSmhncS03RGg1VQ?oc=5",
-    "publishedAt": "2026-10-06",
-    "category": "juridico"
-  },
-  {
-    "id": "news-haddad-governador-1791839219313-ile3",
-    "candidateId": "haddad-governador",
-    "candidateName": "Fernando Haddad",
-    "title": "Flávio promete rever impostos e reforma tributária",
-    "source": "Acia Araçatuba",
-    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE52Unl4R2E4dmdrYW5za29PRV9TMUU2c29yZWFCTEpYRzFEYkdkN2cxdlowM0xfUzdKU2tLRGpoXzlWcnprSHcxbl9JdUJpMUdEY1VQekZMMDREdUViWjNZcDNudVR1MTNWOVB5WkFMV0dnQndUU2tTUkVZbw?oc=5",
-    "publishedAt": "2026-10-06",
-    "category": "proposta"
-  },
-  {
-    "id": "news-guilherme-boulos-1791839220111-6nue",
-    "candidateId": "guilherme-boulos",
-    "candidateName": "Guilherme Boulos",
-    "title": "Eduardo Bolsonaro, Zambelli, Boulos: veja o que aconteceu com os 10 deputados federais mais votados de 2022",
-    "source": "G1",
-    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxONWdVOElUU0JqbGxneFlkZTJoTFB1Q1Axc2puUlpWNk9NU0hYd2lsSFNrZzJ2cFpqV1ZlRGg4MTRleHlBVlROU0doVFBuZzhqQ3VzZkZDMEpaakxqdFk4WTZXTDBaal9NVFpfNWFpVVdjVFJwSzlETEdKY25BVjY1TTM1bWhEYkFwcFE4ZkdMcjBZdXVsbzUzZldvcWhkS1FYWDhXZUVxQWpWOWlQYlNoYmlHTWg3Q25nNWwxMk0ybU8zZHhEWldoaEpwZ9IB2gFBVV95cUxNMnd0czRObTlVZjNMN1k3UmJTTHlOOWlObnpxdmUtSWs2cDFFaEYway1Pbzl5cXBMNUZJS01Eb0xaaGVZaTkwTlU4cnNXLVdsTjNjTjg0eUU4SEtaLVBQakRQSFBiekRiRkpoejBEYnZjWmdYQ1Q4dFd4aFNLeW5EWk93dS0xUzUxNzY5c2pYRFozRFNBcDZ4Nm15blF1MUtubmcxYTQzT05Ba0VKWF9jTldRcWJpM19mMDZDOG5OWHdGYWJxbm9McWZsZWJOMEw3QVpHNWNUQ05QUQ?oc=5",
-    "publishedAt": "2026-10-06",
-    "category": "declaracao"
-  },
-  {
-    "id": "news-guilherme-boulos-1791839220111-0eaf",
-    "candidateId": "guilherme-boulos",
-    "candidateName": "Guilherme Boulos",
-    "title": "Tio do ministro Guilherme Boulos morre após ser atropelado em São Paulo",
-    "source": "VEJA",
-    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNYXNuZk4yNm9jV3B5WVpiMUpwTmVnWC1sQVdGbmNtOGYyc245T0ZVZTdRc2pUa0ZvbDM5ck5Mal8yZVRLTmkxd2ZKdmtYUUNveS0wZUR0TnkxVjdvNGlDc2VkSzNHckdNVHZ0MlhybVJoQ25WeUZjeVdwaTNZMVRkektENm94VkY2TVJTZ0xnaDZRRHQzMDR2b1JOSFF2VFo2Vmx2RGtDcE0?oc=5",
     "publishedAt": "2026-10-06",
     "category": "declaracao"
   },
@@ -1370,7 +1460,7 @@
     "category": "pesquisa"
   },
   {
-    "id": "news-romeu-zema-presidente-1791839215035-87tw",
+    "id": "news-romeu-zema-presidente-1791872101700-xxgj",
     "candidateId": "romeu-zema-presidente",
     "candidateName": "Romeu Zema",
     "title": "Romeu Zema ficou em 6º lugar em Minas, estado que governou por mais de 7 anos",
@@ -1380,7 +1470,7 @@
     "category": "declaracao"
   },
   {
-    "id": "news-guilherme-boulos-1791839220111-w1qu",
+    "id": "news-guilherme-boulos-1791872106773-z6k3",
     "candidateId": "guilherme-boulos",
     "candidateName": "Guilherme Boulos",
     "title": "Casais, irmãos, pais e filhos: Os parentes eleitos em 2026",
@@ -1390,7 +1480,7 @@
     "category": "declaracao"
   },
   {
-    "id": "news-capitao-augusto-deputado-1791839226187-zmad",
+    "id": "news-capitao-augusto-deputado-1791872113050-sghv",
     "candidateId": "capitao-augusto-deputado",
     "candidateName": "Capitão Augusto",
     "title": "Eleições 2026: Capitão Augusto (PL) é eleito deputado federal por São Paulo",
@@ -1410,32 +1500,12 @@
     "category": "declaracao"
   },
   {
-    "id": "news-tarcisio-governador-1791782195335-4yyw",
-    "candidateId": "tarcisio-governador",
-    "candidateName": "Tarcísio de Freitas",
-    "title": "Reeleito em SP, Tarcísio promete mais entregas para o próximo mandato",
-    "source": "Agência Brasil",
-    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOcmM2UUtibjlYaDQ3NmNqWVdYLUc5anV4bjVETzY3aWszUl9wU3pmUVd0UFZiaEc1bjZxSUVBemZjQTYzY3V1bTdLT3VKQm9BUTV3a2ZfZlJvbnIzQ2x4U2VKbzdVZVlJcEpha2ItZ09qRTM0WVJTcjBJdW9nMmdjR1FFcVFfaTZ5RDIyTGoxdm9tWjBza0dFLVR5UXJ3M0xCUVB3SEdqLTlRYkpfN0xlaDFuLWs0aDlCR0ZUZUZpYzdSUy1t?oc=5",
-    "publishedAt": "2026-10-05",
-    "category": "proposta"
-  },
-  {
     "id": "news-romeu-zema-presidente-1791740006258-r77z",
     "candidateId": "romeu-zema-presidente",
     "candidateName": "Romeu Zema",
     "title": "Zema declara apoio a Flávio Bolsonaro no segundo turno",
     "source": "Gazeta do Povo",
     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPRDJDZ1g5V3ZzUWVpd09vOWNVOXZ5T0N0bHlsQ0xLcWZzd0tFUTAxTzVMT1JDQlFFamtjTWNPbVIzSG5DWWdrSTJtal9sTHk4QXZRc253bmR0SU9Cb3VEb21iZUwyWjM2bWc4Si0wV2dPS283SDRMc0NTN0ZPSzlCT295OTZJNmNWT3pyNGNsWjNrTTBOdnVWQlRteUM4blZzSzNR?oc=5",
-    "publishedAt": "2026-10-05",
-    "category": "declaracao"
-  },
-  {
-    "id": "news-tarcisio-governador-1791740009719-tx1q",
-    "candidateId": "tarcisio-governador",
-    "candidateName": "Tarcísio de Freitas",
-    "title": "Quem é Tarcísio de Freitas, que assume pela segunda vez o governo de SP",
-    "source": "G1",
-    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOVk50NWw1NFhkdXlwNV9BMHFmRHNRSUM1ZTg0WnNFMXBYYmp5aVpoSUVUQ2tUSEZKdWswX0hQOUkzTURLT3hOS243YTdWMmx4Qld1YUd6d0VuNmNVQWZhOGlYSE9WUE96YXAxSWxZaXppa1VDT2MtcGZ0Z09HaU5CeEhncGNiLUtzUEotdG1yci1XRjdpMTU3aHBibDVqSEluRlVmTTJHb1RWaWM1ZThTcTRPdFhSWjhZV0NtNndvYlhsQWJNTGNoRnRCX013Zi1pM2JURDgtbDZfU2PSAeoBQVVfeXFMTTd2UWlpeVpsMXR0Y0ZHd0N4ZkpVYXVtbkFjcEE2VmZlb2ZIZzNocVplX3VVTU5ZeFN0Zi04cUd2bm1PbGV5VkpmU1ZXX3RJcFh5bGJtUzBiVWpxbmZnUzBmc2lRbnpnNlpKNzR4ZVktQUkyeTYtWTJlLXZTdFNJY0RhemlQUy0xdTVIUi1McGx5dW5RNzBiTGpTaXpQX2JfZVpfTklCS2xfcG8zWDBIb2lfUm1HaGY4c2VKYXR5UUJxYk53U1BwWUJ2T1d4WFVCY3BmeDRmUFBwSHR5MTdlUDRkdmRXWWV0SnRB?oc=5",
     "publishedAt": "2026-10-05",
     "category": "declaracao"
   },
@@ -1850,7 +1920,7 @@
     "category": "declaracao"
   },
   {
-    "id": "news-ronaldo-caiado-presidente-1791839213317-r8na",
+    "id": "news-ronaldo-caiado-presidente-1791872099975-sgi9",
     "candidateId": "ronaldo-caiado-presidente",
     "candidateName": "Ronaldo Caiado",
     "title": "Ronaldo Caiado elege sucessor ao governo de Goiás no primeiro turno",
@@ -1860,7 +1930,7 @@
     "category": "declaracao"
   },
   {
-    "id": "news-ronaldo-caiado-presidente-1791839213317-t5a0",
+    "id": "news-ronaldo-caiado-presidente-1791872099975-by5s",
     "candidateId": "ronaldo-caiado-presidente",
     "candidateName": "Ronaldo Caiado",
     "title": "Eleições 2026: Ronaldo Caiado elege sucessor, Daniel Vilela, no governo de Goiás",
@@ -1870,7 +1940,7 @@
     "category": "declaracao"
   },
   {
-    "id": "news-ronaldo-caiado-presidente-1791839213317-5vm5",
+    "id": "news-ronaldo-caiado-presidente-1791872099975-tpf0",
     "candidateId": "ronaldo-caiado-presidente",
     "candidateName": "Ronaldo Caiado",
     "title": "Ronaldo Caiado vota em Goiás acompanhado de Kassab e aliados",
@@ -1880,22 +1950,52 @@
     "category": "declaracao"
   },
   {
+    "id": "news-romeu-zema-presidente-1791872101700-7t3z",
+    "candidateId": "romeu-zema-presidente",
+    "candidateName": "Romeu Zema",
+    "title": "Eleições 2026: Zema vota em Minas Gerais",
+    "source": "CNN Brasil",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPazhLeVcyNkhTRk5GNThIdURhTHZCUXIyMWFzMVJiU1FWTnhDQ0ZqRGhUalQzMXNKazhVeUpKY01yNHpDSE5xamxYaTMwdU5BU0F1cEhzV3laWVRVcU5IS2hmZk5ycUt6dVQ3aUUtOXRsdWMycWZ2LUFjc1RnSTcteTVDdGU?oc=5",
+    "publishedAt": "2026-10-04",
+    "category": "declaracao"
+  },
+  {
+    "id": "news-tarcisio-governador-1791872105019-tu3y",
+    "candidateId": "tarcisio-governador",
+    "candidateName": "Tarcísio de Freitas",
+    "title": "Quem é Tarcísio de Freitas, que assume pela segunda vez o governo de SP",
+    "source": "G1",
+    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOVk50NWw1NFhkdXlwNV9BMHFmRHNRSUM1ZTg0WnNFMXBYYmp5aVpoSUVUQ2tUSEZKdWswX0hQOUkzTURLT3hOS243YTdWMmx4Qld1YUd6d0VuNmNVQWZhOGlYSE9WUE96YXAxSWxZaXppa1VDT2MtcGZ0Z09HaU5CeEhncGNiLUtzUEotdG1yci1XRjdpMTU3aHBibDVqSEluRlVmTTJHb1RWaWM1ZThTcTRPdFhSWjhZV0NtNndvYlhsQWJNTGNoRnRCX013Zi1pM2JURDgtbDZfU2PSAeoBQVVfeXFMTTd2UWlpeVpsMXR0Y0ZHd0N4ZkpVYXVtbkFjcEE2VmZlb2ZIZzNocVplX3VVTU5ZeFN0Zi04cUd2bm1PbGV5VkpmU1ZXX3RJcFh5bGJtUzBiVWpxbmZnUzBmc2lRbnpnNlpKNzR4ZVktQUkyeTYtWTJlLXZTdFNJY0RhemlQUy0xdTVIUi1McGx5dW5RNzBiTGpTaXpQX2JfZVpfTklCS2xfcG8zWDBIb2lfUm1HaGY4c2VKYXR5UUJxYk53U1BwWUJ2T1d4WFVCY3BmeDRmUFBwSHR5MTdlUDRkdmRXWWV0SnRB?oc=5",
+    "publishedAt": "2026-10-04",
+    "category": "declaracao"
+  },
+  {
+    "id": "news-tarcisio-governador-1791872105019-6dn0",
+    "candidateId": "tarcisio-governador",
+    "candidateName": "Tarcísio de Freitas",
+    "title": "Reeleição em 1º turno em SP mantém Tarcísio como presidenciável para 2030",
+    "source": "JOTA Info",
+    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOQnVLbkZJN0Q0MDRONGxvNWVhTkFiTmJSYUF4Y21oVmVoczZjMV9RcWNlXy1ILXJpNTZzSVE3TGhpQ3gtN3RueWhtWmxnM1FyaHE1a0haREJZRVN3NGdHSDRZb211QWZFSks4cTYxaGhzTWhHNzdSbVA0MTZuRWFhQUlja3V1Y2VLaV9iYjVvY3p2YXhOY2NFOXJseURoYk9lTTJPTGp1bXdwdjk0X3VSNlZwcURvR3psV3lqVXpSZ05JOGh3aWQtVlhqWnNhRWs?oc=5",
+    "publishedAt": "2026-10-04",
+    "category": "declaracao"
+  },
+  {
+    "id": "news-tarcisio-governador-1791872105019-zuic",
+    "candidateId": "tarcisio-governador",
+    "candidateName": "Tarcísio de Freitas",
+    "title": "Reeleito em SP, Tarcísio promete mais entregas para o próximo mandato",
+    "source": "Agência Brasil",
+    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOcmM2UUtibjlYaDQ3NmNqWVdYLUc5anV4bjVETzY3aWszUl9wU3pmUVd0UFZiaEc1bjZxSUVBemZjQTYzY3V1bTdLT3VKQm9BUTV3a2ZfZlJvbnIzQ2x4U2VKbzdVZVlJcEpha2ItZ09qRTM0WVJTcjBJdW9nMmdjR1FFcVFfaTZ5RDIyTGoxdm9tWjBza0dFLVR5UXJ3M0xCUVB3SEdqLTlRYkpfN0xlaDFuLWs0aDlCR0ZUZUZpYzdSUy1t?oc=5",
+    "publishedAt": "2026-10-04",
+    "category": "proposta"
+  },
+  {
     "id": "news-romeu-zema-presidente-1791839215035-yqx5",
     "candidateId": "romeu-zema-presidente",
     "candidateName": "Romeu Zema",
     "title": "Tribunal Eleitoral de Minas vai apurar uso de celular por Zema na urna",
     "source": "Agência Brasil",
     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPNU9zQzlFZWpJc0NLdEkxeERVX2ZSeVF4bEt5aWpZcG12ZUczNURFRHNTaDZhNHZaa1lfTEdNaWFrLVhiUVZ4czhVWGVLNl9kNWRoR1pWTmQwcDJzaGpBS2lGblhaQ3QtR2JmM3l3M1plUVBHczFOUXk4X1Fsa1JHS2w3VTJqX1JneXB3WDIzUlVrYVN2NUhMcXpQOEM4VFpkVnp4UGdIaUxqN2ZNOEFEXy1WN2loUHRjQ3RHVWtpT1gwMDNxQUE?oc=5",
-    "publishedAt": "2026-10-04",
-    "category": "declaracao"
-  },
-  {
-    "id": "news-romeu-zema-presidente-1791839215035-8yog",
-    "candidateId": "romeu-zema-presidente",
-    "candidateName": "Romeu Zema",
-    "title": "Eleições 2026: Zema vota em Minas Gerais",
-    "source": "CNN Brasil",
-    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPazhLeVcyNkhTRk5GNThIdURhTHZCUXIyMWFzMVJiU1FWTnhDQ0ZqRGhUalQzMXNKazhVeUpKY01yNHpDSE5xamxYaTMwdU5BU0F1cEhzV3laWVRVcU5IS2hmZk5ycUt6dVQ3aUUtOXRsdWMycWZ2LUFjc1RnSTcteTVDdGU?oc=5",
     "publishedAt": "2026-10-04",
     "category": "declaracao"
   },
@@ -1916,16 +2016,6 @@
     "title": "Tarcísio é reeleito governador de São Paulo",
     "source": "Agência Brasil",
     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNYXhzUXdHeG10Ni03MXU3TnJ4a3lMWFVnUUdRbXZSb1N3c3VuOHhkcTVVRkotd3pUVXZJQTZHaWlWTTlyUUdXRGdjc3cxQ2NVeFI5NXB4dEZ3TFhnMW40aWpoSTVHVWxmQWxsQjYzLWNJR0Z0ZWtPN3M0aGxpSTI5ZmtTWlNuZW5tRnVDRERHOFlYTFdLeXptZDdlM2VhQlhqNWow?oc=5",
-    "publishedAt": "2026-10-04",
-    "category": "declaracao"
-  },
-  {
-    "id": "news-tarcisio-governador-1791839218396-drjd",
-    "candidateId": "tarcisio-governador",
-    "candidateName": "Tarcísio de Freitas",
-    "title": "Reeleição em 1º turno em SP mantém Tarcísio como presidenciável para 2030",
-    "source": "JOTA Info",
-    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOQnVLbkZJN0Q0MDRONGxvNWVhTkFiTmJSYUF4Y21oVmVoczZjMV9RcWNlXy1ILXJpNTZzSVE3TGhpQ3gtN3RueWhtWmxnM1FyaHE1a0haREJZRVN3NGdHSDRZb211QWZFSks4cTYxaGhzTWhHNzdSbVA0MTZuRWFhQUlja3V1Y2VLaV9iYjVvY3p2YXhOY2NFOXJseURoYk9lTTJPTGp1bXdwdjk0X3VSNlZwcURvR3psV3lqVXpSZ05JOGh3aWQtVlhqWnNhRWs?oc=5",
     "publishedAt": "2026-10-04",
     "category": "declaracao"
   },
@@ -2360,7 +2450,7 @@
     "category": "juridico"
   },
   {
-    "id": "news-ciro-gomes-presidente-1791839215778-zmrj",
+    "id": "news-ciro-gomes-presidente-1791872102453-0vd9",
     "candidateId": "ciro-gomes-presidente",
     "candidateName": "Ciro Gomes",
     "title": "Ciro Gomes diz que apoio de Eduardo Bolsonaro é 'irrelevante' no Ceará e apresenta propostas no último dia de campanha",
@@ -2370,7 +2460,7 @@
     "category": "proposta"
   },
   {
-    "id": "news-ciro-gomes-presidente-1791839215778-7ulc",
+    "id": "news-ciro-gomes-presidente-1791872102453-mpw1",
     "candidateId": "ciro-gomes-presidente",
     "candidateName": "Ciro Gomes",
     "title": "Mais delegacias e ônibus de graça aos fins de semana: veja propostas de Ciro e Elmano",
@@ -2540,6 +2630,16 @@
     "category": "pesquisa"
   },
   {
+    "id": "news-romeu-zema-presidente-1791872101700-a2wk",
+    "candidateId": "romeu-zema-presidente",
+    "candidateName": "Romeu Zema",
+    "title": "Zema termina campanha menor do que entrou",
+    "source": "Valor Econômico",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZ2xhbFlEOWEzMlgxb0hMdXVWOVhZVi13UVdFZjZUMlRFUGJSUGpDaC1za29zWlliSWFlMm9zM04weVU1R0JySUdjbFFlOHN6WlNXZV9penY3UUxYRXBvZHFHQmNkVkNwaTFlLXVERUFSdExWc1BOTFM3QUxXQzY4MVpRbW5MWXEwdUd5OUhFSUxYUU0zQ2VEX25Sc3RMQUltMElqSG5LOTZVME5LUnVlNzV3VdIBwgFBVV95cUxOdUZnZE9Fd1E4WldOd2pVdS1BRDJOVXIyRFp5WUxTQmRyOGJkTHhhQTlma1RiWjljcGFQaU1KV2VRUkt5dGdvaGxNT1B4TE1oLVVxWmo5eUlOWEhaalA1aHFhM09scG9ZZUFyNGllOGNCZUs5VzZLeGlseFVOUGJJWEo4WDJWZFotQ2tRMVhkNWtxWU0zRjBwenAzVnk2azczUkFsajFIalh5cTUzM2UxMnpDQjRJQVF2TEJ2cHBfNmtMdw?oc=5",
+    "publishedAt": "2026-10-02",
+    "category": "declaracao"
+  },
+  {
     "id": "news-tarcisio-governador-1791740009720-ttn9",
     "candidateId": "tarcisio-governador",
     "candidateName": "Tarcísio de Freitas",
@@ -2596,16 +2696,6 @@
     "title": "Fraco desempenho de Caiado e Zema é alerta para futuro de Tarcísio",
     "source": "JOTA Jornalismo",
     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNN09OdmFyUFpNMDI3X1dGbjN1UDY1aUJIRE12cjhHQmx6SVgwMVRUclowamlSdVVLS3RfSkdmd1FsTGgxeFMzUGhlZTFGS29kTDJBYnZ1RWdsdGVwdXBwd2NSNXFlQW5jdWFOeGNicjI4aE9ET3BmNDNqc2ZtM3NtVEJLNjBPblZSWG8xbVJtSHVNVDNtV3RLZWhYQVdUR2NZSGpVNVRIdUJJOXo1ZjJ3eFdSZDZUc0ROLWVEeXdrbzExbkN6bUFhZi1xaw?oc=5",
-    "publishedAt": "2026-10-02",
-    "category": "declaracao"
-  },
-  {
-    "id": "news-romeu-zema-presidente-1791090674052-164a",
-    "candidateId": "romeu-zema-presidente",
-    "candidateName": "Romeu Zema",
-    "title": "Zema termina campanha menor do que entrou",
-    "source": "Valor Econômico",
-    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZ2xhbFlEOWEzMlgxb0hMdXVWOVhZVi13UVdFZjZUMlRFUGJSUGpDaC1za29zWlliSWFlMm9zM04weVU1R0JySUdjbFFlOHN6WlNXZV9penY3UUxYRXBvZHFHQmNkVkNwaTFlLXVERUFSdExWc1BOTFM3QUxXQzY4MVpRbW5MWXEwdUd5OUhFSUxYUU0zQ2VEX25Sc3RMQUltMElqSG5LOTZVME5LUnVlNzV3VdIBwgFBVV95cUxOdUZnZE9Fd1E4WldOd2pVdS1BRDJOVXIyRFp5WUxTQmRyOGJkTHhhQTlma1RiWjljcGFQaU1KV2VRUkt5dGdvaGxNT1B4TE1oLVVxWmo5eUlOWEhaalA1aHFhM09scG9ZZUFyNGllOGNCZUs5VzZLeGlseFVOUGJJWEo4WDJWZFotQ2tRMVhkNWtxWU0zRjBwenAzVnk2azczUkFsajFIalh5cTUzM2UxMnpDQjRJQVF2TEJ2cHBfNmtMdw?oc=5",
     "publishedAt": "2026-10-02",
     "category": "declaracao"
   },
@@ -2770,22 +2860,22 @@
     "category": "declaracao"
   },
   {
+    "id": "news-ricardo-nunes-1791872108432-oki6",
+    "candidateId": "ricardo-nunes",
+    "candidateName": "Ricardo Nunes",
+    "title": "Dia do prefeito Ricardo Nunes",
+    "source": "Prefeitura de São Paulo",
+    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBnMlV6VTZzNFZSRzRwNDFtdUZzU1l2VmhtRzU2ZVhQMDFCME10ckJkRmdTbmtabWoxdnB2TEpRUWVVeTVUOWtfVy1qU3haUU1TN2FoQzM4STlwSXByX28yWlpiMVF1UHJUdDd3WFE3cG5Vdw?oc=5",
+    "publishedAt": "2026-10-01",
+    "category": "declaracao"
+  },
+  {
     "id": "news-ciro-gomes-presidente-1791839215778-g3so",
     "candidateId": "ciro-gomes-presidente",
     "candidateName": "Ciro Gomes",
     "title": "Ciro propõe modelo de desenvolvimento regionalizado no Ceará e oferta de capacitação personalizada",
     "source": "G1",
     "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPUDVNclVhMzZBWXliNW9NdklXNEJIMTR6SHg5ZDBIb053ekNjWWpFaHZaNWdnbXZiSGt1b2dzTXo1NWZfMExlUW01S0duUDVNel9DQU9ia3JHMl9GUmdqRXItZElrMjZBWFdkWE5JLW1heUwxVDV4LWRhdm1Md3VrU3VmcXdFOS1FWWRyenpCRVRaV0NFNExOeFRPNjdOMEUxUDM0VUp2djBJNGEydmsycVE5QnZxcXhWUUEyc1dvYzFuSURndGhjaFNVV0ppUFl4R3c4UGlEQzNHSkZ6UjdyOFI5bnhSeWpXRlRobkJrYXQyYmMyaHBmYnNYVdIBigJBVV95cUxPSVpKdGlVVGhYR3R3YllfLWhsUjFFQklfWGVZMncxWjZwNWRLNXNGQW0yT1hhWDZ3OTc0NVh4a19jTGs0UERMVnZIdks3VGVXSmljU2V5VkJ5TFh6N2VCdndqMEM4YTlkUHZDUVVac3VPOFF6Q2ZVc0VNOVBILWNfM3dwd3RfaUVHZVJ5Y3dxdjVVNF9VemVUb3NOVEpEWDB5b0h2bzNLRFJxRmxjV2haMWduMW9oZUNtNXdzbmVVaFVNbGRtX00yQlRucFJsSXl2ZnlKUTFxd0Z4S2hvOGRJQXF5Ujl0bk5UY3BzV21ScDNsYnNpSUxDR1k1YjZSbm1ZQWhuZWFQU0VJQQ?oc=5",
-    "publishedAt": "2026-10-01",
-    "category": "declaracao"
-  },
-  {
-    "id": "news-ricardo-nunes-1791839221909-qe42",
-    "candidateId": "ricardo-nunes",
-    "candidateName": "Ricardo Nunes",
-    "title": "Dia do prefeito Ricardo Nunes",
-    "source": "Prefeitura de São Paulo",
-    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBnMlV6VTZzNFZSRzRwNDFtdUZzU1l2VmhtRzU2ZVhQMDFCME10ckJkRmdTbmtabWoxdnB2TEpRUWVVeTVUOWtfVy1qU3haUU1TN2FoQzM4STlwSXByX28yWlpiMVF1UHJUdDd3WFE3cG5Vdw?oc=5",
     "publishedAt": "2026-10-01",
     "category": "declaracao"
   },
@@ -2860,7 +2950,17 @@
     "category": "declaracao"
   },
   {
-    "id": "news-haddad-governador-1791839219313-k112",
+    "id": "news-ciro-gomes-presidente-1791872102453-geyg",
+    "candidateId": "ciro-gomes-presidente",
+    "candidateName": "Ciro Gomes",
+    "title": "Ciro e Elmano confrontam propostas para segurança, educação e emprego na reta final",
+    "source": "Balada IN",
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNYWxZOFZxZEt5V2xNWUx1LUg4QXU4bmVId0xnaU9ERTlMdUNvclpjOTdvazlPblo3WDZYUmlkZ1A0SWpJVkhkODlBN0s0YVVfYWlEU0wtdW5iS1oxVjlIT0dZbE5LUHVyUHg2SDBtWFNlNF9yNDcwVVg1VW5xY1JFOVZuM0JISlRPTUtfV0cxXzRoUjRZSzBDVFZFekRpSmYxd0RjaXMwaV8tcmwtOTdXTXQ4LUFCZFNYdGtZWW5RdVdQNjg?oc=5",
+    "publishedAt": "2026-09-30",
+    "category": "proposta"
+  },
+  {
+    "id": "news-haddad-governador-1791872105953-or40",
     "candidateId": "haddad-governador",
     "candidateName": "Fernando Haddad",
     "title": "Checamos o debate da Globo entre candidatos ao governo de São Paulo",
@@ -2876,16 +2976,6 @@
     "title": "Debate no Ceará opõe resultados e propostas de Elmano a críticas de Ciro",
     "source": "Vermelho",
     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPV1lGeTQ0WnlIZGxMWU5aZXc0cHpDdks4dzNoeW9XMFpqWUtpQlBJNVpzdUtZdVVFMl9xRGRYNzNNLXRreHVUYWI2aWdxY2hsS1JSaDc5M3ZUb012OUI4a1hpalM5eWRKYXpja1F6TEhHZy00WUhpaW9ST1F0LW1oTmtzYmpJbFFSNFVoZTF4QnRrbnlPMUJOUUFtM3FtMTZ2?oc=5",
-    "publishedAt": "2026-09-30",
-    "category": "proposta"
-  },
-  {
-    "id": "news-ciro-gomes-presidente-1791740007042-bb4u",
-    "candidateId": "ciro-gomes-presidente",
-    "candidateName": "Ciro Gomes",
-    "title": "Ciro e Elmano confrontam propostas para segurança, educação e emprego na reta final",
-    "source": "Balada IN",
-    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNYWxZOFZxZEt5V2xNWUx1LUg4QXU4bmVId0xnaU9ERTlMdUNvclpjOTdvazlPblo3WDZYUmlkZ1A0SWpJVkhkODlBN0s0YVVfYWlEU0wtdW5iS1oxVjlIT0dZbE5LUHVyUHg2SDBtWFNlNF9yNDcwVVg1VW5xY1JFOVZuM0JISlRPTUtfV0cxXzRoUjRZSzBDVFZFekRpSmYxd0RjaXMwaV8tcmwtOTdXTXQ4LUFCZFNYdGtZWW5RdVdQNjg?oc=5",
     "publishedAt": "2026-09-30",
     "category": "proposta"
   },
@@ -2990,7 +3080,7 @@
     "category": "declaracao"
   },
   {
-    "id": "news-arnaldo-jardim-deputado-1791839226875-dk4x",
+    "id": "news-arnaldo-jardim-deputado-1791872113788-l47c",
     "candidateId": "arnaldo-jardim-deputado",
     "candidateName": "Arnaldo Jardim",
     "title": "Bitributação pode travar reciclagem de aço, diz deputado",
@@ -3060,7 +3150,7 @@
     "category": "declaracao"
   },
   {
-    "id": "news-marcos-pontes-senador-1791839222689-kvbc",
+    "id": "news-marcos-pontes-senador-1791872109243-3lg8",
     "candidateId": "marcos-pontes-senador",
     "candidateName": "Marcos Pontes",
     "title": "Marcos Pontes pede voto para Wellington e diz que MT precisa de governador ‘à altura’",
@@ -3090,7 +3180,7 @@
     "category": "declaracao"
   },
   {
-    "id": "news-marcos-pontes-senador-1791839222689-vn8g",
+    "id": "news-marcos-pontes-senador-1791872109243-2h1s",
     "candidateId": "marcos-pontes-senador",
     "candidateName": "Marcos Pontes",
     "title": "Astronauta Marcos Pontes pede voto para Wellington",
@@ -3140,7 +3230,7 @@
     "category": "declaracao"
   },
   {
-    "id": "news-marcos-pontes-senador-1791839222689-fwsa",
+    "id": "news-marcos-pontes-senador-1791872109243-kwdi",
     "candidateId": "marcos-pontes-senador",
     "candidateName": "Marcos Pontes",
     "title": "Senado vai pagar ida de Marcos Pontes a 3 países para eventos espaciais",
@@ -3160,7 +3250,7 @@
     "category": "declaracao"
   },
   {
-    "id": "news-ciro-gomes-presidente-1791839215778-jfh1",
+    "id": "news-ciro-gomes-presidente-1791872102453-re8l",
     "candidateId": "ciro-gomes-presidente",
     "candidateName": "Ciro Gomes",
     "title": "Plano de Ciro Gomes: confira as principais propostas o Ceará",
@@ -3170,22 +3260,22 @@
     "category": "proposta"
   },
   {
-    "id": "news-ricardo-nunes-1791839221909-hqkg",
-    "candidateId": "ricardo-nunes",
-    "candidateName": "Ricardo Nunes",
-    "title": "Prefeitura de SP aprovou planilha de ONG ligada a 'Dark Horse' que indica ponto de Wi-Fi em praia carioca",
-    "source": "Intercept Brasil",
-    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQOWpiUHA1RVpPMGNnNU91d3FjaEhNXzNKWW94SFVTWC1YWGhRNnNHdjFtek5DSC03RTA5TUxVN2JLczZOM3I2QjVYY2FVenRUcHhKemZ4dTN0U01CUkhnR0llYmF1bm5teGp0NmY4SmJrM0hMWGFHOWxWWTZkUk9VRjNVc29zRXpNd3hOOHFtY1VidGNjYWdQU2JrcENUZTQ3R3FydnhZME5jbVFyQ0hseThncw?oc=5",
-    "publishedAt": "2026-09-24",
-    "category": "declaracao"
-  },
-  {
-    "id": "news-ricardo-nunes-1791740013250-rod8",
+    "id": "news-ricardo-nunes-1791872108432-meit",
     "candidateId": "ricardo-nunes",
     "candidateName": "Ricardo Nunes",
     "title": "Dia do prefeito Ricardo Nunes",
     "source": "Prefeitura de São Paulo",
     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5hSF96eHZERzNESFFzY3Z4OGRacjNWY0d0akdRVVh4XzhNN3dSYU13eUNJZXpMcXNocVNHQ2V6TzRvSmt3Ymp5LUhEWW9VaUU3MlVaWWdCYXJqTmxsX2ZjQ2NIbmRlVXh4djd2U2dBV2thZw?oc=5",
+    "publishedAt": "2026-09-24",
+    "category": "declaracao"
+  },
+  {
+    "id": "news-ricardo-nunes-1791872108432-f15b",
+    "candidateId": "ricardo-nunes",
+    "candidateName": "Ricardo Nunes",
+    "title": "Prefeitura de SP aprovou planilha de ONG ligada a 'Dark Horse' que indica ponto de Wi-Fi em praia carioca",
+    "source": "Intercept Brasil",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQOWpiUHA1RVpPMGNnNU91d3FjaEhNXzNKWW94SFVTWC1YWGhRNnNHdjFtek5DSC03RTA5TUxVN2JLczZOM3I2QjVYY2FVenRUcHhKemZ4dTN0U01CUkhnR0llYmF1bm5teGp0NmY4SmJrM0hMWGFHOWxWWTZkUk9VRjNVc29zRXpNd3hOOHFtY1VidGNjYWdQU2JrcENUZTQ3R3FydnhZME5jbVFyQ0hseThncw?oc=5",
     "publishedAt": "2026-09-24",
     "category": "declaracao"
   },
@@ -3580,7 +3670,7 @@
     "category": "declaracao"
   },
   {
-    "id": "news-marcos-pontes-senador-1791839222689-kbuc",
+    "id": "news-marcos-pontes-senador-1791872109243-waqx",
     "candidateId": "marcos-pontes-senador",
     "candidateName": "Marcos Pontes",
     "title": "Especialistas defendem fortalecimento do uso de drones no Brasil",
@@ -3630,7 +3720,7 @@
     "category": "declaracao"
   },
   {
-    "id": "news-mara-gabrilli-1791839223305-qn7o",
+    "id": "news-mara-gabrilli-1791872109952-8yq7",
     "candidateId": "mara-gabrilli",
     "candidateName": "Mara Gabrilli",
     "title": "Comissão do Senado aprova inclusão de vacina contra herpes-zóster no SUS",
@@ -3690,7 +3780,7 @@
     "category": "juridico"
   },
   {
-    "id": "news-marcos-pontes-senador-1791839222689-yvaf",
+    "id": "news-marcos-pontes-senador-1791872109243-3qf7",
     "candidateId": "marcos-pontes-senador",
     "candidateName": "Marcos Pontes",
     "title": "Pontes vai presidir Subcomissão sobre Desenvolvimento de Vacinas — Senado Notícias",
@@ -3700,7 +3790,7 @@
     "category": "declaracao"
   },
   {
-    "id": "news-capitao-augusto-deputado-1791839226187-ujjp",
+    "id": "news-capitao-augusto-deputado-1791872113050-e9od",
     "candidateId": "capitao-augusto-deputado",
     "candidateName": "Capitão Augusto",
     "title": "Capitão Augusto: proposta melhora condições de trabalho de policiais militares",
@@ -3770,7 +3860,7 @@
     "category": "gestao"
   },
   {
-    "id": "news-ciro-gomes-presidente-1791839215778-b67d",
+    "id": "news-ciro-gomes-presidente-1791872102453-ujzt",
     "candidateId": "ciro-gomes-presidente",
     "candidateName": "Ciro Gomes",
     "title": "Ciro Gomes: veja as principais propostas do Plano de Governo para o Ceará em 2026",
@@ -3790,7 +3880,7 @@
     "category": "pesquisa"
   },
   {
-    "id": "news-guilherme-boulos-1791839220111-s24h",
+    "id": "news-guilherme-boulos-1791872106773-3dcu",
     "candidateId": "guilherme-boulos",
     "candidateName": "Guilherme Boulos",
     "title": "CAS discute projeto de fiscalização de políticas sociais do governo federal",
@@ -3860,7 +3950,7 @@
     "category": "gestao"
   },
   {
-    "id": "news-arnaldo-jardim-deputado-1791839226875-9cnm",
+    "id": "news-arnaldo-jardim-deputado-1791872113788-gzuu",
     "candidateId": "arnaldo-jardim-deputado",
     "candidateName": "Arnaldo Jardim",
     "title": "Arnaldo Jardim defende fortalecimento das concessões e PPPs",
@@ -3890,7 +3980,7 @@
     "category": "proposta"
   },
   {
-    "id": "news-rodrigo-agostinho-deputado-1791839225367-riey",
+    "id": "news-rodrigo-agostinho-deputado-1791872112197-byz2",
     "candidateId": "rodrigo-agostinho-deputado",
     "candidateName": "Rodrigo Agostinho",
     "title": "Rodrigo Agostinho fala sobre a COP 25",
@@ -3910,7 +4000,7 @@
     "category": "declaracao"
   },
   {
-    "id": "news-rodrigo-agostinho-deputado-1791839225367-opf6",
+    "id": "news-rodrigo-agostinho-deputado-1791872112197-wtfa",
     "candidateId": "rodrigo-agostinho-deputado",
     "candidateName": "Rodrigo Agostinho",
     "title": "Ex-presidente do Ibama, Rodrigo Agostinho anuncia pré-candidatura a deputado federal por SP",
@@ -3920,7 +4010,7 @@
     "category": "declaracao"
   },
   {
-    "id": "news-janaina-paschoal-1791839224599-b670",
+    "id": "news-janaina-paschoal-1791872111325-041b",
     "candidateId": "janaina-paschoal",
     "candidateName": "Janaína Paschoal",
     "title": "Janaina Paschoal critica promotora que barrou oração em evento: \"Não sabe a diferença entre Estado Laico e estado ateu\"",
@@ -3980,7 +4070,7 @@
     "category": "declaracao"
   },
   {
-    "id": "news-janaina-paschoal-1791839224599-kshs",
+    "id": "news-janaina-paschoal-1791872111325-lv1o",
     "candidateId": "janaina-paschoal",
     "candidateName": "Janaína Paschoal",
     "title": "Janaina reage a relato de festa de Vorcaro e pede revelação de vídeo",
@@ -4000,7 +4090,7 @@
     "category": "proposta"
   },
   {
-    "id": "news-marcio-franca-1791839220979-s1n5",
+    "id": "news-marcio-franca-1791872107555-s2iq",
     "candidateId": "marcio-franca",
     "candidateName": "Márcio França",
     "title": "Haddad confirma Márcio França como vice e fecha chapa em São Paulo",
@@ -4050,7 +4140,7 @@
     "category": "declaracao"
   },
   {
-    "id": "news-marcio-franca-1791839220979-381n",
+    "id": "news-marcio-franca-1791872107555-k26v",
     "candidateId": "marcio-franca",
     "candidateName": "Márcio França",
     "title": "Para Márcio França, Tarcísio circula com aliados e esquerda perde tempo",
@@ -4060,7 +4150,7 @@
     "category": "declaracao"
   },
   {
-    "id": "news-rodrigo-agostinho-deputado-1791839225367-ktn2",
+    "id": "news-rodrigo-agostinho-deputado-1791872112197-bevp",
     "candidateId": "rodrigo-agostinho-deputado",
     "candidateName": "Rodrigo Agostinho",
     "title": "UCBio: debatedores apontam que proteção ambiental precisa superar divisões ideológicas",
@@ -4070,7 +4160,7 @@
     "category": "declaracao"
   },
   {
-    "id": "news-mara-gabrilli-1791839223305-l6qe",
+    "id": "news-mara-gabrilli-1791872109952-kcgf",
     "candidateId": "mara-gabrilli",
     "candidateName": "Mara Gabrilli",
     "title": "Senado celebra 50 anos do Teste do Pezinho e defende diagnóstico precoce — Senado Notícias",
@@ -4110,7 +4200,7 @@
     "category": "declaracao"
   },
   {
-    "id": "news-janaina-paschoal-1791839224599-gr8c",
+    "id": "news-janaina-paschoal-1791872111325-i4wh",
     "candidateId": "janaina-paschoal",
     "candidateName": "Janaína Paschoal",
     "title": "Janaína Paschoal propõe seminário em seu gabinete durante greve na USP",
@@ -4130,7 +4220,7 @@
     "category": "declaracao"
   },
   {
-    "id": "news-janaina-paschoal-1791839224599-eia6",
+    "id": "news-janaina-paschoal-1791872111325-s31s",
     "candidateId": "janaina-paschoal",
     "candidateName": "Janaína Paschoal",
     "title": "Janaína Paschoal oferece gabinete na câmara municipal para aula durante greve de alunos da USP",
@@ -4150,7 +4240,7 @@
     "category": "declaracao"
   },
   {
-    "id": "news-janaina-paschoal-1791839224599-r4w0",
+    "id": "news-janaina-paschoal-1791872111325-v4hh",
     "candidateId": "janaina-paschoal",
     "candidateName": "Janaína Paschoal",
     "title": "VÍDEO – Ela voltou: em fúria, Janaina Paschoal bate boca com alunos em greve na USP",
@@ -4180,7 +4270,7 @@
     "category": "declaracao"
   },
   {
-    "id": "news-marcio-franca-1791839220979-1gnc",
+    "id": "news-marcio-franca-1791872107555-poa8",
     "candidateId": "marcio-franca",
     "candidateName": "Márcio França",
     "title": "Márcio França apresenta balanço de gestão no Ministério do Empreendedorismo",
@@ -4190,7 +4280,7 @@
     "category": "gestao"
   },
   {
-    "id": "news-rodrigo-agostinho-deputado-1791839225367-ahzc",
+    "id": "news-rodrigo-agostinho-deputado-1791872112197-woud",
     "candidateId": "rodrigo-agostinho-deputado",
     "candidateName": "Rodrigo Agostinho",
     "title": "2026-04-06 Rodrigo Agostinho durante sua gestão à frente do Ibama (2023–2026).jpeg",
@@ -4210,7 +4300,7 @@
     "category": "declaracao"
   },
   {
-    "id": "news-rodrigo-agostinho-deputado-1791839225367-1d8i",
+    "id": "news-rodrigo-agostinho-deputado-1791872112197-4lrg",
     "candidateId": "rodrigo-agostinho-deputado",
     "candidateName": "Rodrigo Agostinho",
     "title": "Rodrigo Agostinho é exonerado do cargo de presidente do Ibama",
@@ -4220,7 +4310,7 @@
     "category": "declaracao"
   },
   {
-    "id": "news-marcio-franca-1791839220979-6uu9",
+    "id": "news-marcio-franca-1791872107555-0hzt",
     "candidateId": "marcio-franca",
     "candidateName": "Márcio França",
     "title": "Márcio França deixa Empreendedorismo, não aceita MDIC e vai focar nas eleições",
@@ -4240,7 +4330,7 @@
     "category": "declaracao"
   },
   {
-    "id": "news-arnaldo-jardim-deputado-1791839226875-ahef",
+    "id": "news-arnaldo-jardim-deputado-1791872113788-l9no",
     "candidateId": "arnaldo-jardim-deputado",
     "candidateName": "Arnaldo Jardim",
     "title": "Jader Filho e Arnaldo Jardim participam de lançamento da Agenda Legislativa do Saneamento",
@@ -4250,7 +4340,7 @@
     "category": "declaracao"
   },
   {
-    "id": "news-arnaldo-jardim-deputado-1791839226875-nit6",
+    "id": "news-arnaldo-jardim-deputado-1791872113788-kyjg",
     "candidateId": "arnaldo-jardim-deputado",
     "candidateName": "Arnaldo Jardim",
     "title": "Monitor da Reforma Tributária é lançado com apoio de Frentes Parlamentares",
@@ -4280,7 +4370,7 @@
     "category": "declaracao"
   },
   {
-    "id": "news-marcio-franca-1791839220979-mnh0",
+    "id": "news-marcio-franca-1791872107555-9l72",
     "candidateId": "marcio-franca",
     "candidateName": "Márcio França",
     "title": "Ministro Márcio França abre 2ª Feira São Vicente 360 com pequenos empreendedores locais",
@@ -4290,7 +4380,7 @@
     "category": "declaracao"
   },
   {
-    "id": "news-arnaldo-jardim-deputado-1791132059963-ib5q",
+    "id": "news-arnaldo-jardim-deputado-1791872113788-mohl",
     "candidateId": "arnaldo-jardim-deputado",
     "candidateName": "Arnaldo Jardim",
     "title": "Reforma Tributária: avanços para o setor produtivo",
@@ -4300,7 +4390,7 @@
     "category": "proposta"
   },
   {
-    "id": "news-eduardo-suplicy-1791839223957-28ke",
+    "id": "news-eduardo-suplicy-1791872110635-1e8h",
     "candidateId": "eduardo-suplicy",
     "candidateName": "Eduardo Suplicy",
     "title": "Educação estadual e renda básica de cidadania pautam Sessão Ordinária da Alesp; assista à íntegra",
@@ -4310,7 +4400,7 @@
     "category": "declaracao"
   },
   {
-    "id": "news-eduardo-suplicy-1791839223957-fecu",
+    "id": "news-eduardo-suplicy-1791872110635-njg5",
     "candidateId": "eduardo-suplicy",
     "candidateName": "Eduardo Suplicy",
     "title": "- Assembleia Legislativa do Estado de São Paulo",
@@ -4330,11 +4420,11 @@
     "category": "declaracao"
   },
   {
-    "id": "news-mara-gabrilli-1791839223305-pha0",
+    "id": "news-mara-gabrilli-1791872109952-te9b",
     "candidateId": "mara-gabrilli",
     "candidateName": "Mara Gabrilli",
     "title": "Avança projeto que exige acessibilidade em veículos de saúde",
-    "source": "Senado Federal",
+    "source": "Senado",
     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOcXh1QWdRYzZ3XzVrVjliV1dfT0xOOFBxcWktdGZJLVVlYlRHNmsxQ2hEVVNTSGRfV1hRZ2E3dUJFRDhJeVlsWmYwWXJxYXR0eWpZYzNjVFdEZjJaaFJLazVLa3RrRU9CbS0zUnQ1M2pZdWJmVXk3SERUazczaFl3djJBMDZuV281RnM5alRuV3dYQU1mYngwM2JlQzJMRzlYc1habldtRXNiVjFJR0RnNEg1SlI0TlVj?oc=5",
     "publishedAt": "2025-09-24",
     "category": "proposta"
@@ -4350,7 +4440,7 @@
     "category": "declaracao"
   },
   {
-    "id": "news-eduardo-suplicy-1791839223957-sq0m",
+    "id": "news-eduardo-suplicy-1791872110635-hi2e",
     "candidateId": "eduardo-suplicy",
     "candidateName": "Eduardo Suplicy",
     "title": "Como implementar a renda básica de cidadania no estado é tema de audiência pública",
@@ -4390,7 +4480,7 @@
     "category": "proposta"
   },
   {
-    "id": "news-mara-gabrilli-1791839223305-x9tp",
+    "id": "news-mara-gabrilli-1791872109952-gsdo",
     "candidateId": "mara-gabrilli",
     "candidateName": "Mara Gabrilli",
     "title": "Mara Gabrilli representa Senado em conferência da ONU - PSD",
@@ -4400,7 +4490,7 @@
     "category": "declaracao"
   },
   {
-    "id": "news-eduardo-suplicy-1791839223957-b1aw",
+    "id": "news-eduardo-suplicy-1791872110635-smbu",
     "candidateId": "eduardo-suplicy",
     "candidateName": "Eduardo Suplicy",
     "title": "Frente Parlamentar da Alesp discute implementação da Renda Básica de Cidadania",
@@ -4420,17 +4510,17 @@
     "category": "proposta"
   },
   {
-    "id": "news-baleia-rossi-deputado-1791839227742-o782",
+    "id": "news-baleia-rossi-deputado-1791872114584-ywa5",
     "candidateId": "baleia-rossi-deputado",
     "candidateName": "Baleia Rossi",
     "title": "Congresso promulga reforma tributária",
-    "source": "Senado Federal",
+    "source": "Senado",
     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNdi1CUXFUbHVaUjYtV2xRRm9sRlpVZExxUGowTTRjeVhreTJxU21lQ0ZYUm9sZ0RHTDB2aXZLQ1FLU2dJTW90UUk4aFZGYW5UeFF6bVpHSFJ6ME50M29Fc2hjZFB2ZjRWUlg4TUk4X2h6MFFnRzVDbXZycTBWMmU4SmdMSGxLZHBKOXdiNm9SQ0Z6d0NVa3V6Y1N3?oc=5",
     "publishedAt": "2023-12-20",
     "category": "proposta"
   },
   {
-    "id": "news-eduardo-suplicy-1791839223957-x54m",
+    "id": "news-eduardo-suplicy-1791872110635-v5g6",
     "candidateId": "eduardo-suplicy",
     "candidateName": "Eduardo Suplicy",
     "title": "Pela implementação da Renda Básica, Frente Parlamentar é lançada na Alesp",
@@ -4450,7 +4540,7 @@
     "category": "declaracao"
   },
   {
-    "id": "news-baleia-rossi-deputado-1791839227742-ws5d",
+    "id": "news-baleia-rossi-deputado-1791872114584-ve3w",
     "candidateId": "baleia-rossi-deputado",
     "candidateName": "Baleia Rossi",
     "title": "Simone Tebet e Bernard Appy discutem reforma tributária na FGV Direito SP",
@@ -4460,7 +4550,7 @@
     "category": "proposta"
   },
   {
-    "id": "news-baleia-rossi-deputado-1791839227742-vblw",
+    "id": "news-baleia-rossi-deputado-1791872114584-9snk",
     "candidateId": "baleia-rossi-deputado",
     "candidateName": "Baleia Rossi",
     "title": "Reforma tributária vai gerar crescimento econômico para o País, diz autor da proposta",
@@ -4480,7 +4570,7 @@
     "category": "proposta"
   },
   {
-    "id": "news-baleia-rossi-deputado-1791839227742-vzzi",
+    "id": "news-baleia-rossi-deputado-1791872114584-ix8q",
     "candidateId": "baleia-rossi-deputado",
     "candidateName": "Baleia Rossi",
     "title": "O que é a PEC 45/2019 e o que o texto propõe para a reforma tributária?",
@@ -4490,7 +4580,7 @@
     "category": "proposta"
   },
   {
-    "id": "news-baleia-rossi-deputado-1791652242370-3jav",
+    "id": "news-baleia-rossi-deputado-1791872114584-eroz",
     "candidateId": "baleia-rossi-deputado",
     "candidateName": "Baleia Rossi",
     "title": "Deputados ouvem autores das propostas de reforma tributária. Acompanhe",
