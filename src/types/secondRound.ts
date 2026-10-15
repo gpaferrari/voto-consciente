@@ -57,3 +57,13 @@ export interface FirstRoundResult {
   endorsement?: string; // Apoio declarado no 2º turno
   color: string;
 }
+
+export interface GovernorEndorsement {
+  governorName: string;
+  state: string;
+  party: string;
+  position: string;
+  declaredAt: string;
+  pactThemes: string;
+}
+

@@ -131,6 +131,13 @@ export interface Candidate {
     pillars: GovPlanPillar[];
   };
   mandateEvaluation?: MandateEvaluation;
+  tseVerification?: {
+    status: 'DEFERIDO' | '2º TURNO' | 'ELEITO' | 'NÃO ELEITO';
+    processNumber: string;
+    divulgaCandUrl: string;
+    verifiedAt: string;
+    isOfficial: boolean;
+  };
 }
 
 export interface ScoreWeights {

@@ -273,7 +273,7 @@
     "scenarios": [
       {
         "id": "sc-br-quaest-est-1",
-        "title": "1º Turno - Cenário Estimulado Principal",
+        "title": "1º Turno - Cenário Estimulado Principal (Levantamento Pré-Convenções)",
         "type": "estimulada",
         "results": [
           {
@@ -365,7 +365,7 @@
     "scenarios": [
       {
         "id": "sc-br-parana-est-1",
-        "title": "1º Turno - Cenário Estimulado",
+        "title": "1º Turno - Cenário Estimulado (Levantamento Pré-Convenções)",
         "type": "estimulada",
         "results": [
           {
@@ -416,7 +416,7 @@
       },
       {
         "id": "sc-br-parana-esp-1",
-        "title": "1º Turno - Espontânea (sem apresentação de nomes)",
+        "title": "1º Turno - Espontânea (sem apresentação de nomes) (Levantamento Pré-Convenções)",
         "type": "espontanea",
         "results": [
           {
@@ -471,7 +471,7 @@
     "scenarios": [
       {
         "id": "sc-br-datafolha-est-1",
-        "title": "1º Turno - Cenário Estimulado Principal",
+        "title": "1º Turno - Cenário Estimulado Principal (Levantamento Pré-Convenções)",
         "type": "estimulada",
         "results": [
           {
@@ -570,7 +570,7 @@
     "scenarios": [
       {
         "id": "sc-br-atlas-est-1",
-        "title": "1º Turno - Cenário Estimulado Principal",
+        "title": "1º Turno - Cenário Estimulado Principal (Levantamento Pré-Convenções)",
         "type": "estimulada",
         "results": [
           {

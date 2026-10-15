@@ -4,7 +4,8 @@ import { useRoute, useRouter } from 'vue-router';
 import { useCandidateStore } from '../stores/candidateStore';
 import { RoleType } from '../types/candidate';
 import CandidateCard from '../components/candidate/CandidateCard.vue';
-import { Search, Layers, X, ArrowRight } from 'lucide-vue-next';
+import { Search, Layers, X, ArrowRight, ShieldCheck } from 'lucide-vue-next';
+import TrustedSourcesModal from '../components/common/TrustedSourcesModal.vue';
 
 const props = defineProps<{
   initialRole?: RoleType | 'all';
@@ -16,6 +17,7 @@ const store = useCandidateStore();
 
 const activeRole = ref<RoleType | 'all'>(props.initialRole || 'all');
 const sortBy = ref<'finalScore' | 'education' | 'experience' | 'integrity'>('finalScore');
+const showTrustModal = ref(false);
 
 watch(() => route.path, () => {
   if (route.path === '/presidente') activeRole.value = 'presidente';
@@ -80,6 +82,30 @@ const pageDescription = computed(() => {
       <p class="text-xs sm:text-sm text-slate-500 dark:text-slate-400 max-w-2xl">
         {{ pageDescription }}
       </p>
+    </div>
+
+    <!-- Banner de Garantia de Registro Homologado no TSE -->
+    <div class="p-4 rounded-2xl bg-slate-50 dark:bg-slate-900 border border-slate-200/80 dark:border-slate-800 flex flex-col sm:flex-row sm:items-center justify-between gap-3 text-xs">
+      <div class="flex items-center gap-3">
+        <div class="w-9 h-9 rounded-xl bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 flex items-center justify-center shrink-0">
+          <ShieldCheck class="w-5 h-5" />
+        </div>
+        <div>
+          <span class="font-bold text-slate-900 dark:text-white block">
+            Garantia de Registro Homologado no TSE (DivulgaCandContas)
+          </span>
+          <span class="text-slate-500 dark:text-slate-400 text-[11px]">
+            Candidaturas sem homologação oficial ou de pessoas inelegíveis são bloqueadas pelo Validador de Fontes. Governadores são restritos às suas esferas estaduais.
+          </span>
+        </div>
+      </div>
+      <button
+        @click="showTrustModal = true"
+        class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-200 hover:text-emerald-600 dark:hover:text-emerald-400 font-bold transition-colors shrink-0 text-[11px]"
+      >
+        <ShieldCheck class="w-3.5 h-3.5 text-emerald-500" />
+        <span>Auditar Fontes Confiáveis</span>
+      </button>
     </div>
 
     <!-- Barra de Filtros e Busca -->
@@ -216,5 +242,11 @@ const pageDescription = computed(() => {
         </div>
       </div>
     </transition>
+
+    <!-- Modal de Validação de Fontes Confiáveis -->
+    <TrustedSourcesModal
+      :isOpen="showTrustModal"
+      @close="showTrustModal = false"
+    />
   </div>
 </template>

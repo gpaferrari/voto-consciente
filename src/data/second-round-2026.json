@@ -37,37 +37,57 @@
       "color": "#ea580c"
     },
     {
-      "candidateId": "ronaldo-caiado-presidente",
-      "candidateName": "Ronaldo Ramos Caiado",
-      "popularName": "Ronaldo Caiado",
-      "party": "União Brasil",
-      "votes": 3312450,
-      "percentage": 2.80,
+      "candidateId": "outros-tse",
+      "candidateName": "Outras Candidaturas Registradas no TSE",
+      "popularName": "Demais Candidatos",
+      "party": "Legendas Registradas",
+      "votes": 5680920,
+      "percentage": 4.80,
       "status": "eliminado_1_turno",
-      "endorsement": "1º Turno concluído. Declarou apoio oficial à candidatura de Tarcísio de Freitas no 2º turno, com foco na pauta da segurança pública.",
-      "color": "#059669"
-    },
-    {
-      "candidateId": "romeu-zema-presidente",
-      "candidateName": "Romeu Zema Neto",
-      "popularName": "Romeu Zema",
-      "party": "Novo",
-      "votes": 1421090,
-      "percentage": 1.20,
-      "status": "eliminado_1_turno",
-      "endorsement": "1º Turno concluído. Declarou apoio oficial a Tarcísio de Freitas no 2º turno em defesa da agenda liberal e responsabilidade fiscal.",
-      "color": "#f59e0b"
-    },
-    {
-      "candidateId": "outros",
-      "candidateName": "Outros Candidatos",
-      "popularName": "Outros",
-      "party": "Diversos",
-      "votes": 947380,
-      "percentage": 0.80,
-      "status": "eliminado_1_turno",
-      "endorsement": "Votos dispersos entre legendas menores.",
+      "endorsement": "Votos distribuídos entre as demais candidaturas oficiais registradas no TSE.",
       "color": "#94a3b8"
+    }
+  ],
+  "governorEndorsements": [
+    {
+      "governorName": "Ronaldo Caiado",
+      "state": "Goiás (GO)",
+      "party": "União Brasil",
+      "position": "Apoio a Tarcísio de Freitas",
+      "declaredAt": "2026-10-07",
+      "pactThemes": "Segurança pública, endurecimento penal e autonomia das polícias estaduais."
+    },
+    {
+      "governorName": "Romeu Zema",
+      "state": "Minas Gerais (MG)",
+      "party": "Novo",
+      "position": "Apoio a Tarcísio de Freitas",
+      "declaredAt": "2026-10-08",
+      "pactThemes": "Responsabilidade fiscal, cortes de privilégios e facilitação do ambiente de negócios."
+    },
+    {
+      "governorName": "Carlos Massa 'Ratinho Júnior'",
+      "state": "Paraná (PR)",
+      "party": "PSD",
+      "position": "Apoio a Tarcísio de Freitas",
+      "declaredAt": "2026-10-08",
+      "pactThemes": "Infraestrutura logística, atração de investimentos privados e concessões de rodovias e ferrovias."
+    },
+    {
+      "governorName": "Eduardo Leite",
+      "state": "Rio Grande do Sul (RS)",
+      "party": "PSDB",
+      "position": "Neutralidade Institucional",
+      "declaredAt": "2026-10-09",
+      "pactThemes": "Defesa do diálogo democrático, equilíbrio fiscal e reconstrução climática do RS."
+    },
+    {
+      "governorName": "Jair Bolsonaro (Ex-Presidente)",
+      "state": "Nacional (PL)",
+      "party": "PL",
+      "position": "Apoio a Tarcísio de Freitas",
+      "declaredAt": "2026-10-06",
+      "pactThemes": "Liderança de oposição e apoio do eleitorado conservador (Inelegível pelo TSE até 2030)."
     }
   ],
   "pollsSecondRound": [

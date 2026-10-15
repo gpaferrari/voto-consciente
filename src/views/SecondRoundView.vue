@@ -325,6 +325,49 @@ function formatNumber(num: number) {
           </div>
         </div>
       </div>
+
+      <!-- Apoios Declarados de Governadores Estaduais no 2º Turno -->
+      <div v-if="(data as any).governorEndorsements" class="mt-8 pt-6 border-t border-slate-100 dark:border-slate-800 space-y-4">
+        <div>
+          <span class="text-[11px] font-bold uppercase tracking-wider text-purple-600 dark:text-purple-400">
+            Articulação Federativa &bull; Posições Oficiais
+          </span>
+          <h3 class="text-base font-extrabold text-slate-900 dark:text-white mt-0.5">
+            Posicionamento de Governadores Estaduais e Lideranças no 2º Turno
+          </h3>
+          <p class="text-xs text-slate-500 dark:text-slate-400">
+            Governadores em exercício nos estados e seus apoios declarados formalmente para a eleição presidencial:
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+          <div
+            v-for="end in (data as any).governorEndorsements"
+            :key="end.governorName"
+            class="p-4 rounded-2xl bg-slate-50 dark:bg-slate-800/40 border border-slate-200/80 dark:border-slate-800 space-y-2"
+          >
+            <div class="flex items-center justify-between">
+              <div>
+                <h4 class="text-xs font-bold text-slate-900 dark:text-white">
+                  {{ end.governorName }}
+                </h4>
+                <span class="text-[10px] text-slate-500 dark:text-slate-400">
+                  {{ end.state }} &bull; {{ end.party }}
+                </span>
+              </div>
+              <span
+                class="text-[10px] font-extrabold px-2.5 py-1 rounded-full"
+                :class="end.position.includes('Apoio a Tarcísio') ? 'bg-blue-100 dark:bg-blue-900/50 text-blue-700 dark:text-blue-300' : 'bg-slate-200 dark:bg-slate-700 text-slate-700 dark:text-slate-300'"
+              >
+                {{ end.position }}
+              </span>
+            </div>
+            <p class="text-[11px] text-slate-600 dark:text-slate-300 leading-relaxed">
+              {{ end.pactThemes }}
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- SEÇÃO 3: Comparativo Direto de Propostas Frente a Frente -->

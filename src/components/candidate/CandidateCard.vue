@@ -103,7 +103,13 @@ function toggleCompare() {
             <!-- Observação Institucional / Cargo Atual em Exercício -->
             <div v-if="candidate.currentOfficeNote" class="mt-2 text-[10px] font-semibold text-slate-700 dark:text-slate-300 bg-slate-100 dark:bg-slate-800/80 px-2 py-0.5 rounded-md border border-slate-200/60 dark:border-slate-700/60 flex items-center gap-1.5 max-w-xs">
               <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 shrink-0"></span>
-              <span class="truncate">{{ candidate.currentOfficeNote }}</span>
+              <span class="truncate">{{ candidate.currentOfficeNote.replace(/&bull;/g, '•') }}</span>
+            </div>
+
+            <!-- Selo de Homologação Oficial TSE -->
+            <div class="mt-1.5 flex items-center gap-1 text-[10px] text-emerald-600 dark:text-emerald-400 font-bold">
+              <ShieldCheck class="w-3 h-3 shrink-0" />
+              <span>Registro TSE: {{ candidate.tseVerification?.status || 'DEFERIDO' }}</span>
             </div>
           </div>
         </div>

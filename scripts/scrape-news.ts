@@ -1,10 +1,15 @@
 /**
  * scripts/scrape-news.ts
  * 
- * Pipeline de Web Scraping & Ingestão de Notícias em Tempo Real
- * Consulta feeds RSS oficiais (Google News Brasil com filtros por candidato e Agência Brasil)
- * Extrai: Título, Veículo de Imprensa Confiável, Data de Publicação, Link Direto e Vinculação ao Candidato.
- * Atualiza localmente `src/data/live-news.json` e sincroniza diretamente no Supabase (`noticias_monitoradas`).
+ * Pipeline de Web Scraping & Ingestão com Validação Estrita de Fontes Confiáveis.
+ * 
+ * Protocolo de Segurança e Confiabilidade:
+ * 1. Apenas notícias de veículos jornalísticos de referência, agências oficiais de Estado e 
+ *    agências de checagem certificadas pela IFCN são aceitas.
+ * 2. Bloqueia blogs anônimos, sites sensacionalistas e desinformação.
+ * 3. Monitora exclusivamente candidaturas e lideranças em seus cargos legítimos e homologados,
+ *    eliminando qualquer candidatura fictícia ou especulativa.
+ * 4. Atualiza localmente `src/data/live-news.json` e sincroniza no Supabase (`noticias_monitoradas`).
  * 
  * Execução: npm run scrape:news
  */
@@ -49,37 +54,152 @@ interface ScrapedNewsItem {
   publishedAt: string;
   category: 'proposta' | 'gestao' | 'juridico' | 'declaracao' | 'pesquisa';
   summary?: string;
+  isVerifiedSource?: boolean;
 }
 
-// Candidatos monitorados e termos de busca com palavras-chave factuais
-const CANDIDATE_TARGETS = [
-  // Presidência
-  { id: 'lula-presidente', name: 'Lula', query: 'Lula governo OR economia OR plano' },
-  { id: 'ronaldo-caiado-presidente', name: 'Ronaldo Caiado', query: 'Ronaldo Caiado Goiás segurança OR governo' },
-  { id: 'ratinho-junior-presidente', name: 'Ratinho Júnior', query: 'Ratinho Júnior Paraná OR investimentos' },
-  { id: 'romeu-zema-presidente', name: 'Romeu Zema', query: 'Romeu Zema Minas Gerais OR gestão' },
-  { id: 'ciro-gomes-presidente', name: 'Ciro Gomes', query: 'Ciro Gomes propostas OR economia' },
-  { id: 'eduardo-leite-presidente', name: 'Eduardo Leite', query: 'Eduardo Leite Rio Grande do Sul OR gestão' },
-  { id: 'jair-bolsonaro-presidente', name: 'Jair Bolsonaro', query: 'Jair Bolsonaro TSE OR inelegibilidade OR recursos' },
-  
-  // Governador de SP
-  { id: 'tarcisio-governador', name: 'Tarcísio de Freitas', query: 'Tarcísio de Freitas governo SP OR obras' },
-  { id: 'haddad-governador', name: 'Fernando Haddad', query: 'Fernando Haddad Fazenda OR reforma tributaria' },
-  { id: 'guilherme-boulos', name: 'Guilherme Boulos', query: 'Guilherme Boulos projeto OR câmara' },
-  { id: 'marcio-franca', name: 'Márcio França', query: 'Márcio França empreendedorismo OR microempresa' },
-  { id: 'ricardo-nunes', name: 'Ricardo Nunes', query: 'Ricardo Nunes prefeitura SP OR obras' },
+// WHITELIST RIGOROSA DE FONTES DE IMPRENSA CONFIÁVEIS E ÓRGÃOS OFICIAIS
+const TRUSTED_SOURCES_WHITELIST = [
+  'g1',
+  'globo',
+  'tv globo',
+  'o globo',
+  'valor econômico',
+  'valor',
+  'cbn',
+  'folha de s.paulo',
+  'folha',
+  'uol',
+  'o estado de s. paulo',
+  'estadao',
+  'estadáoverifica',
+  'agência brasil',
+  'ebc',
+  'cnn brasil',
+  'cnn',
+  'bbc news brasil',
+  'bbc',
+  'poder360',
+  'nexo jornal',
+  'nexo',
+  'agência lupa',
+  'aos fatos',
+  'projeto comprova',
+  'jota',
+  'congresso em foco',
+  'gazeta do povo',
+  'carta capital',
+  'tse',
+  'tribunal superior eleitoral',
+  'stf',
+  'supremo tribunal federal',
+  'tcu',
+  'ibge'
+];
 
-  // Senador SP
-  { id: 'marcos-pontes-senador', name: 'Marcos Pontes', query: 'Marcos Pontes Senado OR ciência tecnologia' },
-  { id: 'mara-gabrilli', name: 'Mara Gabrilli', query: 'Mara Gabrilli Senado inclusão saúde' },
-  { id: 'eduardo-suplicy', name: 'Eduardo Suplicy', query: 'Eduardo Suplicy renda basica Alesp' },
-  { id: 'janaina-paschoal', name: 'Janaína Paschoal', query: 'Janaína Paschoal direito penal USP' },
+// Termos sensacionalistas ou de clickbait para rejeição imediata
+const CLICKBAIT_BLACKLIST = [
+  'urgente veja antes que apaguem',
+  'bomba exclusiva',
+  'escândalo secreto',
+  'o que a mídia esconde',
+  'desesperado',
+  'humilha em debate'
+];
+
+function isSourceTrusted(sourceName: string): boolean {
+  const norm = sourceName.toLowerCase().trim();
+  return TRUSTED_SOURCES_WHITELIST.some(trusted => norm.includes(trusted));
+}
+
+// Candidatos monitorados exclusivamente em suas esferas oficiais e homologadas
+const CANDIDATE_TARGETS = [
+  // Presidência da República (2º Turno & Candidatura Homologada)
+  { 
+    id: 'lula-presidente', 
+    name: 'Luiz Inácio Lula da Silva', 
+    query: 'Lula presidente OR governo OR segundo turno OR propostas' 
+  },
+  { 
+    id: 'tarcisio-presidente', 
+    name: 'Tarcísio de Freitas', 
+    query: 'Tarcísio de Freitas presidente OR segundo turno OR plano de governo' 
+  },
+  { 
+    id: 'ciro-gomes-presidente', 
+    name: 'Ciro Gomes', 
+    query: 'Ciro Gomes PDT OR projeto nacional de desenvolvimento' 
+  },
+  
+  // Esfera Estadual de São Paulo (Governador)
+  { 
+    id: 'tarcisio-governador', 
+    name: 'Tarcísio de Freitas (Gestão SP)', 
+    query: 'Tarcísio de Freitas governo SP OR obras São Paulo' 
+  },
+  { 
+    id: 'haddad-governador', 
+    name: 'Fernando Haddad', 
+    query: 'Fernando Haddad Fazenda OR reforma tributaria' 
+  },
+  { 
+    id: 'guilherme-boulos', 
+    name: 'Guilherme Boulos', 
+    query: 'Guilherme Boulos câmara OR projeto de lei' 
+  },
+  { 
+    id: 'marcio-franca', 
+    name: 'Márcio França', 
+    query: 'Márcio França microempresa OR empreendedorismo' 
+  },
+  { 
+    id: 'ricardo-nunes', 
+    name: 'Ricardo Nunes', 
+    query: 'Ricardo Nunes prefeitura São Paulo OR obras' 
+  },
+
+  // Senado Federal (São Paulo)
+  { 
+    id: 'marcos-pontes-senador', 
+    name: 'Marcos Pontes', 
+    query: 'Marcos Pontes Senado OR ciência e tecnologia' 
+  },
+  { 
+    id: 'mara-gabrilli', 
+    name: 'Mara Gabrilli', 
+    query: 'Mara Gabrilli Senado inclusão saúde' 
+  },
+  { 
+    id: 'eduardo-suplicy', 
+    name: 'Eduardo Suplicy', 
+    query: 'Eduardo Suplicy renda básica Alesp' 
+  },
+  { 
+    id: 'janaina-paschoal', 
+    name: 'Janaína Paschoal', 
+    query: 'Janaína Paschoal direito penal USP' 
+  },
 
   // Deputados Federais (Bauru / SP)
-  { id: 'rodrigo-agostinho-deputado', name: 'Rodrigo Agostinho', query: 'Rodrigo Agostinho Ibama OR meio ambiente' },
-  { id: 'capitao-augusto-deputado', name: 'Capitão Augusto', query: 'Capitão Augusto Câmara OR segurança' },
-  { id: 'arnaldo-jardim-deputado', name: 'Arnaldo Jardim', query: 'Arnaldo Jardim bioeconomia OR reforma tributária' },
-  { id: 'baleia-rossi-deputado', name: 'Baleia Rossi', query: 'Baleia Rossi PEC 45 OR reforma tributária' }
+  { 
+    id: 'rodrigo-agostinho-deputado', 
+    name: 'Rodrigo Agostinho', 
+    query: 'Rodrigo Agostinho Ibama OR meio ambiente' 
+  },
+  { 
+    id: 'capitao-augusto-deputado', 
+    name: 'Capitão Augusto', 
+    query: 'Capitão Augusto Câmara OR segurança' 
+  },
+  { 
+    id: 'arnaldo-jardim-deputado', 
+    name: 'Arnaldo Jardim', 
+    query: 'Arnaldo Jardim bioeconomia OR reforma tributária' 
+  },
+  { 
+    id: 'baleia-rossi-deputado', 
+    name: 'Baleia Rossi', 
+    query: 'Baleia Rossi PEC 45 OR reforma tributária' 
+  }
 ];
 
 function determineCategory(title: string): ScrapedNewsItem['category'] {
@@ -99,8 +219,9 @@ function determineCategory(title: string): ScrapedNewsItem['category'] {
   return 'declaracao';
 }
 
-function parseRssXml(xml: string, candidateId: string, candidateName: string): ScrapedNewsItem[] {
+function parseRssXml(xml: string, candidateId: string, candidateName: string): { items: ScrapedNewsItem[]; rejectedCount: number } {
   const items: ScrapedNewsItem[] = [];
+  let rejectedCount = 0;
   const itemRegex = /<item>([\s\S]*?)<\/item>/gi;
   let match: RegExpExecArray | null;
 
@@ -116,13 +237,25 @@ function parseRssXml(xml: string, candidateId: string, candidateName: string): S
       let rawTitle = titleMatch[1].replace(/<!\[CDATA\[(.*?)\]\]>/gi, '$1').trim();
       let sourceName = 'Imprensa Oficial';
 
-      // Google News formata título como: "Manchete - Nome da Fonte"
       if (rawTitle.includes(' - ')) {
         const parts = rawTitle.split(' - ');
         sourceName = parts.pop() || sourceName;
         rawTitle = parts.join(' - ');
       } else if (sourceMatch) {
         sourceName = sourceMatch[1].replace(/<!\[CDATA\[(.*?)\]\]>/gi, '$1').trim();
+      }
+
+      // Validação 1: Fonte Confiável e Homologada
+      if (!isSourceTrusted(sourceName)) {
+        rejectedCount++;
+        continue;
+      }
+
+      // Validação 2: Descarte de Clickbait
+      const lowerTitle = rawTitle.toLowerCase();
+      if (CLICKBAIT_BLACKLIST.some(bad => lowerTitle.includes(bad))) {
+        rejectedCount++;
+        continue;
       }
 
       let dateIso = new Date().toISOString().split('T')[0];
@@ -147,19 +280,20 @@ function parseRssXml(xml: string, candidateId: string, candidateName: string): S
         source: sourceName,
         url: linkMatch[1].trim(),
         publishedAt: dateIso,
-        category: determineCategory(rawTitle)
+        category: determineCategory(rawTitle),
+        isVerifiedSource: true
       });
     }
   }
 
-  return items;
+  return { items, rejectedCount };
 }
 
-async function fetchCandidateNews(target: typeof CANDIDATE_TARGETS[0]): Promise<ScrapedNewsItem[]> {
+async function fetchCandidateNews(target: typeof CANDIDATE_TARGETS[0]): Promise<{ items: ScrapedNewsItem[]; rejected: number }> {
   const url = `https://news.google.com/rss/search?q=${encodeURIComponent(target.query)}&hl=pt-BR&gl=BR&ceid=BR:pt-419`;
   try {
     const controller = new AbortController();
-    const timeout = setTimeout(() => controller.abort(), 6000); // 6s timeout
+    const timeout = setTimeout(() => controller.abort(), 6000);
 
     const res = await fetch(url, {
       headers: {
@@ -171,14 +305,15 @@ async function fetchCandidateNews(target: typeof CANDIDATE_TARGETS[0]): Promise<
 
     if (!res.ok) {
       console.warn(`[Aviso] Falha ao consultar feed para ${target.name}: HTTP ${res.status}`);
-      return [];
+      return { items: [], rejected: 0 };
     }
 
     const xml = await res.text();
-    return parseRssXml(xml, target.id, target.name);
+    const parsed = parseRssXml(xml, target.id, target.name);
+    return { items: parsed.items, rejected: parsed.rejectedCount };
   } catch (err: any) {
     console.warn(`[Aviso] Timeout ou erro ao consultar feed para ${target.name}: ${err?.message || err}`);
-    return [];
+    return { items: [], rejected: 0 };
   }
 }
 
@@ -188,7 +323,7 @@ async function syncToSupabase(newsItems: ScrapedNewsItem[]) {
     return;
   }
 
-  console.log('\n☁️ SINCRONIZANDO NOTÍCIAS NO SUPABASE...');
+  console.log('\n☁️ SINCRONIZANDO NOTÍCIAS DE FONTES CONFIÁVEIS NO SUPABASE...');
   const client = new pg.Client({
     connectionString: DATABASE_URL,
     ssl: { rejectUnauthorized: false }
@@ -204,12 +339,9 @@ async function syncToSupabase(newsItems: ScrapedNewsItem[]) {
     const ID_MAPPINGS: Record<string, string> = {
       'fernando-haddad': 'haddad-governador',
       'lula-2026': 'lula-presidente',
-      'tarcisio-2026': 'tarcisio-governador',
-      'caiado-2026': 'ronaldo-caiado-presidente',
-      'ratinho-junior-2026': 'ratinho-junior-presidente',
+      'tarcisio-2026': 'tarcisio-presidente',
+      'tarcisio-governador': 'tarcisio-presidente',
       'ciro-gomes-2026': 'ciro-gomes-presidente',
-      'romeu-zema-2026': 'romeu-zema-presidente',
-      'eduardo-leite-2026': 'eduardo-leite-presidente',
       'marcos-pontes': 'marcos-pontes-senador',
       'rodrigo-agostinho': 'rodrigo-agostinho-deputado',
       'capitao-augusto': 'capitao-augusto-deputado',
@@ -254,7 +386,7 @@ async function syncToSupabase(newsItems: ScrapedNewsItem[]) {
       }
     }
 
-    console.log(`✅ ${insertedCount} notícias sincronizadas no Supabase com sucesso! (${skippedCount} ignoradas por falta de candidato correspondente)`);
+    console.log(`✅ ${insertedCount} notícias de fontes verificadas sincronizadas no Supabase! (${skippedCount} ignoradas)`);
     await client.end();
   } catch (err: any) {
     console.warn('⚠️ Falha ao conectar ao Supabase (fallback local preservado):', err.message);
@@ -263,36 +395,54 @@ async function syncToSupabase(newsItems: ScrapedNewsItem[]) {
 }
 
 async function run() {
-  console.log('='.repeat(65));
-  console.log('📰 INICIANDO PIPELINE DE WEB SCRAPING & INGESTÃO DE NOTÍCIAS FACTUAIS');
-  console.log('='.repeat(65));
+  console.log('='.repeat(70));
+  console.log('🛡️ PIPELINE DE INGESTÃO COM VALIDAÇÃO DE FONTES CONFIÁVEIS (TSE & IFCN)');
+  console.log('='.repeat(70));
 
   const allNews: ScrapedNewsItem[] = [];
+  let totalRejected = 0;
   const outputPath = path.resolve(__dirname, '../src/data/live-news.json');
 
-  // Load existing news to avoid clobbering high-quality verified items
+  // Carregar notícias existentes e filtrar por fontes confiáveis e candidatos válidos
   let existingNews: ScrapedNewsItem[] = [];
+  const INVALID_CANDIDATE_IDS = new Set([
+    'ratinho-junior-presidente',
+    'ratinho-junior-2026',
+    'ronaldo-caiado-presidente',
+    'caiado-2026',
+    'romeu-zema-presidente',
+    'romeu-zema-2026',
+    'eduardo-leite-presidente',
+    'eduardo-leite-2026',
+    'jair-bolsonaro-presidente'
+  ]);
+
   if (fs.existsSync(outputPath)) {
     try {
-      existingNews = JSON.parse(fs.readFileSync(outputPath, 'utf-8'));
+      const raw = JSON.parse(fs.readFileSync(outputPath, 'utf-8')) as ScrapedNewsItem[];
+      existingNews = raw.filter(item => {
+        // Remover candidatos inválidos como presidentes
+        if (INVALID_CANDIDATE_IDS.has(item.candidateId)) return false;
+        // Exigir fonte confiável
+        return isSourceTrusted(item.source);
+      });
+      console.log(`📋 Notícias existentes purificadas: ${existingNews.length} itens mantidos após expurgo.`);
     } catch {
       existingNews = [];
     }
   }
 
   for (const target of CANDIDATE_TARGETS) {
-    console.log(`🔎 Consultando fontes confiáveis para: ${target.name}...`);
-    const fetched = await fetchCandidateNews(target);
-    console.log(`   ↳ ${fetched.length} notícia(s) capturada(s).`);
+    console.log(`🔎 Consultando fontes verificadas para: ${target.name}...`);
+    const { items: fetched, rejected } = await fetchCandidateNews(target);
+    totalRejected += rejected;
+    console.log(`   ↳ ${fetched.length} notícia(s) aprovada(s) de fontes confiáveis (descartadas não-homologadas: ${rejected}).`);
     allNews.push(...fetched);
-    // Be polite between queries
-    await new Promise(r => setTimeout(r, 400));
+    await new Promise(r => setTimeout(r, 350));
   }
 
-  // Merge unique by URL or title
+  // Merge único por URL ou título
   const mergedMap = new Map<string, ScrapedNewsItem>();
-  
-  // Prefer newly fetched, fallback to existing
   for (const item of allNews) {
     mergedMap.set(item.url || item.title, item);
   }
@@ -308,10 +458,10 @@ async function run() {
 
   fs.writeFileSync(outputPath, JSON.stringify(finalNews, null, 2), 'utf-8');
 
-  console.log('='.repeat(65));
-  console.log(`✅ Sucesso! ${finalNews.length} notícias atualizadas em:`);
-  console.log(`   ${outputPath}`);
-  console.log('='.repeat(65));
+  console.log('='.repeat(70));
+  console.log(`✅ Sucesso! ${finalNews.length} notícias confiáveis salvas em live-news.json`);
+  console.log(`🛡️ Total de itens não-homologados descartados: ${totalRejected}`);
+  console.log('='.repeat(70));
 
   // Sincronizar remotamente com o Supabase
   await syncToSupabase(allNews);

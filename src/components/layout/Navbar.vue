@@ -13,8 +13,10 @@ import {
   X, 
   ActivitySquare,
   BarChart3,
-  CheckCircle2
+  CheckCircle2,
+  ShieldCheck
 } from 'lucide-vue-next';
+import TrustedSourcesModal from '../common/TrustedSourcesModal.vue';
 
 const router = useRouter();
 const route = useRoute();
@@ -23,6 +25,7 @@ const store = useCandidateStore();
 const isDark = ref(false);
 const isMobileMenuOpen = ref(false);
 const isWeightsModalOpen = ref(false);
+const isTrustModalOpen = ref(false);
 
 onMounted(() => {
   if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
@@ -232,6 +235,16 @@ function navigate(path: string) {
           </span>
         </button>
 
+        <!-- Botão Fontes Confiáveis -->
+        <button
+          @click="isTrustModalOpen = true"
+          class="hidden sm:inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-emerald-50 dark:bg-emerald-950/60 border border-emerald-200 dark:border-emerald-800 hover:bg-emerald-100 dark:hover:bg-emerald-900/60 text-xs font-bold text-emerald-700 dark:text-emerald-300 transition-colors"
+          title="Verificação de Fontes Oficiais & TSE"
+        >
+          <ShieldCheck class="w-3.5 h-3.5 text-emerald-600 dark:text-emerald-400" />
+          <span>Fontes Confiáveis</span>
+        </button>
+
         <!-- Botão Ajustar Pesos -->
         <button
           @click="isWeightsModalOpen = true"
@@ -328,6 +341,13 @@ function navigate(path: string) {
         Comparador Lado a Lado ({{ store.selectedForComparison.length }})
       </button>
       <button
+        @click="isTrustModalOpen = true; isMobileMenuOpen = false"
+        class="w-full text-left px-3 py-2.5 rounded-xl text-sm font-semibold text-emerald-700 dark:text-emerald-300 bg-emerald-50/50 dark:bg-emerald-950/30 hover:bg-emerald-100 dark:hover:bg-emerald-900/40 flex items-center gap-2"
+      >
+        <ShieldCheck class="w-4 h-4 text-emerald-500" />
+        <span>Auditar Fontes Confiáveis & TSE</span>
+      </button>
+      <button
         @click="isWeightsModalOpen = true; isMobileMenuOpen = false"
         class="w-full text-left px-3 py-2.5 rounded-xl text-sm font-semibold text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 flex items-center gap-2"
       >
@@ -340,6 +360,12 @@ function navigate(path: string) {
     <WeightCustomizerModal
       :isOpen="isWeightsModalOpen"
       @close="isWeightsModalOpen = false"
+    />
+
+    <!-- Modal de Fontes Confiáveis -->
+    <TrustedSourcesModal
+      :isOpen="isTrustModalOpen"
+      @close="isTrustModalOpen = false"
     />
   </header>
 </template>
