@@ -5,12 +5,24 @@ import CandidateDetailView from '../views/CandidateDetailView.vue';
 import CurrentMandateView from '../views/CurrentMandateView.vue';
 import ComparisonView from '../views/ComparisonView.vue';
 import PollsAggregatorView from '../views/PollsAggregatorView.vue';
+import SecondRoundView from '../views/SecondRoundView.vue';
+import ElectedCandidatesView from '../views/ElectedCandidatesView.vue';
 
 const routes: Array<RouteRecordRaw> = [
   {
     path: '/',
     name: 'Home',
     component: HomeView
+  },
+  {
+    path: '/segundo-turno',
+    name: 'SecondRound',
+    component: SecondRoundView
+  },
+  {
+    path: '/eleitos',
+    name: 'ElectedCandidates',
+    component: ElectedCandidatesView
   },
   {
     path: '/pesquisas',

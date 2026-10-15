@@ -10,13 +10,17 @@
     "coalition": "Federação Brasil da Esperança (PT/PCdoB/PV) / Solidariedade / PSB",
     "age": 80,
     "cityOrigin": "Garanhuns - PE",
-    "declaredAssets": 7423625.00,
+    "declaredAssets": 7423625,
     "education": {
       "level": "fundamental",
       "institution": "SENAI São Bernardo do Campo",
       "course": "Torneiro Mecânico / Qualificação Técnica Industrial",
       "details": "Conclusão do ensino fundamental e curso de torneiro mecânico pelo SENAI (1963). Possui múltiplos títulos de Doutor Honoris Causa conferidos por universidades nacionais e internacionais.",
-      "complementaryCourses": ["Negociação Coletiva", "Liderança Sindical", "Relações Trabalhistas"]
+      "complementaryCourses": [
+        "Negociação Coletiva",
+        "Liderança Sindical",
+        "Relações Trabalhistas"
+      ]
     },
     "experience": {
       "yearsInPublicService": 35,
@@ -66,9 +70,18 @@
     },
     "integrityAndFacts": {
       "cleanRecordCertificates": [
-        { "court": "Tribunal Superior Eleitoral (TSE)", "status": "regular" },
-        { "court": "Supremo Tribunal Federal (STF)", "status": "nada_consta" },
-        { "court": "Tribunal de Contas da União (TCU)", "status": "regular" }
+        {
+          "court": "Tribunal Superior Eleitoral (TSE)",
+          "status": "regular"
+        },
+        {
+          "court": "Supremo Tribunal Federal (STF)",
+          "status": "nada_consta"
+        },
+        {
+          "court": "Tribunal de Contas da União (TCU)",
+          "status": "regular"
+        }
       ],
       "factChecks": [
         {
@@ -240,49 +253,308 @@
       ],
       "economicIndicators": {
         "pibGrowth": [
-          { "year": 2022, "value": 3.0, "benchmark": 2.5 },
-          { "year": 2023, "value": 2.9, "benchmark": 1.0 },
-          { "year": 2024, "value": 3.2, "benchmark": 1.8 },
-          { "year": 2025, "value": 2.4, "benchmark": 2.0 }
+          {
+            "year": 2022,
+            "value": 3,
+            "benchmark": 2.5
+          },
+          {
+            "year": 2023,
+            "value": 2.9,
+            "benchmark": 1
+          },
+          {
+            "year": 2024,
+            "value": 3.2,
+            "benchmark": 1.8
+          },
+          {
+            "year": 2025,
+            "value": 2.4,
+            "benchmark": 2
+          }
         ],
         "inflationIpca": [
-          { "year": 2022, "value": 5.79, "target": 3.5 },
-          { "year": 2023, "value": 4.62, "target": 3.25 },
-          { "year": 2024, "value": 4.25, "target": 3.0 },
-          { "year": 2025, "value": 3.95, "target": 3.0 }
+          {
+            "year": 2022,
+            "value": 5.79,
+            "target": 3.5
+          },
+          {
+            "year": 2023,
+            "value": 4.62,
+            "target": 3.25
+          },
+          {
+            "year": 2024,
+            "value": 4.25,
+            "target": 3
+          },
+          {
+            "year": 2025,
+            "value": 3.95,
+            "target": 3
+          }
         ],
         "unemploymentRate": [
-          { "year": 2022, "value": 9.3 },
-          { "year": 2023, "value": 7.8 },
-          { "year": 2024, "value": 6.8 },
-          { "year": 2025, "value": 6.5 }
+          {
+            "year": 2022,
+            "value": 9.3
+          },
+          {
+            "year": 2023,
+            "value": 7.8
+          },
+          {
+            "year": 2024,
+            "value": 6.8
+          },
+          {
+            "year": 2025,
+            "value": 6.5
+          }
         ],
         "primaryFiscalBalance": [
-          { "year": 2022, "value": 54.1, "label": "Superávit (+54 bi)" },
-          { "year": 2023, "value": -230.5, "label": "Déficit (-230 bi, incl. precatórios)" },
-          { "year": 2024, "value": -28.8, "label": "Déficit (-28 bi / ~0.2% PIB)" },
-          { "year": 2025, "value": -15.0, "label": "Estimativa (-15 bi)" }
+          {
+            "year": 2022,
+            "value": 54.1,
+            "label": "Superávit (+54 bi)"
+          },
+          {
+            "year": 2023,
+            "value": -230.5,
+            "label": "Déficit (-230 bi, incl. precatórios)"
+          },
+          {
+            "year": 2024,
+            "value": -28.8,
+            "label": "Déficit (-28 bi / ~0.2% PIB)"
+          },
+          {
+            "year": 2025,
+            "value": -15,
+            "label": "Estimativa (-15 bi)"
+          }
         ],
         "publicDebtGdpRatio": [
-          { "year": 2022, "value": 71.7 },
-          { "year": 2023, "value": 74.3 },
-          { "year": 2024, "value": 77.8 },
-          { "year": 2025, "value": 79.2 }
+          {
+            "year": 2022,
+            "value": 71.7
+          },
+          {
+            "year": 2023,
+            "value": 74.3
+          },
+          {
+            "year": 2024,
+            "value": 77.8
+          },
+          {
+            "year": 2025,
+            "value": 79.2
+          }
         ]
       },
       "socialAndEducationIndicators": {
         "idebScore": [
-          { "year": 2021, "value": 5.8, "target": 6.0 },
-          { "year": 2023, "value": 6.0, "target": 6.0 }
+          {
+            "year": 2021,
+            "value": 5.8,
+            "target": 6
+          },
+          {
+            "year": 2023,
+            "value": 6,
+            "target": 6
+          }
         ],
         "socialProgramsInvestment": [
-          { "year": 2022, "valueInBillions": 89.2, "beneficiariesMillions": 21.0 },
-          { "year": 2023, "valueInBillions": 168.4, "beneficiariesMillions": 21.3 },
-          { "year": 2024, "valueInBillions": 172.0, "beneficiariesMillions": 20.8 }
+          {
+            "year": 2022,
+            "valueInBillions": 89.2,
+            "beneficiariesMillions": 21
+          },
+          {
+            "year": 2023,
+            "valueInBillions": 168.4,
+            "beneficiariesMillions": 21.3
+          },
+          {
+            "year": 2024,
+            "valueInBillions": 172,
+            "beneficiariesMillions": 20.8
+          }
         ]
       },
       "mandateScore": 81,
       "auditorSynthesis": "O mandato atual apresenta desempenho macroeconômico acima das expectativas iniciais de mercado, com forte redução da taxa de desemprego para os menores níveis em uma década, aprovação de reformas históricas (tributária e arcabouço) e ampliação de políticas de renda e permanência escolar (Pé-de-Meia). O principal desafio reside no campo fiscal: o crescimento da dívida pública sobre o PIB e a necessidade de corte estrutural de despesas públicas para consolidar a estabilidade das contas de longo prazo."
+    },
+    "currentOfficeNote": "Presidente da República &bull; Classificado para o 2º Turno (48,35% dos votos no 1º turno)"
+  },
+  {
+    "id": "tarcisio-presidente",
+    "name": "Tarcísio Gomes de Freitas",
+    "popularName": "Tarcísio de Freitas",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Tarc%C3%ADsio_de_Freitas_%28foto_oficial%29.jpg/640px-Tarc%C3%ADsio_de_Freitas_%28foto_oficial%29.jpg",
+    "role": "presidente",
+    "party": "Republicanos",
+    "ballotNumber": "10",
+    "coalition": "Brasil Para a Frente (Republicanos / PL / PP / União Brasil / Novo)",
+    "age": 51,
+    "cityOrigin": "Rio de Janeiro - RJ",
+    "declaredAssets": 2345000,
+    "currentOfficeNote": "Candidato de Oposição &bull; Classificado para o 2º Turno (43,65% dos votos no 1º turno)",
+    "education": {
+      "level": "pos_graduacao",
+      "institution": "Instituto Militar de Engenharia (IME) / FGV",
+      "course": "Engenharia Civil e Especialização em Gestão de Projetos",
+      "details": "Primeiro colocado no IME na formação em Engenharia de Fortificação e Construção. Pós-graduado em Gestão de Projetos pela Fundação Getulio Vargas (FGV).",
+      "complementaryCourses": [
+        "Engenharia de Transportes",
+        "Auditoria de Obras Públicas",
+        "Logística Pública"
+      ]
+    },
+    "experience": {
+      "yearsInPublicService": 26,
+      "summary": "Governador do Estado de São Paulo (2023-2026), Ministro da Infraestrutura do Brasil (2019-2022), Diretor-Geral do DNIT (2011-2014), Oficial Engenheiro do Exército Brasileiro.",
+      "roles": [
+        {
+          "title": "Governador do Estado de São Paulo",
+          "period": "2023 - 2026",
+          "level": "estadual",
+          "achievements": [
+            "Conclusão da desestatização da Sabesp com atração de R$ 68 bilhões em investimentos em saneamento.",
+            "Leilão do Trem Intercidades ligando São Paulo a Campinas.",
+            "Implantação das Escolas Cívico-Militares no estado de SP e digitalização dos serviços estaduais.",
+            "Criação de novos batalhões da Polícia Militar e reajuste salarial para forças de segurança."
+          ]
+        },
+        {
+          "title": "Ministro da Infraestrutura",
+          "period": "2019 - 2022",
+          "level": "federal",
+          "achievements": [
+            "Leilão de mais de 80 ativos de infraestrutura (aeroportos, ferrovias e portos) sem escândalos de corrupção na pasta.",
+            "Conclusão da pavimentação da BR-163 e nova ponte do Guaíba no RS."
+          ]
+        }
+      ]
+    },
+    "debatesAndInterviews": {
+      "averageScore": 86,
+      "events": [
+        {
+          "title": "Debate Presidencial 2º Turno TV Globo",
+          "date": "2026-10-16",
+          "vehicle": "TV Globo",
+          "score": 88,
+          "notes": "Foco em equilíbrio fiscal, teto do IVA, atração de investimentos privados e endurecimento penal.",
+          "factCheckingAccuracy": 85
+        },
+        {
+          "title": "Sabatina Jornal Nacional 2º Turno",
+          "date": "2026-10-10",
+          "vehicle": "TV Globo",
+          "score": 85,
+          "notes": "Defendeu autonomia orçamentária para governadores e explicou o plano de concessões federais.",
+          "factCheckingAccuracy": 87
+        }
+      ]
+    },
+    "integrityAndFacts": {
+      "cleanRecordCertificates": [
+        {
+          "court": "Tribunal Superior Eleitoral (TSE)",
+          "status": "regular"
+        },
+        {
+          "court": "Supremo Tribunal Federal (STF)",
+          "status": "nada_consta"
+        },
+        {
+          "court": "Tribunal de Contas da União (TCU)",
+          "status": "regular"
+        }
+      ],
+      "factChecks": [
+        {
+          "id": "fc-tarcisio-pres-1",
+          "title": "Aprovação das Contas de Governo pelo Tribunal de Contas de SP",
+          "description": "O Tribunal de Contas do Estado de São Paulo emitiu parecer prévio pela aprovação com recomendações das contas anuais da gestão estadual.",
+          "vehicleOrOrgan": "TCE-SP",
+          "category": "comprovado_positivo",
+          "date": "2024-06-20",
+          "sourceUrl": "https://www.tce.sp.gov.br"
+        },
+        {
+          "id": "fc-tarcisio-pres-2",
+          "title": "Boato sobre privatização da USP e Unicamp",
+          "description": "Publicações alegavam falsamente plano de privatizar as universidades estaduais paulistas. Boato desmentido oficialmente pelo governo estadual e agências de checagem.",
+          "vehicleOrOrgan": "Agência Lupa",
+          "category": "boato_desmentido",
+          "date": "2023-11-15",
+          "sourceUrl": "https://lupa.uol.com.br"
+        }
+      ]
+    },
+    "governmentPlan": {
+      "summary": "Plano centrado no equilíbrio fiscal estrito, desestatizações, concessões massivas de infraestrutura, endurecimento da segurança pública e simplificação tributária.",
+      "pdfUrl": "https://divulgacandcontas.tse.jus.br",
+      "pillars": [
+        {
+          "key": "economia",
+          "title": "Choque de Concessões e Desregulamentação",
+          "icon": "TrendingUp",
+          "mainGoal": "Atrair R$ 500 bilhões em investimentos privados por meio de leilões e segurança jurídica.",
+          "proposals": [
+            "Concessões de ferrovias, portos e rodovias federais sem subsídios do Tesouro.",
+            "Trava de alíquota máxima do IVA em 25% para conter a carga tributária.",
+            "Desoneração ampla da folha de pagamento e incentivo a novas contratações."
+          ],
+          "budgetSource": "Capitais privados nacionais e internacionais via leilões de concessão.",
+          "feasibilityScore": 89
+        },
+        {
+          "key": "seguranca",
+          "title": "Endurecimento Penal e Muralha Nacional",
+          "icon": "ShieldAlert",
+          "mainGoal": "Asfixiar o crime organizado e modernizar o aparato policial brasileiro.",
+          "proposals": [
+            "Fim das saídas temporárias de presos e excludente de ilicitude para policiais.",
+            "Sistema nacional de câmeras inteligentes e cerco eletrônico nas fronteiras.",
+            "Construção de presídios federais de segurança máxima para isolar lideranças de facções."
+          ],
+          "budgetSource": "Fundo Nacional de Segurança Pública e recursos de desestatizações.",
+          "feasibilityScore": 87
+        },
+        {
+          "key": "saude",
+          "title": "Parcerias Público-Privadas e Fim das Filas",
+          "icon": "Activity",
+          "mainGoal": "Zerar a fila de cirurgias eletivas contratando leitos e exames na rede privada.",
+          "proposals": [
+            "Vouchers para atendimento rápido na rede privada credenciada.",
+            "Gestão hospitalar por Organizações Sociais de Saúde (OSS) com metas de eficiência.",
+            "Prontuário unificado e digitalização total do agendamento de consultas."
+          ],
+          "budgetSource": "Orçamento do Ministério da Saúde com ganhos de eficiência de gestão.",
+          "feasibilityScore": 85
+        },
+        {
+          "key": "educacao",
+          "title": "Ensino Técnico Integrado e Escolas Cívico-Militares",
+          "icon": "GraduationCap",
+          "mainGoal": "Capacitar os jovens do ensino médio para ingresso imediato no mercado de trabalho.",
+          "proposals": [
+            "Expansão do ensino técnico em parceria com o Sistema S e empresas.",
+            "Adesão voluntária de escolas públicas ao modelo cívico-militar.",
+            "Bonificação anual por mérito para diretores e professores que aumentarem o Ideb."
+          ],
+          "budgetSource": "Fundo Nacional de Desenvolvimento da Educação (FNDE).",
+          "feasibilityScore": 88
+        }
+      ]
     }
   },
   {
@@ -296,13 +568,17 @@
     "coalition": "União Brasil",
     "age": 76,
     "cityOrigin": "Anápolis - GO",
-    "declaredAssets": 24875000.00,
+    "declaredAssets": 24875000,
     "education": {
       "level": "pos_graduacao",
       "institution": "UFRJ / Universidade de Paris (França)",
       "course": "Medicina (UFRJ) com Especialização em Cirurgia da Coluna Vertebral",
       "details": "Médico ortopedista de renome, professor da UFRJ e pós-graduado no Serviço de Cirurgia Ortopédica e Traumatológica do Professor Roy-Camille, em Paris.",
-      "complementaryCourses": ["Cirurgia da Coluna", "Gestão Hospitalar", "Políticas de Saúde Pública"]
+      "complementaryCourses": [
+        "Cirurgia da Coluna",
+        "Gestão Hospitalar",
+        "Políticas de Saúde Pública"
+      ]
     },
     "experience": {
       "yearsInPublicService": 36,
@@ -361,9 +637,18 @@
     },
     "integrityAndFacts": {
       "cleanRecordCertificates": [
-        { "court": "Tribunal Superior Eleitoral (TSE)", "status": "regular" },
-        { "court": "Supremo Tribunal Federal (STF)", "status": "nada_consta" },
-        { "court": "Tribunal de Contas do Estado de Goiás (TCE-GO)", "status": "regular" }
+        {
+          "court": "Tribunal Superior Eleitoral (TSE)",
+          "status": "regular"
+        },
+        {
+          "court": "Supremo Tribunal Federal (STF)",
+          "status": "nada_consta"
+        },
+        {
+          "court": "Tribunal de Contas do Estado de Goiás (TCE-GO)",
+          "status": "regular"
+        }
       ],
       "factChecks": [
         {
@@ -417,7 +702,8 @@
           "feasibilityScore": 89
         }
       ]
-    }
+    },
+    "currentOfficeNote": "1º Turno Concluído (2,80% dos votos) &bull; Apoiou oficialmente Tarcísio de Freitas no 2º turno"
   },
   {
     "id": "ratinho-junior-presidente",
@@ -430,13 +716,17 @@
     "coalition": "PSD",
     "age": 44,
     "cityOrigin": "Jandaia do Sul - PR",
-    "declaredAssets": 8800000.00,
+    "declaredAssets": 8800000,
     "education": {
       "level": "pos_graduacao",
       "institution": "FGV / Universidad Complutense de Madrid / UCLM",
       "course": "Comunicação Social e Pós-Graduação em Gestão Pública e Direito do Estado",
       "details": "Graduado em Comunicação Social com especializações internacionais em administração pública e políticas de desenvolvimento regional.",
-      "complementaryCourses": ["Gestão Pública Avançada", "Logística e Concessões", "Desenvolvimento Econômico"]
+      "complementaryCourses": [
+        "Gestão Pública Avançada",
+        "Logística e Concessões",
+        "Desenvolvimento Econômico"
+      ]
     },
     "experience": {
       "yearsInPublicService": 22,
@@ -487,9 +777,18 @@
     },
     "integrityAndFacts": {
       "cleanRecordCertificates": [
-        { "court": "Tribunal Superior Eleitoral (TSE)", "status": "regular" },
-        { "court": "Supremo Tribunal Federal (STF)", "status": "nada_consta" },
-        { "court": "Tribunal de Contas do Estado do Paraná (TCE-PR)", "status": "regular" }
+        {
+          "court": "Tribunal Superior Eleitoral (TSE)",
+          "status": "regular"
+        },
+        {
+          "court": "Supremo Tribunal Federal (STF)",
+          "status": "nada_consta"
+        },
+        {
+          "court": "Tribunal de Contas do Estado do Paraná (TCE-PR)",
+          "status": "regular"
+        }
       ],
       "factChecks": [
         {
@@ -542,7 +841,8 @@
           "feasibilityScore": 90
         }
       ]
-    }
+    },
+    "currentOfficeNote": "1º Turno Concluído &bull; Apoiou oficialmente Tarcísio de Freitas no 2º turno"
   },
   {
     "id": "romeu-zema-presidente",
@@ -555,13 +855,17 @@
     "coalition": "Partido Novo",
     "age": 61,
     "cityOrigin": "Araxá - MG",
-    "declaredAssets": 129795513.00,
+    "declaredAssets": 129795513,
     "education": {
       "level": "superior_completo",
       "institution": "Fundação Getulio Vargas (FGV EAESP)",
       "course": "Administração de Empresas",
       "details": "Graduado em Administração de Empresas pela Fundação Getulio Vargas em São Paulo. Ampla formação executiva e de governança corporativa no setor privado.",
-      "complementaryCourses": ["Gestão Estratégica", "Finanças Corporativas", "Liderança e Eficiência Operacional"]
+      "complementaryCourses": [
+        "Gestão Estratégica",
+        "Finanças Corporativas",
+        "Liderança e Eficiência Operacional"
+      ]
     },
     "experience": {
       "yearsInPublicService": 8,
@@ -671,7 +975,8 @@
           "feasibilityScore": 88
         }
       ]
-    }
+    },
+    "currentOfficeNote": "1º Turno Concluído (1,20% dos votos) &bull; Apoiou oficialmente Tarcísio de Freitas no 2º turno"
   },
   {
     "id": "ciro-gomes-presidente",
@@ -684,13 +989,17 @@
     "coalition": "Partido Democrático Trabalhista",
     "age": 68,
     "cityOrigin": "Pindamonhangaba - SP (Radicado no CE)",
-    "declaredAssets": 3039761.00,
+    "declaredAssets": 3039761,
     "education": {
       "level": "pos_graduacao",
       "institution": "Universidade Federal do Ceará (UFC) / Harvard Law School",
       "course": "Direito / Pesquisador Visitante em Direito Internacional",
       "details": "Graduado em Direito pela Universidade Federal do Ceará (UFC). Foi pesquisador visitante na Harvard Law School e professor de direito constitucional e economia.",
-      "complementaryCourses": ["Macroeconomia Aplicada", "Desenvolvimento Econômico Comparado", "Direito Constitucional"]
+      "complementaryCourses": [
+        "Macroeconomia Aplicada",
+        "Desenvolvimento Econômico Comparado",
+        "Direito Constitucional"
+      ]
     },
     "experience": {
       "yearsInPublicService": 38,
@@ -813,7 +1122,8 @@
           "feasibilityScore": 90
         }
       ]
-    }
+    },
+    "currentOfficeNote": "1º Turno Concluído (3,20% dos votos) &bull; O PDT liberou bancada no 2º turno"
   },
   {
     "id": "eduardo-leite-presidente",
@@ -826,13 +1136,17 @@
     "coalition": "Federação PSDB/Cidadania",
     "age": 41,
     "cityOrigin": "Pelotas - RS",
-    "declaredAssets": 328000.00,
+    "declaredAssets": 328000,
     "education": {
       "level": "mestrado",
       "institution": "Columbia University (SIPA, NY) / Universidade Federal de Pelotas (UFPel)",
       "course": "Mestrado em Gestão Pública / Bacharelado em Direito",
       "details": "Formado em Direito pela UFPel e Mestre em Gestão Pública pela prestigiada School of International and Public Affairs da Columbia University (Nova York).",
-      "complementaryCourses": ["Políticas Públicas Baseadas em Evidências", "Liderança Pública", "Finanças Governamentais"]
+      "complementaryCourses": [
+        "Políticas Públicas Baseadas em Evidências",
+        "Liderança Pública",
+        "Finanças Governamentais"
+      ]
     },
     "experience": {
       "yearsInPublicService": 16,
@@ -931,7 +1245,8 @@
           "feasibilityScore": 91
         }
       ]
-    }
+    },
+    "currentOfficeNote": "1º Turno Concluído &bull; Posição Neutra no 2º turno"
   },
   {
     "id": "jair-bolsonaro-presidente",
@@ -944,14 +1259,17 @@
     "coalition": "Partido Liberal",
     "age": 70,
     "cityOrigin": "Glicério - SP (Radicado no RJ)",
-    "declaredAssets": 2312555.00,
-    "currentOfficeNote": "INELEGÍVEL ATÉ 2030 por decisão colegiada do Tribunal Superior Eleitoral (TSE - AIJE nº 0600814-85.2022.6.00.0000 e 0600828-69.2022.6.00.0000). Perfil mantido exclusivamente para fins informativos e de monitoramento de cenários eleitorais.",
+    "declaredAssets": 2312555,
+    "currentOfficeNote": "Inelegível pelo TSE até 2030 &bull; Declarou apoio oficial a Tarcísio de Freitas no 2º turno",
     "education": {
       "level": "superior_completo",
       "institution": "Academia Militar das Agulhas Negras (AMAN)",
       "course": "Ciências Militares (Arma de Artilharia)",
       "details": "Formação como oficial do Exército Brasileiro pela AMAN (1977) e curso de Educação Física pela Escola de Educação Física do Exército (EsEFEx). Capitão da reserva.",
-      "complementaryCourses": ["Paraquedismo Militar", "Operações com Artilharia de Campanha"]
+      "complementaryCourses": [
+        "Paraquedismo Militar",
+        "Operações com Artilharia de Campanha"
+      ]
     },
     "experience": {
       "yearsInPublicService": 34,

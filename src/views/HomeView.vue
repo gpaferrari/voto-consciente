@@ -14,10 +14,12 @@ import {
   GraduationCap, 
   Briefcase,
   TrendingUp,
-  Award,
   Sparkles,
   ChevronRight,
-  BarChart3
+  BarChart3,
+  CheckCircle2,
+  MapPin,
+  Building2
 } from 'lucide-vue-next';
 
 const router = useRouter();
@@ -61,20 +63,117 @@ function navigateToRole(role: string) {
         <!-- Ações do Hero -->
         <div class="flex flex-wrap items-center justify-center gap-3 pt-2">
           <button
-            @click="router.push('/presidente')"
-            class="px-6 py-3.5 rounded-2xl bg-emerald-600 hover:bg-emerald-700 text-white font-extrabold text-sm shadow-lg shadow-emerald-600/25 hover:shadow-emerald-600/35 transition-all flex items-center gap-2 group"
+            @click="router.push('/segundo-turno')"
+            class="px-6 py-3.5 rounded-2xl bg-rose-600 hover:bg-rose-700 text-white font-black text-sm shadow-lg shadow-rose-600/25 hover:shadow-rose-600/35 transition-all flex items-center gap-2 group"
           >
-            <span>Ver Candidatos a Presidente</span>
+            <span class="w-2.5 h-2.5 rounded-full bg-white animate-pulse"></span>
+            <span>2º Turno Presidencial 2026</span>
             <ArrowRight class="w-4 h-4 group-hover:translate-x-1 transition-transform" />
           </button>
 
           <button
-            @click="router.push('/mandato-atual')"
+            @click="router.push('/eleitos')"
+            class="px-6 py-3.5 rounded-2xl bg-emerald-600 hover:bg-emerald-700 text-white font-extrabold text-sm shadow-lg shadow-emerald-600/25 hover:shadow-emerald-600/35 transition-all flex items-center gap-2 group"
+          >
+            <CheckCircle2 class="w-4 h-4" />
+            <span>Eleitos 2026 & Propostas (27 Estados)</span>
+          </button>
+
+          <button
+            @click="router.push('/pesquisas')"
             class="px-5 py-3.5 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 hover:bg-slate-50 dark:hover:bg-slate-800 text-slate-800 dark:text-slate-200 font-bold text-sm shadow-xs transition-all flex items-center gap-2"
           >
-            <ActivitySquare class="w-4 h-4 text-sky-500" />
-            <span>Auditoria do Mandato Atual</span>
+            <BarChart3 class="w-4 h-4 text-blue-500" />
+            <span>Pesquisas TSE</span>
           </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Destaques Especiais das Eleições 2026 (2º Turno & Eleitos) -->
+    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <!-- Card 1: 2º Turno Presidencial -->
+        <div
+          @click="router.push('/segundo-turno')"
+          class="relative overflow-hidden bg-linear-to-br from-slate-900 to-slate-950 text-white border border-slate-800 rounded-3xl p-6 sm:p-8 hover:border-rose-500/50 transition-all cursor-pointer group shadow-lg flex flex-col justify-between space-y-5"
+        >
+          <div class="space-y-3">
+            <div class="flex items-center justify-between">
+              <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-rose-500/20 text-rose-300 border border-rose-500/30">
+                <span class="w-2 h-2 rounded-full bg-rose-500 animate-pulse"></span>
+                VOTAÇÃO 25 DE OUTUBRO
+              </span>
+              <span class="text-xs text-slate-400 font-mono">TSE Oficial</span>
+            </div>
+
+            <h3 class="text-2xl font-black text-white group-hover:text-rose-400 transition-colors">
+              Disputa do 2º Turno Presidencial: Lula vs Tarcísio
+            </h3>
+            <p class="text-xs sm:text-sm text-slate-300 leading-relaxed">
+              Consulte as pesquisas eleitorais registradas no TSE (Datafolha, Quaest, AtlasIntel, Paraná Pesquisas), taxa de rejeição e o comparativo direto de propostas para a economia, saúde e segurança.
+            </p>
+          </div>
+
+          <!-- Placar Rápido -->
+          <div class="bg-slate-800/80 rounded-2xl p-4 border border-slate-700/80 space-y-2">
+            <div class="flex items-center justify-between text-xs font-bold">
+              <span class="text-rose-400">Lula (PT): 51,4%</span>
+              <span class="text-slate-400 font-mono text-[10px]">Votos Válidos Agregados</span>
+              <span class="text-blue-400">Tarcísio (Rep/PL): 48,6%</span>
+            </div>
+            <div class="w-full h-2.5 bg-slate-700 rounded-full overflow-hidden flex">
+              <div class="h-full bg-rose-600" style="width: 51.4%"></div>
+              <div class="h-full bg-blue-600" style="width: 48.6%"></div>
+            </div>
+          </div>
+
+          <div class="flex items-center justify-between text-xs font-bold text-rose-400 group-hover:translate-x-1 transition-transform">
+            <span>Acessar Painel Completo do 2º Turno</span>
+            <ArrowRight class="w-4 h-4" />
+          </div>
+        </div>
+
+        <!-- Card 2: Eleitos 2026 em Todos os Estados -->
+        <div
+          @click="router.push('/eleitos')"
+          class="relative overflow-hidden bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl p-6 sm:p-8 hover:border-emerald-500/50 transition-all cursor-pointer group shadow-sm hover:shadow-lg flex flex-col justify-between space-y-5"
+        >
+          <div class="space-y-3">
+            <div class="flex items-center justify-between">
+              <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-emerald-50 dark:bg-emerald-950/40 text-emerald-700 dark:text-emerald-300 border border-emerald-200 dark:border-emerald-800">
+                <CheckCircle2 class="w-3.5 h-3.5 text-emerald-500" />
+                RESULTADO DO 1º TURNO PROCLAMADO
+              </span>
+              <span class="text-xs text-slate-400 font-mono">27 UFs</span>
+            </div>
+
+            <h3 class="text-2xl font-black text-slate-900 dark:text-white group-hover:text-emerald-600 dark:group-hover:text-emerald-400 transition-colors">
+              Candidatos Eleitos 2026 & Suas Propostas
+            </h3>
+            <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
+              Consulte governadores eleitos, novos senadores (2 vagas por estado renovadas) e bancadas federais de todos os 26 estados e DF, com suas metas e compromissos registrados para 2027-2030.
+            </p>
+          </div>
+
+          <!-- Destaque Rápido de Estados -->
+          <div class="bg-slate-50 dark:bg-slate-800/60 rounded-2xl p-4 border border-slate-100 dark:border-slate-800 text-xs space-y-1.5">
+            <span class="text-[10px] font-bold uppercase tracking-wider text-slate-400">Cobertura Nacional Completa:</span>
+            <div class="flex flex-wrap gap-1 text-[11px] font-mono font-bold text-slate-600 dark:text-slate-300">
+              <span class="px-1.5 py-0.5 rounded-sm bg-white dark:bg-slate-700 border border-slate-200 dark:border-slate-600">SP</span>
+              <span class="px-1.5 py-0.5 rounded-sm bg-white dark:bg-slate-700 border border-slate-200 dark:border-slate-600">RJ</span>
+              <span class="px-1.5 py-0.5 rounded-sm bg-white dark:bg-slate-700 border border-slate-200 dark:border-slate-600">MG</span>
+              <span class="px-1.5 py-0.5 rounded-sm bg-white dark:bg-slate-700 border border-slate-200 dark:border-slate-600">BA</span>
+              <span class="px-1.5 py-0.5 rounded-sm bg-white dark:bg-slate-700 border border-slate-200 dark:border-slate-600">PR</span>
+              <span class="px-1.5 py-0.5 rounded-sm bg-white dark:bg-slate-700 border border-slate-200 dark:border-slate-600">RS</span>
+              <span class="px-1.5 py-0.5 rounded-sm bg-white dark:bg-slate-700 border border-slate-200 dark:border-slate-600">+ 21 Estados</span>
+            </div>
+          </div>
+
+          <div class="flex items-center justify-between text-xs font-bold text-emerald-600 dark:text-emerald-400 group-hover:translate-x-1 transition-transform">
+            <span>Ver Lista de Eleitos e Propostas</span>
+            <ArrowRight class="w-4 h-4" />
+          </div>
         </div>
       </div>
     </section>

@@ -12,7 +12,8 @@ import {
   Menu, 
   X, 
   ActivitySquare,
-  BarChart3
+  BarChart3,
+  CheckCircle2
 } from 'lucide-vue-next';
 
 const router = useRouter();
@@ -88,6 +89,35 @@ function navigate(path: string) {
           ]"
         >
           Início
+        </button>
+
+        <!-- 2º Turno Presidencial Destaque -->
+        <button
+          @click="navigate('/segundo-turno')"
+          :class="[
+            'px-3 py-2 rounded-xl transition-all flex items-center gap-1.5 font-extrabold',
+            route.path === '/segundo-turno' 
+              ? 'bg-rose-600 text-white shadow-xs' 
+              : 'text-rose-600 dark:text-rose-400 hover:bg-rose-50 dark:hover:bg-rose-950/40'
+          ]"
+        >
+          <span class="w-2 h-2 rounded-full bg-rose-500 animate-pulse"></span>
+          <span>2º Turno 2026</span>
+        </button>
+
+        <!-- Eleitos 2026 (Todos os Estados) -->
+        <button
+          @click="navigate('/eleitos')"
+          :class="[
+            'px-3 py-2 rounded-xl transition-all flex items-center gap-1.5 font-bold',
+            route.path === '/eleitos' 
+              ? 'bg-emerald-600 text-white shadow-xs' 
+              : 'text-emerald-700 dark:text-emerald-400 hover:bg-emerald-50 dark:hover:bg-emerald-950/40'
+          ]"
+        >
+          <CheckCircle2 class="w-3.5 h-3.5 text-emerald-500" />
+          <span>Eleitos 2026</span>
+          <span class="text-[9px] px-1.5 py-0.2 rounded-full bg-emerald-500/20 text-emerald-600 dark:text-emerald-400 font-extrabold">27 UFs</span>
         </button>
 
         <button
@@ -239,6 +269,20 @@ function navigate(path: string) {
         class="w-full text-left px-3 py-2.5 rounded-xl text-sm font-semibold text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800"
       >
         Início
+      </button>
+      <button
+        @click="navigate('/segundo-turno')"
+        class="w-full text-left px-3 py-2.5 rounded-xl text-sm font-extrabold text-rose-600 dark:text-rose-400 hover:bg-rose-50 dark:hover:bg-rose-950/40 flex items-center gap-2"
+      >
+        <span class="w-2 h-2 rounded-full bg-rose-500 animate-pulse"></span>
+        <span>2º Turno Presidencial 2026</span>
+      </button>
+      <button
+        @click="navigate('/eleitos')"
+        class="w-full text-left px-3 py-2.5 rounded-xl text-sm font-bold text-emerald-600 dark:text-emerald-400 hover:bg-emerald-50 dark:hover:bg-emerald-950/40 flex items-center gap-2"
+      >
+        <CheckCircle2 class="w-4 h-4 text-emerald-500" />
+        <span>Candidatos Eleitos 2026 (Todos os Estados)</span>
       </button>
       <button
         @click="navigate('/presidente')"
