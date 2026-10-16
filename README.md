@@ -76,6 +76,7 @@ npm run build
 ## 📂 Documentação Técnica e Jurídica
 
 Consulte a pasta [`doc/`](./doc/) para especificações detalhadas (atualizadas em Outubro/2026):
+- [`doc/FONTES_OFICIAIS_E_METODOLOGIA.md`](./doc/FONTES_OFICIAIS_E_METODOLOGIA.md): Catálogo completo de fontes oficiais, whitelists (TSE, IFCN, IBGE) e metodologia de validação.
 - [`doc/ARQUITETURA.md`](./doc/ARQUITETURA.md): Divisão por departamentos arquiteturais, motor de validação de fontes (`sourceValidator.ts`), módulos de 2º Turno / Eleitos e integração Supabase.
 - [`doc/CHANGELOG.md`](./doc/CHANGELOG.md): Histórico completo de versões (`v1.0.0` a `v2.1.0`) e decisões técnicas.
 - [`doc/DIRETRIZES_IA_ATUALIDADE.md`](./doc/DIRETRIZES_IA_ATUALIDADE.md): Protocolo mandatório de verificação no TSE e vedação absoluta de candidaturas especulativas.
