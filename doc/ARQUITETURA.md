@@ -95,14 +95,14 @@ Para blindar a plataforma contra desinformação, especulações políticas e fo
 ## 3. Departamento de Módulos Eleitorais Pós-1º Turno
 
 ### 3.1. Módulo de 2º Turno Presidencial (`SecondRoundView.vue` • `/segundo-turno`)
-- Apresenta a disputa de 2º turno entre **Luiz Inácio Lula da Silva (PT - 13)** e **Tarcísio de Freitas (Republicanos - 10)**.
-- Exibe o termômetro de **Votos Válidos**, **Votos Totais** e **Taxas de Rejeição** das pesquisas pós-1º turno registradas no TSE.
-- Separa com rigor técnico o **Resultado Oficial do 1º Turno** do painel de **Apoios Declarados por Governadores Estaduais e Lideranças**, evitando confundir apoios políticos com candidaturas presidenciais.
-- Permite comparar lado a lado as propostas dos dois finalistas em 6 temas estruturantes.
+- Apresenta a disputa oficial de 2º turno entre **Flávio Bolsonaro (PL - 22)** (47,03% no 1º turno) e **Luiz Inácio Lula da Silva (PT - 13)** (45,16% no 1º turno).
+- Exibe o termômetro de **Votos Válidos**, **Votos Totais** e **Taxas de Rejeição** das pesquisas registradas no TSE em outubro de 2026 (Datafolha, Quaest, CNT/MDA, Futura).
+- Separa com rigor técnico o **Resultado Oficial do 1º Turno** do painel de **Apoios Declarados por Governadores Estaduais e Lideranças** (como Tarcísio de Freitas reeleito em SP, Romeu Zema em MG, Ronaldo Caiado em GO, Ratinho Jr no PR, Jerônimo na BA, etc.), evitando qualquer confusão entre articulação política e registro de candidatura.
+- Permite comparar lado a lado as propostas dos dois finalistas em 6 temas estruturantes com base nos planos de governo protocolados no TSE.
 
 ### 3.2. Painel Nacional de Candidatos Eleitos (`ElectedCandidatesView.vue` • `/eleitos`)
-- Consolida os **109 mandatários eleitos** nas **27 Unidades Federativas** (Governadores, as 2 cadeiras do Senado renovadas por estado e Deputados Federais de destaque).
-- Cada cartão apresenta o status proclamado pelo TSE e permite expandir as propostas temáticas registradas para o mandato 2027–2030/2034.
+- Consolida os **109 mandatários eleitos** nas **27 Unidades Federativas** (21 Governadores eleitos no 1º turno, 6 estados em disputa de 2º turno e os 54 Senadores eleitos em 04/10/2026 para o mandato 2027–2035).
+- Cada cartão apresenta o status proclamado pelo TSE e permite expandir as propostas temáticas registradas para o próximo mandato.
 
 ---
 
@@ -122,11 +122,20 @@ $$\text{Score Final} = \frac{\sum (S_i \times W_i)}{\sum W_i}$$
 
 ---
 
-## 5. Departamento de Backend Híbrido & Automação Contínua (Supabase + GitHub Actions)
+## 5. Departamento de Backend Híbrido, Web Scraping & GitHub Actions
 
-1. **Banco de Dados PostgreSQL (Supabase):**
-   - Esquema versionado em `supabase/migrations/20260915000000_voto_consciente_schema.sql` com Row-Level Security (RLS) ativo e `GRANT SELECT` explícito para leitura anônima segura.
-2. **Arquitetura Offline-First (`fetchWithFallback`):**
-   - Caso o Supabase esteja inacessível ou sem rede, `src/services/supabaseClient.ts` realiza fallback imediato e transparente para os datasets JSON locais validados (`presidente.json`, `second-round-2026.json`, `elected-2026.json`, `live-news.json`).
-3. **Pipeline Automatizado (`.github/workflows/update-news.yml`):**
-   - Executa diariamente via GitHub Actions, consultando fontes confiáveis, filtrando por `isSourceTrusted()`, atualizando o repositório e sincronizando com o Supabase (evitando também a pausa por inatividade do plano gratuito).
+### 5.1. Pipeline de Web Scraping Verificado (`scripts/scrape-news.ts`)
+O pipeline de notícias não realiza varredura indiscriminada na internet. Ele opera sob um funil de segurança em 4 etapas:
+1. **Consulta aos Feeds RSS Oficiais:** Acessa os feeds geolocalizados do Google News Brasil (`hl=pt-BR&gl=BR`) com consultas estritas direcionadas aos candidatos homologados em suas esferas reais (Presidência, Governo SP, Senado e Bancada Federal).
+2. **Filtro Estrito de Veículos Homologados (`isSourceTrusted`):** Apenas notícias emitidas por veículos da whitelist editorial (EBC/Agência Brasil, G1, Folha, Estadão, Valor, CNN, BBC, Poder360, Nexo, Jota, Lupa, Aos Fatos, Comprova, TSE, STF, TCU, etc.) são admitidas. Portais desconhecidos, redes sociais e blogs de opinião são descartados sumariamente.
+3. **Barreira Anti-Clickbait e Sensacionalismo:** Manchetes contendo termos apelativos ou conspiratórios são rejeitadas preventivamente.
+4. **Classificação Temática Automática:** As matérias aprovadas recebem tags automáticas (`pesquisa`, `juridico`, `proposta` ou `declaracao`).
+
+### 5.2. Automação Contínua via GitHub Actions (`.github/workflows/update-news.yml`)
+- **Frequência de Execução:** Disparado automaticamente a cada **12 horas** (`cron: '0 */12 * * *'`) e com suporte a acionamento manual (`workflow_dispatch`).
+- **Execução do Pipeline:** O runner (`ubuntu-latest`):
+  1. Executa `npm ci` para instalar as dependências de forma reproduzível.
+  2. Executa `npm run db:seed || true` para expurgar candidaturas obsoletas e manter o esquema do Supabase atualizado.
+  3. Executa `npm run scrape:news`, coletando notícias homologadas, atualizando `src/data/live-news.json` e sincronizando com a tabela `public.noticias_monitoradas` do Supabase.
+  4. Realiza commit e push automático do arquivo `src/data/live-news.json` para o branch `main` com a flag `[skip ci]`.
+- **Resiliência e Fallback:** Caso a instância do Supabase esteja pausada ou inacessível, o script captura a exceção, preserva os dados locais em `src/data/live-news.json` e a aplicação web continua 100% funcional via `fetchWithFallback`.
