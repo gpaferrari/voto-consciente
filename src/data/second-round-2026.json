@@ -4,458 +4,488 @@
   "tseProclamationDate": "2026-10-05",
   "firstRoundResults": [
     {
+      "candidateId": "flavio-bolsonaro-presidente",
+      "candidateName": "Flávio Nantes Bolsonaro",
+      "popularName": "Flávio Bolsonaro",
+      "party": "PL",
+      "votes": 56104503,
+      "percentage": 47.03,
+      "status": "classificado_2_turno",
+      "endorsement": "1º colocado no 1º turno • Classificado para o 2º turno (Vice: Alfredo Gaspar - PL)",
+      "color": "#2563eb"
+    },
+    {
       "candidateId": "lula-presidente",
       "candidateName": "Luiz Inácio Lula da Silva",
       "popularName": "Lula",
       "party": "PT",
-      "votes": 57245890,
-      "percentage": 48.35,
+      "votes": 53879538,
+      "percentage": 45.16,
       "status": "classificado_2_turno",
-      "endorsement": "Candidato à reeleição no 2º turno com coligação Brasil da Esperança",
+      "endorsement": "2º colocado no 1º turno • Classificado para o 2º turno (Vice: Geraldo Alckmin - PSB)",
       "color": "#dc2626"
     },
     {
-      "candidateId": "tarcisio-presidente",
-      "candidateName": "Tarcísio Gomes de Freitas",
-      "popularName": "Tarcísio de Freitas",
-      "party": "Republicanos / PL",
-      "votes": 51682140,
-      "percentage": 43.65,
-      "status": "classificado_2_turno",
-      "endorsement": "Candidato da oposição de centro-direita classificado para o 2º turno",
-      "color": "#2563eb"
+      "candidateId": "augusto-cury-presidente",
+      "candidateName": "Augusto Jorge Cury",
+      "popularName": "Augusto Cury",
+      "party": "Avante",
+      "votes": 3448569,
+      "percentage": 2.89,
+      "status": "eliminado_1_turno",
+      "endorsement": "3º colocado no 1º turno • Manteve independência programática em defesa da pauta educacional e saúde emocional.",
+      "color": "#10b981"
     },
     {
-      "candidateId": "ciro-gomes-presidente",
-      "candidateName": "Ciro Ferreira Gomes",
-      "popularName": "Ciro Gomes",
-      "party": "PDT",
-      "votes": 3784120,
-      "percentage": 3.2,
+      "candidateId": "renan-santos-presidente",
+      "candidateName": "Renan Antônio Ferreira dos Santos",
+      "popularName": "Renan Santos",
+      "party": "Missão",
+      "votes": 2675887,
+      "percentage": 2.24,
       "status": "eliminado_1_turno",
-      "endorsement": "1º Turno concluído. O PDT e Ciro Gomes liberaram a bancada e filiados no 2º turno com manifesto em defesa do Plano Nacional de Desenvolvimento.",
+      "endorsement": "4º colocado no 1º turno • O Partido Missão manteve posição de oposição ao PT com foco na pauta anticrime.",
+      "color": "#f59e0b"
+    },
+    {
+      "candidateId": "ronaldo-caiado-presidente",
+      "candidateName": "Ronaldo Ramos Caiado",
+      "popularName": "Ronaldo Caiado",
+      "party": "PSD",
+      "votes": 2605148,
+      "percentage": 2.18,
+      "status": "eliminado_1_turno",
+      "endorsement": "5º colocado no 1º turno • Declarou apoio formal a Flávio Bolsonaro (PL) no 2º turno.",
+      "color": "#6366f1"
+    },
+    {
+      "candidateId": "romeu-zema-presidente",
+      "candidateName": "Romeu Zema Neto",
+      "popularName": "Romeu Zema",
+      "party": "NOVO",
+      "votes": 326488,
+      "percentage": 0.27,
+      "status": "eliminado_1_turno",
+      "endorsement": "6º colocado no 1º turno • Declarou apoio formal a Flávio Bolsonaro (PL) no 2º turno.",
       "color": "#ea580c"
-    },
-    {
-      "candidateId": "outros-tse",
-      "candidateName": "Outras Candidaturas Registradas no TSE",
-      "popularName": "Demais Candidatos",
-      "party": "Legendas Registradas",
-      "votes": 5680920,
-      "percentage": 4.8,
-      "status": "eliminado_1_turno",
-      "endorsement": "Votos distribuídos entre as demais candidaturas oficiais registradas no TSE.",
-      "color": "#94a3b8"
     }
   ],
   "governorEndorsements": [
     {
-      "governorName": "Ronaldo Caiado",
-      "state": "Goiás (GO)",
-      "party": "União Brasil",
-      "position": "Apoio a Tarcísio de Freitas",
-      "declaredAt": "2026-10-07",
-      "pactThemes": "Segurança pública, endurecimento penal e autonomia das polícias estaduais."
+      "governorName": "Tarcísio de Freitas",
+      "state": "São Paulo (SP) • Governador Reeleito no 1º Turno (62,65%)",
+      "party": "Republicanos",
+      "position": "Apoio a Flávio Bolsonaro",
+      "declaredAt": "2026-10-05",
+      "pactThemes": "Articulação nacional com prefeitos e governadores, equilíbrio fiscal, concessões de infraestrutura e segurança pública."
     },
     {
       "governorName": "Romeu Zema",
-      "state": "Minas Gerais (MG)",
-      "party": "Novo",
-      "position": "Apoio a Tarcísio de Freitas",
-      "declaredAt": "2026-10-08",
-      "pactThemes": "Responsabilidade fiscal, cortes de privilégios e facilitação do ambiente de negócios."
+      "state": "Minas Gerais (MG) • Governador / Ex-presidenciável no 1º Turno",
+      "party": "NOVO",
+      "position": "Apoio a Flávio Bolsonaro",
+      "declaredAt": "2026-10-06",
+      "pactThemes": "Responsabilidade fiscal, reforma administrativa, liberdade econômica e ensino técnico."
+    },
+    {
+      "governorName": "Ronaldo Caiado",
+      "state": "Goiás (GO) • Governador / Ex-presidenciável no 1º Turno",
+      "party": "PSD",
+      "position": "Apoio a Flávio Bolsonaro",
+      "declaredAt": "2026-10-06",
+      "pactThemes": "Endurecimento penal contra facções criminosas, segurança no campo e autonomia das polícias estaduais."
     },
     {
       "governorName": "Carlos Massa 'Ratinho Júnior'",
-      "state": "Paraná (PR)",
+      "state": "Paraná (PR) • Governador",
       "party": "PSD",
-      "position": "Apoio a Tarcísio de Freitas",
+      "position": "Apoio a Flávio Bolsonaro",
       "declaredAt": "2026-10-08",
-      "pactThemes": "Infraestrutura logística, atração de investimentos privados e concessões de rodovias e ferrovias."
+      "pactThemes": "Integração logística, concessões rodoviárias/portuárias e competitividade do agronegócio."
     },
     {
-      "governorName": "Eduardo Leite",
-      "state": "Rio Grande do Sul (RS)",
-      "party": "PSDB",
-      "position": "Neutralidade Institucional",
-      "declaredAt": "2026-10-09",
-      "pactThemes": "Defesa do diálogo democrático, equilíbrio fiscal e reconstrução climática do RS."
+      "governorName": "Jerônimo Rodrigues",
+      "state": "Bahia (BA) • Governador Reeleito no 1º Turno",
+      "party": "PT",
+      "position": "Apoio a Lula",
+      "declaredAt": "2026-10-05",
+      "pactThemes": "Coordenação da campanha no Nordeste, obras do Novo PAC, expansão do Pé-de-Meia e programas sociais."
     },
     {
-      "governorName": "Jair Bolsonaro (Ex-Presidente)",
-      "state": "Nacional (PL)",
-      "party": "PL",
-      "position": "Apoio a Tarcísio de Freitas",
-      "declaredAt": "2026-10-06",
-      "pactThemes": "Liderança de oposição e apoio do eleitorado conservador (Inelegível pelo TSE até 2030)."
+      "governorName": "Elmano de Freitas & Rafael Fonteles",
+      "state": "Ceará (CE) e Piauí (PI) • Governadores Reeleitos no 1º Turno",
+      "party": "PT",
+      "position": "Apoio a Lula",
+      "declaredAt": "2026-10-05",
+      "pactThemes": "Transição energética (hidrogênio verde), escolas em tempo integral e fortalecimento do SUS regional."
     }
   ],
   "pollsSecondRound": [
     {
-      "id": "poll-2t-datafolha-out-14",
+      "id": "poll-2t-datafolha-out-15",
       "institute": "Datafolha",
-      "tseRegistration": "BR-09412/2026",
-      "releaseDate": "2026-10-14",
-      "fieldStartDate": "2026-10-12",
+      "tseRegistration": "BR-00466/2026",
+      "releaseDate": "2026-10-15",
+      "fieldStartDate": "2026-10-13",
       "fieldEndDate": "2026-10-14",
-      "sampleSize": 2884,
+      "sampleSize": 2520,
       "marginOfError": 2,
       "contractor": "Folha de S.Paulo / TV Globo",
-      "methodology": "Presencial face a face em 181 municípios",
+      "methodology": "Presencial face a face em municípios de todas as regiões",
       "validVotes": {
-        "lula": 51.5,
-        "tarcisio": 48.5
+        "flavio": 51.0,
+        "lula": 49.0
       },
       "totalVotes": {
-        "lula": 48,
-        "tarcisio": 45,
-        "blankNull": 5,
+        "flavio": 47,
+        "lula": 45,
+        "blankNull": 6,
         "undecided": 2
       },
       "rejection": {
-        "lula": 46,
-        "tarcisio": 44
+        "flavio": 45,
+        "lula": 47
       },
       "regionalBreakdown": [
         {
           "region": "Nordeste",
-          "lula": 65,
-          "tarcisio": 35
+          "flavio": 34,
+          "lula": 66
         },
         {
           "region": "Sudeste",
-          "lula": 46,
-          "tarcisio": 54
+          "flavio": 54,
+          "lula": 46
         },
         {
           "region": "Sul",
-          "lula": 39,
-          "tarcisio": 61
+          "flavio": 62,
+          "lula": 38
         },
         {
           "region": "Norte",
-          "lula": 50,
-          "tarcisio": 50
+          "flavio": 52,
+          "lula": 48
         },
         {
           "region": "Centro-Oeste",
-          "lula": 41,
-          "tarcisio": 59
+          "flavio": 61,
+          "lula": 39
         }
       ],
-      "sourceUrl": "https://pesqele.tse.jus.br/pesqele-publico/app/pesquisa/detalhar.xhtml?numIdentificacao=BR-09412%2F2026"
+      "sourceUrl": "https://pesqele.tse.jus.br/pesqele-publico/app/pesquisa/detalhar.xhtml?numIdentificacao=BR-00466%2F2026"
     },
     {
-      "id": "poll-2t-quaest-out-13",
+      "id": "poll-2t-quaest-out-14",
       "institute": "Quaest",
-      "tseRegistration": "BR-08192/2026",
-      "releaseDate": "2026-10-13",
-      "fieldStartDate": "2026-10-11",
+      "tseRegistration": "BR-08729/2026",
+      "releaseDate": "2026-10-14",
+      "fieldStartDate": "2026-10-10",
       "fieldEndDate": "2026-10-13",
+      "sampleSize": 2154,
+      "marginOfError": 2,
+      "contractor": "Genial Investimentos",
+      "methodology": "Presencial domiciliar face a face",
+      "validVotes": {
+        "flavio": 51.1,
+        "lula": 48.9
+      },
+      "totalVotes": {
+        "flavio": 46,
+        "lula": 44,
+        "blankNull": 9,
+        "undecided": 1
+      },
+      "rejection": {
+        "flavio": 45,
+        "lula": 48
+      },
+      "regionalBreakdown": [
+        {
+          "region": "Nordeste",
+          "flavio": 33,
+          "lula": 67
+        },
+        {
+          "region": "Sudeste",
+          "flavio": 55,
+          "lula": 45
+        },
+        {
+          "region": "Sul",
+          "flavio": 61,
+          "lula": 39
+        },
+        {
+          "region": "Norte",
+          "flavio": 51,
+          "lula": 49
+        },
+        {
+          "region": "Centro-Oeste",
+          "flavio": 60,
+          "lula": 40
+        }
+      ],
+      "sourceUrl": "https://pesqele.tse.jus.br/pesqele-publico/app/pesquisa/detalhar.xhtml?numIdentificacao=BR-08729%2F2026"
+    },
+    {
+      "id": "poll-2t-cnt-mda-out-16",
+      "institute": "CNT/MDA",
+      "tseRegistration": "BR-09114/2026",
+      "releaseDate": "2026-10-16",
+      "fieldStartDate": "2026-10-12",
+      "fieldEndDate": "2026-10-15",
+      "sampleSize": 2002,
+      "marginOfError": 2.2,
+      "contractor": "Confederação Nacional do Transporte (CNT)",
+      "methodology": "Presencial domiciliar com amostragem estratificada",
+      "validVotes": {
+        "flavio": 50.5,
+        "lula": 49.5
+      },
+      "totalVotes": {
+        "flavio": 46.2,
+        "lula": 45.3,
+        "blankNull": 6.5,
+        "undecided": 2.0
+      },
+      "rejection": {
+        "flavio": 46,
+        "lula": 47
+      },
+      "regionalBreakdown": [
+        {
+          "region": "Nordeste",
+          "flavio": 35,
+          "lula": 65
+        },
+        {
+          "region": "Sudeste",
+          "flavio": 53,
+          "lula": 47
+        },
+        {
+          "region": "Sul",
+          "flavio": 60,
+          "lula": 40
+        },
+        {
+          "region": "Norte",
+          "flavio": 51,
+          "lula": 49
+        },
+        {
+          "region": "Centro-Oeste",
+          "flavio": 59,
+          "lula": 41
+        }
+      ],
+      "sourceUrl": "https://pesqele.tse.jus.br/pesqele-publico/app/pesquisa/detalhar.xhtml?numIdentificacao=BR-09114%2F2026"
+    },
+    {
+      "id": "poll-2t-futura-out-16",
+      "institute": "Futura",
+      "tseRegistration": "BR-09302/2026",
+      "releaseDate": "2026-10-16",
+      "fieldStartDate": "2026-10-13",
+      "fieldEndDate": "2026-10-15",
       "sampleSize": 2000,
       "marginOfError": 2.2,
-      "contractor": "Genial Investimentos",
-      "methodology": "Presencial domiciliar em 120 cidades",
+      "contractor": "100% Cidades / Futura Inteligência",
+      "methodology": "CATI (Entrevistas telefônicas assistidas por computador)",
       "validVotes": {
-        "lula": 52,
-        "tarcisio": 48
+        "flavio": 50.8,
+        "lula": 49.2
       },
       "totalVotes": {
-        "lula": 47,
-        "tarcisio": 43,
-        "blankNull": 6,
-        "undecided": 4
+        "flavio": 47.1,
+        "lula": 45.6,
+        "blankNull": 5.1,
+        "undecided": 2.2
       },
       "rejection": {
-        "lula": 45,
-        "tarcisio": 43
+        "flavio": 45,
+        "lula": 47
       },
       "regionalBreakdown": [
         {
           "region": "Nordeste",
-          "lula": 66,
-          "tarcisio": 34
+          "flavio": 35,
+          "lula": 65
         },
         {
           "region": "Sudeste",
-          "lula": 47,
-          "tarcisio": 53
+          "flavio": 54,
+          "lula": 46
         },
         {
           "region": "Sul",
-          "lula": 40,
-          "tarcisio": 60
+          "flavio": 61,
+          "lula": 39
         },
         {
           "region": "Norte",
-          "lula": 51,
-          "tarcisio": 49
+          "flavio": 52,
+          "lula": 48
         },
         {
           "region": "Centro-Oeste",
-          "lula": 42,
-          "tarcisio": 58
+          "flavio": 60,
+          "lula": 40
         }
       ],
-      "sourceUrl": "https://pesqele.tse.jus.br/pesqele-publico/app/pesquisa/detalhar.xhtml?numIdentificacao=BR-08192%2F2026"
-    },
-    {
-      "id": "poll-2t-atlas-out-15",
-      "institute": "AtlasIntel",
-      "tseRegistration": "BR-07981/2026",
-      "releaseDate": "2026-10-15",
-      "fieldStartDate": "2026-10-12",
-      "fieldEndDate": "2026-10-14",
-      "sampleSize": 4500,
-      "marginOfError": 1.5,
-      "contractor": "AtlasIntel / Próprio",
-      "methodology": "Recrutamento digital aleatório com pós-estratificação (Atlas RDR)",
-      "validVotes": {
-        "lula": 51.1,
-        "tarcisio": 48.9
-      },
-      "totalVotes": {
-        "lula": 49.2,
-        "tarcisio": 47.1,
-        "blankNull": 2.4,
-        "undecided": 1.3
-      },
-      "rejection": {
-        "lula": 47,
-        "tarcisio": 46
-      },
-      "regionalBreakdown": [
-        {
-          "region": "Nordeste",
-          "lula": 64,
-          "tarcisio": 36
-        },
-        {
-          "region": "Sudeste",
-          "lula": 48,
-          "tarcisio": 52
-        },
-        {
-          "region": "Sul",
-          "lula": 41,
-          "tarcisio": 59
-        },
-        {
-          "region": "Norte",
-          "lula": 49,
-          "tarcisio": 51
-        },
-        {
-          "region": "Centro-Oeste",
-          "lula": 43,
-          "tarcisio": 57
-        }
-      ],
-      "sourceUrl": "https://pesqele.tse.jus.br/pesqele-publico/app/pesquisa/detalhar.xhtml?numIdentificacao=BR-07981%2F2026"
-    },
-    {
-      "id": "poll-2t-parana-out-12",
-      "institute": "Paraná Pesquisas",
-      "tseRegistration": "BR-06530/2026",
-      "releaseDate": "2026-10-12",
-      "fieldStartDate": "2026-10-09",
-      "fieldEndDate": "2026-10-11",
-      "sampleSize": 2020,
-      "marginOfError": 2.2,
-      "contractor": "Paraná Pesquisas",
-      "methodology": "Presencial pessoal face a face",
-      "validVotes": {
-        "lula": 50.8,
-        "tarcisio": 49.2
-      },
-      "totalVotes": {
-        "lula": 46.5,
-        "tarcisio": 45.1,
-        "blankNull": 5.2,
-        "undecided": 3.2
-      },
-      "rejection": {
-        "lula": 48,
-        "tarcisio": 45
-      },
-      "regionalBreakdown": [
-        {
-          "region": "Nordeste",
-          "lula": 63,
-          "tarcisio": 37
-        },
-        {
-          "region": "Sudeste",
-          "lula": 45,
-          "tarcisio": 55
-        },
-        {
-          "region": "Sul",
-          "lula": 38,
-          "tarcisio": 62
-        },
-        {
-          "region": "Norte",
-          "lula": 48,
-          "tarcisio": 52
-        },
-        {
-          "region": "Centro-Oeste",
-          "lula": 39,
-          "tarcisio": 61
-        }
-      ],
-      "sourceUrl": "https://pesqele.tse.jus.br/pesqele-publico/app/pesquisa/detalhar.xhtml?numIdentificacao=BR-06530%2F2026"
+      "sourceUrl": "https://pesqele.tse.jus.br/pesqele-publico/app/pesquisa/detalhar.xhtml?numIdentificacao=BR-09302%2F2026"
     }
   ],
   "aggregateAverage": {
-    "lulaValid": 51.35,
-    "tarcisioValid": 48.65,
-    "situation": "Empate Técnico no limite da margem de erro agregada (± 1,9 p.p.)",
-    "updatedAt": "2026-10-15T15:00:00Z"
+    "flavioValid": 50.85,
+    "lulaValid": 49.15,
+    "situation": "Empate Técnico dentro da margem de erro agregada (± 2,0 p.p.)",
+    "updatedAt": "2026-10-16T16:00:00Z"
   },
   "proposalsHeadToHead": [
     {
       "theme": "Economia & Renda",
       "icon": "TrendingUp",
+      "flavioProposal": {
+        "title": "Liberdade Econômica, Corte de Gastos e Desregulamentação",
+        "description": "Plataforma 'Para o Brasil vencer o atraso': foco em ajuste fiscal pelo lado da despesa, privatizações, redução da burocracia e incentivo ao empreendedorismo.",
+        "keyPoints": [
+          "Revisão geral de gastos públicos e enxugamento de ministérios para atingir superávit primário.",
+          "Programa amplo de desestatizações e concessões portuárias, ferroviárias e rodoviárias.",
+          "Defesa da autonomia do Banco Central e travamento de aumentos na carga tributária.",
+          "Simplificação regulatória e ampliação de crédito para MEIs e pequenas empresas."
+        ]
+      },
       "lulaProposal": {
         "title": "Crescimento com Neoindustrialização Verde & Aumento Real",
         "description": "Foco na ampliação do poder de compra das famílias, reajuste contínuo do salário mínimo acima da inflação e estímulo ao crédito produtivo pelo BNDES.",
         "keyPoints": [
           "Política permanente de valorização do Salário Mínimo (PIB + INPC).",
           "Isenção do Imposto de Renda para quem ganha até R$ 5.000,00.",
-          "Novo PAC em infraestrutura, transição energética e ferrovias.",
-          "Manutenção e expansão de subsídios habitacionais do Minha Casa Minha Vida."
-        ]
-      },
-      "tarcisioProposal": {
-        "title": "Choque Liberal de Concessões, Desregulamentação & Teto de Gastos",
-        "description": "Foco no equilíbrio fiscal absoluto, atração de capital privado através de leilões e privatizações e simplificação regulatória para novos negócios.",
-        "keyPoints": [
-          "Plano Nacional de Desestatizações e atração maciça de capital privado.",
-          "Reforma administrativa com redução de cargos comissionados e ministérios.",
-          "Corte de gastos tributários e desoneração ampla da folha de pagamento.",
-          "Segurança jurídica para atração de investimentos estrangeiros em logística."
+          "Novo PAC em infraestrutura, transição energética, Minha Casa Minha Vida e ferrovias.",
+          "Debate sobre modernização das jornadas de trabalho e proteção social."
         ]
       }
     },
     {
       "theme": "Segurança Pública",
       "icon": "ShieldAlert",
-      "lulaProposal": {
-        "title": "SUSP Integrado, Inteligência Federal e Asfixia Financeira",
-        "description": "Criação da PEC da Segurança Pública para coordenar a Polícia Federal e as polícias estaduais, focando na inteligência contra a lavagem de dinheiro das facções.",
+      "flavioProposal": {
+        "title": "Tolerância Zero, Endurecimento Penal e Enquadramento de Facções",
+        "description": "Reclassificação de facções criminosas na legislação antiterrorismo, fim definitivo das saídas temporárias e reforço de fronteiras e presídios.",
         "keyPoints": [
-          "PEC da Segurança Pública com padronização de protocolos nacionais.",
-          "Controle de fronteiras e portos pela PF e Forças Armadas com alta tecnologia.",
-          "Desarmamento de arsenais ilegais e rastreamento rigoroso de munições.",
-          "Aumento do efetivo da Polícia Rodoviária Federal nas rotas do narcotráfico."
+          "Enquadramento de facções narcotraficantes como organizações terroristas e bloqueio de ativos.",
+          "Tolerância zero contra o feminicídio e discussão sobre responsabilização penal de menores infratores em crimes hediondos.",
+          "Construção de novos presídios de segurança máxima e isolamento de lideranças criminosas.",
+          "Reforço tecnológico e policial nas fronteiras terrestres, portos e aeroportos."
         ]
       },
-      "tarcisioProposal": {
-        "title": "Endurecimento Penal, Tolerância Zero e Retaguarda Jurídica",
-        "description": "Foco no endurecimento de penas para reincidentes e crimes violentos, fim de saídas temporárias de presos e excludente de ilicitude para policiais.",
+      "lulaProposal": {
+        "title": "SUSP Integrado, Inteligência Federal e Asfixia Financeira",
+        "description": "Coordenação nacional entre Polícia Federal, PRF e polícias estaduais, focando na inteligência financeira contra a lavagem de dinheiro do crime organizado.",
         "keyPoints": [
-          "Fim definitivo de qualquer modalidade de saída temporária de detentos.",
-          "Excludente de ilicitude e amparo jurídico integral a policiais em serviço.",
-          "Construção acelerada de presídios de segurança máxima e isolamento de chefes de facção.",
-          "Muralha Paulista em nível nacional com monitoramento biométrico e cerco eletrônico."
+          "Integração nacional de bancos de dados balísticos, genéticos e de mandados de prisão via SUSP.",
+          "Operações conjuntas da PF, Receita Federal e COAF para descapitalizar facções.",
+          "Controle rigoroso de arsenais ilegais e rastreamento de armas e munições.",
+          "Ampliação do efetivo da Polícia Federal e Polícia Rodoviária Federal em corredores estratégicos."
         ]
       }
     },
     {
       "theme": "Saúde & SUS",
       "icon": "Activity",
-      "lulaProposal": {
-        "title": "Programa 'Agora Tem Especialista' e Fortalecimento do SUS",
-        "description": "Mutirões para zerar filas de cirurgias e consultas com especialistas, telemedicina no SUS e expansão do Farmácia Popular.",
+      "flavioProposal": {
+        "title": "Voucher Saúde Digital, Parcerias com Rede Privada e Santas Casas",
+        "description": "Contratação da capacidade ociosa de hospitais privados e filantrópicos para zerar filas de exames e cirurgias eletivas no SUS.",
         "keyPoints": [
-          "Centros de Especialidades e Exames nos moldes das UPAs.",
-          "Prontuário eletrônico unificado nacional pelo ConecteSUS.",
-          "Mais Médicos com prioridade para médicos brasileiros formados no país.",
-          "Ampliação dos remédios 100% gratuitos no Farmácia Popular."
+          "Atendimento na rede privada conveniada quando o tempo de espera no SUS ultrapassar 30 dias.",
+          "Reajuste e valorização da contratualização com Santas Casas e hospitais filantrópicos.",
+          "Telemedicina 24h e prontuário digital integrado para municípios do interior.",
+          "Foco na saúde materno-infantil e diagnóstico precoce de câncer."
         ]
       },
-      "tarcisioProposal": {
-        "title": "Parcerias com Hospitais Privados (PPPs) e Gestão por OSS",
-        "description": "Contratação direta da capacidade ociosa de clínicas particulares para zerar filas do SUS e modelo de gestão por Organizações Sociais de Saúde (OSS).",
+      "lulaProposal": {
+        "title": "Programa 'Mais Acesso a Especialistas' e Fortalecimento do SUS",
+        "description": "Mutirões para zerar filas de cirurgias e consultas especializadas, expansão do Mais Médicos e gratuidade no Farmácia Popular.",
         "keyPoints": [
-          "Vouchers e compra de consultas/exames na rede privada conveniada.",
-          "Gestão hospitalar orientada por metas de produtividade e redução de custos.",
-          "Digitalização completa de agendamentos com aplicativo único ao cidadão.",
-          "Foco na medicina preventiva e expansão do modelo paulista de AMEs."
+          "Pacote integrado de consultas e exames diagnósticos pelo Mais Acesso a Especialistas.",
+          "Construção de novas Policlínicas Regionais e maternidades pelo Novo PAC Saúde.",
+          "Expansão do Mais Médicos nas periferias e Amazônia Legal.",
+          "Ampliação dos medicamentos 100% gratuitos no programa Farmácia Popular."
         ]
       }
     },
     {
       "theme": "Educação",
       "icon": "GraduationCap",
-      "lulaProposal": {
-        "title": "Universalização do Pé-de-Meia e Tempo Integral",
-        "description": "Garantia de bolsa-poupança para todos os estudantes do ensino médio público e financiamento federal para escolas em tempo integral.",
+      "flavioProposal": {
+        "title": "Ensino Técnico Conectado ao Mercado e Escolas Cívico-Militares",
+        "description": "Expansão voluntária das Escolas Cívico-Militares, alfabetização fônica na idade certa e trilhas profissionalizantes em tecnologia.",
         "keyPoints": [
-          "Expansão do Pé-de-Meia para 100% do ensino médio de baixa renda.",
-          "Construção de 100 novos Institutos Federais (IFs) de ensino técnico.",
-          "Reajuste das bolsas de mestrado e doutorado com foco em ciência nacional.",
-          "Pacto Nacional pela Alfabetização na Idade Certa."
+          "Retomada e ampliação do Programa Nacional das Escolas Cívico-Militares.",
+          "Integração do Ensino Médio com cursos técnicos do Sistema S e setor produtivo.",
+          "Bonificação por mérito e atingimento de metas pedagógicas para profissionais da educação.",
+          "Foco em matemática, ciências, programação e educação financeira."
         ]
       },
-      "tarcisioProposal": {
-        "title": "Ensino Técnico Conectado ao Mercado e Escolas Cívico-Militares",
-        "description": "Foco na profissionalização precoce em parceria com o Sistema S e empresas privadas, com expansão de escolas cívico-militares onde houver adesão.",
+      "lulaProposal": {
+        "title": "Universalização do Pé-de-Meia e Escola em Tempo Integral",
+        "description": "Garantia da poupança estudantil Pé-de-Meia para jovens do ensino médio público e expansão de matrículas em tempo integral.",
         "keyPoints": [
-          "Expansão do modelo de Escolas Cívico-Militares em áreas de vulnerabilidade.",
-          "Ensino médio técnico profissionalizante obrigatório integrado ao mercado.",
-          "Bonificação por desempenho pedagógico para diretores e professores.",
-          "Educação financeira, tecnologia e inteligência artificial na grade curricular."
+          "Consolidação e ampliação do programa Pé-de-Meia e Pé-de-Meia Licenciaturas.",
+          "Expansão de 100 novos campi de Institutos Federais (IFs) em todas as regiões.",
+          "Pacto Nacional pela Alfabetização na Idade Certa com apoio financeiro aos municípios.",
+          "Valorização do piso salarial nacional do magistério e bolsas do CNPq/Capes."
         ]
       }
     },
     {
       "theme": "Reforma Tributária & Fiscal",
       "icon": "Coins",
-      "lulaProposal": {
-        "title": "Regulamentação do IVA Dual e Tributação Progressiva",
-        "description": "Implementação da CBS/IBS aprovadas na EC 132 com Cesta Básica Nacional isenta e tributação justa sobre grandes patrimônios e lucros/dividendos.",
+      "flavioProposal": {
+        "title": "Trava Contra Aumento de Impostos e Reforma Administrativa",
+        "description": "Imposição de teto para a alíquota do IVA dual, não tributação de dividendos produtivos e corte de despesas obrigatórias.",
         "keyPoints": [
-          "Cesta Básica Nacional 100% livre de impostos com Cashback para CadÚnico.",
-          "Reforma da renda com alíquotas progressivas para os super-ricos.",
-          "Cumprimento do Arcabouço Fiscal preservando investimentos sociais e saúde.",
-          "Desoneração de investimentos produtivos e incentivo à exportação de manufaturados."
+          "Trava legal na regulamentação da Reforma Tributária para impedir elevação da carga global.",
+          "Preservação do Simples Nacional e ampliação do teto de faturamento do MEI.",
+          "Reforma administrativa com combate a supersalários no setor público.",
+          "Desoneração da folha de pagamentos para setores geradores de emprego."
         ]
       },
-      "tarcisioProposal": {
-        "title": "Teto Rigoroso de Alíquota e Freio aos Gastos Públicos",
-        "description": "Imposição de teto máximo de 25% para a alíquota geral do IVA e reforma do Estado com foco na redução da máquina pública federal.",
+      "lulaProposal": {
+        "title": "IVA Dual com Cesta Básica Isenta, Cashback e Justiça Tributária",
+        "description": "Implementação da Reforma Tributária com isenção para a Cesta Básica Nacional, devolução de impostos (cashback) e progressividade na renda.",
         "keyPoints": [
-          "Trava legal de alíquota do IVA para impedir aumento da carga tributária.",
-          "Não recriação de qualquer tributo sobre dividendos que onere a atividade produtiva.",
-          "Reforma administrativa profunda com fim de privilégios no alto escalão.",
-          "Autonomia orçamentária ampliada para Estados e Municípios (pacto federativo)."
+          "Cesta Básica Nacional 100% isenta e cashback de tributos sobre energia, gás e água para baixa renda.",
+          "Isenção de IRPF até R$ 5 mil compensada pela tributação mínima de altíssimas rendas.",
+          "Cumprimento do Arcabouço Fiscal preservando os pisos constitucionais de Saúde e Educação.",
+          "Desoneração completa de investimentos produtivos e exportações."
         ]
       }
     },
     {
       "theme": "Meio Ambiente",
       "icon": "Leaf",
-      "lulaProposal": {
-        "title": "Desmatamento Zero, Liderança na COP30 e Fundo Clima",
-        "description": "Zerar o desmatamento ilegal na Amazônia e no Cerrado até 2030, fortalecendo Ibama/ICMBio e atraindo investimentos soberanos verdes.",
+      "flavioProposal": {
+        "title": "Agronegócio Sustentável, Segurança Jurídica no Campo e Biocombustíveis",
+        "description": "Proteção ao direito de propriedade rural, destravamento do Cadastro Ambiental Rural (CAR) e incentivo à matriz de biocombustíveis.",
         "keyPoints": [
-          "Fiscalização em tempo real via satélite e combate ao garimpo ilegal.",
-          "Liderança do Brasil na COP30 de Belém do Pará com metas climáticas arrojadas.",
-          "Mercado regulado de carbono e transição energética para hidrogênio verde.",
-          "Fortalecimento do Fundo Amazônia e parcerias globais de conservação."
+          "Tolerância zero contra invasões de propriedades rurais produtivas.",
+          "Regularização fundiária acelerada e validação do CAR com pagamento por serviços ambientais.",
+          "Estímulo ao etanol, biodiesel, biometano e créditos privados de descarbonização (CBIOs).",
+          "Agilidade no licenciamento ambiental para obras de infraestrutura logística e energética."
         ]
       },
-      "tarcisioProposal": {
-        "title": "Agro Sustentável, Créditos Privados de Carbono e Regularização",
-        "description": "Conciliação da pujança do agronegócio exportador com sustentabilidade ambiental, acelerando o CAR (Cadastro Ambiental Rural) e bioeconomia.",
+      "lulaProposal": {
+        "title": "Desmatamento Zero, Mercado de Carbono e Transição Ecológica",
+        "description": "Meta de desmatamento ilegal zero até 2030, fiscalização pelo IBAMA/ICMBio e consolidação do mercado regulado de carbono.",
         "keyPoints": [
-          "Aceleração da análise e validação do Cadastro Ambiental Rural (CAR).",
-          "Incentivo ao mercado privado de créditos de carbono e biocombustíveis.",
-          "Desburocratização de licenciamentos ambientais para obras estruturantes.",
-          "Combate a incêndios criminosos com suporte tecnológico do setor produtivo."
+          "Monitoramento satelital e operações permanentes contra o garimpo e desmatamento ilegal.",
+          "Operacionalização do Mercado Regulado de Créditos de Carbono e Fundo Clima.",
+          "Plano de Transformação Ecológica com incentivo a hidrogênio verde e bioeconomia amazônica.",
+          "Fortalecimento do Fundo Amazônia e cooperação internacional em conservação."
         ]
       }
     }

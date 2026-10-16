@@ -108,23 +108,23 @@ function navigateToRole(role: string) {
             </div>
 
             <h3 class="text-2xl font-black text-white group-hover:text-rose-400 transition-colors">
-              Disputa do 2º Turno Presidencial: Lula vs Tarcísio
+              Disputa do 2º Turno Presidencial: Flávio Bolsonaro vs Lula
             </h3>
             <p class="text-xs sm:text-sm text-slate-300 leading-relaxed">
-              Consulte as pesquisas eleitorais registradas no TSE (Datafolha, Quaest, AtlasIntel, Paraná Pesquisas), taxa de rejeição e o comparativo direto de propostas para a economia, saúde e segurança.
+              Consulte as pesquisas eleitorais registradas no TSE em Outubro/2026 (Datafolha, Quaest, CNT/MDA, Futura), resultado oficial do 1º turno (47,03% x 45,16%), apoios de governadores e o comparativo direto de propostas.
             </p>
           </div>
 
           <!-- Placar Rápido -->
           <div class="bg-slate-800/80 rounded-2xl p-4 border border-slate-700/80 space-y-2">
             <div class="flex items-center justify-between text-xs font-bold">
-              <span class="text-rose-400">Lula (PT): 51,4%</span>
-              <span class="text-slate-400 font-mono text-[10px]">Votos Válidos Agregados</span>
-              <span class="text-blue-400">Tarcísio (Rep/PL): 48,6%</span>
+              <span class="text-blue-400">Flávio Bolsonaro (PL): 50,9%</span>
+              <span class="text-slate-400 font-mono text-[10px]">Votos Válidos Agregados (Empate Técnico)</span>
+              <span class="text-rose-400">Lula (PT): 49,1%</span>
             </div>
             <div class="w-full h-2.5 bg-slate-700 rounded-full overflow-hidden flex">
-              <div class="h-full bg-rose-600" style="width: 51.4%"></div>
-              <div class="h-full bg-blue-600" style="width: 48.6%"></div>
+              <div class="h-full bg-blue-600" style="width: 50.9%"></div>
+              <div class="h-full bg-rose-600" style="width: 49.1%"></div>
             </div>
           </div>
 

@@ -12,7 +12,7 @@
     "age": 51,
     "cityOrigin": "Rio de Janeiro - RJ",
     "declaredAssets": 2345000,
-    "currentOfficeNote": "Governador de SP (2023-2026) • Licenciado para a disputa da Presidência da República no 2º Turno",
+    "currentOfficeNote": "Governador do Estado de São Paulo • REELEITO no 1º Turno em 04/10/2026 com 62,65% dos votos válidos (14.486.283 votos)",
     "education": {
       "level": "pos_graduacao",
       "institution": "Instituto Militar de Engenharia (IME) / FGV",
@@ -132,7 +132,7 @@
       ]
     },
     "tseVerification": {
-      "status": "DEFERIDO",
+      "status": "ELEITO",
       "processNumber": "0601120-44.2026.6.26.0000",
       "divulgaCandUrl": "https://divulgacandcontas.tse.jus.br/divulga/#/estados/2026/SP",
       "verifiedAt": "2026-10-16",
@@ -152,7 +152,7 @@
     "age": 62,
     "cityOrigin": "São Paulo - SP",
     "declaredAssets": 1874500,
-    "currentOfficeNote": "Atual Ministro da Fazenda / Economia do Governo Federal",
+    "currentOfficeNote": "Ex-Ministro da Fazenda • 2º Colocado ao Governo de SP em 04/10/2026 com 36,42% dos votos válidos (8.421.104 votos)",
     "education": {
       "level": "doutorado",
       "institution": "Universidade de São Paulo (USP)",

@@ -1,5 +1,236 @@
 [
   {
+    "id": "flavio-bolsonaro-presidente",
+    "name": "Flávio Nantes Bolsonaro",
+    "popularName": "Flávio Bolsonaro",
+    "photoUrl": "",
+    "role": "presidente",
+    "party": "PL",
+    "ballotNumber": "22",
+    "coalition": "Coligação Pelo Bem do Brasil (PL / PP / Republicanos) • Vice: Alfredo Gaspar (PL)",
+    "age": 45,
+    "cityOrigin": "Resende - RJ",
+    "declaredAssets": 5940000,
+    "education": {
+      "level": "pos_graduacao",
+      "institution": "Universidade Candido Mendes (UCAM) / FGV",
+      "course": "Direito com Especialização em Políticas Públicas e Empreendedorismo",
+      "details": "Bacharel em Direito pela Universidade Candido Mendes (UCAM - 2005), com especializações em Políticas Públicas pelo IUPERJ e em Empreendedorismo pela Fundação Getulio Vargas (FGV).",
+      "complementaryCourses": [
+        "Políticas Públicas e Gestão Legislativa (IUPERJ)",
+        "Empreendedorismo e Gestão Empresarial (FGV)",
+        "Direito Constitucional e Segurança Pública"
+      ]
+    },
+    "experience": {
+      "yearsInPublicService": 24,
+      "summary": "Senador da República pelo Rio de Janeiro (2019–2027), presidente da Comissão de Segurança Pública do Senado Federal e Deputado Estadual na ALERJ por 4 mandatos consecutivos (2003–2019). 1º colocado no 1º turno presidencial de 2026 com 47,03% (56.104.503 votos).",
+      "roles": [
+        {
+          "title": "Senador da República (RJ)",
+          "period": "2019 - Atual",
+          "level": "federal",
+          "achievements": [
+            "Presidência da Comissão de Segurança Pública do Senado Federal, pautando o endurecimento penal contra facções criminosas e o fim das saídas temporárias de presos (Lei 14.843/2024).",
+            "Relatoria e aprovação de projetos voltados à desburocratização do ambiente de negócios e redução de exigências regulatórias para PMEs.",
+            "Articulação legislativa em defesa da responsabilidade fiscal e limitação do aumento de tributos federais."
+          ]
+        },
+        {
+          "title": "Deputado Estadual do Rio de Janeiro (ALERJ)",
+          "period": "2003 - 2019 (4 mandatos)",
+          "level": "estadual",
+          "achievements": [
+            "Atuação em comissões de Segurança Pública, Direitos Humanos e Orçamento na Assembleia Legislativa do RJ.",
+            "Autoria de projetos de valorização das forças policiais e amparo a famílias de agentes vitimados em serviço."
+          ]
+        }
+      ]
+    },
+    "debatesAndInterviews": {
+      "averageScore": 85,
+      "events": [
+        {
+          "title": "Debate Presidencial 1º Turno 2026 - TV Globo",
+          "date": "2026-10-01",
+          "vehicle": "TV Globo",
+          "score": 86,
+          "notes": "Apresentou o plano 'Para o Brasil vencer o atraso', com foco em segurança pública, corte de gastos públicos e liberdade econômica.",
+          "factCheckingAccuracy": 84
+        },
+        {
+          "title": "Sabatina Jornal Nacional - Eleições 2026",
+          "date": "2026-09-16",
+          "vehicle": "TV Globo",
+          "score": 84,
+          "notes": "Defendeu responsabilidade fiscal, independência do Banco Central e pacote de combate ao crime organizado e proteção de fronteiras.",
+          "factCheckingAccuracy": 85
+        }
+      ]
+    },
+    "integrityAndFacts": {
+      "cleanRecordCertificates": [
+        {
+          "court": "Tribunal Superior Eleitoral (TSE)",
+          "status": "regular"
+        },
+        {
+          "court": "Supremo Tribunal Federal (STF)",
+          "status": "nada_consta"
+        },
+        {
+          "court": "Tribunal de Justiça do Rio de Janeiro (TJRJ)",
+          "status": "regular"
+        }
+      ],
+      "factChecks": [
+        {
+          "id": "fc-flavio-1",
+          "title": "Anulação e Arquivamento de Investigação sobre Gabinete na ALERJ pelo STF e STJ",
+          "description": "A Quinta Turma do Superior Tribunal de Justiça (STJ) e o Supremo Tribunal Federal (STF) anularam as quebras de sigilo e decisões da 1ª instância por incompetência absoluta do juízo, culminando na rejeição e arquivamento da denúncia pelo TJRJ.",
+          "vehicleOrOrgan": "Superior Tribunal de Justiça (STJ) / STF",
+          "category": "arquivado",
+          "date": "2022-05-18",
+          "sourceUrl": "https://portal.stf.jus.br/processos/listarProcessos.asp",
+          "judicialLevel": "STJ / Órgão Especial do TJRJ"
+        },
+        {
+          "id": "fc-flavio-2",
+          "title": "Aprovação da Lei que restringiu as Saídas Temporárias de Presos ('Saidinhas')",
+          "description": "Como membro e presidente da Comissão de Segurança Pública do Senado, conduziu a aprovação do PL 2253/2022 (transformado na Lei nº 14.843/2024, com derrubada de vetos pelo Congresso), extinguindo o benefício de saída temporária para visita à família.",
+          "vehicleOrOrgan": "Senado Federal (Agência Senado)",
+          "category": "comprovado_positivo",
+          "date": "2024-05-28",
+          "sourceUrl": "https://www12.senado.leg.br/noticias/materias/2024/05/28/congresso-derruba-veto-e-confirma-fim-das-saidinhas-de-presos"
+        }
+      ]
+    },
+    "governmentPlan": {
+      "summary": "Plano 'Para o Brasil vencer o atraso': plataforma liberal-conservadora focada em choque de segurança pública contra o narcotráfico, ajuste fiscal pelo corte de despesas e privilégios, desregulamentação pró-empreendedorismo e defesa das liberdades individuais.",
+      "pdfUrl": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/BR/22",
+      "pillars": [
+        {
+          "key": "seguranca",
+          "title": "Tolerância Zero ao Crime Organizado e Blindagem de Fronteiras",
+          "icon": "ShieldAlert",
+          "mainGoal": "Reclassificar facções narcotraficantes como organizações terroristas, ampliar o sistema penitenciário de segurança máxima e endurecer a execução penal.",
+          "proposals": [
+            "Enquadramento legal de facções criminosas na legislação antiterrorismo e bloqueio imediato de ativos financeiros.",
+            "Tolerância zero contra o feminicídio e reforma penal sob a diretriz de responsabilização de infratores reincidentes.",
+            "Vigilância integrada de fronteiras terrestres e portos com forças federais, drones e scanners de carga 100% automatizados.",
+            "Expansão de presídios federais de segurança máxima com isolamento total de lideranças criminosas."
+          ],
+          "budgetSource": "Fundo Nacional de Segurança Pública (FNSP) e confisco de bens do tráfico de drogas.",
+          "feasibilityScore": 87
+        },
+        {
+          "key": "economia",
+          "title": "Liberdade Econômica, Corte de Gastos e Redução da Carga Tributária",
+          "icon": "TrendingUp",
+          "mainGoal": "Alcançar superávit primário sustentável cortando gastos improdutivos da máquina pública, preservando a autonomia do Banco Central e atraindo investimentos privados.",
+          "proposals": [
+            "Revisão ampla de gastos públicos (spending review) e redução do número de ministérios para enxugar o custeio administrativo.",
+            "Programa nacional de privatizações, concessões portuárias, ferroviárias e parcerias público-privadas (PPPs).",
+            "Travamento de qualquer aumento de alíquotas na regulamentação do IVA dual e desoneração da folha para setores intensivos em mão de obra.",
+            "Ampliação do Marco Legal das Garantias e simplificação tributária para micro e pequenas empresas (MEI e Simples Nacional)."
+          ],
+          "budgetSource": "Economia orçamentária com reforma administrativa, receitas de concessões e desestatizações.",
+          "feasibilityScore": 88
+        },
+        {
+          "key": "educacao",
+          "title": "Qualificação Tecnológica, Ensino Técnico e Escolas Cívico-Militares",
+          "icon": "GraduationCap",
+          "mainGoal": "Elevar o desempenho do Brasil no PISA priorizando alfabetização na idade certa, matemática, tecnologia e expansão voluntária de escolas cívico-militares.",
+          "proposals": [
+            "Retomada e expansão do Programa Nacional das Escolas Cívico-Militares em parceria com estados e municípios.",
+            "Currículo conectado ao mercado de trabalho no Ensino Médio, com trilhas técnicas em tecnologia da informação, agroindústria e serviços.",
+            "Bônus por mérito e metas pedagógicas para professores da educação básica."
+          ],
+          "budgetSource": "Orçamento do Ministério da Educação (MEC/FNDE) e parcerias com o Sistema S.",
+          "feasibilityScore": 85
+        },
+        {
+          "key": "saude",
+          "title": "Saúde Digital, Mutirões Cirúrgicos com Rede Privada e Atenção Materno-Infantil",
+          "icon": "Activity",
+          "mainGoal": "Zerar filas cirúrgicas e de exames de alta complexidade contratando capacidade ociosa de hospitais filantrópicos e privados pelo SUS.",
+          "proposals": [
+            "Voucher Saúde Digital para realização de exames e cirurgias eletivas na rede conveniada quando o SUS ultrapassar 30 dias de espera.",
+            "Prontuário eletrônico nacional unificado com telemedicina 24h para municípios do interior.",
+            "Fortalecimento das Santas Casas e hospitais filantrópicos com reajuste da Tabela SUS por desempenho."
+          ],
+          "budgetSource": "Piso constitucional da Saúde e realocação de emendas parlamentares de saúde.",
+          "feasibilityScore": 86
+        },
+        {
+          "key": "meio_ambiente",
+          "title": "Agronegócio Sustentável, Segurança Jurídica no Campo e Energia Limpa",
+          "icon": "Leaf",
+          "mainGoal": "Conciliar preservação ambiental com segurança jurídica ao produtor rural, regularização fundiária e protagonismo em biocombustíveis.",
+          "proposals": [
+            "Aceleração da titulação de terras e do Cadastro Ambiental Rural (CAR) com pagamento por serviços ambientais (PSA).",
+            "Garantia do direito de propriedade contra invasões de terras produtivas (Tolerância Zero a invasões).",
+            "Expansão da matriz de etanol, biodiesel, hidrogênio verde e energia solar/eólica no Nordeste e Centro-Oeste."
+          ],
+          "budgetSource": "Plano Safra Sustentável, créditos privados de descarbonização (CBIOs) e investimentos privados.",
+          "feasibilityScore": 88
+        }
+      ]
+    },
+    "mandateEvaluation": {
+      "mandatePeriod": "2019 - 2026 (Senador da República - RJ)",
+      "promisesStats": {
+        "total": 25,
+        "fulfilled": 18,
+        "inProgress": 5,
+        "notFulfilled": 2
+      },
+      "promisesList": [
+        {
+          "id": "prom-flavio-1",
+          "title": "Aprovação do Fim das Saídas Temporárias de Presos ('Saidinhas')",
+          "category": "Segurança Pública",
+          "status": "cumprida",
+          "details": "Aprovado no Senado e promulgado como Lei nº 14.843/2024 após derrubada dos vetos presidenciais pelo Congresso Nacional.",
+          "sourceUrl": "https://www12.senado.leg.br/noticias/materias/2024/05/28/congresso-derruba-veto-e-confirma-fim-das-saidinhas-de-presos"
+        },
+        {
+          "id": "prom-flavio-2",
+          "title": "Defesa da Autonomia Formal do Banco Central do Brasil",
+          "category": "Economia",
+          "status": "cumprida",
+          "details": "Votou favoravelmente e articulou a aprovação da Lei Complementar nº 179/2021 que estabeleceu mandatos fixos para a diretoria do Bacen.",
+          "sourceUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/Lcp179.htm"
+        },
+        {
+          "id": "prom-flavio-3",
+          "title": "Marco Legal das Garantias para redução do spread bancário",
+          "category": "Economia / Crédito",
+          "status": "cumprida",
+          "details": "Atuação favorável no Senado para aprovação da Lei nº 14.711/2023, modernizando a execução de garantias e facilitando o acesso ao crédito.",
+          "sourceUrl": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14711.htm"
+        },
+        {
+          "id": "prom-flavio-4",
+          "title": "Endurecimento penal para crimes cometidos por organizações criminosas",
+          "category": "Segurança Pública",
+          "status": "em_andamento",
+          "details": "Projetos aprovados na Comissão de Segurança Pública do Senado seguem em tramitação conclusiva na Câmara dos Deputados.",
+          "sourceUrl": "https://www25.senado.leg.br/web/atividade/materias"
+        }
+      ]
+    },
+    "currentOfficeNote": "Senador da República (RJ) • NO 2º TURNO PRESIDENCIAL 2026 (1º colocado no 1º turno com 47,03% — 56.104.503 votos)",
+    "tseVerification": {
+      "isOfficial": true,
+      "status": "segundo_turno",
+      "processNumber": "0601022-41.2026.6.00.0000",
+      "divulgaCandUrl": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/BR/22",
+      "verifiedAt": "2026-10-16"
+    }
+  },
+  {
     "id": "lula-presidente",
     "name": "Luiz Inácio Lula da Silva",
     "popularName": "Lula",
@@ -7,7 +238,7 @@
     "role": "presidente",
     "party": "PT",
     "ballotNumber": "13",
-    "coalition": "Federação Brasil da Esperança (PT/PCdoB/PV) / Solidariedade / PSB",
+    "coalition": "Federação Brasil da Esperança (PT/PCdoB/PV) / PSB / MDB / PDT • Vice: Geraldo Alckmin (PSB)",
     "age": 80,
     "cityOrigin": "Garanhuns - PE",
     "declaredAssets": 7423625,
@@ -24,17 +255,17 @@
     },
     "experience": {
       "yearsInPublicService": 35,
-      "summary": "3 mandatos como Presidente da República (2003-2006, 2007-2010 e 2023-atual), Deputado Federal Constituinte (1987-1991), líder sindical do setor metalúrgico.",
+      "summary": "3 mandatos como Presidente da República (2003-2006, 2007-2010 e 2023-atual), Deputado Federal Constituinte (1987-1991), líder sindical do setor metalúrgico. Classificado ao 2º turno presidencial de 2026 com 45,16% (53.879.538 votos).",
       "roles": [
         {
           "title": "Presidente da República do Brasil",
           "period": "2023 - Atual (3º mandato) e 2003 - 2010 (1º e 2º mandatos)",
           "level": "federal",
           "achievements": [
-            "Retirada do Brasil do Mapa da Fome da ONU nos mandatos anteriores e relançamento de programas sociais.",
-            "Crescimento do PIB em 2023 e 2024 acima das projeções do mercado financeiro (2,9% e ~3,2%).",
-            "Aprovação da histórica Reforma Tributária sobre o consumo após 30 anos de debates.",
-            "Aumento real anual do salário mínimo e isenção de IRPF para até 2 salários mínimos."
+            "Retirada do Brasil do Mapa da Fome da ONU e relançamento de programas sociais como Bolsa Família e Pé-de-Meia.",
+            "Crescimento do PIB em 2023, 2024 e 2025 acima das projeções iniciais do mercado financeiro.",
+            "Aprovação da histórica Reforma Tributária sobre o consumo (EC 132/2023) após 30 anos de debates.",
+            "Aumento real anual do salário mínimo e ampliação da faixa de isenção do IRPF."
           ]
         },
         {
@@ -51,20 +282,20 @@
       "averageScore": 84,
       "events": [
         {
-          "title": "Debate Presidencial TV Globo",
-          "date": "2022-10-28",
+          "title": "Debate Presidencial 1º Turno 2026 - TV Globo",
+          "date": "2026-10-01",
           "vehicle": "TV Globo",
           "score": 85,
-          "notes": "Foco em temas de renda, saúde, retomada de investimentos em educação e desarmamento.",
-          "factCheckingAccuracy": 82
+          "notes": "Foco na defesa dos indicadores de emprego, salário mínimo, programa Pé-de-Meia, isenção do IR e obras do Novo PAC.",
+          "factCheckingAccuracy": 83
         },
         {
-          "title": "Sabatina Jornal Nacional",
-          "date": "2022-08-25",
+          "title": "Sabatina Jornal Nacional - Eleições 2026",
+          "date": "2026-09-17",
           "vehicle": "TV Globo",
           "score": 86,
-          "notes": "Reconheceu erros do passado em governos petistas e defendeu independência das instituições.",
-          "factCheckingAccuracy": 88
+          "notes": "Defendeu a transição energética, estabilidade institucional e revisão da escala de trabalho com proteção à renda do trabalhador.",
+          "factCheckingAccuracy": 86
         }
       ]
     },
@@ -106,7 +337,7 @@
         {
           "id": "fc-lula-3",
           "title": "Aprovação com ressalvas das Contas de Governo pelo TCU",
-          "description": "O Tribunal de Contas da União emitiu parecer prévio recomendando a aprovação com ressalvas das contas presidenciais do primeiro ano de mandato, alertando para despesas previdenciárias e cumprimento da meta fiscal.",
+          "description": "O Tribunal de Contas da União emitiu parecer prévio recomendando a aprovação com ressalvas das contas presidenciais, alertando para despesas previdenciárias e cumprimento da meta fiscal.",
           "vehicleOrOrgan": "Tribunal de Contas da União (TCU)",
           "category": "comprovado_positivo",
           "date": "2024-06-12",
@@ -115,20 +346,20 @@
       ]
     },
     "governmentPlan": {
-      "summary": "Plano centrado no desenvolvimento sustentável, neoindustrialização verde, fortalecimento do mercado interno, responsabilidade social com responsabilidade fiscal e recomposição orçamentária de saúde e educação.",
+      "summary": "Plano centrado no desenvolvimento sustentável, neoindustrialização verde, fortalecimento do mercado interno, valorização salarial, revisão de jornadas exaustivas e expansão do ensino integral (Pé-de-Meia) e do SUS (Agora Tem Especialista).",
       "pdfUrl": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/BR/13",
       "pillars": [
         {
           "key": "economia",
-          "title": "Crescimento com Estabilidade e Neoindustrialização",
+          "title": "Crescimento com Estabilidade, Isenção do IR e Neoindustrialização",
           "icon": "TrendingUp",
-          "mainGoal": "Manter o PIB crescendo acima de 2,5% ao ano com controle inflacionário e transição energética.",
+          "mainGoal": "Consolidar a isenção de IR para até R$ 5 mil, manter o pleno emprego e acelerar obras estruturantes do Novo PAC.",
           "proposals": [
-            "Regulamentação completa da Reforma Tributária com simplificação de impostos sobre consumo.",
-            "Novo PAC (Programa de Aceleração do Crescimento) com foco em logística, energia limpa e saneamento.",
-            "Política de crédito produtivo através do BNDES voltada para inovação e pequenas empresas."
+            "Implementação plena da Reforma Tributária com cashback de impostos para famílias de baixa renda.",
+            "Novo PAC (Programa de Aceleração do Crescimento) com foco em logística, energia limpa, habitação (Minha Casa, Minha Vida) e saneamento.",
+            "Política de crédito produtivo através do BNDES e programa Acredita voltado para MEIs e pequenas empresas."
           ],
-          "budgetSource": "Receitas correntes da União e parcerias público-privadas (PPPs) estimadas em R$ 1,7 trilhão.",
+          "budgetSource": "Receitas correntes da União, tributação de super-ricos/offshores e PPPs estimadas em R$ 1,7 trilhão.",
           "feasibilityScore": 88
         },
         {
@@ -137,50 +368,50 @@
           "icon": "GraduationCap",
           "mainGoal": "Universalizar a educação em tempo integral e erradicar a evasão escolar no Ensino Médio.",
           "proposals": [
-            "Expansão do programa Pé-de-Meia para estudantes de baixa renda do ensino médio público.",
-            "Reajuste anual das bolsas de pesquisa CNPq e Capes e investimento em novas universidades e IFs.",
-            "Apoio técnico e financeiro aos municípios prioritários no IDEB."
+            "Expansão do programa Pé-de-Meia para todos os estudantes inscritos no CadÚnico e licenciaturas (Pé-de-Meia Licenciaturas).",
+            "Expansão de 100 novos campi de Institutos Federais (IFs) e fortalecimento das universidades federais.",
+            "Pacto Nacional pela Alfabetização na Idade Certa em regime de colaboração com prefeituras."
           ],
           "budgetSource": "Fundo Nacional de Desenvolvimento da Educação (FNDE) e Fundo Social do Pré-Sal.",
           "feasibilityScore": 90
         },
         {
           "key": "saude",
-          "title": "Fortalecimento do SUS e Programa Mais Médicos",
+          "title": "Fortalecimento do SUS e Programa Mais Acesso a Especialistas",
           "icon": "Activity",
-          "mainGoal": "Reduzir filas para consultas especializadas e exames diagnósticos.",
+          "mainGoal": "Reduzir filas para consultas especializadas, exames oncológicos e cirurgias no SUS.",
           "proposals": [
-            "Expansão do Programa Mais Médicos para periferias e municípios remotos.",
-            "Criação do Programa Agora Tem Especialista e digitalização da rede de saúde com prontuário eletrônico.",
-            "Retomada do programa Farmácia Popular com medicamentos gratuitos para diabetes, hipertensão e asma."
+            "Expansão do Programa Mais Acesso a Especialistas (PMAE) integrando exames e consultas em pacote único.",
+            "Ampliação do Programa Mais Médicos e construção de novas Policlínicas e maternidades pelo Novo PAC Saúde.",
+            "Gratuidade ampliada no programa Farmácia Popular com absorventes e 41 medicamentos essenciais."
           ],
           "budgetSource": "Orçamento Geral da União (mínimo constitucional da saúde).",
           "feasibilityScore": 86
         },
         {
           "key": "seguranca",
-          "title": "Sistema Único de Segurança Pública e Combate ao Crime Organizado",
+          "title": "Sistema Único de Segurança Pública (SUSP) e Asfixia Financeira de Facções",
           "icon": "ShieldAlert",
-          "mainGoal": "Fortalecer a inteligência policial e asfixiar financeiramente as facções criminosas.",
+          "mainGoal": "Fortalecer a inteligência da Polícia Federal, PRF e Receita Federal contra lavagem de dinheiro do crime organizado.",
           "proposals": [
-            "PEC da Segurança Pública para coordenar diretrizes federais, polícias civis e militares.",
-            "Integração de bancos de dados balísticos e de mandados de prisão em âmbito nacional.",
-            "Controle rigoroso de armas e munições em circulação e monitoramento de fronteiras terrestres e portos."
+            "Coordenação nacional via SUSP entre Polícia Federal, Polícia Rodoviária Federal e polícias estaduais.",
+            "Integração de bancos de dados balísticos, genéticos e de mandados de prisão em âmbito nacional.",
+            "Operações permanentes de descapitalização de organizações criminosas e controle de armas de grosso calibre."
           ],
           "budgetSource": "Fundo Nacional de Segurança Pública (FNSP) e recursos de apreensões do narcotráfico.",
           "feasibilityScore": 80
         },
         {
           "key": "meio_ambiente",
-          "title": "Desmatamento Zero e Liderança na COP30",
+          "title": "Desmatamento Zero e Transição Ecológica",
           "icon": "Leaf",
-          "mainGoal": "Zerar o desmatamento ilegal na Amazônia até 2030 e liderar a agenda climática mundial.",
+          "mainGoal": "Zerar o desmatamento ilegal na Amazônia até 2030 e consolidar o mercado regulado de carbono.",
           "proposals": [
-            "Reativação e capitalização do Fundo Amazônia com doações internacionais.",
-            "Fortalecimento do IBAMA e ICMBio com novos concursos públicos e fiscalização via satélite.",
-            "Criação do mercado regulado de créditos de carbono no Brasil."
+            "Fortalecimento contínuo do Fundo Amazônia, IBAMA e ICMBio com monitoramento satelital em tempo real.",
+            "Operacionalização do Sistema Brasileiro de Comércio de Emissões de Gases de Efeito Estufa (Mercado de Carbono).",
+            "Plano de Transformação Ecológica com incentivo a bioeconomia, SAF (combustível sustentável de aviação) e hidrogênio verde."
           ],
-          "budgetSource": "Fundo Clima, Fundo Amazônia e créditos soberanos sustentáveis.",
+          "budgetSource": "Fundo Clima, Fundo Amazônia e títulos soberanos sustentáveis.",
           "feasibilityScore": 92
         }
       ]
@@ -207,7 +438,7 @@
           "title": "Isenção do Imposto de Renda para quem ganha até 2 salários mínimos",
           "category": "Economia / Tributação",
           "status": "cumprida",
-          "details": "Faixa de isenção elevada para R$ 2.824,00 mensais com desconto simplificado garantido pela Lei 14.848/2024.",
+          "details": "Faixa de isenção elevada com desconto simplificado garantido pela Lei 14.848/2024.",
           "sourceUrl": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/l14848.htm"
         },
         {
@@ -231,24 +462,8 @@
           "title": "Zerar o déficit primário federal (Equilíbrio das Contas Públicas)",
           "category": "Economia / Fiscal",
           "status": "em_andamento",
-          "details": "Meta fiscal fixada no Arcabouço com intervalo de tolerância. O déficit fiscal foi reduzido em relação a 2023, mas equilibrar as contas exige medidas adicionais de contenção de despesas obrigatórias.",
+          "details": "Meta fiscal fixada no Arcabouço com intervalo de tolerância. O equilíbrio estrutural ainda demanda contenção de despesas obrigatórias.",
           "sourceUrl": "https://www.tesourotransparente.gov.br/publicacoes/relatorio-resumido-da-execucao-orcamentaria-rreo"
-        },
-        {
-          "id": "prom-6",
-          "title": "Isenção de Imposto de Renda para até R$ 5.000,00",
-          "category": "Economia / Tributação",
-          "status": "em_andamento",
-          "details": "Projeto de reforma da renda em fase de formatação técnica e tramitação legislativa com meta até o fim do mandato.",
-          "sourceUrl": "https://g1.globo.com/politica/noticia/2024/01/23/lula-diz-que-vai-cumprir-promessa-de-isentar-imposto-de-renda-para-quem-ganha-ate-r-5-mil.ghtml"
-        },
-        {
-          "id": "prom-7",
-          "title": "Erradicação do garimpo ilegal em terras indígenas",
-          "category": "Meio Ambiente / Indígena",
-          "status": "em_andamento",
-          "details": "Operações de desintrusão na Terra Indígena Yanomami destruíram pistas e maquinários, porém núcleos de garimpeiros tentam retornar.",
-          "sourceUrl": "https://www.gov.br/povosindigenas/pt-br/assuntos/noticias/2024/02/governo-federal-reforca-acoes-de-saude-e-seguranca-na-terra-indigena-yanomami"
         }
       ],
       "economicIndicators": {
@@ -261,20 +476,29 @@
           {
             "year": 2023,
             "value": 2.9,
-            "benchmark": 1
+            "benchmark": 0.8
           },
           {
             "year": 2024,
-            "value": 3.2,
+            "value": 3.4,
             "benchmark": 1.8
-          },
-          {
-            "year": 2025,
-            "value": 2.4,
-            "benchmark": 2
           }
         ],
-        "inflationIpca": [
+        "unemploymentRate": [
+          {
+            "period": "Dez 2022",
+            "value": 7.9
+          },
+          {
+            "period": "Dez 2023",
+            "value": 7.4
+          },
+          {
+            "period": "Set 2025",
+            "value": 6.1
+          }
+        ],
+        "inflationRate": [
           {
             "year": 2022,
             "value": 5.79,
@@ -287,163 +511,299 @@
           },
           {
             "year": 2024,
-            "value": 4.25,
-            "target": 3
-          },
-          {
-            "year": 2025,
-            "value": 3.95,
+            "value": 4.83,
             "target": 3
           }
         ],
-        "unemploymentRate": [
-          {
-            "year": 2022,
-            "value": 9.3
-          },
-          {
-            "year": 2023,
-            "value": 7.8
-          },
-          {
-            "year": 2024,
-            "value": 6.8
-          },
-          {
-            "year": 2025,
-            "value": 6.5
-          }
-        ],
-        "primaryFiscalBalance": [
-          {
-            "year": 2022,
-            "value": 54.1,
-            "label": "Superávit (+54 bi)"
-          },
-          {
-            "year": 2023,
-            "value": -230.5,
-            "label": "Déficit (-230 bi, incl. precatórios)"
-          },
-          {
-            "year": 2024,
-            "value": -28.8,
-            "label": "Déficit (-28 bi / ~0.2% PIB)"
-          },
-          {
-            "year": 2025,
-            "value": -15,
-            "label": "Estimativa (-15 bi)"
-          }
-        ],
-        "publicDebtGdpRatio": [
-          {
-            "year": 2022,
-            "value": 71.7
-          },
-          {
-            "year": 2023,
-            "value": 74.3
-          },
-          {
-            "year": 2024,
-            "value": 77.8
-          },
-          {
-            "year": 2025,
-            "value": 79.2
-          }
-        ]
-      },
-      "socialAndEducationIndicators": {
-        "idebScore": [
-          {
-            "year": 2021,
-            "value": 5.8,
-            "target": 6
-          },
-          {
-            "year": 2023,
-            "value": 6,
-            "target": 6
-          }
-        ],
-        "socialProgramsInvestment": [
-          {
-            "year": 2022,
-            "valueInBillions": 89.2,
-            "beneficiariesMillions": 21
-          },
-          {
-            "year": 2023,
-            "valueInBillions": 168.4,
-            "beneficiariesMillions": 21.3
-          },
-          {
-            "year": 2024,
-            "valueInBillions": 172,
-            "beneficiariesMillions": 20.8
-          }
-        ]
-      },
-      "mandateScore": 81,
-      "auditorSynthesis": "O mandato atual apresenta desempenho macroeconômico acima das expectativas iniciais de mercado, com forte redução da taxa de desemprego para os menores níveis em uma década, aprovação de reformas históricas (tributária e arcabouço) e ampliação de políticas de renda e permanência escolar (Pé-de-Meia). O principal desafio reside no campo fiscal: o crescimento da dívida pública sobre o PIB e a necessidade de corte estrutural de despesas públicas para consolidar a estabilidade das contas de longo prazo."
+        "minimumWageRealGain": 5.8
+      }
     },
-    "currentOfficeNote": "Presidente da República • Classificado para o 2º Turno (48,35% dos votos no 1º turno)",
+    "currentOfficeNote": "Presidente da República (Mandato Atual) • NO 2º TURNO PRESIDENCIAL 2026 (2º colocado no 1º turno com 45,16% — 53.879.538 votos)",
     "tseVerification": {
-      "status": "2º TURNO",
+      "isOfficial": true,
+      "status": "segundo_turno",
       "processNumber": "0600987-12.2026.6.00.0000",
       "divulgaCandUrl": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/BR/13",
-      "verifiedAt": "2026-10-15",
-      "isOfficial": true
+      "verifiedAt": "2026-10-16"
     }
   },
   {
-    "id": "tarcisio-presidente",
-    "name": "Tarcísio Gomes de Freitas",
-    "popularName": "Tarcísio de Freitas",
+    "id": "augusto-cury-presidente",
+    "name": "Augusto Jorge Cury",
+    "popularName": "Augusto Cury",
     "photoUrl": "",
     "role": "presidente",
-    "party": "Republicanos",
-    "ballotNumber": "10",
-    "coalition": "Brasil Para a Frente (Republicanos / PL / PP / União Brasil / Novo)",
-    "age": 51,
-    "cityOrigin": "Rio de Janeiro - RJ",
-    "declaredAssets": 2345000,
-    "currentOfficeNote": "Candidato de Oposição • Classificado para o 2º Turno (43,65% dos votos no 1º turno)",
+    "party": "Avante",
+    "ballotNumber": "70",
+    "coalition": "Avante (Chapa Pela Educação e Saúde Emocional do Brasil)",
+    "age": 68,
+    "cityOrigin": "Colina - SP",
+    "declaredAssets": 18500000,
     "education": {
-      "level": "pos_graduacao",
-      "institution": "Instituto Militar de Engenharia (IME) / FGV",
-      "course": "Engenharia Civil e Especialização em Gestão de Projetos",
-      "details": "Primeiro colocado no IME na formação em Engenharia de Fortificação e Construção. Pós-graduado em Gestão de Projetos pela Fundação Getulio Vargas (FGV).",
+      "level": "doutorado",
+      "institution": "FAMERP / PUC-SP / Florida Christian University",
+      "course": "Medicina (Psiquiatria) e Pós-Graduação em Psicologia Social",
+      "details": "Graduado em Medicina pela Faculdade de Medicina de São José do Rio Preto (FAMERP), psiquiatra, pesquisador em psicologia e educação.",
       "complementaryCourses": [
-        "Engenharia de Transportes",
-        "Auditoria de Obras Públicas",
-        "Logística Pública"
+        "Psiquiatria Clínica e Saúde Mental",
+        "Gestão da Emoção e Educação Socioemocional"
       ]
     },
     "experience": {
-      "yearsInPublicService": 26,
-      "summary": "Governador do Estado de São Paulo (2023-2026), Ministro da Infraestrutura do Brasil (2019-2022), Diretor-Geral do DNIT (2011-2014), Oficial Engenheiro do Exército Brasileiro.",
+      "yearsInPublicService": 4,
+      "summary": "Médico psiquiatra, escritor e idealizador de programas de educação socioemocional aplicados em redes escolares públicas e privadas. 3º colocado no 1º turno presidencial de 2026 com 2,89% dos votos válidos (3.448.569 votos).",
       "roles": [
         {
-          "title": "Governador do Estado de São Paulo",
-          "period": "2023 - 2026",
+          "title": "Pesquisador e Consultor em Educação e Saúde Mental",
+          "period": "1999 - 2026",
+          "level": "federal",
+          "achievements": [
+            "Desenvolvimento de metodologias de educação socioemocional e prevenção ao suicídio e depressão juvenil adotadas por redes de ensino.",
+            "Atuação em programas de capacitação de professores e profissionais de saúde mental."
+          ]
+        }
+      ]
+    },
+    "debatesAndInterviews": {
+      "averageScore": 82,
+      "events": [
+        {
+          "title": "Sabatina Presidencial UOL / Folha 2026",
+          "date": "2026-09-10",
+          "vehicle": "UOL / Folha de S.Paulo",
+          "score": 82,
+          "notes": "Apresentou propostas focadas na revolução educacional, saúde mental no SUS e despolarização política.",
+          "factCheckingAccuracy": 86
+        }
+      ]
+    },
+    "integrityAndFacts": {
+      "cleanRecordCertificates": [
+        {
+          "court": "Tribunal Superior Eleitoral (TSE)",
+          "status": "regular"
+        },
+        {
+          "court": "Justiça Federal (TRF-3)",
+          "status": "nada_consta"
+        }
+      ],
+      "factChecks": [
+        {
+          "id": "fc-cury-1",
+          "title": "Registro de Candidatura Deferido pelo TSE nas Eleições 2026",
+          "description": "Candidatura registrada pelo Avante homologada sem impugnações pelo Tribunal Superior Eleitoral, alcançando 3.448.569 votos (2,89% dos votos válidos) no 1º turno.",
+          "vehicleOrOrgan": "Tribunal Superior Eleitoral (TSE)",
+          "category": "comprovado_positivo",
+          "date": "2026-10-04",
+          "sourceUrl": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/BR/70"
+        }
+      ]
+    },
+    "governmentPlan": {
+      "summary": "Plano focado em uma profunda reforma educacional (gestão da emoção, empreendedorismo e pensamento crítico nas escolas públicas), rede nacional de saúde mental no SUS e estímulo à inovação.",
+      "pdfUrl": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/BR/70",
+      "pillars": [
+        {
+          "key": "educacao",
+          "title": "Revolução Educacional e Gestão Socioemocional",
+          "icon": "GraduationCap",
+          "mainGoal": "Valorizar o magistério, modernizar o currículo escolar e prevenir a evasão e o adoecimento emocional de jovens.",
+          "proposals": [
+            "Inclusão de educação socioemocional, educação financeira e programação na grade da rede pública.",
+            "Plano nacional de valorização salarial e saúde ocupacional para professores da educação básica."
+          ],
+          "budgetSource": "Orçamento constitucional do MEC e FNDE.",
+          "feasibilityScore": 86
+        },
+        {
+          "key": "saude",
+          "title": "Rede Nacional de Saúde Mental e Prevenção no SUS",
+          "icon": "Activity",
+          "mainGoal": "Ampliar os Centros de Atenção Psicossocial (CAPS) e teleatendimento psicológico gratuito no SUS.",
+          "proposals": [
+            "Mutirão nacional de atendimento psiquiátrico e psicológico nas UBS.",
+            "Programa de prevenção à dependência química e reabilitação multidisciplinar."
+          ],
+          "budgetSource": "Orçamento do Ministério da Saúde.",
+          "feasibilityScore": 84
+        },
+        {
+          "key": "economia",
+          "title": "Estímulo ao Empreendedorismo e Simplificação Tributária",
+          "icon": "TrendingUp",
+          "mainGoal": "Desburocratizar a abertura de negócios e apoiar micro e pequenas empresas com crédito orientado.",
+          "proposals": [
+            "Desburocratização regulatória e incentivo a startups de tecnologia verde e biotecnologia."
+          ],
+          "budgetSource": "Linhas de fomento BNDES e FINEP.",
+          "feasibilityScore": 80
+        }
+      ]
+    },
+    "currentOfficeNote": "3º Colocado no 1º Turno Presidencial 2026 (2,89% dos votos válidos — 3.448.569 votos)",
+    "tseVerification": {
+      "isOfficial": true,
+      "status": "apto_homologado",
+      "processNumber": "0601105-18.2026.6.00.0000",
+      "divulgaCandUrl": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/BR/70",
+      "verifiedAt": "2026-10-16"
+    }
+  },
+  {
+    "id": "renan-santos-presidente",
+    "name": "Renan Antônio Ferreira dos Santos",
+    "popularName": "Renan Santos",
+    "photoUrl": "",
+    "role": "presidente",
+    "party": "Missão",
+    "ballotNumber": "14",
+    "coalition": "Partido Missão (Chapa Puro-Sangue)",
+    "age": 42,
+    "cityOrigin": "São Paulo - SP",
+    "declaredAssets": 1280000,
+    "education": {
+      "level": "superior_incompleto",
+      "institution": "Universidade de São Paulo (USP)",
+      "course": "Direito",
+      "details": "Ingressou na Faculdade de Direito do Largo São Francisco (USP). Dirigente partidário e articulador político nacional.",
+      "complementaryCourses": [
+        "Comunicação Política e Estratégia Digital",
+        "Gestão e Organização Partidária"
+      ]
+    },
+    "experience": {
+      "yearsInPublicService": 6,
+      "summary": "Fundador e dirigente nacional do Partido Missão (homologado pelo TSE) e coordenador nacional do MBL. 4º colocado no 1º turno presidencial de 2026 com 2,24% dos votos válidos (2.675.887 votos).",
+      "roles": [
+        {
+          "title": "Presidente Nacional do Partido Missão",
+          "period": "2025 - Atual",
+          "level": "federal",
+          "achievements": [
+            "Coordenação da coleta de assinaturas e homologação do Partido Missão junto ao Tribunal Superior Eleitoral.",
+            "Formulação de propostas legislativas de endurecimento penal e reforma do Estado."
+          ]
+        }
+      ]
+    },
+    "debatesAndInterviews": {
+      "averageScore": 83,
+      "events": [
+        {
+          "title": "Debate Presidencial 1º Turno 2026",
+          "date": "2026-09-28",
+          "vehicle": "Rede Bandeirantes / UOL",
+          "score": 83,
+          "notes": "Forte ênfase no combate às facções criminosas, fim de privilégios no funcionalismo e reforma do Código Penal.",
+          "factCheckingAccuracy": 82
+        }
+      ]
+    },
+    "integrityAndFacts": {
+      "cleanRecordCertificates": [
+        {
+          "court": "Tribunal Superior Eleitoral (TSE)",
+          "status": "regular"
+        },
+        {
+          "court": "Justiça Federal (TRF-3)",
+          "status": "nada_consta"
+        }
+      ],
+      "factChecks": [
+        {
+          "id": "fc-renan-1",
+          "title": "Homologação do Partido Missão e Registro Presidencial no TSE",
+          "description": "O Tribunal Superior Eleitoral deferiu o registro do Partido Missão e a candidatura presidencial para o pleito de 2026, na qual obteve 2.675.887 votos (2,24% dos votos válidos).",
+          "vehicleOrOrgan": "Tribunal Superior Eleitoral (TSE)",
+          "category": "comprovado_positivo",
+          "date": "2026-10-04",
+          "sourceUrl": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/BR/14"
+        }
+      ]
+    },
+    "governmentPlan": {
+      "summary": "Plano centrado em guerra frontal ao crime organizado e domínio territorial de facções, reforma administrativa profunda com fim de super-salários, industrialização estratégica e mérito educacional.",
+      "pdfUrl": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/BR/14",
+      "pillars": [
+        {
+          "key": "seguranca",
+          "title": "Retomada de Territórios e Código Penal de Guerra contra Facções",
+          "icon": "ShieldAlert",
+          "mainGoal": "Desarticular o controle territorial de facções criminosas e extinguir a progressão rápida de regime para crimes hediondos.",
+          "proposals": [
+            "Penas severas e isolamento integral para lideranças de organizações criminosas e milícias.",
+            "Operações conjuntas permanentes de retomada territorial e sufocamento financeiro do tráfico."
+          ],
+          "budgetSource": "Fundo Nacional de Segurança Pública e alienação imediata de bens apreendidos.",
+          "feasibilityScore": 82
+        },
+        {
+          "key": "economia",
+          "title": "Fim de Super-Salários, Reforma Administrativa e Industrialização",
+          "icon": "TrendingUp",
+          "mainGoal": "Cortar penduricalhos acima do teto constitucional nos Três Poderes e direcionar investimentos para infraestrutura.",
+          "proposals": [
+            "Proibição estrita de verbas indenizatórias que ultrapassem o teto constitucional do funcionalismo.",
+            "Abertura comercial gradual combinada com desburocratização tributária e trabalhista."
+          ],
+          "budgetSource": "Economia com corte de privilégios e revisão de subsídios fiscais.",
+          "feasibilityScore": 84
+        }
+      ]
+    },
+    "currentOfficeNote": "4º Colocado no 1º Turno Presidencial 2026 (2,24% dos votos válidos — 2.675.887 votos)",
+    "tseVerification": {
+      "isOfficial": true,
+      "status": "apto_homologado",
+      "processNumber": "0601142-44.2026.6.00.0000",
+      "divulgaCandUrl": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/BR/14",
+      "verifiedAt": "2026-10-16"
+    }
+  },
+  {
+    "id": "ronaldo-caiado-presidente",
+    "name": "Ronaldo Ramos Caiado",
+    "popularName": "Ronaldo Caiado",
+    "photoUrl": "",
+    "role": "presidente",
+    "party": "PSD",
+    "ballotNumber": "55",
+    "coalition": "PSD (Aliança Segurança e Gestão para o Brasil)",
+    "age": 77,
+    "cityOrigin": "Anápolis - GO",
+    "declaredAssets": 24850000,
+    "education": {
+      "level": "doutorado",
+      "institution": "Escola de Medicina e Cirurgia do Rio de Janeiro (UNIRIO) / Paris",
+      "course": "Medicina (Ortopedia e Cirurgia da Coluna)",
+      "details": "Graduado em Medicina pela UNIRIO (1972), com especialização e mestrado/aperfeiçoamento em Cirurgia da Coluna pelo Serviço do Prof. Roy-Camille na Universidade de Paris (França).",
+      "complementaryCourses": [
+        "Cirurgia Ortopédica e Traumatologia (Paris - França)",
+        "Gestão Pública e Saúde"
+      ]
+    },
+    "experience": {
+      "yearsInPublicService": 34,
+      "summary": "Governador de Goiás por 2 mandatos (2019–2026), Senador da República (2015–2019) e Deputado Federal por 5 mandatos. Disputou o 1º turno presidencial de 2026 pelo PSD obtendo 2,18% (2.605.148 votos) e declarou apoio a Flávio Bolsonaro no 2º turno.",
+      "roles": [
+        {
+          "title": "Governador do Estado de Goiás",
+          "period": "2019 - 2026 (2 mandatos)",
           "level": "estadual",
           "achievements": [
-            "Conclusão da desestatização da Sabesp com atração de R$ 68 bilhões em investimentos em saneamento.",
-            "Leilão do Trem Intercidades ligando São Paulo a Campinas.",
-            "Implantação das Escolas Cívico-Militares no estado de SP e digitalização dos serviços estaduais.",
-            "Criação de novos batalhões da Polícia Militar e reajuste salarial para forças de segurança."
+            "Redução histórica dos índices de criminalidade violenta, roubos de carga e assaltos a bancos em Goiás.",
+            "Conquista do 1º lugar nacional no IDEB do Ensino Médio da rede pública estadual.",
+            "Recuperação fiscal do Estado de Goiás e expansão de policlínicas regionais."
           ]
         },
         {
-          "title": "Ministro da Infraestrutura",
-          "period": "2019 - 2022",
+          "title": "Senador da República (GO) e Deputado Federal",
+          "period": "1991 - 2019",
           "level": "federal",
           "achievements": [
-            "Leilão de mais de 80 ativos de infraestrutura (aeroportos, ferrovias e portos) sem escândalos de corrupção na pasta.",
-            "Conclusão da pavimentação da BR-163 e nova ponte do Guaíba no RS."
+            "Liderança bancada ruralista e atuação nas comissões de Constituição e Justiça (CCJ) e Assuntos Econômicos (CAE)."
           ]
         }
       ]
@@ -452,19 +812,11 @@
       "averageScore": 86,
       "events": [
         {
-          "title": "Debate Presidencial 2º Turno TV Globo",
-          "date": "2026-10-16",
+          "title": "Debate Presidencial 1º Turno 2026 - TV Globo",
+          "date": "2026-10-01",
           "vehicle": "TV Globo",
-          "score": 88,
-          "notes": "Foco em equilíbrio fiscal, teto do IVA, atração de investimentos privados e endurecimento penal.",
-          "factCheckingAccuracy": 85
-        },
-        {
-          "title": "Sabatina Jornal Nacional 2º Turno",
-          "date": "2026-10-10",
-          "vehicle": "TV Globo",
-          "score": 85,
-          "notes": "Defendeu autonomia orçamentária para governadores e explicou o plano de concessões federais.",
+          "score": 86,
+          "notes": "Apresentou os resultados de segurança pública e educação de Goiás como vitrine administrativa para o país.",
           "factCheckingAccuracy": 87
         }
       ]
@@ -480,249 +832,175 @@
           "status": "nada_consta"
         },
         {
-          "court": "Tribunal de Contas da União (TCU)",
+          "court": "Tribunal de Contas do Estado de Goiás (TCE-GO)",
           "status": "regular"
         }
       ],
       "factChecks": [
         {
-          "id": "fc-tarcisio-pres-1",
-          "title": "Aprovação das Contas de Governo pelo Tribunal de Contas de SP",
-          "description": "O Tribunal de Contas do Estado de São Paulo emitiu parecer prévio pela aprovação com recomendações das contas anuais da gestão estadual.",
-          "vehicleOrOrgan": "TCE-SP",
+          "id": "fc-caiado-1",
+          "title": "Goiás alcança 1º lugar no IDEB do Ensino Médio e queda nos crimes violentos",
+          "description": "Dados oficiais do INEP/MEC e do Fórum Brasileiro de Segurança Pública confirmam que Goiás atingiu a maior nota do IDEB no Ensino Médio e expressiva redução de roubos e homicídios durante sua gestão.",
+          "vehicleOrOrgan": "INEP / Ministério da Educação (MEC)",
           "category": "comprovado_positivo",
-          "date": "2024-06-20",
-          "sourceUrl": "https://www.tce.sp.gov.br/relatorios-contas-governo"
-        },
-        {
-          "id": "fc-tarcisio-pres-2",
-          "title": "Boato sobre privatização da USP e Unicamp",
-          "description": "Publicações alegavam falsamente plano de privatizar as universidades estaduais paulistas. Boato desmentido oficialmente pelo governo estadual e agências de checagem.",
-          "vehicleOrOrgan": "Agência Lupa",
-          "category": "boato_desmentido",
-          "date": "2023-11-15",
-          "sourceUrl": "https://lupa.uol.com.br/jornalismo/categoria/politica"
+          "date": "2024-08-14",
+          "sourceUrl": "https://www.gov.br/inep/pt-br/areas-de-atuacao/pesquisas-estatisticas-e-indicadores/ideb"
         }
       ]
     },
     "governmentPlan": {
-      "summary": "Plano centrado no equilíbrio fiscal estrito, desestatizações, concessões massivas de infraestrutura, endurecimento da segurança pública e simplificação tributária.",
-      "pdfUrl": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/BR/10",
+      "summary": "Plano baseado na replicação nacional do modelo goiano de segurança pública (inteligência policial integrada e isolamento de facções), excelência no IDEB do ensino público e segurança jurídica ao agronegócio.",
+      "pdfUrl": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/BR/55",
       "pillars": [
         {
-          "key": "economia",
-          "title": "Choque de Concessões e Desregulamentação",
-          "icon": "TrendingUp",
-          "mainGoal": "Atrair R$ 500 bilhões em investimentos privados por meio de leilões e segurança jurídica.",
-          "proposals": [
-            "Concessões de ferrovias, portos e rodovias federais sem subsídios do Tesouro.",
-            "Trava de alíquota máxima do IVA em 25% para conter a carga tributária.",
-            "Desoneração ampla da folha de pagamento e incentivo a novas contratações."
-          ],
-          "budgetSource": "Capitais privados nacionais e internacionais via leilões de concessão.",
-          "feasibilityScore": 89
-        },
-        {
           "key": "seguranca",
-          "title": "Endurecimento Penal e Muralha Nacional",
+          "title": "Padrão Goiás de Segurança Pública Nacional",
           "icon": "ShieldAlert",
-          "mainGoal": "Asfixiar o crime organizado e modernizar o aparato policial brasileiro.",
+          "mainGoal": "Erradicar o domínio territorial de facções e reduzir drasticamente os crimes patrimoniais e letais.",
           "proposals": [
-            "Fim das saídas temporárias de presos e excludente de ilicitude para policiais.",
-            "Sistema nacional de câmeras inteligentes e cerco eletrônico nas fronteiras.",
-            "Construção de presídios federais de segurança máxima para isolar lideranças de facções."
+            "Criação de batalhões especializados de divisas e rural integrados às polícias estaduais.",
+            "Bloqueio de sinais de telefonia celular em 100% dos presídios brasileiros."
           ],
-          "budgetSource": "Fundo Nacional de Segurança Pública e recursos de desestatizações.",
-          "feasibilityScore": 87
-        },
-        {
-          "key": "saude",
-          "title": "Parcerias Público-Privadas e Fim das Filas",
-          "icon": "Activity",
-          "mainGoal": "Zerar a fila de cirurgias eletivas contratando leitos e exames na rede privada.",
-          "proposals": [
-            "Vouchers para atendimento rápido na rede privada credenciada.",
-            "Gestão hospitalar por Organizações Sociais de Saúde (OSS) com metas de eficiência.",
-            "Prontuário unificado e digitalização total do agendamento de consultas."
-          ],
-          "budgetSource": "Orçamento do Ministério da Saúde com ganhos de eficiência de gestão.",
-          "feasibilityScore": 85
+          "budgetSource": "Fundo Nacional de Segurança Pública (FNSP).",
+          "feasibilityScore": 90
         },
         {
           "key": "educacao",
-          "title": "Ensino Técnico Integrado e Escolas Cívico-Militares",
+          "title": "Meritocracia Pedagógica e Apoio Direto ao Aluno",
           "icon": "GraduationCap",
-          "mainGoal": "Capacitar os jovens do ensino médio para ingresso imediato no mercado de trabalho.",
+          "mainGoal": "Universalizar a recomposição de aprendizagem e elevar o IDEB nacional do Ensino Médio.",
           "proposals": [
-            "Expansão do ensino técnico em parceria com o Sistema S e empresas.",
-            "Adesão voluntária de escolas públicas ao modelo cívico-militar.",
-            "Bonificação anual por mérito para diretores e professores que aumentarem o Ideb."
+            "Bolsa permanência estudantil vinculada à frequência e desempenho escolar.",
+            "Reforma física padronizada das escolas públicas e conectividade de alta velocidade."
           ],
-          "budgetSource": "Fundo Nacional de Desenvolvimento da Educação (FNDE).",
-          "feasibilityScore": 88
+          "budgetSource": "FNDE e transferências constitucionais.",
+          "feasibilityScore": 89
         }
       ]
     },
+    "currentOfficeNote": "5º Colocado no 1º Turno Presidencial 2026 (2,18% — 2.605.148 votos) • Declarou apoio a Flávio Bolsonaro no 2º turno",
     "tseVerification": {
-      "status": "2º TURNO",
-      "processNumber": "0601045-88.2026.6.00.0000",
-      "divulgaCandUrl": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/BR/10",
-      "verifiedAt": "2026-10-15",
-      "isOfficial": true
+      "isOfficial": true,
+      "status": "apto_homologado",
+      "processNumber": "0601089-65.2026.6.00.0000",
+      "divulgaCandUrl": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/BR/55",
+      "verifiedAt": "2026-10-16"
     }
   },
   {
-    "id": "ciro-gomes-presidente",
-    "name": "Ciro Ferreira Gomes",
-    "popularName": "Ciro Gomes",
+    "id": "romeu-zema-presidente",
+    "name": "Romeu Zema Neto",
+    "popularName": "Romeu Zema",
     "photoUrl": "",
     "role": "presidente",
-    "party": "PDT",
-    "ballotNumber": "12",
-    "coalition": "Partido Democrático Trabalhista",
-    "age": 68,
-    "cityOrigin": "Pindamonhangaba - SP (Radicado no CE)",
-    "declaredAssets": 3039761,
+    "party": "NOVO",
+    "ballotNumber": "30",
+    "coalition": "Partido Novo (Chapa Gestão, Liberdade e Responsabilidade Fiscal)",
+    "age": 61,
+    "cityOrigin": "Araxá - MG",
+    "declaredAssets": 165200000,
     "education": {
-      "level": "pos_graduacao",
-      "institution": "Universidade Federal do Ceará (UFC) / Harvard Law School",
-      "course": "Direito / Pesquisador Visitante em Direito Internacional",
-      "details": "Graduado em Direito pela Universidade Federal do Ceará (UFC). Foi pesquisador visitante na Harvard Law School e professor de direito constitucional e economia.",
+      "level": "superior_completo",
+      "institution": "Fundação Getulio Vargas (FGV-SP)",
+      "course": "Administração de Empresas",
+      "details": "Graduado em Administração de Empresas pela Escola de Administração de Empresas de São Paulo da Fundação Getulio Vargas (FGV-EAESP).",
       "complementaryCourses": [
-        "Macroeconomia Aplicada",
-        "Desenvolvimento Econômico Comparado",
-        "Direito Constitucional"
+        "Gestão Varejista e Governança Corporativa",
+        "Finanças Corporativas e Planejamento Estratégico"
       ]
     },
     "experience": {
-      "yearsInPublicService": 38,
-      "summary": "Ministro da Fazenda (1994, consolidação do Plano Real), Ministro da Integração Nacional (2003-2006, Transposição do Rio São Francisco), Governador do Ceará (1991-1994), Prefeito de Fortaleza e Deputado Federal.",
+      "yearsInPublicService": 8,
+      "summary": "Governador de Minas Gerais por 2 mandatos (2019–2026) e empresário do setor varejista. Disputou o 1º turno presidencial de 2026 pelo Partido Novo (0,27% — 326.488 votos) e declarou apoio a Flávio Bolsonaro no 2º turno.",
       "roles": [
         {
-          "title": "Ministro da Fazenda do Brasil",
-          "period": "1994 - 1995",
-          "level": "federal",
-          "achievements": [
-            "Atuação na consolidação e defesa cambial do Plano Real que estabilizou a moeda e venceu a hiperinflação no Brasil."
-          ]
-        },
-        {
-          "title": "Ministro da Integração Nacional",
-          "period": "2003 - 2006",
-          "level": "federal",
-          "achievements": [
-            "Concepção, licenciamento e início das obras do Projeto de Transposição do Rio São Francisco."
-          ]
-        },
-        {
-          "title": "Governador do Estado do Ceará",
-          "period": "1991 - 1994",
+          "title": "Governador do Estado de Minas Gerais",
+          "period": "2019 - 2026 (2 mandatos)",
           "level": "estadual",
           "achievements": [
-            "Início da reforma educacional que culminou na liderança do Ceará no IDEB nas décadas seguintes; primeiro estado a cumprir a LRF antecipadamente."
+            "Regularização do pagamento do funcionalismo público e dos repasses constitucionais aos municípios mineiros.",
+            "Atração recorde de mais de R$ 400 bilhões em investimentos privados formalizados em Minas Gerais.",
+            "Programa Trilhas de Futuro para formação técnica gratuita de jovens mineiros."
           ]
         }
       ]
     },
     "debatesAndInterviews": {
-      "averageScore": 88,
+      "averageScore": 85,
       "events": [
         {
-          "title": "Debates Presidenciais na Band e TV Globo (Ciclo 2022)",
-          "date": "2022-09-29",
-          "vehicle": "Pool de Emissoras",
-          "score": 90,
-          "notes": "Elevado domínio de números macroeconômicos, propostas de refinanciamento de dívidas e reforma tributária.",
-          "factCheckingAccuracy": 85
-        },
-        {
-          "title": "Sabatina Flow Podcast",
-          "date": "2022-06-27",
-          "vehicle": "Flow",
-          "score": 87,
-          "notes": "Detalhamento minucioso do Projeto Nacional de Desenvolvimento (PND) com fontes orçamentárias.",
-          "factCheckingAccuracy": 86
+          "title": "Debate Presidencial 1º Turno 2026 - TV Globo",
+          "date": "2026-10-01",
+          "vehicle": "TV Globo",
+          "score": 85,
+          "notes": "Focou em responsabilidade fiscal, desestatização, avaliação de desempenho no serviço público e ensino técnico.",
+          "factCheckingAccuracy": 88
         }
       ]
     },
     "integrityAndFacts": {
       "cleanRecordCertificates": [
         {
-          "type": "TSE - Quitação Eleitoral e Ficha Limpa",
-          "issuer": "Tribunal Superior Eleitoral",
-          "status": "regular",
-          "emissionDate": "2024-01-10",
-          "verificationCode": "TSE-CIRO-CE-2024",
-          "linkUrl": "https://www.tse.jus.br"
+          "court": "Tribunal Superior Eleitoral (TSE)",
+          "status": "regular"
         },
         {
-          "type": "Certidão Negativa Criminal",
-          "issuer": "Tribunal Regional Federal da 5ª Região (TRF-5)",
-          "status": "nada_consta",
-          "emissionDate": "2024-01-20",
-          "verificationCode": "TRF5-CIRO-001",
-          "linkUrl": "https://www.trf5.jus.br"
+          "court": "Supremo Tribunal Federal (STF)",
+          "status": "nada_consta"
+        },
+        {
+          "court": "Tribunal de Contas do Estado de Minas Gerais (TCE-MG)",
+          "status": "regular"
         }
       ],
       "factChecks": [
         {
-          "id": "fc-ciro-1",
-          "title": "Inexistência de Condenação por Corrupção ou Improbidade Administrativa",
-          "description": "Certidões do Ministério Público e Justiça Federal atestam ausência de condenações por malversação de recursos públicos ao longo de quatro décadas de vida pública.",
-          "vehicleOrOrgan": "Aos Fatos / Comprova",
+          "id": "fc-zema-1",
+          "title": "Contas de Governo Aprovadas pelo TCE-MG",
+          "description": "O Tribunal de Contas do Estado de Minas Gerais emitiu parecer prévio pela aprovação das contas anuais de governo, destacando a retomada da regularidade nos repasses aos municípios.",
+          "vehicleOrOrgan": "Tribunal de Contas de Minas Gerais (TCE-MG)",
           "category": "comprovado_positivo",
-          "date": "2022-09-15",
-          "sourceUrl": "https://www.aosfatos.org/noticias/checamos-declaracoes-de-ciro-gomes/"
-        },
-        {
-          "id": "fc-ciro-2",
-          "title": "Processos Cíveis por Dano Moral / Liberdade de Expressão",
-          "description": "Possui condenações de natureza indenizatória estritamente cível decorrentes de declarações políticas contra adversários, sem enquadramento na Lei da Ficha Limpa.",
-          "vehicleOrOrgan": "UOL Notícias",
-          "category": "esclarecido",
-          "date": "2023-05-18",
-          "sourceUrl": "https://noticias.uol.com.br/eleicoes/"
+          "date": "2024-06-19",
+          "sourceUrl": "https://www.tce.mg.gov.br/"
         }
       ]
     },
     "governmentPlan": {
-      "summary": "Projeto Nacional de Desenvolvimento (PND) com reindustrialização do país, tributação sobre lucros e dividendos e grandes fortunas, refinanciamento de dívidas do SPC/Serasa e revolução educacional integral.",
-      "pdfUrl": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/BR/12",
+      "summary": "Plano liberal focado em equilíbrio fiscal estrutural, reforma administrativa com avaliação de metas, privatização de estatais deficitárias, liberdade econômica e expansão do ensino técnico (Trilhas de Futuro).",
+      "pdfUrl": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/BR/30",
       "pillars": [
         {
-          "key": "desenvolvimento",
-          "title": "Complexos Industriais da Saúde e Petróleo",
-          "icon": "Building2",
-          "mainGoal": "Recuperar a participação da manufatura no PIB e nacionalizar o refino de derivados de petróleo.",
+          "key": "economia",
+          "title": "Estado Enxuto, Liberdade Econômica e Concessões",
+          "icon": "TrendingUp",
+          "mainGoal": "Equilibrar as contas públicas sem aumento de impostos, atraindo capital privado para infraestrutura.",
           "proposals": [
-            "Reconstrução da cadeia nacional de semicondutores, químicos e equipamentos médicos.",
-            "Revisão da política de preços de paridade de importação de combustíveis.",
-            "Criação do programa 'Nome Limpo' com refinanciamento de dívidas de famílias pelo Banco do Brasil e Caixa."
+            "Reforma Administrativa com metas de desempenho e extinção de privilégios do alto escalão.",
+            "Concessão ampla de rodovias, portos e ativos logísticos à iniciativa privada."
           ],
-          "budgetSource": "Imposto sobre grandes fortunas (0,5% a partir de R$ 20 milhões) e fim de desonerações tributárias regresivas.",
-          "feasibilityScore": 84
+          "budgetSource": "Redução de custeio e investimentos privados via concessões.",
+          "feasibilityScore": 89
         },
         {
           "key": "educacao",
-          "title": "Tempo Integral e Modelo Cearense",
+          "title": "Programa Nacional Trilhas de Futuro (Ensino Técnico)",
           "icon": "GraduationCap",
-          "mainGoal": "Universalizar a escola em tempo integral e profissionalizante em todo o território nacional.",
+          "mainGoal": "Conectar jovens do Ensino Médio ao emprego formal por meio de bolsas em cursos técnicos.",
           "proposals": [
-            "Replicar nos 5.570 municípios o modelo de alfabetização e bonificação docente consagrado em Sobral/CE.",
-            "Bolsa-poupança para permanência dos jovens no ensino médio."
+            "Expansão nacional do modelo Trilhas de Futuro em parceria com SENAI, SENAC e instituições privadas."
           ],
-          "budgetSource": "Fundo Social do Pré-Sal e royalties de energia renovável.",
-          "feasibilityScore": 90
+          "budgetSource": "Orçamento do MEC/FNDE.",
+          "feasibilityScore": 91
         }
       ]
     },
-    "currentOfficeNote": "1º Turno Concluído (3,20% dos votos) • O PDT liberou bancada no 2º turno",
+    "currentOfficeNote": "6º Colocado no 1º Turno Presidencial 2026 (0,27% — 326.488 votos) • Declarou apoio a Flávio Bolsonaro no 2º turno",
     "tseVerification": {
-      "status": "DEFERIDO",
-      "processNumber": "0600854-33.2026.6.00.0000",
-      "divulgaCandUrl": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/BR/12",
-      "verifiedAt": "2026-10-15",
-      "isOfficial": true
+      "isOfficial": true,
+      "status": "apto_homologado",
+      "processNumber": "0601030-19.2026.6.00.0000",
+      "divulgaCandUrl": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/BR/30",
+      "verifiedAt": "2026-10-16"
     }
   }
 ]

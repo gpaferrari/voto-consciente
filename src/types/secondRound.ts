@@ -1,6 +1,6 @@
 export interface SecondRoundPoll {
   id: string;
-  institute: 'Datafolha' | 'Quaest' | 'AtlasIntel' | 'Paraná Pesquisas';
+  institute: 'Datafolha' | 'Quaest' | 'AtlasIntel' | 'Paraná Pesquisas' | 'CNT/MDA' | 'PoderData' | 'Futura';
   tseRegistration: string;
   releaseDate: string;
   fieldStartDate: string;
@@ -10,23 +10,23 @@ export interface SecondRoundPoll {
   contractor: string;
   methodology: string;
   validVotes: {
+    flavio: number;
     lula: number;
-    tarcisio: number;
   };
   totalVotes: {
+    flavio: number;
     lula: number;
-    tarcisio: number;
     blankNull: number;
     undecided: number;
   };
   rejection: {
+    flavio: number;
     lula: number;
-    tarcisio: number;
   };
   regionalBreakdown?: {
     region: 'Sudeste' | 'Nordeste' | 'Sul' | 'Norte' | 'Centro-Oeste';
+    flavio: number;
     lula: number;
-    tarcisio: number;
   }[];
   sourceUrl: string;
 }
@@ -34,12 +34,12 @@ export interface SecondRoundPoll {
 export interface ProposalComparison {
   theme: 'Economia & Renda' | 'Segurança Pública' | 'Saúde & SUS' | 'Educação' | 'Reforma Tributária & Fiscal' | 'Meio Ambiente';
   icon: string;
-  lulaProposal: {
+  flavioProposal: {
     title: string;
     description: string;
     keyPoints: string[];
   };
-  tarcisioProposal: {
+  lulaProposal: {
     title: string;
     description: string;
     keyPoints: string[];
@@ -54,7 +54,7 @@ export interface FirstRoundResult {
   votes: number;
   percentage: number;
   status: 'classificado_2_turno' | 'eliminado_1_turno';
-  endorsement?: string; // Apoio declarado no 2º turno
+  endorsement?: string;
   color: string;
 }
 
@@ -66,4 +66,3 @@ export interface GovernorEndorsement {
   declaredAt: string;
   pactThemes: string;
 }
-

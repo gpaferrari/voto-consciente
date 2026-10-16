@@ -1,133 +1,105 @@
 [
   {
-    "id": "poll-sp-2026-datafolha-01",
-    "tseRegistration": "SP-02941/2026",
+    "id": "poll-sp-2026-datafolha-out",
+    "tseRegistration": "SP-08812/2026",
     "institute": "Datafolha",
-    "fieldStartDate": "2026-02-18",
-    "fieldEndDate": "2026-02-21",
-    "releaseDate": "2026-02-23",
-    "sampleSize": 1806,
-    "marginOfError": 2.3,
+    "fieldStartDate": "2026-10-02",
+    "fieldEndDate": "2026-10-03",
+    "releaseDate": "2026-10-03",
+    "sampleSize": 2000,
+    "marginOfError": 2.0,
     "confidenceLevel": 95,
-    "contractor": "Folha de S.Paulo",
+    "contractor": "Folha de S.Paulo / TV Globo",
     "methodology": "Presencial (face a face)",
     "targetOffice": "governador",
     "state": "SP",
-    "sourceUrl": "https://www1.folha.uol.com.br/poder",
+    "sourceUrl": "https://pesqele.tse.jus.br/pesqele-publico/app/pesquisa/detalhar.xhtml?numIdentificacao=SP-08812%2F2026",
     "scenarios": [
       {
-        "id": "sc-sp-datafolha-est-1",
-        "title": "1º Turno Governo SP - Cenário Principal",
+        "id": "sc-sp-datafolha-out-validos",
+        "title": "Véspera 1º Turno Governo SP - Votos Válidos (Datafolha)",
         "type": "estimulada",
         "results": [
           {
-            "candidateId": "tarcisio-de-freitas",
+            "candidateId": "tarcisio-governador",
             "candidateName": "Tarcísio de Freitas",
             "party": "Republicanos",
-            "percentage": 42,
+            "percentage": 61,
             "color": "#2563eb"
           },
           {
-            "candidateId": "fernando-haddad",
+            "candidateId": "haddad-governador",
             "candidateName": "Fernando Haddad",
             "party": "PT",
-            "percentage": 28,
+            "percentage": 37,
             "color": "#dc2626"
-          },
-          {
-            "candidateId": "guilherme-boulos",
-            "candidateName": "Guilherme Boulos",
-            "party": "PSOL",
-            "percentage": 11,
-            "color": "#f97316"
-          },
-          {
-            "candidateId": "marcio-franca",
-            "candidateName": "Márcio França",
-            "party": "PSB",
-            "percentage": 7,
-            "color": "#eab308"
           }
         ],
-        "blankNull": 7,
-        "undecided": 5
+        "blankNull": 0,
+        "undecided": 0
       },
       {
-        "id": "sc-sp-datafolha-2t-1",
-        "title": "2º Turno Governo SP: Tarcísio vs Haddad",
-        "type": "segundo_turno",
+        "id": "sc-sp-datafolha-out-totais",
+        "title": "Véspera 1º Turno Governo SP - Votos Totais (Datafolha)",
+        "type": "estimulada",
         "results": [
           {
-            "candidateId": "tarcisio-de-freitas",
+            "candidateId": "tarcisio-governador",
             "candidateName": "Tarcísio de Freitas",
             "party": "Republicanos",
-            "percentage": 52,
+            "percentage": 56,
             "color": "#2563eb"
           },
           {
-            "candidateId": "fernando-haddad",
+            "candidateId": "haddad-governador",
             "candidateName": "Fernando Haddad",
             "party": "PT",
-            "percentage": 36,
+            "percentage": 34,
             "color": "#dc2626"
           }
         ],
-        "blankNull": 8,
+        "blankNull": 6,
         "undecided": 4
       }
     ]
   },
   {
-    "id": "poll-sp-2026-parana-01",
-    "tseRegistration": "SP-04312/2026",
-    "institute": "Paraná Pesquisas",
-    "fieldStartDate": "2026-03-02",
-    "fieldEndDate": "2026-03-06",
-    "releaseDate": "2026-03-08",
-    "sampleSize": 1650,
-    "marginOfError": 2.4,
+    "id": "poll-sp-2026-quaest-set",
+    "tseRegistration": "SP-07419/2026",
+    "institute": "Quaest",
+    "fieldStartDate": "2026-09-26",
+    "fieldEndDate": "2026-09-29",
+    "releaseDate": "2026-09-30",
+    "sampleSize": 1800,
+    "marginOfError": 2.3,
     "confidenceLevel": 95,
-    "contractor": "Paraná Pesquisas",
+    "contractor": "Genial Investimentos",
     "methodology": "Presencial (face a face)",
     "targetOffice": "governador",
     "state": "SP",
-    "sourceUrl": "https://pesqele.tse.jus.br/pesqele-publico/app/pesquisa/detalhar.xhtml?numIdentificacao=SP-04312%2F2026",
+    "sourceUrl": "https://pesqele.tse.jus.br/pesqele-publico/app/pesquisa/detalhar.xhtml?numIdentificacao=SP-07419%2F2026",
     "scenarios": [
       {
-        "id": "sc-sp-parana-est-1",
-        "title": "1º Turno Governo SP - Cenário Estimulado",
+        "id": "sc-sp-quaest-set-1",
+        "title": "1º Turno Governo SP - Reta Final Setembro (Quaest)",
         "type": "estimulada",
         "results": [
           {
-            "candidateId": "tarcisio-de-freitas",
+            "candidateId": "tarcisio-governador",
             "candidateName": "Tarcísio de Freitas",
             "party": "Republicanos",
-            "percentage": 44.5,
+            "percentage": 55,
             "color": "#2563eb"
           },
           {
-            "candidateId": "fernando-haddad",
+            "candidateId": "haddad-governador",
             "candidateName": "Fernando Haddad",
             "party": "PT",
-            "percentage": 27.2,
+            "percentage": 33,
             "color": "#dc2626"
-          },
-          {
-            "candidateId": "guilherme-boulos",
-            "candidateName": "Guilherme Boulos",
-            "party": "PSOL",
-            "percentage": 10.3,
-            "color": "#f97316"
-          },
-          {
-            "candidateId": "marcio-franca",
-            "candidateName": "Márcio França",
-            "party": "PSB",
-            "percentage": 6.8,
-            "color": "#eab308"
           }
         ],
-        "blankNull": 6.2,
+        "blankNull": 7,
         "undecided": 5
       }
     ]

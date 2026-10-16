@@ -113,33 +113,48 @@ function isSourceTrusted(sourceName: string): boolean {
 
 // Candidatos monitorados exclusivamente em suas esferas oficiais e homologadas
 const CANDIDATE_TARGETS = [
-  // Presidência da República (2º Turno & Candidatura Homologada)
+  // Presidência da República (2º Turno & Candidaturas Homologadas 2026)
+  { 
+    id: 'flavio-bolsonaro-presidente', 
+    name: 'Flávio Bolsonaro', 
+    query: 'Flávio Bolsonaro presidente OR segundo turno OR plano de governo' 
+  },
   { 
     id: 'lula-presidente', 
     name: 'Luiz Inácio Lula da Silva', 
     query: 'Lula presidente OR governo OR segundo turno OR propostas' 
   },
   { 
-    id: 'tarcisio-presidente', 
-    name: 'Tarcísio de Freitas', 
-    query: 'Tarcísio de Freitas presidente OR segundo turno OR plano de governo' 
+    id: 'augusto-cury-presidente', 
+    name: 'Augusto Cury', 
+    query: 'Augusto Cury Avante OR eleições 2026 OR educação' 
   },
   { 
-    id: 'ciro-gomes-presidente', 
-    name: 'Ciro Gomes', 
-    query: 'Ciro Gomes PDT OR projeto nacional de desenvolvimento' 
+    id: 'renan-santos-presidente', 
+    name: 'Renan Santos', 
+    query: 'Renan Santos Partido Missão OR eleições 2026' 
+  },
+  { 
+    id: 'ronaldo-caiado-presidente', 
+    name: 'Ronaldo Caiado', 
+    query: 'Ronaldo Caiado PSD OR eleições 2026 OR Goiás' 
+  },
+  { 
+    id: 'romeu-zema-presidente', 
+    name: 'Romeu Zema', 
+    query: 'Romeu Zema Novo OR eleições 2026 OR Minas Gerais' 
   },
   
   // Esfera Estadual de São Paulo (Governador)
   { 
     id: 'tarcisio-governador', 
-    name: 'Tarcísio de Freitas (Gestão SP)', 
-    query: 'Tarcísio de Freitas governo SP OR obras São Paulo' 
+    name: 'Tarcísio de Freitas (Governador Reeleito SP)', 
+    query: 'Tarcísio de Freitas reeleito governo SP OR obras São Paulo' 
   },
   { 
     id: 'haddad-governador', 
     name: 'Fernando Haddad', 
-    query: 'Fernando Haddad Fazenda OR reforma tributaria' 
+    query: 'Fernando Haddad eleições SP OR Fazenda' 
   },
   { 
     id: 'guilherme-boulos', 
@@ -157,26 +172,26 @@ const CANDIDATE_TARGETS = [
     query: 'Ricardo Nunes prefeitura São Paulo OR obras' 
   },
 
-  // Senado Federal (São Paulo)
+  // Senado Federal (São Paulo - Eleitos 2026 e Mandato Vigente)
+  { 
+    id: 'guilherme-derrite-senador', 
+    name: 'Guilherme Derrite', 
+    query: 'Guilherme Derrite Senador eleito SP OR segurança pública' 
+  },
+  { 
+    id: 'andre-do-prado-senador', 
+    name: 'André do Prado', 
+    query: 'André do Prado Senador eleito SP OR Alesp' 
+  },
+  { 
+    id: 'simone-tebet-senadora', 
+    name: 'Simone Tebet', 
+    query: 'Simone Tebet Senado SP OR Planejamento' 
+  },
   { 
     id: 'marcos-pontes-senador', 
     name: 'Marcos Pontes', 
     query: 'Marcos Pontes Senado OR ciência e tecnologia' 
-  },
-  { 
-    id: 'mara-gabrilli', 
-    name: 'Mara Gabrilli', 
-    query: 'Mara Gabrilli Senado inclusão saúde' 
-  },
-  { 
-    id: 'eduardo-suplicy', 
-    name: 'Eduardo Suplicy', 
-    query: 'Eduardo Suplicy renda básica Alesp' 
-  },
-  { 
-    id: 'janaina-paschoal', 
-    name: 'Janaína Paschoal', 
-    query: 'Janaína Paschoal direito penal USP' 
   },
 
   // Deputados Federais (Bauru / SP)
@@ -334,15 +349,18 @@ async function syncToSupabase(newsItems: ScrapedNewsItem[]) {
 
     // Expurgar candidaturas especulativas ou inválidas caso ainda existam no banco remoto
     const obsoleteIds = [
+      'tarcisio-presidente',
+      'tarcisio-2026',
+      'ciro-gomes-presidente',
+      'ciro-gomes-2026',
       'ratinho-junior-presidente',
       'ratinho-junior-2026',
-      'ronaldo-caiado-presidente',
-      'caiado-2026',
-      'romeu-zema-presidente',
-      'romeu-zema-2026',
       'eduardo-leite-presidente',
       'eduardo-leite-2026',
-      'jair-bolsonaro-presidente'
+      'jair-bolsonaro-presidente',
+      'mara-gabrilli',
+      'eduardo-suplicy',
+      'janaina-paschoal'
     ];
     await client.query('DELETE FROM public.noticias_monitoradas WHERE candidato_id = ANY($1::text[])', [obsoleteIds]);
     await client.query('DELETE FROM public.candidatos WHERE id = ANY($1::text[])', [obsoleteIds]);
@@ -354,9 +372,9 @@ async function syncToSupabase(newsItems: ScrapedNewsItem[]) {
     const ID_MAPPINGS: Record<string, string> = {
       'fernando-haddad': 'haddad-governador',
       'lula-2026': 'lula-presidente',
-      'tarcisio-2026': 'tarcisio-presidente',
-      'tarcisio-governador': 'tarcisio-presidente',
-      'ciro-gomes-2026': 'ciro-gomes-presidente',
+      'flavio-bolsonaro': 'flavio-bolsonaro-presidente',
+      'caiado-2026': 'ronaldo-caiado-presidente',
+      'romeu-zema-2026': 'romeu-zema-presidente',
       'marcos-pontes': 'marcos-pontes-senador',
       'rodrigo-agostinho': 'rodrigo-agostinho-deputado',
       'capitao-augusto': 'capitao-augusto-deputado',
@@ -421,15 +439,18 @@ async function run() {
   // Carregar notícias existentes e filtrar por fontes confiáveis e candidatos válidos
   let existingNews: ScrapedNewsItem[] = [];
   const INVALID_CANDIDATE_IDS = new Set([
+    'tarcisio-presidente',
+    'tarcisio-2026',
+    'ciro-gomes-presidente',
+    'ciro-gomes-2026',
     'ratinho-junior-presidente',
     'ratinho-junior-2026',
-    'ronaldo-caiado-presidente',
-    'caiado-2026',
-    'romeu-zema-presidente',
-    'romeu-zema-2026',
     'eduardo-leite-presidente',
     'eduardo-leite-2026',
-    'jair-bolsonaro-presidente'
+    'jair-bolsonaro-presidente',
+    'mara-gabrilli',
+    'eduardo-suplicy',
+    'janaina-paschoal'
   ]);
 
   if (fs.existsSync(outputPath)) {

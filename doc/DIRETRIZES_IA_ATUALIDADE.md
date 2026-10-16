@@ -6,18 +6,18 @@
 
 ## 1. Regras de Ouro Inegociáveis
 
-### Regra de Ouro 1: Vedação Absoluta de Governadores / Pré-Candidatos Especulativos na Presidência
-> **É terminantemente proibido listar governadores estaduais em exercício (como Ratinho Júnior no PR, Ronaldo Caiado em GO, Romeu Zema em MG ou Eduardo Leite no RS) como candidatos a Presidente da República (`role: "presidente"`).**
-> - Nenhum desses governadores registrou candidatura presidencial no DivulgaCandContas do TSE.
-> - Eles devem constar **exclusivamente** em suas respectivas esferas estaduais (`/eleitos` sob sua UF) ou na seção de **Apoios Políticos Declarados no 2º Turno** (`/segundo-turno`).
-> - Qualquer tentativa de inseri-los como `presidente` é bloqueada pela função `validateCandidacyRole()` em `src/services/sourceValidator.ts`.
+### Regra de Ouro 1: Vedação Absoluta de Governadores / Políticos sem Registro na Presidência
+> **É terminantemente proibido listar governadores estaduais que disputaram reeleição estadual (como Tarcísio de Freitas em SP, reeleito no 1º turno com 62,65%, ou Ratinho Júnior no PR) ou políticos sem registro presidencial em 2026 (como Ciro Gomes) como candidatos a Presidente da República (`role: "presidente"`).**
+> - Na eleição presidencial de 2026, avançaram ao **2º Turno (25/10/2026)**: **Flávio Bolsonaro (PL - 22, 47,03% no 1º turno)** e **Luiz Inácio Lula da Silva (PT - 13, 45,16% no 1º turno)**. Disputaram o 1º turno presidencial: **Augusto Cury (Avante - 70, 2,89%)**, **Renan Santos (Missão - 14, 2,24%)**, **Ronaldo Caiado (PSD - 55, 2,18%)** e **Romeu Zema (NOVO - 30, 0,27%)**.
+> - Tarcísio de Freitas deve constar **exclusivamente** como Governador Reeleito de São Paulo (`/governador-sp` e `/eleitos`) e na seção de **Apoios Declarados de Governadores no 2º Turno** (`/segundo-turno`).
+> - Qualquer tentativa de inserir Tarcísio de Freitas, Ciro Gomes, Ratinho Júnior ou Jair Bolsonaro como `presidente` é bloqueada pela função `validateCandidacyRole()` em `src/services/sourceValidator.ts`.
 
 ### Regra de Ouro 2: Pessoas Inelegíveis pelo TSE
 > **Políticos com inelegibilidade decretada por decisão colegiada ou plenária do TSE (ex: Jair Bolsonaro, inelegível até 2030 nos autos da AIJE 0600814-85.2022.6.00.0000) NÃO podem ser listados como candidatos ativos na aba de concorrentes.**
 > - Seu posicionamento político e apoio a candidatos no 2º turno deve ser registrado apenas na seção de articulação e apoios políticos, com nota expressa sobre sua condição jurídica.
 
-### Regra de Ouro 3: Caso Ministérios / Situação (Ex: Simone Tebet / Fernando Haddad)
-> **Nunca cadastrar figuras públicas que ocupam ministérios no Governo Federal como adversários presidenciais do Presidente em exercício**, e sempre explicitar o cargo atual no campo `currentOfficeNote` (usando o caractere `•` e nunca a entidade HTML literal `&bull;`).
+### Regra de Ouro 3: Fidelidade Estrita à Apuração Oficial do TSE (04/10/2026)
+> **Sempre consultar e refletir os números oficiais proclamados pelo TSE no 1º turno (04/10/2026) e as pesquisas registradas no PesqEle/TSE para o 2º turno (Outubro/2026)**, utilizando sempre o caractere `•` e nunca a entidade HTML literal `&bull;`.
 
 ---
 

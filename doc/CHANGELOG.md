@@ -24,13 +24,14 @@ Todas as alterações notáveis deste projeto são documentadas neste arquivo.
 - **Remoção de Fotos Genéricas (Unsplash) e Links Quebrados (404):**
   - Substituídas todas as 109 URLs de fotos genéricas do Unsplash em `src/data/elected-2026.json` e URLs quebradas do Wikimedia pelo `CandidateAvatar.vue` institucional.
 - **100% de Cobertura `tseVerification` e Deep Links Oficiais:**
-  - Adicionado `tseVerification` completo em todos os 16 candidatos da plataforma (Federal e SP) e substituídas URLs genéricas de raiz por deep links diretos (`divulgacandcontas.tse.jus.br`, `pesqele.tse.jus.br`, `tce.sp.gov.br`, `senado.leg.br`, `camara.leg.br`).
-- **Expurgo de Governadores Estaduais da Lista de Candidatos a Presidente (`src/data/federal/presidente.json`):**
-  - Removidos Ratinho Júnior (Governador do PR), Ronaldo Caiado (Governador de GO), Romeu Zema (Governador de MG), Eduardo Leite (Governador do RS) e Jair Bolsonaro (inelegível pelo TSE) da relação de candidatos a Presidente da República.
-  - Mantidos exclusivamente os candidatos presidenciais com registro homologado no TSE: Luiz Inácio Lula da Silva (PT - 13), Tarcísio de Freitas (Republicanos - 10) e Ciro Gomes (PDT - 12, 1º turno).
+  - Adicionado `tseVerification` completo em todos os 19 dossiês da plataforma (Federal e SP) e substituídas URLs genéricas de raiz por deep links diretos (`divulgacandcontas.tse.jus.br`, `pesqele.tse.jus.br`, `tce.sp.gov.br`, `senado.leg.br`, `camara.leg.br`).
+- **Atualização Integral da Corrida Presidencial 2026 com Apuração Oficial do TSE (`src/data/federal/presidente.json` & `src/data/second-round-2026.json`):**
+  - Removidos Tarcísio de Freitas (que disputou a reeleição ao Governo de SP e venceu no 1º turno com 62,65%), Ciro Gomes (que não foi candidato em 2026), Ratinho Júnior (Governador do PR) e Jair Bolsonaro (inelegível pelo TSE) da relação de candidatos a Presidente da República.
+  - Cadastrados os candidatos presidenciais reais do pleito de 04/10/2026: **Flávio Bolsonaro (PL - 22, 2º Turno — 47,03% / 56.104.503 votos)**, **Luiz Inácio Lula da Silva (PT - 13, 2º Turno — 45,16% / 53.879.538 votos)**, **Augusto Cury (Avante - 70, 2,89%)**, **Renan Santos (Missão - 14, 2,24%)**, **Ronaldo Caiado (PSD - 55, 2,18%)** e **Romeu Zema (NOVO - 30, 0,27%)**.
+- **Atualização dos Eleitos Reais de 04/10/2026 nas 27 UFs (`src/data/elected-2026.json` & `src/data/estados/sp/*.json`):**
+  - Sincronizados os Governadores eleitos no 1º turno (21 estados, incluindo Tarcísio de Freitas em SP com 62,65%, Cleitinho em MG, Sergio Moro no PR, Luciano Zucco no RS, Douglas Ruas no RJ, Jerônimo Rodrigues na BA, Raquel Lyra em PE, Elmano no CE, Daniel Vilela em GO), os 6 estados em 2º turno (AM, DF, ES, RN, TO, AC) e todos os **54 Senadores eleitos** (incluindo Guilherme Derrite e André do Prado em SP).
 - **Purificação do Pipeline de Notícias (`scripts/scrape-news.ts` & `src/data/live-news.json`):**
-  - Expurgadas 211 notícias residuais que vinculavam governadores estaduais à corrida presidencial.
-  - Adicionado filtro estrito `isSourceTrusted()` e bloqueio anti-clickbait durante o scraping.
+  - Expurgadas notícias residuais de candidaturas especulativas e sincronizadas 211 notícias verificadas para os candidatos reais de 2026.
 - **Correção de Entidades HTML (`&bull;`):**
   - Substituição de `&bull;` literal por caractere Unicode `•` em `currentOfficeNote` e componentes Vue.
 
@@ -39,12 +40,12 @@ Todas as alterações notáveis deste projeto são documentadas neste arquivo.
 ## [2.0.0] - 2026-10-15
 ### Adicionado
 - **Módulo Especial: 2º Turno Presidencial 2026 (`src/views/SecondRoundView.vue` • `/segundo-turno`):**
-  - Placar agregado de intenção de Votos Válidos (Lula 51,4% vs Tarcísio de Freitas 48,6% — empate técnico) e Votos Totais.
-  - Compilação das pesquisas pós-1º turno registradas no TSE em Outubro/2026: Datafolha (`BR-09412/2026`), Quaest (`BR-08192/2026`), AtlasIntel (`BR-07981/2026`) e Paraná Pesquisas (`BR-06530/2026`).
-  - Indicadores de rejeição, resultado oficial proclamado do 1º turno e comparativo temático frente a frente em 6 áreas estratégicas.
+  - Placar agregado de intenção de Votos Válidos (**Flávio Bolsonaro 50,85% vs Lula 49,15% — empate técnico**) e Votos Totais.
+  - Compilação das pesquisas pós-1º turno registradas no TSE em Outubro/2026: Datafolha (`BR-00466/2026`), Quaest (`BR-08729/2026`), CNT/MDA (`BR-09114/2026`) e Futura (`BR-09302/2026`).
+  - Indicadores de rejeição, resultado oficial proclamado do 1º turno (04/10/2026), apoios de governadores estaduais (Tarcísio de Freitas, Romeu Zema, Ronaldo Caiado, Ratinho Jr., Jerônimo Rodrigues, Elmano de Freitas, Rafael Fonteles) e comparativo temático frente a frente em 6 áreas estratégicas.
 - **Página Nacional de Candidatos Eleitos em Todas as 27 UFs (`src/views/ElectedCandidatesView.vue` • `/eleitos`):**
-  - Base completa (`src/data/elected-2026.json`) cobrindo os 26 estados e o Distrito Federal (**109 mandatários eleitos**: Governadores, os 2 Senadores eleitos por estado e Deputados Federais de destaque).
-  - Filtros por Região, Estado (UF), Cargo e busca por palavra-chave de proposta com cartões expansíveis de compromissos para 2027–2030/2034.
+  - Base completa (`src/data/elected-2026.json`) cobrindo os 26 estados e o Distrito Federal (**109 mandatários**: Governadores, os 54 Senadores eleitos em 04/10/2026 e Deputados Federais de destaque).
+  - Filtros por Região, Estado (UF), Cargo e busca por palavra-chave de proposta com cartões expansíveis de compromissos para 2027–2030/2035.
 - **Destaques na Home e Navegação (`HomeView.vue` & `Navbar.vue`):**
   - Cards de acesso rápido e botões destacados para o `2º Turno 2026` e `Eleitos 2026 (27 UFs)`.
 

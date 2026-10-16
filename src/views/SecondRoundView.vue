@@ -1,24 +1,18 @@
 <script setup lang="ts">
 import { ref, computed } from 'vue';
 import secondRoundDataRaw from '../data/second-round-2026.json';
-import type { SecondRoundPoll, ProposalComparison, FirstRoundResult } from '../types/secondRound';
+import type { SecondRoundPoll, ProposalComparison, FirstRoundResult, GovernorEndorsement } from '../types/secondRound';
 import { 
-  Vote, 
   TrendingUp, 
   Scale, 
   ExternalLink, 
   Calendar, 
-  Users, 
-  ShieldCheck, 
   ShieldAlert, 
   Activity, 
   GraduationCap, 
   Coins, 
   Leaf, 
-  CheckCircle2, 
-  AlertCircle,
-  HelpCircle,
-  Info
+  CheckCircle2
 } from 'lucide-vue-next';
 
 interface SecondRoundDataset {
@@ -26,10 +20,11 @@ interface SecondRoundDataset {
   electionDateFirstRound: string;
   tseProclamationDate: string;
   firstRoundResults: FirstRoundResult[];
+  governorEndorsements: GovernorEndorsement[];
   pollsSecondRound: SecondRoundPoll[];
   aggregateAverage: {
+    flavioValid: number;
     lulaValid: number;
-    tarcisioValid: number;
     situation: string;
     updatedAt: string;
   };
@@ -81,14 +76,14 @@ function formatNumber(num: number) {
         <div class="space-y-3 max-w-2xl">
           <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-bold bg-rose-500/20 text-rose-300 border border-rose-500/30">
             <span class="w-2 h-2 rounded-full bg-rose-500 animate-pulse"></span>
-            DISPUTA DECISIVA &bull; 2º TURNO PRESIDENCIAL 2026
+            DISPUTA DECISIVA • 2º TURNO PRESIDENCIAL 2026
           </div>
           <h1 class="text-3xl sm:text-5xl font-black tracking-tight leading-tight">
-            Lula vs Tarcísio de Freitas
+            Flávio Bolsonaro vs Lula
           </h1>
           <p class="text-sm sm:text-base text-slate-300 leading-relaxed">
-            Acompanhamento consolidado e apartidário das pesquisas de intenção de voto registradas no TSE,
-            taxas de rejeição, migração de apoios do 1º turno e comparativo detalhado das propostas de governo.
+            Acompanhamento consolidado e apartidário das pesquisas de intenção de voto registradas no TSE (Outubro/2026),
+            resultado proclamado do 1º turno (04/10), apoios de governadores estaduais e comparativo detalhado dos planos de governo.
           </p>
         </div>
 
@@ -100,10 +95,10 @@ function formatNumber(num: number) {
             <span>25 de Outubro</span>
           </div>
           <p class="text-[11px] text-slate-400">
-            Domingo &bull; Das 8h às 17h (Horário de Brasília)
+            Domingo • Das 8h às 17h (Horário de Brasília)
           </p>
           <div class="pt-2 border-t border-slate-700 text-[10px] text-emerald-400 font-bold uppercase">
-            Apuração em Tempo Real pelo TSE
+            Apuração Oficial pelo TSE
           </div>
         </div>
       </div>
@@ -113,7 +108,7 @@ function formatNumber(num: number) {
         <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 text-xs">
           <span class="font-bold text-slate-300 uppercase tracking-wider flex items-center gap-1.5">
             <Scale class="w-4 h-4 text-emerald-400" />
-            Média Ponderada Agregada (Votos Válidos - TSE):
+            Média Agregada das Pesquisas Registradas (Votos Válidos - TSE):
           </span>
           <span class="text-slate-400 font-mono text-[11px]">
             {{ data.aggregateAverage.situation }}
@@ -123,28 +118,28 @@ function formatNumber(num: number) {
         <!-- Termômetro Barra de Votos Válidos -->
         <div class="space-y-2">
           <div class="flex items-center justify-between text-base font-extrabold">
-            <div class="flex items-center gap-2 text-rose-400">
-              <span class="w-3 h-3 rounded-full bg-rose-600"></span>
-              <span>Lula (PT)</span>
-              <span class="text-xl font-black">{{ data.aggregateAverage.lulaValid }}%</span>
-            </div>
             <div class="flex items-center gap-2 text-blue-400">
-              <span class="text-xl font-black">{{ data.aggregateAverage.tarcisioValid }}%</span>
-              <span>Tarcísio (Rep/PL)</span>
               <span class="w-3 h-3 rounded-full bg-blue-600"></span>
+              <span>Flávio Bolsonaro (PL - 22)</span>
+              <span class="text-xl font-black">{{ data.aggregateAverage.flavioValid }}%</span>
+            </div>
+            <div class="flex items-center gap-2 text-rose-400">
+              <span class="text-xl font-black">{{ data.aggregateAverage.lulaValid }}%</span>
+              <span>Lula (PT - 13)</span>
+              <span class="w-3 h-3 rounded-full bg-rose-600"></span>
             </div>
           </div>
 
           <div class="w-full h-4 bg-slate-800 rounded-full overflow-hidden flex">
             <div
-              class="h-full bg-rose-600 transition-all duration-500"
-              :style="{ width: `${data.aggregateAverage.lulaValid}%` }"
-              title="Lula"
+              class="h-full bg-blue-600 transition-all duration-500"
+              :style="{ width: `${data.aggregateAverage.flavioValid}%` }"
+              title="Flávio Bolsonaro (PL)"
             ></div>
             <div
-              class="h-full bg-blue-600 transition-all duration-500"
-              :style="{ width: `${data.aggregateAverage.tarcisioValid}%` }"
-              title="Tarcísio de Freitas"
+              class="h-full bg-rose-600 transition-all duration-500"
+              :style="{ width: `${data.aggregateAverage.lulaValid}%` }"
+              title="Lula (PT)"
             ></div>
           </div>
         </div>
@@ -162,7 +157,7 @@ function formatNumber(num: number) {
             <span class="text-xs text-slate-400 font-mono">Pós-1º Turno (Outubro/2026)</span>
           </div>
           <h2 class="text-xl font-bold text-slate-900 dark:text-white mt-1">
-            Pesquisas Eleitorais de 2º Turno
+            Pesquisas Eleitorais de 2º Turno (Flávio Bolsonaro vs Lula)
           </h2>
           <p class="text-xs text-slate-500 dark:text-slate-400">
             Apenas pesquisas oficiais com registro válido no sistema PesqEle do Tribunal Superior Eleitoral.
@@ -179,8 +174,8 @@ function formatNumber(num: number) {
             <option value="todos">Todos os Institutos</option>
             <option value="Datafolha">Datafolha</option>
             <option value="Quaest">Quaest</option>
-            <option value="AtlasIntel">AtlasIntel</option>
-            <option value="Paraná Pesquisas">Paraná Pesquisas</option>
+            <option value="CNT/MDA">CNT/MDA</option>
+            <option value="Futura">Futura</option>
           </select>
         </div>
       </div>
@@ -204,7 +199,7 @@ function formatNumber(num: number) {
                 </span>
               </div>
               <p class="text-[11px] text-slate-500 dark:text-slate-400 mt-0.5">
-                Divulgação: {{ formatDate(poll.releaseDate) }} &bull; Amostra: {{ formatNumber(poll.sampleSize) }} entrevistas
+                Divulgação: {{ formatDate(poll.releaseDate) }} • Amostra: {{ formatNumber(poll.sampleSize) }} entrevistas
               </p>
             </div>
 
@@ -213,7 +208,7 @@ function formatNumber(num: number) {
               target="_blank"
               rel="noopener noreferrer"
               class="shrink-0 p-1.5 rounded-lg bg-white dark:bg-slate-700 text-slate-600 dark:text-slate-300 hover:text-blue-600 border border-slate-200 dark:border-slate-600 transition-colors"
-              title="Ver matéria original da pesquisa"
+              title="Consultar registro oficial no PesqEle/TSE"
             >
               <ExternalLink class="w-3.5 h-3.5" />
             </a>
@@ -223,13 +218,13 @@ function formatNumber(num: number) {
           <div class="space-y-1.5 bg-white dark:bg-slate-900 p-3.5 rounded-xl border border-slate-100 dark:border-slate-800">
             <span class="text-[10px] font-bold uppercase tracking-wider text-slate-400">Votos Válidos</span>
             <div class="flex items-center justify-between text-sm font-black">
+              <span class="text-blue-600 dark:text-blue-400">Flávio Bolsonaro: {{ poll.validVotes.flavio }}%</span>
+              <span class="text-xs text-slate-400 font-mono">Margem ± {{ poll.marginOfError }}%</span>
               <span class="text-rose-600 dark:text-rose-400">Lula: {{ poll.validVotes.lula }}%</span>
-              <span class="text-xs text-slate-400 font-mono">Margem &plusmn; {{ poll.marginOfError }}%</span>
-              <span class="text-blue-600 dark:text-blue-400">Tarcísio: {{ poll.validVotes.tarcisio }}%</span>
             </div>
             <div class="w-full h-2.5 bg-slate-100 dark:bg-slate-800 rounded-full overflow-hidden flex">
+              <div class="h-full bg-blue-600" :style="{ width: `${poll.validVotes.flavio}%` }"></div>
               <div class="h-full bg-rose-600" :style="{ width: `${poll.validVotes.lula}%` }"></div>
-              <div class="h-full bg-blue-600" :style="{ width: `${poll.validVotes.tarcisio}%` }"></div>
             </div>
           </div>
 
@@ -238,8 +233,8 @@ function formatNumber(num: number) {
             <div class="bg-white dark:bg-slate-900 p-2.5 rounded-xl border border-slate-100 dark:border-slate-800 space-y-1">
               <span class="text-[10px] font-bold text-slate-400 uppercase">Votos Totais:</span>
               <div class="text-[11px] text-slate-700 dark:text-slate-300 space-y-0.5">
+                <div>Flávio Bolsonaro: <strong>{{ poll.totalVotes.flavio }}%</strong></div>
                 <div>Lula: <strong>{{ poll.totalVotes.lula }}%</strong></div>
-                <div>Tarcísio: <strong>{{ poll.totalVotes.tarcisio }}%</strong></div>
                 <div class="text-slate-400">Brancos/Nulos: {{ poll.totalVotes.blankNull }}%</div>
                 <div class="text-slate-400">Indecisos: {{ poll.totalVotes.undecided }}%</div>
               </div>
@@ -248,14 +243,14 @@ function formatNumber(num: number) {
             <div class="bg-white dark:bg-slate-900 p-2.5 rounded-xl border border-slate-100 dark:border-slate-800 space-y-1">
               <span class="text-[10px] font-bold text-slate-400 uppercase">Taxa de Rejeição:</span>
               <div class="text-[11px] text-slate-700 dark:text-slate-300 space-y-0.5">
+                <div>Não votaria em Flávio: <strong class="text-blue-500">{{ poll.rejection.flavio }}%</strong></div>
                 <div>Não votaria em Lula: <strong class="text-rose-500">{{ poll.rejection.lula }}%</strong></div>
-                <div>Não votaria em Tarcísio: <strong class="text-blue-500">{{ poll.rejection.tarcisio }}%</strong></div>
               </div>
             </div>
           </div>
 
           <div class="text-[10px] text-slate-400 font-mono">
-            Contratante: {{ poll.contractor }} &bull; Metodologia: {{ poll.methodology }}
+            Contratante: {{ poll.contractor }} • Metodologia: {{ poll.methodology }}
           </div>
         </div>
       </div>
@@ -267,14 +262,14 @@ function formatNumber(num: number) {
         <div class="flex items-center gap-2">
           <CheckCircle2 class="w-4 h-4 text-emerald-500" />
           <span class="text-xs font-bold text-emerald-600 dark:text-emerald-400 uppercase tracking-wider">
-            Apuração Final Concluída pelo TSE
+            Apuração Oficial de 100% das Urnas pelo TSE
           </span>
         </div>
         <h2 class="text-xl font-bold text-slate-900 dark:text-white mt-1">
-          Como Chegamos ao 2º Turno: Resultado Oficial do 1º Turno (04 de Outubro)
+          Como Chegamos ao 2º Turno: Resultado Oficial do 1º Turno (04 de Outubro de 2026)
         </h2>
         <p class="text-xs text-slate-500 dark:text-slate-400">
-          Votação obtida por todos os candidatos a Presidente da República no 1º turno e a posição/apoio declarado para a decisão final.
+          Votação oficial obtida pelos candidatos à Presidência da República no 1º turno (125.275.835 votos válidos) e os posicionamentos para o 2º turno.
         </p>
       </div>
 
@@ -327,37 +322,37 @@ function formatNumber(num: number) {
       </div>
 
       <!-- Apoios Declarados de Governadores Estaduais no 2º Turno -->
-      <div v-if="(data as any).governorEndorsements" class="mt-8 pt-6 border-t border-slate-100 dark:border-slate-800 space-y-4">
+      <div v-if="data.governorEndorsements" class="mt-8 pt-6 border-t border-slate-100 dark:border-slate-800 space-y-4">
         <div>
           <span class="text-[11px] font-bold uppercase tracking-wider text-purple-600 dark:text-purple-400">
-            Articulação Federativa &bull; Posições Oficiais
+            Articulação Federativa • Posições Oficiais
           </span>
           <h3 class="text-base font-extrabold text-slate-900 dark:text-white mt-0.5">
-            Posicionamento de Governadores Estaduais e Lideranças no 2º Turno
+            Posicionamento de Governadores Estaduais no 2º Turno Presidencial
           </h3>
           <p class="text-xs text-slate-500 dark:text-slate-400">
-            Governadores em exercício nos estados e seus apoios declarados formalmente para a eleição presidencial:
+            Governadores eleitos ou em exercício nos estados (como Tarcísio de Freitas, reeleito governador de SP no 1º turno) e seus apoios declarados na disputa presidencial:
           </p>
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
           <div
-            v-for="end in (data as any).governorEndorsements"
+            v-for="end in data.governorEndorsements"
             :key="end.governorName"
             class="p-4 rounded-2xl bg-slate-50 dark:bg-slate-800/40 border border-slate-200/80 dark:border-slate-800 space-y-2"
           >
-            <div class="flex items-center justify-between">
+            <div class="flex items-center justify-between gap-2">
               <div>
                 <h4 class="text-xs font-bold text-slate-900 dark:text-white">
                   {{ end.governorName }}
                 </h4>
                 <span class="text-[10px] text-slate-500 dark:text-slate-400">
-                  {{ end.state }} &bull; {{ end.party }}
+                  {{ end.state }} • {{ end.party }}
                 </span>
               </div>
               <span
-                class="text-[10px] font-extrabold px-2.5 py-1 rounded-full"
-                :class="end.position.includes('Apoio a Tarcísio') ? 'bg-blue-100 dark:bg-blue-900/50 text-blue-700 dark:text-blue-300' : 'bg-slate-200 dark:bg-slate-700 text-slate-700 dark:text-slate-300'"
+                class="text-[10px] font-extrabold px-2.5 py-1 rounded-full shrink-0"
+                :class="end.position.includes('Flávio') ? 'bg-blue-100 dark:bg-blue-900/50 text-blue-700 dark:text-blue-300' : 'bg-rose-100 dark:bg-rose-900/50 text-rose-700 dark:text-rose-300'"
               >
                 {{ end.position }}
               </span>
@@ -377,10 +372,10 @@ function formatNumber(num: number) {
           Comparação Temática Imparcial
         </span>
         <h2 class="text-xl font-bold text-slate-900 dark:text-white mt-1">
-          Propostas Frente a Frente: O que Cada Candidato Propõe para o País
+          Propostas Frente a Frente: Flávio Bolsonaro (PL) vs Lula (PT)
         </h2>
         <p class="text-xs text-slate-500 dark:text-slate-400">
-          Compare as diretrizes registradas no TSE para cada área vital da administração federal.
+          Compare as diretrizes dos planos de governo registrados no DivulgaCandContas/TSE para cada área estratégica.
         </p>
       </div>
 
@@ -404,13 +399,46 @@ function formatNumber(num: number) {
 
       <!-- Comparativo Lado a Lado -->
       <div class="grid grid-cols-1 md:grid-cols-2 gap-6 pt-2">
+        <!-- Flávio Bolsonaro -->
+        <div class="bg-blue-50/50 dark:bg-blue-950/20 border border-blue-200 dark:border-blue-900/60 rounded-2xl p-6 space-y-4">
+          <div class="flex items-center gap-3 pb-3 border-b border-blue-200/80 dark:border-blue-900/40">
+            <span class="w-3.5 h-3.5 rounded-full bg-blue-600"></span>
+            <div>
+              <h3 class="text-base font-extrabold text-slate-900 dark:text-white">
+                Flávio Bolsonaro (PL - 22)
+              </h3>
+              <p class="text-xs text-blue-700 dark:text-blue-400 font-semibold">
+                {{ currentThemeComparison.flavioProposal.title }}
+              </p>
+            </div>
+          </div>
+
+          <p class="text-xs text-slate-700 dark:text-slate-300 leading-relaxed">
+            {{ currentThemeComparison.flavioProposal.description }}
+          </p>
+
+          <div class="space-y-2 pt-2">
+            <span class="text-[10px] font-bold uppercase tracking-wider text-slate-400">Pontos-Chave:</span>
+            <ul class="space-y-1.5">
+              <li
+                v-for="(point, pIdx) in currentThemeComparison.flavioProposal.keyPoints"
+                :key="pIdx"
+                class="flex items-start gap-2 text-xs text-slate-700 dark:text-slate-300 leading-snug"
+              >
+                <CheckCircle2 class="w-3.5 h-3.5 text-blue-600 shrink-0 mt-0.5" />
+                <span>{{ point }}</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
         <!-- Lula -->
         <div class="bg-rose-50/50 dark:bg-rose-950/20 border border-rose-200 dark:border-rose-900/60 rounded-2xl p-6 space-y-4">
           <div class="flex items-center gap-3 pb-3 border-b border-rose-200/80 dark:border-rose-900/40">
             <span class="w-3.5 h-3.5 rounded-full bg-rose-600"></span>
             <div>
               <h3 class="text-base font-extrabold text-slate-900 dark:text-white">
-                Luiz Inácio Lula da Silva (PT)
+                Luiz Inácio Lula da Silva (PT - 13)
               </h3>
               <p class="text-xs text-rose-700 dark:text-rose-400 font-semibold">
                 {{ currentThemeComparison.lulaProposal.title }}
@@ -431,39 +459,6 @@ function formatNumber(num: number) {
                 class="flex items-start gap-2 text-xs text-slate-700 dark:text-slate-300 leading-snug"
               >
                 <CheckCircle2 class="w-3.5 h-3.5 text-rose-600 shrink-0 mt-0.5" />
-                <span>{{ point }}</span>
-              </li>
-            </ul>
-          </div>
-        </div>
-
-        <!-- Tarcísio de Freitas -->
-        <div class="bg-blue-50/50 dark:bg-blue-950/20 border border-blue-200 dark:border-blue-900/60 rounded-2xl p-6 space-y-4">
-          <div class="flex items-center gap-3 pb-3 border-b border-blue-200/80 dark:border-blue-900/40">
-            <span class="w-3.5 h-3.5 rounded-full bg-blue-600"></span>
-            <div>
-              <h3 class="text-base font-extrabold text-slate-900 dark:text-white">
-                Tarcísio de Freitas (Republicanos / PL)
-              </h3>
-              <p class="text-xs text-blue-700 dark:text-blue-400 font-semibold">
-                {{ currentThemeComparison.tarcisioProposal.title }}
-              </p>
-            </div>
-          </div>
-
-          <p class="text-xs text-slate-700 dark:text-slate-300 leading-relaxed">
-            {{ currentThemeComparison.tarcisioProposal.description }}
-          </p>
-
-          <div class="space-y-2 pt-2">
-            <span class="text-[10px] font-bold uppercase tracking-wider text-slate-400">Pontos-Chave:</span>
-            <ul class="space-y-1.5">
-              <li
-                v-for="(point, pIdx) in currentThemeComparison.tarcisioProposal.keyPoints"
-                :key="pIdx"
-                class="flex items-start gap-2 text-xs text-slate-700 dark:text-slate-300 leading-snug"
-              >
-                <CheckCircle2 class="w-3.5 h-3.5 text-blue-600 shrink-0 mt-0.5" />
                 <span>{{ point }}</span>
               </li>
             </ul>

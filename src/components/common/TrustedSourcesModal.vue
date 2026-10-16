@@ -116,9 +116,9 @@ function clearTest() {
           </div>
           <p class="text-slate-600 dark:text-slate-300 leading-relaxed text-xs">
             A plataforma <strong>Voto Consciente</strong> só exibe figuras públicas no cargo correspondente ao seu 
-            <strong>registro oficial homologado no DivulgaCandContas do TSE</strong>. Governadores em exercício nos estados 
-            (como Ratinho Júnior no Paraná, Ronaldo Caiado em Goiás ou Romeu Zema em Minas Gerais) que não registraram candidatura presidencial 
-            são terminantemente impedidos de aparecer como candidatos a presidente, figurando com precisão em seus estados ou em sessões de apoio político.
+            <strong>registro oficial homologado no DivulgaCandContas do TSE</strong>. Governadores estaduais que não disputaram a Presidência em 2026 
+            (como Tarcísio de Freitas, reeleito Governador de SP no 1º turno com 62,65%, ou Ratinho Júnior no Paraná) e políticos sem registro presidencial (como Ciro Gomes) 
+            são terminantemente impedidos de aparecer como candidatos a presidente, figurando com precisão em seus estados ou na seção de apoios declarados do 2º turno (Flávio Bolsonaro vs Lula).
           </p>
         </div>
 

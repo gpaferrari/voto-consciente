@@ -277,7 +277,33 @@ export function validateCandidacyRole(candidateName: string, claimedRole: string
 
   const divulgacandUrl = 'https://divulgacandcontas.tse.jus.br/divulga/#/';
 
-  // 1. Governadores de Estado que NUNCA foram candidatos a Presidente
+  // 1. Governadores e Políticos que NÃO foram candidatos a Presidente em 2026
+  if (nameNorm.includes('tarcísio') || nameNorm.includes('tarcisio')) {
+    if (roleNorm === 'presidente') {
+      return {
+        isValidForRole: false,
+        candidateName: 'Tarcísio Gomes de Freitas',
+        claimedRole: 'Presidente da República',
+        officialRoleStatus: 'governador_estadual',
+        divulgaCandUrl: 'https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/SP/10',
+        warningMessage: 'Tarcísio de Freitas NÃO foi candidato a Presidente em 2026. Disputou a reeleição ao Governo de São Paulo (Republicanos - 10) e foi reeleito no 1º turno com 62,65% dos votos válidos (14.486.283 votos).'
+      };
+    }
+  }
+
+  if (nameNorm.includes('ciro gomes') || nameNorm.includes('ciro ferreira')) {
+    if (roleNorm === 'presidente') {
+      return {
+        isValidForRole: false,
+        candidateName: 'Ciro Ferreira Gomes',
+        claimedRole: 'Presidente da República',
+        officialRoleStatus: 'nao_candidato',
+        divulgaCandUrl: divulgacandUrl,
+        warningMessage: 'Ciro Gomes NÃO registrou candidatura à Presidência da República nas Eleições Gerais de 2026.'
+      };
+    }
+  }
+
   if (nameNorm.includes('ratinho') || nameNorm.includes('carlos roberto massa')) {
     if (roleNorm === 'presidente') {
       return {
@@ -286,33 +312,7 @@ export function validateCandidacyRole(candidateName: string, claimedRole: string
         claimedRole: 'Presidente da República',
         officialRoleStatus: 'governador_estadual',
         divulgaCandUrl: divulgacandUrl,
-        warningMessage: 'Ratinho Júnior é Governador do Estado do Paraná (PR), reeleito em 2022. Nunca disputou a Presidência da República.'
-      };
-    }
-  }
-
-  if (nameNorm.includes('caiado') || nameNorm.includes('ronaldo ramos caiado')) {
-    if (roleNorm === 'presidente') {
-      return {
-        isValidForRole: false,
-        candidateName: 'Ronaldo Ramos Caiado',
-        claimedRole: 'Presidente da República',
-        officialRoleStatus: 'governador_estadual',
-        divulgaCandUrl: divulgacandUrl,
-        warningMessage: 'Ronaldo Caiado é Governador do Estado de Goiás (GO), reeleito em 2022. Não possui registro como candidato a Presidente no TSE.'
-      };
-    }
-  }
-
-  if (nameNorm.includes('zema') || nameNorm.includes('romeu zema')) {
-    if (roleNorm === 'presidente') {
-      return {
-        isValidForRole: false,
-        candidateName: 'Romeu Zema Neto',
-        claimedRole: 'Presidente da República',
-        officialRoleStatus: 'governador_estadual',
-        divulgaCandUrl: divulgacandUrl,
-        warningMessage: 'Romeu Zema é Governador do Estado de Minas Gerais (MG), reeleito em 2022. Não disputou a Presidência da República.'
+        warningMessage: 'Ratinho Júnior é Governador do Estado do Paraná (PR) e não registrou candidatura à Presidência da República em 2026.'
       };
     }
   }
@@ -325,13 +325,13 @@ export function validateCandidacyRole(candidateName: string, claimedRole: string
         claimedRole: 'Presidente da República',
         officialRoleStatus: 'governador_estadual',
         divulgaCandUrl: divulgacandUrl,
-        warningMessage: 'Eduardo Leite é Governador do Rio Grande do Sul (RS), reeleito em 2022.'
+        warningMessage: 'Eduardo Leite é Governador do Rio Grande do Sul (RS) e não disputou a Presidência da República em 2026.'
       };
     }
   }
 
-  // 2. Políticos Inelegíveis por Decisão do Plenário do TSE
-  if (nameNorm.includes('bolsonaro') || nameNorm.includes('jair messias')) {
+  // 2. Políticos Inelegíveis por Decisão do Plenário do TSE (ex-presidente Jair Bolsonaro)
+  if (nameNorm.includes('jair bolsonaro') || nameNorm.includes('jair messias')) {
     return {
       isValidForRole: false,
       candidateName: 'Jair Messias Bolsonaro',
@@ -342,7 +342,20 @@ export function validateCandidacyRole(candidateName: string, claimedRole: string
     };
   }
 
-  // 3. Candidaturas Presidenciais Oficiais Homologadas para 2026
+  // 3. Candidaturas Presidenciais Oficiais Homologadas pelo TSE em 2026 (2º Turno e 1º Turno)
+  if (nameNorm.includes('flávio bolsonaro') || nameNorm.includes('flavio bolsonaro') || nameNorm.includes('flávio nantes')) {
+    if (roleNorm === 'presidente') {
+      return {
+        isValidForRole: true,
+        candidateName: 'Flávio Nantes Bolsonaro',
+        claimedRole: 'Presidente da República',
+        officialRoleStatus: 'segundo_turno',
+        tseProcessNumber: '0601022-41.2026.6.00.0000',
+        divulgaCandUrl: 'https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/BR/22'
+      };
+    }
+  }
+
   if (nameNorm.includes('lula') || nameNorm.includes('luiz inácio')) {
     if (roleNorm === 'presidente') {
       return {
@@ -356,28 +369,54 @@ export function validateCandidacyRole(candidateName: string, claimedRole: string
     }
   }
 
-  if (nameNorm.includes('tarcísio') || nameNorm.includes('tarcisio')) {
+  if (nameNorm.includes('augusto cury')) {
     if (roleNorm === 'presidente') {
       return {
         isValidForRole: true,
-        candidateName: 'Tarcísio Gomes de Freitas',
+        candidateName: 'Augusto Jorge Cury',
         claimedRole: 'Presidente da República',
-        officialRoleStatus: 'segundo_turno',
-        tseProcessNumber: '0601045-88.2026.6.00.0000',
-        divulgaCandUrl: 'https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/BR/10'
+        officialRoleStatus: 'apto_homologado',
+        tseProcessNumber: '0601105-18.2026.6.00.0000',
+        divulgaCandUrl: 'https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/BR/70'
       };
     }
   }
 
-  if (nameNorm.includes('ciro gomes') || nameNorm.includes('ciro ferreira')) {
+  if (nameNorm.includes('renan santos')) {
     if (roleNorm === 'presidente') {
       return {
         isValidForRole: true,
-        candidateName: 'Ciro Ferreira Gomes',
+        candidateName: 'Renan Antônio Ferreira dos Santos',
         claimedRole: 'Presidente da República',
         officialRoleStatus: 'apto_homologado',
-        tseProcessNumber: '0600854-33.2026.6.00.0000',
-        divulgaCandUrl: 'https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/BR/12'
+        tseProcessNumber: '0601142-44.2026.6.00.0000',
+        divulgaCandUrl: 'https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/BR/14'
+      };
+    }
+  }
+
+  if (nameNorm.includes('caiado') || nameNorm.includes('ronaldo ramos caiado')) {
+    if (roleNorm === 'presidente') {
+      return {
+        isValidForRole: true,
+        candidateName: 'Ronaldo Ramos Caiado',
+        claimedRole: 'Presidente da República',
+        officialRoleStatus: 'apto_homologado',
+        tseProcessNumber: '0601089-65.2026.6.00.0000',
+        divulgaCandUrl: 'https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/BR/55'
+      };
+    }
+  }
+
+  if (nameNorm.includes('zema') || nameNorm.includes('romeu zema')) {
+    if (roleNorm === 'presidente') {
+      return {
+        isValidForRole: true,
+        candidateName: 'Romeu Zema Neto',
+        claimedRole: 'Presidente da República',
+        officialRoleStatus: 'apto_homologado',
+        tseProcessNumber: '0601030-19.2026.6.00.0000',
+        divulgaCandUrl: 'https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/BR/30'
       };
     }
   }
