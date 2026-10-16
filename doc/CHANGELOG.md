@@ -2,6 +2,37 @@
 
 Todas as alterações notáveis deste projeto são documentadas neste arquivo.
 
+## [2.2.0] - 2026-10-16
+### Adicionado
+- **Arquitetura de Navegação Senior UI/UX (Notion / Jira Collapsible Sidebar):**
+  - Criação do componente `AppSidebar.vue`:
+    - Alternância suave entre modo recolhido (`w-16` / 64px - trilho de ícones) e expandido (`w-64` / 256px - texto completo, badges e agrupamentos).
+    - Persistência automática da preferência do usuário via `localStorage` (`voto_consciente_sidebar_collapsed`).
+    - *Hover Peek / Tooltips flutuantes* com teletransporte (`Teleport to body`) no modo recolhido, permitindo saber instantaneamente o destino do ícone sem precisar expandir a barra.
+    - Seções categorizadas: *Principal* (Início), *Eleições 2026* (2º Turno com pulse de urgência, Eleitos 27 UFs, Pesquisas TSE), *Cargos & Candidatos* (Presidente, Governador SP, Senadores SP, Deputados Bauru) e *Auditoria & Metodologia* (Mandato Atual, Comparador com badge de contagem, Fontes Oficiais, Pesos).
+    - Modo *Drawer Mobile* responsivo com backdrop escuro translúcido.
+  - Criação do componente `AppHeader.vue`:
+    - Barra superior fixa com Breadcrumbs contextuais, seletor rápido de UF, acionadores de Comparador, Fontes Confiáveis e Pesos, alternador Dark/Light mode e Busca Global.
+  - **Barra de Busca Global Inteligente (`AppHeader.vue`):**
+    - Atalho de teclado universal `Ctrl+K` ou `/` para focar imediatamente na busca de qualquer tela.
+    - Dropdown de resultados em tempo real com foto oficial, partido, cargo e score geral em pontos, com redirecionamento direto para o perfil do candidato (`/candidato/:id`).
+
+### Corrigido & Otimizado
+- **Eliminação de Scroll Horizontal (`overflow-x`):**
+  - Aplicação estrita de `overflow-x: hidden`, `max-width: 100vw` e `width: 100%` no `html`, `body` e `#app` (`src/assets/styles/main.css`).
+  - Remoção de margens negativas e contenção de glows absolutos com `overflow-hidden`.
+  - Inclusão de `min-w-0` em containers flex e grids para prevenir estouro de largura.
+- **Eliminação de Scroll Vertical Excessivo & Espaçamentos Desproporcionais:**
+  - Redução das margens e paddings excessivos na Home (`space-y-16 pb-12` -> `space-y-8 md:space-y-10 pb-8`) e no Rodapé (`mt-20 py-12` -> `mt-10 py-8`).
+  - Eliminação do duplo container de padding (`max-w-7xl px-8`) entre `App.vue` e as views.
+- **Correção da Home View sem Dados / Falhas de Renderização (`HomeView.vue`):**
+  - Corrigido erro de importação de ícone ausente (`Award` da biblioteca `lucide-vue-next`).
+  - Ajustado cálculo de `topCandidates` para ordenar decrescentemente por `breakdown.finalScore`, garantindo que os cards de candidatos com maior aptidão apareçam imediatamente na inicialização.
+- **Navegação 100% Funcional e Fluida:**
+  - Botões do Header e Sidebar integrados nativamente com `vue-router`, garantindo transições suaves sem recarregar a aplicação e com suporte a atalhos de teclado.
+
+---
+
 ## [2.1.0] - 2026-10-16
 ### Adicionado
 - **Motor de Validação de Fontes Confiáveis (`src/services/sourceValidator.ts`):**

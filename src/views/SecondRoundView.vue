@@ -69,7 +69,7 @@ function formatNumber(num: number) {
 </script>
 
 <template>
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-10">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 md:py-8 space-y-6 md:space-y-8 pb-8 min-w-0">
     <!-- Header Hero do 2º Turno -->
     <div class="relative overflow-hidden bg-linear-to-br from-slate-900 via-slate-900 to-slate-950 text-white rounded-3xl p-6 sm:p-10 border border-slate-800 shadow-xl space-y-6">
       <div class="flex flex-col lg:flex-row lg:items-center justify-between gap-6">

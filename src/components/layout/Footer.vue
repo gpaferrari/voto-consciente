@@ -3,8 +3,8 @@ import { Vote, ShieldCheck, ExternalLink, Heart } from 'lucide-vue-next';
 </script>
 
 <template>
-  <footer class="mt-20 border-t border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-950 transition-colors">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+  <footer class="mt-10 border-t border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-950 transition-colors">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
       <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
         <!-- Coluna 1: Missão & Princípios -->
         <div class="md:col-span-2 space-y-3">

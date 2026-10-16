@@ -60,7 +60,7 @@ function toggleCompare() {
 </script>
 
 <template>
-  <div v-if="candidate" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8 pb-20">
+  <div v-if="candidate" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 md:py-8 space-y-6 md:space-y-8 pb-8 min-w-0">
     <!-- Breadcrumb e Voltar -->
     <div class="flex items-center justify-between">
       <button

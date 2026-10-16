@@ -51,7 +51,7 @@ src/
 ├── components/                      # 5. Departamento de Apresentação (Design System)
 │   ├── common/
 │   │   └── TrustedSourcesModal.vue  #    - Central Interativa de Validação de Fontes & Auditoria TSE
-│   ├── layout/                      #    - Navbar, Footer
+│   ├── layout/                      #    - AppHeader (Busca Global, UF, Ferramentas), AppSidebar (Notion/Jira Collapsible), Footer
 │   ├── shared/                      #    - Modais, Gráficos SVG, Medidores de Score
 │   └── candidate/                   #    - CandidateCard (com Selo TSE), Planos, Feed de Notícias
 └── views/                           # 6. Departamento de Rotas & Telas Principais
