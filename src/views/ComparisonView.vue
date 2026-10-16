@@ -3,6 +3,7 @@ import { computed } from 'vue';
 import { useRouter } from 'vue-router';
 import { useCandidateStore } from '../stores/candidateStore';
 import ScoreGauge from '../components/shared/ScoreGauge.vue';
+import CandidateAvatar from '../components/shared/CandidateAvatar.vue';
 import RadarChart from '../components/shared/RadarChart.vue';
 import { 
   Layers, 
@@ -147,7 +148,13 @@ function formattedCurrency(val: number) {
 
                 <div class="flex flex-col items-center space-y-2">
                   <div class="w-16 h-16 rounded-2xl overflow-hidden bg-slate-100 dark:bg-slate-800 border-2 border-emerald-500/30">
-                    <img :src="c.photoUrl" :alt="c.name" class="w-full h-full object-cover object-top" />
+                    <CandidateAvatar
+                      :name="c.popularName || c.name"
+                      :photoUrl="c.photoUrl"
+                      :party="c.party"
+                      :ballotNumber="c.ballotNumber"
+                      size="md"
+                    />
                   </div>
                   <div>
                     <span class="text-[10px] font-extrabold uppercase px-1.5 py-0.5 rounded-sm bg-slate-200 dark:bg-slate-700 text-slate-700 dark:text-slate-300">

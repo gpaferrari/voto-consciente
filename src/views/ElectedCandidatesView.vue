@@ -2,6 +2,7 @@
 import { ref, computed } from 'vue';
 import electedDataRaw from '../data/elected-2026.json';
 import type { ElectedOfficial, RegionType, OfficeType } from '../types/elected';
+import CandidateAvatar from '../components/shared/CandidateAvatar.vue';
 import { 
   Building2, 
   MapPin, 
@@ -210,11 +211,12 @@ function formatVotes(num: number) {
           <div class="flex items-start justify-between gap-3 mb-3">
             <div class="flex items-center gap-3">
               <div class="w-12 h-12 rounded-xl overflow-hidden bg-slate-100 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 shrink-0">
-                <img
-                  :src="official.photoUrl"
-                  :alt="official.popularName"
-                  class="w-full h-full object-cover object-top"
-                  loading="lazy"
+                <CandidateAvatar
+                  :name="official.popularName || official.name"
+                  :photoUrl="official.photoUrl"
+                  :party="official.party"
+                  :ballotNumber="official.ballotNumber"
+                  size="sm"
                 />
               </div>
               <div>

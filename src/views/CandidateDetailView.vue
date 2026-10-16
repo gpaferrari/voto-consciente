@@ -3,6 +3,7 @@ import { computed } from 'vue';
 import { useRoute, useRouter } from 'vue-router';
 import { useCandidateStore } from '../stores/candidateStore';
 import ScoreGauge from '../components/shared/ScoreGauge.vue';
+import CandidateAvatar from '../components/shared/CandidateAvatar.vue';
 import RadarChart from '../components/shared/RadarChart.vue';
 import GovPlanViewer from '../components/candidate/GovPlanViewer.vue';
 import FactCheckTimeline from '../components/candidate/FactCheckTimeline.vue';
@@ -92,14 +93,13 @@ function toggleCompare() {
         <div class="flex flex-col sm:flex-row sm:items-center gap-5">
           <!-- Foto Oficial -->
           <div class="relative w-24 h-24 sm:w-28 sm:h-28 rounded-3xl overflow-hidden bg-slate-100 dark:bg-slate-800 border-2 border-emerald-500/30 shadow-md shrink-0">
-            <img
-              :src="candidate.photoUrl"
-              :alt="candidate.name"
-              class="w-full h-full object-cover object-top"
+            <CandidateAvatar
+              :name="candidate.popularName || candidate.name"
+              :photoUrl="candidate.photoUrl"
+              :party="candidate.party"
+              :ballotNumber="candidate.ballotNumber"
+              size="lg"
             />
-            <div class="absolute bottom-0 inset-x-0 bg-linear-to-t from-black/80 to-transparent py-0.5 text-center">
-              <span class="text-xs font-black text-white tracking-widest">{{ candidate.ballotNumber }}</span>
-            </div>
           </div>
 
           <!-- Informações de Perfil -->
@@ -111,6 +111,15 @@ function toggleCompare() {
               <span class="px-2.5 py-0.5 rounded-md text-xs font-semibold bg-emerald-50 dark:bg-emerald-950/60 text-emerald-700 dark:text-emerald-300 border border-emerald-200 dark:border-emerald-800">
                 {{ roleLabel }}
               </span>
+              <a
+                :href="candidate.tseVerification?.divulgaCandUrl || 'https://divulgacandcontas.tse.jus.br'"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-md text-[11px] font-bold bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 border border-emerald-500/20 hover:underline"
+              >
+                <ShieldCheck class="w-3.5 h-3.5" />
+                <span>TSE: {{ candidate.tseVerification?.status || 'DEFERIDO' }}</span>
+              </a>
             </div>
 
             <h1 class="text-2xl sm:text-3xl font-black text-slate-900 dark:text-white">
@@ -132,13 +141,13 @@ function toggleCompare() {
               </span>
             </div>
 
-            <!-- Observação de Cargo Atual em Exercício (ex: Fernando Haddad como Ministro da Fazenda) -->
+            <!-- Observação de Cargo Atual em Exercício -->
             <div
               v-if="candidate.currentOfficeNote"
               class="mt-2.5 inline-flex items-center gap-2 px-3 py-1 rounded-xl bg-slate-100 dark:bg-slate-800 text-xs font-semibold text-slate-800 dark:text-slate-200 border border-slate-200 dark:border-slate-700"
             >
               <span class="w-2 h-2 rounded-full bg-emerald-500 shrink-0"></span>
-              <span>Contexto Institucional: <strong>{{ candidate.currentOfficeNote }}</strong></span>
+              <span>Contexto Institucional: <strong>{{ candidate.currentOfficeNote.replace(/&bull;/g, '•') }}</strong></span>
             </div>
           </div>
         </div>

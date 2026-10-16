@@ -3,7 +3,7 @@
     "id": "lula-presidente",
     "name": "Luiz Inácio Lula da Silva",
     "popularName": "Lula",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Luiz_In%C3%A1cio_Lula_da_Silva_%28foto_oficial%29.jpg/640px-Luiz_In%C3%A1cio_Lula_da_Silva_%28foto_oficial%29.jpg",
+    "photoUrl": "",
     "role": "presidente",
     "party": "PT",
     "ballotNumber": "13",
@@ -116,7 +116,7 @@
     },
     "governmentPlan": {
       "summary": "Plano centrado no desenvolvimento sustentável, neoindustrialização verde, fortalecimento do mercado interno, responsabilidade social com responsabilidade fiscal e recomposição orçamentária de saúde e educação.",
-      "pdfUrl": "https://divulgacandcontas.tse.jus.br",
+      "pdfUrl": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/BR/13",
       "pillars": [
         {
           "key": "economia",
@@ -393,7 +393,7 @@
     "tseVerification": {
       "status": "2º TURNO",
       "processNumber": "0600987-12.2026.6.00.0000",
-      "divulgaCandUrl": "https://divulgacandcontas.tse.jus.br",
+      "divulgaCandUrl": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/BR/13",
       "verifiedAt": "2026-10-15",
       "isOfficial": true
     }
@@ -402,7 +402,7 @@
     "id": "tarcisio-presidente",
     "name": "Tarcísio Gomes de Freitas",
     "popularName": "Tarcísio de Freitas",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Tarc%C3%ADsio_de_Freitas_%28foto_oficial%29.jpg/640px-Tarc%C3%ADsio_de_Freitas_%28foto_oficial%29.jpg",
+    "photoUrl": "",
     "role": "presidente",
     "party": "Republicanos",
     "ballotNumber": "10",
@@ -492,7 +492,7 @@
           "vehicleOrOrgan": "TCE-SP",
           "category": "comprovado_positivo",
           "date": "2024-06-20",
-          "sourceUrl": "https://www.tce.sp.gov.br"
+          "sourceUrl": "https://www.tce.sp.gov.br/relatorios-contas-governo"
         },
         {
           "id": "fc-tarcisio-pres-2",
@@ -501,13 +501,13 @@
           "vehicleOrOrgan": "Agência Lupa",
           "category": "boato_desmentido",
           "date": "2023-11-15",
-          "sourceUrl": "https://lupa.uol.com.br"
+          "sourceUrl": "https://lupa.uol.com.br/jornalismo/categoria/politica"
         }
       ]
     },
     "governmentPlan": {
       "summary": "Plano centrado no equilíbrio fiscal estrito, desestatizações, concessões massivas de infraestrutura, endurecimento da segurança pública e simplificação tributária.",
-      "pdfUrl": "https://divulgacandcontas.tse.jus.br",
+      "pdfUrl": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/BR/10",
       "pillars": [
         {
           "key": "economia",
@@ -566,7 +566,7 @@
     "tseVerification": {
       "status": "2º TURNO",
       "processNumber": "0601045-88.2026.6.00.0000",
-      "divulgaCandUrl": "https://divulgacandcontas.tse.jus.br",
+      "divulgaCandUrl": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/BR/10",
       "verifiedAt": "2026-10-15",
       "isOfficial": true
     }
@@ -575,7 +575,7 @@
     "id": "ciro-gomes-presidente",
     "name": "Ciro Ferreira Gomes",
     "popularName": "Ciro Gomes",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Ciro_Gomes_%28foto_oficial%29.jpg/640px-Ciro_Gomes_%28foto_oficial%29.jpg",
+    "photoUrl": "",
     "role": "presidente",
     "party": "PDT",
     "ballotNumber": "12",
@@ -672,7 +672,7 @@
           "vehicleOrOrgan": "Aos Fatos / Comprova",
           "category": "comprovado_positivo",
           "date": "2022-09-15",
-          "sourceUrl": "https://www.aosfatos.org"
+          "sourceUrl": "https://www.aosfatos.org/noticias/checamos-declaracoes-de-ciro-gomes/"
         },
         {
           "id": "fc-ciro-2",
@@ -681,13 +681,13 @@
           "vehicleOrOrgan": "UOL Notícias",
           "category": "esclarecido",
           "date": "2023-05-18",
-          "sourceUrl": "https://noticias.uol.com.br"
+          "sourceUrl": "https://noticias.uol.com.br/eleicoes/"
         }
       ]
     },
     "governmentPlan": {
       "summary": "Projeto Nacional de Desenvolvimento (PND) com reindustrialização do país, tributação sobre lucros e dividendos e grandes fortunas, refinanciamento de dívidas do SPC/Serasa e revolução educacional integral.",
-      "pdfUrl": "https://divulgacandcontas.tse.jus.br",
+      "pdfUrl": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/BR/12",
       "pillars": [
         {
           "key": "desenvolvimento",
@@ -720,7 +720,7 @@
     "tseVerification": {
       "status": "DEFERIDO",
       "processNumber": "0600854-33.2026.6.00.0000",
-      "divulgaCandUrl": "https://divulgacandcontas.tse.jus.br",
+      "divulgaCandUrl": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/BR/12",
       "verifiedAt": "2026-10-15",
       "isOfficial": true
     }

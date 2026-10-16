@@ -4,8 +4,9 @@
  * Motor de Validação de Fontes Confiáveis, Registros Oficiais e Integridade Eleitoral.
  * 
  * Este módulo assegura que:
- * 1. Apenas fontes oficiais (TSE, STF, TCU, IBGE, Diário Oficial) e veículos com checagem
- *    de fatos certificada pela IFCN (International Fact-Checking Network) ou jornalismo de referência sejam aceitos.
+ * 1. Apenas fontes oficiais (TSE, STF, STJ, TCU, TCE, Ministério Público, IBGE, Câmara, Senado, DOU)
+ *    e veículos com checagem de fatos certificada pela IFCN (International Fact-Checking Network)
+ *    ou jornalismo de referência sejam aceitos.
  * 2. Pesquisas eleitorais tenham registro formal auditável no PesqEle do TSE (Resolução nº 23.600/2019).
  * 3. Candidaturas correspondam exclusivamente a registros homologados no DivulgaCandContas do TSE,
  *    bloqueando especulações (ex: governadores de estado como Ratinho Jr, Caiado e Zema nunca foram candidatos a presidente).
@@ -43,26 +44,32 @@ export interface CandidacyValidationResult {
   warningMessage?: string;
 }
 
-// 1. Whitelist de Órgãos Oficiais da República e Tribunais
+// 1. Whitelist de Órgãos Oficiais da República, Tribunais, Ministério Público e Conselhos
 export const OFFICIAL_GOV_DOMAINS = [
   'tse.jus.br',
   'divulgacandcontas.tse.jus.br',
   'pesqele.tse.jus.br',
   'justicaeleitoral.jus.br',
-  'tre-sp.jus.br',
-  'tre-pr.jus.br',
-  'tre-rj.jus.br',
-  'tre-mg.jus.br',
+  'jus.br',       // Todos os Tribunais Regionais Eleitorais (TREs), STF, STJ, TJ
   'stf.jus.br',
   'portal.stf.jus.br',
   'stj.jus.br',
   'tcu.gov.br',
   'portal.tcu.gov.br',
+  'tce.sp.gov.br',
+  'tcm.sp.gov.br',
   'ibge.gov.br',
-  'gov.br',
-  'in.gov.br', // Diário Oficial da União
+  'bcb.gov.br',
+  'gov.br',       // Portais Federais e Estaduais (*.gov.br, *.sp.gov.br)
+  'in.gov.br',    // Diário Oficial da União
+  'leg.br',       // Câmara dos Deputados, Senado Federal e Assembleias (*.leg.br)
   'camara.leg.br',
-  'senado.leg.br'
+  'senado.leg.br',
+  'mp.br',        // Ministério Público Federal, Estadual e Militar (*.mp.br)
+  'mpm.mp.br',
+  'mpf.mp.br',
+  'oab.org.br',
+  'oabsp.org.br'
 ];
 
 // 2. Agências de Fact-Checking Certificadas pela IFCN (International Fact-Checking Network)
@@ -89,19 +96,22 @@ export const REGISTERED_POLL_INSTITUTES = [
 // 4. Veículos de Jornalismo Profissional e de Referência
 export const TRUSTED_NEWS_DOMAINS = [
   'agenciabrasil.ebc.com.br',
+  'ebc.com.br',
   'g1.globo.com',
+  'oglobo.globo.com',
+  'valor.globo.com',
   'folha.uol.com.br',
+  'noticias.uol.com.br',
+  'congressoemfoco.uol.com.br',
+  'uol.com.br',
   'estadao.com.br',
   'cnnbrasil.com.br',
   'bbc.com',
-  'valor.globo.com',
   'poder360.com.br',
   'nexojornal.com.br',
-  'noticias.uol.com.br',
-  'jovempan.com.br',
-  'oglobo.globo.com',
-  'cartacapital.com.br',
-  'gazetadopovo.com.br'
+  'jota.info',
+  'gazetadopovo.com.br',
+  'cartacapital.com.br'
 ];
 
 /**
@@ -122,25 +132,11 @@ export function validateSourceUrl(url: string): SourceValidationResult {
   try {
     const parsed = new URL(url);
     const domain = parsed.hostname.toLowerCase().replace(/^www\./, '');
+    const fullUrlLower = url.toLowerCase();
 
-    // 1. Checagem de Órgãos Oficiais (Score 100)
-    for (const govDomain of OFFICIAL_GOV_DOMAINS) {
-      if (domain === govDomain || domain.endsWith('.' + govDomain)) {
-        return {
-          isValid: true,
-          category: 'oficial_governo_tse',
-          sourceName: 'Órgão Oficial da República / Justiça Eleitoral',
-          domain,
-          trustScore: 100,
-          reason: 'Fonte governamental auditável de nível máximo (TSE/STF/TCU/IBGE).',
-          officialVerificationUrl: url
-        };
-      }
-    }
-
-    // 2. Checagem de Agências Fact-Checking IFCN (Score 95)
+    // 1. Checagem de Agências Fact-Checking IFCN específicas por path ou domínio (Score 95)
     for (const fcDomain of FACT_CHECKING_IFCN_DOMAINS) {
-      if (domain.includes(fcDomain.split('/')[0])) {
+      if (fullUrlLower.includes(fcDomain)) {
         return {
           isValid: true,
           category: 'fact_checking_ifcn',
@@ -153,9 +149,24 @@ export function validateSourceUrl(url: string): SourceValidationResult {
       }
     }
 
+    // 2. Checagem de Órgãos Oficiais da República e Justiça (Score 100)
+    for (const govDomain of OFFICIAL_GOV_DOMAINS) {
+      if (domain === govDomain || domain.endsWith('.' + govDomain)) {
+        return {
+          isValid: true,
+          category: 'oficial_governo_tse',
+          sourceName: 'Órgão Oficial de Estado / Justiça / Controle',
+          domain,
+          trustScore: 100,
+          reason: 'Fonte pública oficial auditável de nível máximo (TSE/STF/TCU/IBGE/Câmara/Senado/MP).',
+          officialVerificationUrl: url
+        };
+      }
+    }
+
     // 3. Checagem de Institutos de Pesquisa Registrados (Score 90)
     for (const inst of REGISTERED_POLL_INSTITUTES) {
-      if (domain.includes(inst.domain)) {
+      if (domain === inst.domain || domain.endsWith('.' + inst.domain)) {
         return {
           isValid: true,
           category: 'instituto_pesquisa_tse',
@@ -261,10 +272,10 @@ export function validateTseRegistration(regCode: string): TsePollValidationResul
  * no cargo em que de fato possui registro eleitoral homologado.
  */
 export function validateCandidacyRole(candidateName: string, claimedRole: string): CandidacyValidationResult {
-  const nameNorm = candidateName.toLowerCase().trim();
-  const roleNorm = claimedRole.toLowerCase().trim();
+  const nameNorm = (candidateName || '').toLowerCase().trim();
+  const roleNorm = (claimedRole || '').toLowerCase().trim();
 
-  const divulgacandUrl = 'https://divulgacandcontas.tse.jus.br';
+  const divulgacandUrl = 'https://divulgacandcontas.tse.jus.br/divulga/#/';
 
   // 1. Governadores de Estado que NUNCA foram candidatos a Presidente
   if (nameNorm.includes('ratinho') || nameNorm.includes('carlos roberto massa')) {
@@ -306,7 +317,7 @@ export function validateCandidacyRole(candidateName: string, claimedRole: string
     }
   }
 
-  if (nameNorm.includes('eduardo leite')) {
+  if (nameNorm.includes('eduardo leite') || nameNorm.includes('eduardo figueiredo')) {
     if (roleNorm === 'presidente') {
       return {
         isValidForRole: false,
@@ -340,7 +351,7 @@ export function validateCandidacyRole(candidateName: string, claimedRole: string
         claimedRole: 'Presidente da República',
         officialRoleStatus: 'segundo_turno',
         tseProcessNumber: '0600987-12.2026.6.00.0000',
-        divulgaCandUrl: `${divulgacandUrl}/#/candidato/2026/BR/13`
+        divulgaCandUrl: 'https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/BR/13'
       };
     }
   }
@@ -353,12 +364,12 @@ export function validateCandidacyRole(candidateName: string, claimedRole: string
         claimedRole: 'Presidente da República',
         officialRoleStatus: 'segundo_turno',
         tseProcessNumber: '0601045-88.2026.6.00.0000',
-        divulgaCandUrl: `${divulgacandUrl}/#/candidato/2026/BR/10`
+        divulgaCandUrl: 'https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/BR/10'
       };
     }
   }
 
-  if (nameNorm.includes('ciro gomes')) {
+  if (nameNorm.includes('ciro gomes') || nameNorm.includes('ciro ferreira')) {
     if (roleNorm === 'presidente') {
       return {
         isValidForRole: true,
@@ -366,7 +377,7 @@ export function validateCandidacyRole(candidateName: string, claimedRole: string
         claimedRole: 'Presidente da República',
         officialRoleStatus: 'apto_homologado',
         tseProcessNumber: '0600854-33.2026.6.00.0000',
-        divulgaCandUrl: `${divulgacandUrl}/#/candidato/2026/BR/12`
+        divulgaCandUrl: 'https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/BR/12'
       };
     }
   }
@@ -389,11 +400,6 @@ export function validateNewsArticle(article: { title?: string; source?: string; 
     return { isApproved: false, reason: 'URL ausente.' };
   }
 
-  const urlCheck = validateSourceUrl(article.url);
-  if (!urlCheck.isValid) {
-    return { isApproved: false, reason: `Fonte rejeitada (${urlCheck.domain}): ${urlCheck.reason}` };
-  }
-
   const lowerTitle = (article.title || '').toLowerCase();
 
   // Filtrar títulos com sensacionalismo ou teor comprovadamente falso
@@ -410,5 +416,23 @@ export function validateNewsArticle(article: { title?: string; source?: string; 
     }
   }
 
-  return { isApproved: true, reason: `Aprovado por fonte confiável (${urlCheck.sourceName}).` };
+  const urlCheck = validateSourceUrl(article.url);
+  if (urlCheck.isValid) {
+    return { isApproved: true, reason: `Aprovado por fonte confiável (${urlCheck.sourceName}).` };
+  }
+
+  // Caso a URL seja um redirect do Google News (news.google.com), validar pelo nome do veículo (source)
+  const sourceLower = (article.source || '').toLowerCase();
+  const trustedVehicleNames = [
+    'g1', 'globo', 'cbn', 'valor', 'folha', 'uol', 'estadão', 'estadao',
+    'agência brasil', 'ebc', 'cnn', 'bbc', 'poder360', 'nexo',
+    'agência lupa', 'aos fatos', 'comprova', 'jota', 'congresso em foco',
+    'gazeta do povo', 'carta capital', 'tse', 'tribunal superior eleitoral', 'stf', 'tcu', 'ibge', 'câmara', 'senado'
+  ];
+
+  if (trustedVehicleNames.some(v => sourceLower.includes(v))) {
+    return { isApproved: true, reason: `Aprovado por veículo homologado (${article.source}).` };
+  }
+
+  return { isApproved: false, reason: `Fonte rejeitada (${article.source || urlCheck.domain}): não consta na lista de veículos homologados.` };
 }

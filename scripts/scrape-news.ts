@@ -332,6 +332,21 @@ async function syncToSupabase(newsItems: ScrapedNewsItem[]) {
   try {
     await client.connect();
 
+    // Expurgar candidaturas especulativas ou inválidas caso ainda existam no banco remoto
+    const obsoleteIds = [
+      'ratinho-junior-presidente',
+      'ratinho-junior-2026',
+      'ronaldo-caiado-presidente',
+      'caiado-2026',
+      'romeu-zema-presidente',
+      'romeu-zema-2026',
+      'eduardo-leite-presidente',
+      'eduardo-leite-2026',
+      'jair-bolsonaro-presidente'
+    ];
+    await client.query('DELETE FROM public.noticias_monitoradas WHERE candidato_id = ANY($1::text[])', [obsoleteIds]);
+    await client.query('DELETE FROM public.candidatos WHERE id = ANY($1::text[])', [obsoleteIds]);
+
     // Buscar IDs válidos de candidatos existentes no Supabase
     const candRes = await client.query('SELECT id FROM public.candidatos');
     const validCandidateIds = new Set(candRes.rows.map(r => r.id));

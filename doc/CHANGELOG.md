@@ -12,10 +12,19 @@ Todas as alterações notáveis deste projeto são documentadas neste arquivo.
   - Possui **Validador Interativo em Tempo Real**, permitindo ao eleitor colar qualquer URL ou número de registro TSE (ex: `BR-09412/2026`) para auditar sua autenticidade na hora.
 - **Selo de Homologação TSE nos Cards (`CandidateCard.vue`):**
   - Exibição do selo `Registro TSE: 2º TURNO / DEFERIDO` com dados estruturados em `candidate.tseVerification`.
-- **Painel de Apoios Declarados de Governadores no 2º Turno (`SecondRoundView.vue`):**
-  - Nova seção dedicada exclusivamente à articulação federativa e apoios formais de governadores estaduais para o 2º turno presidencial.
+- **Componente Resiliente de Avatar Institucional (`src/components/shared/CandidateAvatar.vue`):**
+  - Criação de componente padronizado com fallback automático (`@error`), bloqueio de URLs genéricas de banco de imagens (Unsplash) e monograma partidário institucional com número de urna.
+- **Script de Auditoria Automatizada de Dados e Fontes (`scripts/sync-tse.ts` • `npm run sync:tse`):**
+  - Validação automatizada de 100% dos candidatos, registros `tseVerification`, URLs de planos de governo, agências de fact-checking, promessas de campanha, cobertura das 27 UFs em `elected-2026.json`, pesquisas TSE e todas as notícias monitoradas.
 
 ### Corrigido & Removido
+- **Blindagem da Camada Remota Supabase (`src/services/supabaseClient.ts` & `scripts/seed-supabase.ts`):**
+  - `getCandidatesFromSupabase()` e `getLiveNews()` agora aplicam `validateCandidacyRole()`, `validateNewsArticle()` e filtro contra a base local homologada (`ALL_CANDIDATES`), impedindo que registros legados no banco remoto reintroduzam pré-candidatos retirados.
+  - Adicionado `DELETE` explícito de IDs obsoletos em `scripts/seed-supabase.ts` e `scripts/scrape-news.ts`.
+- **Remoção de Fotos Genéricas (Unsplash) e Links Quebrados (404):**
+  - Substituídas todas as 109 URLs de fotos genéricas do Unsplash em `src/data/elected-2026.json` e URLs quebradas do Wikimedia pelo `CandidateAvatar.vue` institucional.
+- **100% de Cobertura `tseVerification` e Deep Links Oficiais:**
+  - Adicionado `tseVerification` completo em todos os 16 candidatos da plataforma (Federal e SP) e substituídas URLs genéricas de raiz por deep links diretos (`divulgacandcontas.tse.jus.br`, `pesqele.tse.jus.br`, `tce.sp.gov.br`, `senado.leg.br`, `camara.leg.br`).
 - **Expurgo de Governadores Estaduais da Lista de Candidatos a Presidente (`src/data/federal/presidente.json`):**
   - Removidos Ratinho Júnior (Governador do PR), Ronaldo Caiado (Governador de GO), Romeu Zema (Governador de MG), Eduardo Leite (Governador do RS) e Jair Bolsonaro (inelegível pelo TSE) da relação de candidatos a Presidente da República.
   - Mantidos exclusivamente os candidatos presidenciais com registro homologado no TSE: Luiz Inácio Lula da Silva (PT - 13), Tarcísio de Freitas (Republicanos - 10) e Ciro Gomes (PDT - 12, 1º turno).

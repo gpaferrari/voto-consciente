@@ -2,6 +2,7 @@ import { createClient, SupabaseClient } from '@supabase/supabase-js';
 import type { Candidate } from '../types/candidate';
 import type { PollSurvey } from '../types/polling';
 import { ALL_CANDIDATES } from '../data/registry';
+import { validateCandidacyRole, validateNewsArticle } from './sourceValidator';
 import presidentialPollsData from '../data/polls/presidential-polls.json';
 import spPollsData from '../data/polls/sp-polls.json';
 import liveNewsData from '../data/live-news.json';
@@ -26,6 +27,8 @@ export interface LiveNewsItem {
   category: 'proposta' | 'gestao' | 'juridico' | 'declaracao' | 'pesquisa';
   summary?: string;
 }
+
+const VALID_CANDIDATE_IDS = new Set(ALL_CANDIDATES.map(c => c.id));
 
 /**
  * Helper genérico para carregar dados do Supabase com fallback garantido para os JSONs locais
@@ -52,10 +55,16 @@ export async function fetchWithFallback<T>(
 }
 
 /**
- * Carrega notícias monitoradas em tempo real do Supabase (com fallback para live-news.json)
+ * Carrega notícias monitoradas em tempo real do Supabase (com filtro estrito de fontes confiáveis e fallback local)
  */
 export async function getLiveNews(limit = 100, candidateId?: string): Promise<LiveNewsItem[]> {
-  const fallback = liveNewsData as unknown as LiveNewsItem[];
+  const rawFallback = liveNewsData as unknown as LiveNewsItem[];
+  const filteredFallback = rawFallback.filter(item =>
+    (!candidateId || item.candidateId === candidateId) &&
+    VALID_CANDIDATE_IDS.has(item.candidateId) &&
+    validateNewsArticle(item).isApproved
+  );
+
   return fetchWithFallback(async () => {
     let query = supabase!
       .from('noticias_monitoradas')
@@ -66,27 +75,38 @@ export async function getLiveNews(limit = 100, candidateId?: string): Promise<Li
       query = query.eq('candidato_id', candidateId);
     }
     if (limit) {
-      query = query.limit(limit);
+      query = query.limit(limit * 2);
     }
 
     const { data, error } = await query;
     if (error) return { data: null, error };
-    if (!data) return { data: null, error: new Error('Nenhum dado retornado') };
+    if (!data || data.length === 0) return { data: null, error: new Error('Nenhum dado retornado') };
 
-    const mapped: LiveNewsItem[] = data.map((item: any) => ({
-      id: item.id,
-      candidateId: item.candidato_id,
-      candidateName: item.nome_candidato,
-      title: item.titulo,
-      source: item.veiculo,
-      url: item.url_noticia,
-      publishedAt: item.data_publicacao,
-      category: item.categoria,
-      summary: item.resumo || undefined
-    }));
+    const mapped: LiveNewsItem[] = data
+      .map((item: any) => ({
+        id: item.id,
+        candidateId: item.candidato_id,
+        candidateName: item.nome_candidato,
+        title: item.titulo,
+        source: item.veiculo,
+        url: item.url_noticia,
+        publishedAt: item.data_publicacao,
+        category: item.categoria,
+        summary: item.resumo || undefined
+      }))
+      // Guardrail: só aceita candidatos homologados ativos e fontes confiáveis aprovadas
+      .filter((item: LiveNewsItem) =>
+        VALID_CANDIDATE_IDS.has(item.candidateId) &&
+        validateNewsArticle(item).isApproved
+      )
+      .slice(0, limit);
+
+    if (mapped.length === 0) {
+      return { data: filteredFallback.slice(0, limit), error: null };
+    }
 
     return { data: mapped, error: null };
-  }, fallback);
+  }, filteredFallback.slice(0, limit));
 }
 
 /**
@@ -141,12 +161,20 @@ export async function getPolls(targetOffice: 'presidente' | 'governador'): Promi
       }))
     }));
 
+    // Garantir que as pesquisas de 2º Turno locais também estejam presentes se o banco remoto ainda não as tiver sincronizado
+    const existingIds = new Set(mapped.map(m => m.id));
+    for (const localPoll of fallback) {
+      if (!existingIds.has(localPoll.id)) {
+        mapped.unshift(localPoll);
+      }
+    }
+
     return { data: mapped, error: null };
   }, fallback);
 }
 
 /**
- * Carrega a base completa de candidatos do Supabase com suas tabelas filhas relacionais
+ * Carrega a base completa de candidatos do Supabase com validação estrita TSE/IFCN e fallback local
  */
 export async function getCandidatesFromSupabase(): Promise<Candidate[]> {
   const fallback = ALL_CANDIDATES;
@@ -166,24 +194,32 @@ export async function getCandidatesFromSupabase(): Promise<Candidate[]> {
 
     const localMap = new Map(ALL_CANDIDATES.map(c => [c.id, c]));
 
-    const mapped: Candidate[] = data.map((cand: any) => {
-      const local = localMap.get(cand.id);
+    // Guardrail Crítico: Filtrar apenas candidatos homologados presentes no registro local e aprovados pelo sourceValidator
+    const validRemoteRows = data.filter((cand: any) => {
+      if (!localMap.has(cand.id)) return false;
+      const roleCheck = validateCandidacyRole(cand.nome_completo || cand.nome_popular, cand.cargo);
+      return roleCheck.isValidForRole;
+    });
+
+    const mapped: Candidate[] = validRemoteRows.map((cand: any) => {
+      const local = localMap.get(cand.id)!;
+      const rawNote = local.currentOfficeNote || cand.nota_institucional || '';
 
       return {
         id: cand.id,
-        name: cand.nome_completo,
-        popularName: cand.nome_popular,
-        photoUrl: cand.foto_url || local?.photoUrl || '',
-        role: cand.cargo,
-        party: cand.partido,
-        ballotNumber: cand.numero_urna,
-        coalition: cand.coligacao || '',
-        age: cand.idade,
-        cityOrigin: cand.cidade_origem || local?.cityOrigin,
-        state: cand.estado,
-        currentOfficeNote: cand.nota_institucional || local?.currentOfficeNote,
-        declaredAssets: Number(cand.patrimonio_declarado || 0),
-        education: {
+        name: cand.nome_completo || local.name,
+        popularName: cand.nome_popular || local.popularName,
+        photoUrl: local.photoUrl || cand.foto_url || '',
+        role: local.role || cand.cargo,
+        party: local.party || cand.partido,
+        ballotNumber: local.ballotNumber || cand.numero_urna,
+        coalition: local.coalition || cand.coligacao || '',
+        age: local.age || cand.idade,
+        cityOrigin: local.cityOrigin || cand.cidade_origem,
+        state: local.state || cand.estado,
+        currentOfficeNote: rawNote.replace(/&bull;/g, '•'),
+        declaredAssets: Number(local.declaredAssets || cand.patrimonio_declarado || 0),
+        education: local.education || {
           level: cand.escolaridade_nivel,
           institution: cand.escolaridade_instituicao || '',
           course: cand.escolaridade_curso || '',
@@ -191,65 +227,68 @@ export async function getCandidatesFromSupabase(): Promise<Candidate[]> {
           complementaryCourses: cand.escolaridade_cursos_complementares || []
         },
         experience: {
-          yearsInPublicService: cand.anos_vida_publica || 0,
-          summary: cand.resumo_experiencia || '',
-          roles: (cand.candidatos_cargos_historico && cand.candidatos_cargos_historico.length > 0)
-            ? cand.candidatos_cargos_historico.map((h: any) => ({
+          yearsInPublicService: local.experience?.yearsInPublicService || cand.anos_vida_publica || 0,
+          summary: local.experience?.summary || cand.resumo_experiencia || '',
+          roles: (local.experience?.roles && local.experience.roles.length > 0)
+            ? local.experience.roles
+            : (cand.candidatos_cargos_historico || []).map((h: any) => ({
                 title: h.titulo,
                 period: h.periodo,
                 level: h.esfera,
                 achievements: h.entregas || []
-              }))
-            : (local?.experience?.roles || []),
-          legislativeStats: (cand.projetos_apresentados > 0 || cand.projetos_aprovados > 0) ? {
+              })),
+          legislativeStats: local.experience?.legislativeStats || ((cand.projetos_apresentados > 0 || cand.projetos_aprovados > 0) ? {
             billsProposed: cand.projetos_apresentados || 0,
             billsApproved: cand.projetos_aprovados || 0,
             attendanceRate: Number(cand.assiduidade_plenario || 0),
             parliamentaryQuotaSpentYearlyAvg: Number(cand.cota_parlamentar_anual || 0)
-          } : local?.experience?.legislativeStats
+          } : undefined)
         },
-        debatesAndInterviews: {
-          averageScore: Number(cand.sabatinas_media_score || local?.debatesAndInterviews?.averageScore || 80),
-          events: local?.debatesAndInterviews?.events || []
+        debatesAndInterviews: local.debatesAndInterviews || {
+          averageScore: Number(cand.sabatinas_media_score || 80),
+          events: []
         },
-        integrityAndFacts: {
-          cleanRecordCertificates: (cand.certidoes_judiciais && cand.certidoes_judiciais.length > 0)
-            ? cand.certidoes_judiciais.map((cert: any) => ({
-                court: cert.orgao_emissor || cert.tipo_certidao,
-                status: cert.status
-              }))
-            : (local?.integrityAndFacts?.cleanRecordCertificates || []),
-          factChecks: (cand.fatos_checados && cand.fatos_checados.length > 0)
-            ? cand.fatos_checados.map((f: any) => ({
-                id: f.id,
-                title: f.titulo,
-                description: f.descricao,
-                vehicleOrOrgan: f.veiculo_ou_orgao,
-                category: f.categoria,
-                date: f.data_fato,
-                sourceUrl: f.url_fonte,
-                judicialLevel: f.numero_processo || undefined
-              }))
-            : (local?.integrityAndFacts?.factChecks || [])
+        integrityAndFacts: local.integrityAndFacts || {
+          cleanRecordCertificates: (cand.certidoes_judiciais || []).map((cert: any) => ({
+            court: cert.orgao_emissor || cert.tipo_certidao,
+            status: cert.status
+          })),
+          factChecks: (cand.fatos_checados || []).map((f: any) => ({
+            id: f.id,
+            title: f.titulo,
+            description: f.descricao,
+            vehicleOrOrgan: f.veiculo_ou_orgao,
+            category: f.categoria,
+            date: f.data_fato,
+            sourceUrl: f.url_fonte,
+            judicialLevel: f.numero_processo || undefined
+          }))
         },
-        governmentPlan: {
-          summary: cand.plano_resumo || local?.governmentPlan?.summary || '',
-          pdfUrl: cand.plano_pdf_url || local?.governmentPlan?.pdfUrl || '',
-          pillars: (cand.planos_governo_pilares && cand.planos_governo_pilares.length > 0)
-            ? cand.planos_governo_pilares.map((p: any) => ({
-                key: p.chave,
-                title: p.titulo,
-                icon: p.icone || 'FileText',
-                mainGoal: p.meta_principal,
-                proposals: p.propostas || [],
-                budgetSource: p.fonte_orcamento,
-                feasibilityScore: Number(p.viabilidade_score || 0)
-              }))
-            : (local?.governmentPlan?.pillars || [])
+        governmentPlan: local.governmentPlan || {
+          summary: cand.plano_resumo || '',
+          pdfUrl: cand.plano_pdf_url || '',
+          pillars: (cand.planos_governo_pilares || []).map((p: any) => ({
+            key: p.chave,
+            title: p.titulo,
+            icon: p.icone || 'FileText',
+            mainGoal: p.meta_principal,
+            proposals: p.propostas || [],
+            budgetSource: p.fonte_orcamento,
+            feasibilityScore: Number(p.viabilidade_score || 0)
+          }))
         },
-        mandateEvaluation: local?.mandateEvaluation
+        mandateEvaluation: local.mandateEvaluation,
+        tseVerification: local.tseVerification
       };
     });
+
+    // Garantir que candidatos locais recém-adicionados (como tarcisio-presidente) nunca fiquem de fora se ainda não estiverem no Supabase
+    const mappedIds = new Set(mapped.map(c => c.id));
+    for (const localCand of ALL_CANDIDATES) {
+      if (!mappedIds.has(localCand.id)) {
+        mapped.push(localCand);
+      }
+    }
 
     return { data: mapped, error: null };
   }, fallback);

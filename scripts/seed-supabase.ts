@@ -67,8 +67,19 @@ async function runSeed() {
     const senadorSP = loadJson('src/data/estados/sp/senador.json');
     const deputadosSP = loadJson('src/data/estados/sp/deputados.json');
     const allCandidates = [...presidente, ...governadorSP, ...senadorSP, ...deputadosSP];
+    const validIds = allCandidates.map((c: any) => c.id);
 
-    console.log(`📦 Inserindo ${allCandidates.length} candidatos oficiais...`);
+    // Expurgar candidaturas obsoletas ou especulativas do banco remoto (cascade nas tabelas filhas)
+    await client.query(
+      'DELETE FROM public.noticias_monitoradas WHERE NOT (candidato_id = ANY($1::text[]))',
+      [validIds]
+    );
+    await client.query(
+      'DELETE FROM public.candidatos WHERE NOT (id = ANY($1::text[]))',
+      [validIds]
+    );
+
+    console.log(`📦 Inserindo/atualizando ${allCandidates.length} candidatos oficiais homologados...`);
 
     for (const cand of allCandidates) {
       await client.query(`

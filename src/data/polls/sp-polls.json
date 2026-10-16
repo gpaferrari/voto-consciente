@@ -20,24 +20,60 @@
         "title": "1º Turno Governo SP - Cenário Principal",
         "type": "estimulada",
         "results": [
-          { "candidateId": "tarcisio-de-freitas", "candidateName": "Tarcísio de Freitas", "party": "Republicanos", "percentage": 42.0, "color": "#2563eb" },
-          { "candidateId": "fernando-haddad", "candidateName": "Fernando Haddad", "party": "PT", "percentage": 28.0, "color": "#dc2626" },
-          { "candidateId": "guilherme-boulos", "candidateName": "Guilherme Boulos", "party": "PSOL", "percentage": 11.0, "color": "#f97316" },
-          { "candidateId": "marcio-franca", "candidateName": "Márcio França", "party": "PSB", "percentage": 7.0, "color": "#eab308" }
+          {
+            "candidateId": "tarcisio-de-freitas",
+            "candidateName": "Tarcísio de Freitas",
+            "party": "Republicanos",
+            "percentage": 42,
+            "color": "#2563eb"
+          },
+          {
+            "candidateId": "fernando-haddad",
+            "candidateName": "Fernando Haddad",
+            "party": "PT",
+            "percentage": 28,
+            "color": "#dc2626"
+          },
+          {
+            "candidateId": "guilherme-boulos",
+            "candidateName": "Guilherme Boulos",
+            "party": "PSOL",
+            "percentage": 11,
+            "color": "#f97316"
+          },
+          {
+            "candidateId": "marcio-franca",
+            "candidateName": "Márcio França",
+            "party": "PSB",
+            "percentage": 7,
+            "color": "#eab308"
+          }
         ],
-        "blankNull": 7.0,
-        "undecided": 5.0
+        "blankNull": 7,
+        "undecided": 5
       },
       {
         "id": "sc-sp-datafolha-2t-1",
         "title": "2º Turno Governo SP: Tarcísio vs Haddad",
         "type": "segundo_turno",
         "results": [
-          { "candidateId": "tarcisio-de-freitas", "candidateName": "Tarcísio de Freitas", "party": "Republicanos", "percentage": 52.0, "color": "#2563eb" },
-          { "candidateId": "fernando-haddad", "candidateName": "Fernando Haddad", "party": "PT", "percentage": 36.0, "color": "#dc2626" }
+          {
+            "candidateId": "tarcisio-de-freitas",
+            "candidateName": "Tarcísio de Freitas",
+            "party": "Republicanos",
+            "percentage": 52,
+            "color": "#2563eb"
+          },
+          {
+            "candidateId": "fernando-haddad",
+            "candidateName": "Fernando Haddad",
+            "party": "PT",
+            "percentage": 36,
+            "color": "#dc2626"
+          }
         ],
-        "blankNull": 8.0,
-        "undecided": 4.0
+        "blankNull": 8,
+        "undecided": 4
       }
     ]
   },
@@ -55,20 +91,44 @@
     "methodology": "Presencial (face a face)",
     "targetOffice": "governador",
     "state": "SP",
-    "sourceUrl": "https://www.paranapesquisas.com.br",
+    "sourceUrl": "https://pesqele.tse.jus.br/pesqele-publico/app/pesquisa/detalhar.xhtml?numIdentificacao=SP-04312%2F2026",
     "scenarios": [
       {
         "id": "sc-sp-parana-est-1",
         "title": "1º Turno Governo SP - Cenário Estimulado",
         "type": "estimulada",
         "results": [
-          { "candidateId": "tarcisio-de-freitas", "candidateName": "Tarcísio de Freitas", "party": "Republicanos", "percentage": 44.5, "color": "#2563eb" },
-          { "candidateId": "fernando-haddad", "candidateName": "Fernando Haddad", "party": "PT", "percentage": 27.2, "color": "#dc2626" },
-          { "candidateId": "guilherme-boulos", "candidateName": "Guilherme Boulos", "party": "PSOL", "percentage": 10.3, "color": "#f97316" },
-          { "candidateId": "marcio-franca", "candidateName": "Márcio França", "party": "PSB", "percentage": 6.8, "color": "#eab308" }
+          {
+            "candidateId": "tarcisio-de-freitas",
+            "candidateName": "Tarcísio de Freitas",
+            "party": "Republicanos",
+            "percentage": 44.5,
+            "color": "#2563eb"
+          },
+          {
+            "candidateId": "fernando-haddad",
+            "candidateName": "Fernando Haddad",
+            "party": "PT",
+            "percentage": 27.2,
+            "color": "#dc2626"
+          },
+          {
+            "candidateId": "guilherme-boulos",
+            "candidateName": "Guilherme Boulos",
+            "party": "PSOL",
+            "percentage": 10.3,
+            "color": "#f97316"
+          },
+          {
+            "candidateId": "marcio-franca",
+            "candidateName": "Márcio França",
+            "party": "PSB",
+            "percentage": 6.8,
+            "color": "#eab308"
+          }
         ],
         "blankNull": 6.2,
-        "undecided": 5.0
+        "undecided": 5
       }
     ]
   }

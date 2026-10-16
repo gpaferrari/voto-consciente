@@ -26,13 +26,15 @@ jobs:
       - name: Instalar Dependências
         run: npm ci
 
-      - name: Executar Pipeline de Scraping e Sync
+      - name: Sincronizar Candidatos Homologados e Executar Scraping
         env:
           DATABASE_URL: ${{ secrets.DATABASE_URL }}
           SECRET_kEY: ${{ secrets.DATABASE_URL }}
           VITE_SUPABASE_URL: ${{ secrets.VITE_SUPABASE_URL }}
           VITE_SUPABASE_ANON_KEY: ${{ secrets.VITE_SUPABASE_ANON_KEY }}
-        run: npm run scrape:news
+        run: |
+          npm run db:seed || true
+          npm run scrape:news
 
       - name: Commit e Push dos Dados Locais (live-news.json)
         run: |

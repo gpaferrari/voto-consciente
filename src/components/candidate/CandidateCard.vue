@@ -4,6 +4,7 @@ import { useRouter } from 'vue-router';
 import { Candidate, ScoreBreakdown } from '../../types/candidate';
 import { useCandidateStore } from '../../stores/candidateStore';
 import ScoreGauge from '../shared/ScoreGauge.vue';
+import CandidateAvatar from '../shared/CandidateAvatar.vue';
 import { 
   GraduationCap, 
   Briefcase, 
@@ -69,15 +70,13 @@ function toggleCompare() {
         <!-- Foto e Info básica -->
         <div class="flex items-center gap-3.5">
           <div class="relative w-16 h-16 rounded-2xl overflow-hidden bg-slate-100 dark:bg-slate-800 shrink-0 border border-slate-200 dark:border-slate-700 shadow-inner">
-            <img
-              :src="candidate.photoUrl"
-              :alt="candidate.name"
-              class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500"
-              loading="lazy"
+            <CandidateAvatar
+              :name="candidate.popularName || candidate.name"
+              :photoUrl="candidate.photoUrl"
+              :party="candidate.party"
+              :ballotNumber="candidate.ballotNumber"
+              size="md"
             />
-            <div class="absolute bottom-0 inset-x-0 bg-linear-to-t from-black/70 to-transparent p-0.5 text-center">
-              <span class="text-[10px] font-black text-white tracking-widest">{{ candidate.ballotNumber }}</span>
-            </div>
           </div>
 
           <div>

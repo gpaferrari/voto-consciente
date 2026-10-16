@@ -3,7 +3,7 @@
     "id": "rodrigo-agostinho-deputado",
     "name": "Rodrigo Antonio de Agostinho Mendonça",
     "popularName": "Rodrigo Agostinho",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Rodrigo_Agostinho_%28foto_oficial%29.jpg/640px-Rodrigo_Agostinho_%28foto_oficial%29.jpg",
+    "photoUrl": "",
     "role": "deputado_federal_bauru",
     "state": "SP",
     "party": "PSB",
@@ -11,14 +11,18 @@
     "coalition": "Federação Brasil da Esperança / PSB",
     "age": 48,
     "cityOrigin": "Cafelândia / Bauru - SP",
-    "declaredAssets": 1250000.00,
+    "declaredAssets": 1250000,
     "currentOfficeNote": "Atual Presidente do IBAMA e Ex-Prefeito de Bauru (2 mandatos)",
     "education": {
       "level": "mestrado",
       "institution": "ITE Bauru / USP",
       "course": "Direito (ITE Bauru) e Mestrado em Ciência e Tecnologia Ambiental (USP)",
       "details": "Advogado ambientalista com especialização em Gestão e Política Ambiental pela Unicamp e mestrado pela USP.",
-      "complementaryCourses": ["Direito Administrativo", "Gestão de Recursos Hídricos", "Políticas Urbanas"]
+      "complementaryCourses": [
+        "Direito Administrativo",
+        "Gestão de Recursos Hídricos",
+        "Políticas Urbanas"
+      ]
     },
     "experience": {
       "yearsInPublicService": 24,
@@ -58,7 +62,7 @@
         "billsProposed": 58,
         "billsApproved": 6,
         "attendanceRate": 98.2,
-        "parliamentaryQuotaSpentYearlyAvg": 245000.00
+        "parliamentaryQuotaSpentYearlyAvg": 245000
       }
     },
     "debatesAndInterviews": {
@@ -76,9 +80,18 @@
     },
     "integrityAndFacts": {
       "cleanRecordCertificates": [
-        { "court": "Tribunal de Contas do Estado de SP (TCE-SP)", "status": "regular" },
-        { "court": "Tribunal Regional Eleitoral (TRE-SP)", "status": "regular" },
-        { "court": "Tribunal de Justiça de SP (TJ-SP)", "status": "nada_consta" }
+        {
+          "court": "Tribunal de Contas do Estado de SP (TCE-SP)",
+          "status": "regular"
+        },
+        {
+          "court": "Tribunal Regional Eleitoral (TRE-SP)",
+          "status": "regular"
+        },
+        {
+          "court": "Tribunal de Justiça de SP (TJ-SP)",
+          "status": "nada_consta"
+        }
       ],
       "factChecks": [
         {
@@ -94,7 +107,7 @@
     },
     "governmentPlan": {
       "summary": "Foco na representação regional de Bauru e Centro-Oeste Paulista em Brasília, fortalecimento do polo de saúde de Bauru (USP e Centrinho) e transição ecológica da indústria paulista.",
-      "pdfUrl": "https://www.camara.leg.br",
+      "pdfUrl": "https://www.camara.leg.br/deputados/quem-sao",
       "pillars": [
         {
           "key": "saude",
@@ -110,13 +123,20 @@
           "feasibilityScore": 94
         }
       ]
+    },
+    "tseVerification": {
+      "status": "ELEITO",
+      "processNumber": "0601580-08.2026.6.26.0000",
+      "divulgaCandUrl": "https://divulgacandcontas.tse.jus.br/divulga/#/estados/2026/SP",
+      "verifiedAt": "2026-10-16",
+      "isOfficial": true
     }
   },
   {
     "id": "capitao-augusto-deputado",
     "name": "José Augusto Rosa",
     "popularName": "Capitão Augusto",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Capit%C3%A3o_Augusto_%28foto_oficial%29.jpg/640px-Capit%C3%A3o_Augusto_%28foto_oficial%29.jpg",
+    "photoUrl": "",
     "role": "deputado_federal_bauru",
     "state": "SP",
     "party": "PL",
@@ -124,14 +144,18 @@
     "coalition": "PL",
     "age": 59,
     "cityOrigin": "Ourinhos / Bauru - SP",
-    "declaredAssets": 2100000.00,
+    "declaredAssets": 2100000,
     "currentOfficeNote": "Deputado Federal por SP (3 mandatos) e Fundador da Bancada da Segurança Pública",
     "education": {
       "level": "superior_completo",
       "institution": "Academia de Polícia Militar do Barro Branco / Uniesp",
       "course": "Ciências Policiais de Segurança e Ordem Pública (APMBB) e Direito",
       "details": "Oficial da Polícia Militar do Estado de São Paulo (Capitão da Reserva) e Bacharel em Direito.",
-      "complementaryCourses": ["Táticas Policiais", "Gestão de Segurança Pública", "Legislação Penal"]
+      "complementaryCourses": [
+        "Táticas Policiais",
+        "Gestão de Segurança Pública",
+        "Legislação Penal"
+      ]
     },
     "experience": {
       "yearsInPublicService": 34,
@@ -152,7 +176,7 @@
         "billsProposed": 72,
         "billsApproved": 5,
         "attendanceRate": 94.8,
-        "parliamentaryQuotaSpentYearlyAvg": 340000.00
+        "parliamentaryQuotaSpentYearlyAvg": 340000
       }
     },
     "debatesAndInterviews": {
@@ -170,8 +194,14 @@
     },
     "integrityAndFacts": {
       "cleanRecordCertificates": [
-        { "court": "Tribunal Regional Eleitoral (TRE-SP)", "status": "regular" },
-        { "court": "Supremo Tribunal Federal (STF)", "status": "nada_consta" }
+        {
+          "court": "Tribunal Regional Eleitoral (TRE-SP)",
+          "status": "regular"
+        },
+        {
+          "court": "Supremo Tribunal Federal (STF)",
+          "status": "nada_consta"
+        }
       ],
       "factChecks": [
         {
@@ -187,7 +217,7 @@
     },
     "governmentPlan": {
       "summary": "Plano focado na defesa da ordem pública, valorização das polícias civis e militares e destinação de recursos para entidades assistenciais e hospitais do interior paulista.",
-      "pdfUrl": "https://www.camara.leg.br",
+      "pdfUrl": "https://www.camara.leg.br/deputados/quem-sao",
       "pillars": [
         {
           "key": "seguranca",
@@ -202,13 +232,20 @@
           "feasibilityScore": 85
         }
       ]
+    },
+    "tseVerification": {
+      "status": "ELEITO",
+      "processNumber": "0601580-08.2026.6.26.0000",
+      "divulgaCandUrl": "https://divulgacandcontas.tse.jus.br/divulga/#/estados/2026/SP",
+      "verifiedAt": "2026-10-16",
+      "isOfficial": true
     }
   },
   {
     "id": "arnaldo-jardim-deputado",
     "name": "Arnaldo Calil Pereira Jardim",
     "popularName": "Arnaldo Jardim",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Arnaldo_Jardim_%28foto_oficial_2019%29.jpg/640px-Arnaldo_Jardim_%28foto_oficial_2019%29.jpg",
+    "photoUrl": "",
     "role": "deputado_federal_bauru",
     "state": "SP",
     "party": "Cidadania",
@@ -216,13 +253,16 @@
     "coalition": "Federação PSDB/Cidadania",
     "age": 69,
     "cityOrigin": "Itaverava - MG (Radicado no interior paulista)",
-    "declaredAssets": 6850000.00,
+    "declaredAssets": 6850000,
     "education": {
       "level": "superior_completo",
       "institution": "Escola Politécnica da Universidade de São Paulo (Poli-USP)",
       "course": "Engenharia Civil",
       "details": "Engenheiro Civil formado pela tradicional Escola Politécnica da USP. Especialista em infraestrutura energética e recursos hídricos.",
-      "complementaryCourses": ["Transição Energética e Biocombustíveis", "Engenharia de Transportes"]
+      "complementaryCourses": [
+        "Transição Energética e Biocombustíveis",
+        "Engenharia de Transportes"
+      ]
     },
     "experience": {
       "yearsInPublicService": 36,
@@ -251,7 +291,7 @@
         "billsProposed": 94,
         "billsApproved": 12,
         "attendanceRate": 98.6,
-        "parliamentaryQuotaSpentYearlyAvg": 235000.00
+        "parliamentaryQuotaSpentYearlyAvg": 235000
       }
     },
     "debatesAndInterviews": {
@@ -269,8 +309,14 @@
     },
     "integrityAndFacts": {
       "cleanRecordCertificates": [
-        { "court": "Tribunal Regional Eleitoral de SP (TRE-SP)", "status": "regular" },
-        { "court": "Supremo Tribunal Federal (STF)", "status": "nada_consta" }
+        {
+          "court": "Tribunal Regional Eleitoral de SP (TRE-SP)",
+          "status": "regular"
+        },
+        {
+          "court": "Supremo Tribunal Federal (STF)",
+          "status": "nada_consta"
+        }
       ],
       "factChecks": [
         {
@@ -286,7 +332,7 @@
     },
     "governmentPlan": {
       "summary": "Mandato parlamentar dedicado à transição energética verde, fortalecimento das cooperativas agropecuárias do Centro-Oeste de SP e investimentos em biometano e energia solar distribuída.",
-      "pdfUrl": "https://www.camara.leg.br",
+      "pdfUrl": "https://www.camara.leg.br/deputados/quem-sao",
       "pillars": [
         {
           "key": "economia",
@@ -301,13 +347,20 @@
           "feasibilityScore": 93
         }
       ]
+    },
+    "tseVerification": {
+      "status": "ELEITO",
+      "processNumber": "0601580-08.2026.6.26.0000",
+      "divulgaCandUrl": "https://divulgacandcontas.tse.jus.br/divulga/#/estados/2026/SP",
+      "verifiedAt": "2026-10-16",
+      "isOfficial": true
     }
   },
   {
     "id": "baleia-rossi-deputado",
     "name": "Luiz Felipe Baleia Tenuto Rossi",
     "popularName": "Baleia Rossi",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Baleia_Rossi_%28foto_oficial_2019%29.jpg/640px-Baleia_Rossi_%28foto_oficial_2019%29.jpg",
+    "photoUrl": "",
     "role": "deputado_federal_bauru",
     "state": "SP",
     "party": "MDB",
@@ -315,13 +368,16 @@
     "coalition": "MDB",
     "age": 53,
     "cityOrigin": "São Paulo - SP (Base política em Ribeirão Preto/Região Central de SP)",
-    "declaredAssets": 3950000.00,
+    "declaredAssets": 3950000,
     "education": {
       "level": "superior_completo",
       "institution": "Universidade de Ribeirão Preto (UNAERP)",
       "course": "Direito",
       "details": "Bacharel em Direito pela UNAERP. Presidente Nacional do Movimento Democrático Brasileiro (MDB).",
-      "complementaryCourses": ["Direito Tributário Constitucional", "Gestão Partidária"]
+      "complementaryCourses": [
+        "Direito Tributário Constitucional",
+        "Gestão Partidária"
+      ]
     },
     "experience": {
       "yearsInPublicService": 32,
@@ -350,7 +406,7 @@
         "billsProposed": 72,
         "billsApproved": 8,
         "attendanceRate": 97.4,
-        "parliamentaryQuotaSpentYearlyAvg": 280000.00
+        "parliamentaryQuotaSpentYearlyAvg": 280000
       }
     },
     "debatesAndInterviews": {
@@ -368,8 +424,14 @@
     },
     "integrityAndFacts": {
       "cleanRecordCertificates": [
-        { "court": "Tribunal Regional Eleitoral de SP (TRE-SP)", "status": "regular" },
-        { "court": "Supremo Tribunal Federal (STF)", "status": "nada_consta" }
+        {
+          "court": "Tribunal Regional Eleitoral de SP (TRE-SP)",
+          "status": "regular"
+        },
+        {
+          "court": "Supremo Tribunal Federal (STF)",
+          "status": "nada_consta"
+        }
       ],
       "factChecks": [
         {
@@ -385,7 +447,7 @@
     },
     "governmentPlan": {
       "summary": "Atuação legislativa centrada na regulamentação justa da Reforma Tributária, defesa do pacto federativo municipalista e canalização de recursos para a rede hospitalar conveniada ao SUS no interior paulista.",
-      "pdfUrl": "https://www.camara.leg.br",
+      "pdfUrl": "https://www.camara.leg.br/deputados/quem-sao",
       "pillars": [
         {
           "key": "economia",
@@ -400,6 +462,13 @@
           "feasibilityScore": 92
         }
       ]
+    },
+    "tseVerification": {
+      "status": "ELEITO",
+      "processNumber": "0601580-08.2026.6.26.0000",
+      "divulgaCandUrl": "https://divulgacandcontas.tse.jus.br/divulga/#/estados/2026/SP",
+      "verifiedAt": "2026-10-16",
+      "isOfficial": true
     }
   }
 ]

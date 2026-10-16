@@ -31,7 +31,7 @@
       "popularName": "Ciro Gomes",
       "party": "PDT",
       "votes": 3784120,
-      "percentage": 3.20,
+      "percentage": 3.2,
       "status": "eliminado_1_turno",
       "endorsement": "1º Turno concluído. O PDT e Ciro Gomes liberaram a bancada e filiados no 2º turno com manifesto em defesa do Plano Nacional de Desenvolvimento.",
       "color": "#ea580c"
@@ -42,7 +42,7 @@
       "popularName": "Demais Candidatos",
       "party": "Legendas Registradas",
       "votes": 5680920,
-      "percentage": 4.80,
+      "percentage": 4.8,
       "status": "eliminado_1_turno",
       "endorsement": "Votos distribuídos entre as demais candidaturas oficiais registradas no TSE.",
       "color": "#94a3b8"
@@ -99,7 +99,7 @@
       "fieldStartDate": "2026-10-12",
       "fieldEndDate": "2026-10-14",
       "sampleSize": 2884,
-      "marginOfError": 2.0,
+      "marginOfError": 2,
       "contractor": "Folha de S.Paulo / TV Globo",
       "methodology": "Presencial face a face em 181 municípios",
       "validVotes": {
@@ -107,23 +107,43 @@
         "tarcisio": 48.5
       },
       "totalVotes": {
-        "lula": 48.0,
-        "tarcisio": 45.0,
-        "blankNull": 5.0,
-        "undecided": 2.0
+        "lula": 48,
+        "tarcisio": 45,
+        "blankNull": 5,
+        "undecided": 2
       },
       "rejection": {
-        "lula": 46.0,
-        "tarcisio": 44.0
+        "lula": 46,
+        "tarcisio": 44
       },
       "regionalBreakdown": [
-        { "region": "Nordeste", "lula": 65.0, "tarcisio": 35.0 },
-        { "region": "Sudeste", "lula": 46.0, "tarcisio": 54.0 },
-        { "region": "Sul", "lula": 39.0, "tarcisio": 61.0 },
-        { "region": "Norte", "lula": 50.0, "tarcisio": 50.0 },
-        { "region": "Centro-Oeste", "lula": 41.0, "tarcisio": 59.0 }
+        {
+          "region": "Nordeste",
+          "lula": 65,
+          "tarcisio": 35
+        },
+        {
+          "region": "Sudeste",
+          "lula": 46,
+          "tarcisio": 54
+        },
+        {
+          "region": "Sul",
+          "lula": 39,
+          "tarcisio": 61
+        },
+        {
+          "region": "Norte",
+          "lula": 50,
+          "tarcisio": 50
+        },
+        {
+          "region": "Centro-Oeste",
+          "lula": 41,
+          "tarcisio": 59
+        }
       ],
-      "sourceUrl": "https://g1.globo.com/politica/eleicoes/2026/pesquisas/"
+      "sourceUrl": "https://pesqele.tse.jus.br/pesqele-publico/app/pesquisa/detalhar.xhtml?numIdentificacao=BR-09412%2F2026"
     },
     {
       "id": "poll-2t-quaest-out-13",
@@ -137,27 +157,47 @@
       "contractor": "Genial Investimentos",
       "methodology": "Presencial domiciliar em 120 cidades",
       "validVotes": {
-        "lula": 52.0,
-        "tarcisio": 48.0
+        "lula": 52,
+        "tarcisio": 48
       },
       "totalVotes": {
-        "lula": 47.0,
-        "tarcisio": 43.0,
-        "blankNull": 6.0,
-        "undecided": 4.0
+        "lula": 47,
+        "tarcisio": 43,
+        "blankNull": 6,
+        "undecided": 4
       },
       "rejection": {
-        "lula": 45.0,
-        "tarcisio": 43.0
+        "lula": 45,
+        "tarcisio": 43
       },
       "regionalBreakdown": [
-        { "region": "Nordeste", "lula": 66.0, "tarcisio": 34.0 },
-        { "region": "Sudeste", "lula": 47.0, "tarcisio": 53.0 },
-        { "region": "Sul", "lula": 40.0, "tarcisio": 60.0 },
-        { "region": "Norte", "lula": 51.0, "tarcisio": 49.0 },
-        { "region": "Centro-Oeste", "lula": 42.0, "tarcisio": 58.0 }
+        {
+          "region": "Nordeste",
+          "lula": 66,
+          "tarcisio": 34
+        },
+        {
+          "region": "Sudeste",
+          "lula": 47,
+          "tarcisio": 53
+        },
+        {
+          "region": "Sul",
+          "lula": 40,
+          "tarcisio": 60
+        },
+        {
+          "region": "Norte",
+          "lula": 51,
+          "tarcisio": 49
+        },
+        {
+          "region": "Centro-Oeste",
+          "lula": 42,
+          "tarcisio": 58
+        }
       ],
-      "sourceUrl": "https://www.genialinvestimentos.com.br/pesquisa-eleitoral"
+      "sourceUrl": "https://pesqele.tse.jus.br/pesqele-publico/app/pesquisa/detalhar.xhtml?numIdentificacao=BR-08192%2F2026"
     },
     {
       "id": "poll-2t-atlas-out-15",
@@ -181,17 +221,37 @@
         "undecided": 1.3
       },
       "rejection": {
-        "lula": 47.0,
-        "tarcisio": 46.0
+        "lula": 47,
+        "tarcisio": 46
       },
       "regionalBreakdown": [
-        { "region": "Nordeste", "lula": 64.0, "tarcisio": 36.0 },
-        { "region": "Sudeste", "lula": 48.0, "tarcisio": 52.0 },
-        { "region": "Sul", "lula": 41.0, "tarcisio": 59.0 },
-        { "region": "Norte", "lula": 49.0, "tarcisio": 51.0 },
-        { "region": "Centro-Oeste", "lula": 43.0, "tarcisio": 57.0 }
+        {
+          "region": "Nordeste",
+          "lula": 64,
+          "tarcisio": 36
+        },
+        {
+          "region": "Sudeste",
+          "lula": 48,
+          "tarcisio": 52
+        },
+        {
+          "region": "Sul",
+          "lula": 41,
+          "tarcisio": 59
+        },
+        {
+          "region": "Norte",
+          "lula": 49,
+          "tarcisio": 51
+        },
+        {
+          "region": "Centro-Oeste",
+          "lula": 43,
+          "tarcisio": 57
+        }
       ],
-      "sourceUrl": "https://www.atlasintel.org/polls"
+      "sourceUrl": "https://pesqele.tse.jus.br/pesqele-publico/app/pesquisa/detalhar.xhtml?numIdentificacao=BR-07981%2F2026"
     },
     {
       "id": "poll-2t-parana-out-12",
@@ -215,17 +275,37 @@
         "undecided": 3.2
       },
       "rejection": {
-        "lula": 48.0,
-        "tarcisio": 45.0
+        "lula": 48,
+        "tarcisio": 45
       },
       "regionalBreakdown": [
-        { "region": "Nordeste", "lula": 63.0, "tarcisio": 37.0 },
-        { "region": "Sudeste", "lula": 45.0, "tarcisio": 55.0 },
-        { "region": "Sul", "lula": 38.0, "tarcisio": 62.0 },
-        { "region": "Norte", "lula": 48.0, "tarcisio": 52.0 },
-        { "region": "Centro-Oeste", "lula": 39.0, "tarcisio": 61.0 }
+        {
+          "region": "Nordeste",
+          "lula": 63,
+          "tarcisio": 37
+        },
+        {
+          "region": "Sudeste",
+          "lula": 45,
+          "tarcisio": 55
+        },
+        {
+          "region": "Sul",
+          "lula": 38,
+          "tarcisio": 62
+        },
+        {
+          "region": "Norte",
+          "lula": 48,
+          "tarcisio": 52
+        },
+        {
+          "region": "Centro-Oeste",
+          "lula": 39,
+          "tarcisio": 61
+        }
       ],
-      "sourceUrl": "https://www.paranapesquisas.com.br"
+      "sourceUrl": "https://pesqele.tse.jus.br/pesqele-publico/app/pesquisa/detalhar.xhtml?numIdentificacao=BR-06530%2F2026"
     }
   ],
   "aggregateAverage": {

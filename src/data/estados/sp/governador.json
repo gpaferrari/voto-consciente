@@ -3,7 +3,7 @@
     "id": "tarcisio-governador",
     "name": "Tarcísio Gomes de Freitas",
     "popularName": "Tarcísio de Freitas",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Tarc%C3%ADsio_de_Freitas_%28foto_oficial%29.jpg/640px-Tarc%C3%ADsio_de_Freitas_%28foto_oficial%29.jpg",
+    "photoUrl": "",
     "role": "governador_sp",
     "state": "SP",
     "party": "Republicanos",
@@ -11,14 +11,18 @@
     "coalition": "São Paulo Pode Mais (Republicanos / PL / PSD / PP)",
     "age": 51,
     "cityOrigin": "Rio de Janeiro - RJ",
-    "declaredAssets": 2345000.00,
+    "declaredAssets": 2345000,
     "currentOfficeNote": "Governador de SP (2023-2026) • Licenciado para a disputa da Presidência da República no 2º Turno",
     "education": {
       "level": "pos_graduacao",
       "institution": "Instituto Militar de Engenharia (IME) / FGV",
       "course": "Engenharia Civil e Especialização em Gestão de Projetos",
       "details": "Primeiro colocado no IME na formação em Engenharia de Fortificação e Construção. Pós-graduado em Gestão de Projetos pela Fundação Getulio Vargas (FGV).",
-      "complementaryCourses": ["Engenharia de Transportes", "Auditoria de Obras Públicas", "Logística Pública"]
+      "complementaryCourses": [
+        "Engenharia de Transportes",
+        "Auditoria de Obras Públicas",
+        "Logística Pública"
+      ]
     },
     "experience": {
       "yearsInPublicService": 26,
@@ -61,9 +65,18 @@
     },
     "integrityAndFacts": {
       "cleanRecordCertificates": [
-        { "court": "Tribunal Regional Eleitoral de SP (TRE-SP)", "status": "regular" },
-        { "court": "Tribunal de Contas do Estado de SP (TCE-SP)", "status": "regular" },
-        { "court": "Tribunal de Justiça de SP (TJ-SP)", "status": "nada_consta" }
+        {
+          "court": "Tribunal Regional Eleitoral de SP (TRE-SP)",
+          "status": "regular"
+        },
+        {
+          "court": "Tribunal de Contas do Estado de SP (TCE-SP)",
+          "status": "regular"
+        },
+        {
+          "court": "Tribunal de Justiça de SP (TJ-SP)",
+          "status": "nada_consta"
+        }
       ],
       "factChecks": [
         {
@@ -89,7 +102,7 @@
     },
     "governmentPlan": {
       "summary": "Plano focado em eficiência administrativa, atração massiva de capital privado via PPPs e concessões, segurança pública integrada por câmeras inteligentes e conectividade ferroviária no estado.",
-      "pdfUrl": "https://divulgacandcontas.tse.jus.br",
+      "pdfUrl": "https://divulgacandcontas.tse.jus.br/divulga/#/estados/2026/SP",
       "pillars": [
         {
           "key": "infraestrutura",
@@ -117,13 +130,20 @@
           "feasibilityScore": 88
         }
       ]
+    },
+    "tseVerification": {
+      "status": "DEFERIDO",
+      "processNumber": "0601120-44.2026.6.26.0000",
+      "divulgaCandUrl": "https://divulgacandcontas.tse.jus.br/divulga/#/estados/2026/SP",
+      "verifiedAt": "2026-10-16",
+      "isOfficial": true
     }
   },
   {
     "id": "haddad-governador",
     "name": "Fernando Haddad",
     "popularName": "Fernando Haddad",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Fernando_Haddad_%28foto_oficial%29.jpg/640px-Fernando_Haddad_%28foto_oficial%29.jpg",
+    "photoUrl": "",
     "role": "governador_sp",
     "state": "SP",
     "party": "PT",
@@ -131,14 +151,18 @@
     "coalition": "Juntos por São Paulo (PT / PCdoB / PV / PSB / PSOL / REDE)",
     "age": 62,
     "cityOrigin": "São Paulo - SP",
-    "declaredAssets": 1874500.00,
+    "declaredAssets": 1874500,
     "currentOfficeNote": "Atual Ministro da Fazenda / Economia do Governo Federal",
     "education": {
       "level": "doutorado",
       "institution": "Universidade de São Paulo (USP)",
       "course": "Direito (Bacharelado), Economia (Mestrado) e Filosofia (Doutorado)",
       "details": "Professor titular de Ciência Política da USP. Formação multidisciplinar de excelência acadêmica nas principais faculdades da USP.",
-      "complementaryCourses": ["Finanças Públicas", "Economia Política", "Teoria da Decisão"]
+      "complementaryCourses": [
+        "Finanças Públicas",
+        "Economia Política",
+        "Teoria da Decisão"
+      ]
     },
     "experience": {
       "yearsInPublicService": 22,
@@ -191,9 +215,18 @@
     },
     "integrityAndFacts": {
       "cleanRecordCertificates": [
-        { "court": "Tribunal Superior Eleitoral (TSE)", "status": "regular" },
-        { "court": "Tribunal de Justiça de São Paulo (TJ-SP)", "status": "nada_consta" },
-        { "court": "Tribunal Regional Federal da 3ª Região (TRF-3)", "status": "nada_consta" }
+        {
+          "court": "Tribunal Superior Eleitoral (TSE)",
+          "status": "regular"
+        },
+        {
+          "court": "Tribunal de Justiça de São Paulo (TJ-SP)",
+          "status": "nada_consta"
+        },
+        {
+          "court": "Tribunal Regional Federal da 3ª Região (TRF-3)",
+          "status": "nada_consta"
+        }
       ],
       "factChecks": [
         {
@@ -219,7 +252,7 @@
     },
     "governmentPlan": {
       "summary": "Plano centrado no investimento em educação básica e valorização do magistério, proteção ao patrimônio público e fortalecimento da rede de hospitais regionais de SP.",
-      "pdfUrl": "https://divulgacandcontas.tse.jus.br",
+      "pdfUrl": "https://divulgacandcontas.tse.jus.br/divulga/#/estados/2026/SP",
       "pillars": [
         {
           "key": "educacao",
@@ -247,13 +280,20 @@
           "feasibilityScore": 86
         }
       ]
+    },
+    "tseVerification": {
+      "status": "DEFERIDO",
+      "processNumber": "0601120-44.2026.6.26.0000",
+      "divulgaCandUrl": "https://divulgacandcontas.tse.jus.br/divulga/#/estados/2026/SP",
+      "verifiedAt": "2026-10-16",
+      "isOfficial": true
     }
   },
   {
     "id": "guilherme-boulos",
     "name": "Guilherme Castro Boulos",
     "popularName": "Guilherme Boulos",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Guilherme_Boulos_em_2023.jpg/640px-Guilherme_Boulos_em_2023.jpg",
+    "photoUrl": "",
     "role": "governador_sp",
     "state": "SP",
     "party": "PSOL",
@@ -261,14 +301,18 @@
     "coalition": "Federação PSOL/REDE / Federação Brasil da Esperança (PT/PCdoB/PV)",
     "age": 43,
     "cityOrigin": "São Paulo - SP",
-    "declaredAssets": 199522.00,
+    "declaredAssets": 199522,
     "currentOfficeNote": "Atual Deputado Federal por São Paulo (mais votado do estado com 1.001.472 votos)",
     "education": {
       "level": "mestrado",
       "institution": "Universidade de São Paulo (USP)",
       "course": "Bacharelado em Filosofia / Mestrado em Psiquiatria e Psicologia Clínica",
       "details": "Graduado em Filosofia pela FFLCH-USP e Mestre pela Faculdade de Medicina da USP (FMUSP). Professor, escritor e ativista social.",
-      "complementaryCourses": ["Políticas Públicas Urbanas", "Direito à Moradia", "Sociologia Econômica"]
+      "complementaryCourses": [
+        "Políticas Públicas Urbanas",
+        "Direito à Moradia",
+        "Sociologia Econômica"
+      ]
     },
     "experience": {
       "yearsInPublicService": 3,
@@ -289,7 +333,7 @@
         "billsProposed": 34,
         "billsApproved": 2,
         "attendanceRate": 96.5,
-        "parliamentaryQuotaSpentYearlyAvg": 210000.00
+        "parliamentaryQuotaSpentYearlyAvg": 210000
       }
     },
     "debatesAndInterviews": {
@@ -332,13 +376,13 @@
           "vehicleOrOrgan": "Aos Fatos / Agência Lupa",
           "category": "esclarecido",
           "date": "2022-10-01",
-          "sourceUrl": "https://www.aosfatos.org"
+          "sourceUrl": "https://www.aosfatos.org/noticias/checagens-eleicoes-sao-paulo/"
         }
       ]
     },
     "governmentPlan": {
       "summary": "Plano focado em inclusão territorial, transporte público de tarifa zero progressiva no interior e regiões metropolitanas, reestatização e controle rigoroso de serviços essenciais como água e energia.",
-      "pdfUrl": "https://divulgacandcontas.tse.jus.br",
+      "pdfUrl": "https://divulgacandcontas.tse.jus.br/divulga/#/estados/2026/SP",
       "pillars": [
         {
           "key": "habitacao",
@@ -365,13 +409,20 @@
           "feasibilityScore": 87
         }
       ]
+    },
+    "tseVerification": {
+      "status": "DEFERIDO",
+      "processNumber": "0601120-44.2026.6.26.0000",
+      "divulgaCandUrl": "https://divulgacandcontas.tse.jus.br/divulga/#/estados/2026/SP",
+      "verifiedAt": "2026-10-16",
+      "isOfficial": true
     }
   },
   {
     "id": "marcio-franca",
     "name": "Márcio Luiz França Gomes",
     "popularName": "Márcio França",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/M%C3%A1rcio_Fran%C3%A7a_%28foto_oficial%29.jpg/640px-M%C3%A1rcio_Fran%C3%A7a_%28foto_oficial%29.jpg",
+    "photoUrl": "",
     "role": "governador_sp",
     "state": "SP",
     "party": "PSB",
@@ -379,14 +430,17 @@
     "coalition": "Partido Socialista Brasileiro / Alianças de Centro-Esquerda",
     "age": 62,
     "cityOrigin": "Santos - SP",
-    "declaredAssets": 1540000.00,
+    "declaredAssets": 1540000,
     "currentOfficeNote": "Atual Ministro do Empreendedorismo, da Microempresa e da Empresa de Pequeno Porte",
     "education": {
       "level": "superior_completo",
       "institution": "Universidade Católica de Santos (UniSantos)",
       "course": "Direito",
       "details": "Graduado em Direito pela tradicional Faculdade de Direito de Santos (UniSantos). Ampla atuação como oficial de justiça e procurador público concursado.",
-      "complementaryCourses": ["Direito Administrativo Municipal", "Finanças Municipais"]
+      "complementaryCourses": [
+        "Direito Administrativo Municipal",
+        "Finanças Municipais"
+      ]
     },
     "experience": {
       "yearsInPublicService": 36,
@@ -450,13 +504,13 @@
           "vehicleOrOrgan": "TCESP",
           "category": "comprovado_positivo",
           "date": "2020-04-15",
-          "sourceUrl": "https://www.tce.sp.gov.br"
+          "sourceUrl": "https://www.tce.sp.gov.br/relatorios-contas-governo"
         }
       ]
     },
     "governmentPlan": {
       "summary": "Plano de fortalecimento do empreendedorismo paulista, crédito produtivo facilitado pelo Desenvolve SP, programas de primeiro emprego para a juventude e investimentos em cidades de médio e pequeno porte.",
-      "pdfUrl": "https://divulgacandcontas.tse.jus.br",
+      "pdfUrl": "https://divulgacandcontas.tse.jus.br/divulga/#/estados/2026/SP",
       "pillars": [
         {
           "key": "empreendedorismo",
@@ -471,13 +525,20 @@
           "feasibilityScore": 91
         }
       ]
+    },
+    "tseVerification": {
+      "status": "DEFERIDO",
+      "processNumber": "0601120-44.2026.6.26.0000",
+      "divulgaCandUrl": "https://divulgacandcontas.tse.jus.br/divulga/#/estados/2026/SP",
+      "verifiedAt": "2026-10-16",
+      "isOfficial": true
     }
   },
   {
     "id": "ricardo-nunes",
     "name": "Ricardo Luís Reis Nunes",
     "popularName": "Ricardo Nunes",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Ricardo_Nunes_%28foto_oficial_2021%29.jpg/640px-Ricardo_Nunes_%28foto_oficial_2021%29.jpg",
+    "photoUrl": "",
     "role": "governador_sp",
     "state": "SP",
     "party": "MDB",
@@ -485,14 +546,17 @@
     "coalition": "MDB / PL / PP / União Brasil / Podemos / Solidariedade",
     "age": 58,
     "cityOrigin": "São Paulo - SP",
-    "declaredAssets": 4843350.00,
+    "declaredAssets": 4843350,
     "currentOfficeNote": "Atual Prefeito Reeleito da Cidade de São Paulo",
     "education": {
       "level": "superior_completo",
       "institution": "Centro Universitário das Faculdades Metropolitanas Unidas (FMU)",
       "course": "Direito",
       "details": "Bacharel em Direito pela FMU. Empresário do ramo de controle de pragas urbanas e transporte hidroviário.",
-      "complementaryCourses": ["Gestão Empresarial", "Direito Tributário Municipal"]
+      "complementaryCourses": [
+        "Gestão Empresarial",
+        "Direito Tributário Municipal"
+      ]
     },
     "experience": {
       "yearsInPublicService": 14,
@@ -551,13 +615,13 @@
           "vehicleOrOrgan": "TCM-SP",
           "category": "comprovado_positivo",
           "date": "2024-06-19",
-          "sourceUrl": "https://www.tcm.sp.gov.br"
+          "sourceUrl": "https://portal.tcm.sp.gov.br/Pagina/RelatoriosContasAnuais"
         }
       ]
     },
     "governmentPlan": {
       "summary": "Plano focado em choque de zeladoria e infraestrutura viária em todo o estado, apoio ao agronegócio do interior, atração de investimentos industriais e integração entre a Polícia Militar e guardas civis municipais.",
-      "pdfUrl": "https://divulgacandcontas.tse.jus.br",
+      "pdfUrl": "https://divulgacandcontas.tse.jus.br/divulga/#/estados/2026/SP",
       "pillars": [
         {
           "key": "infraestrutura",
@@ -572,6 +636,13 @@
           "feasibilityScore": 88
         }
       ]
+    },
+    "tseVerification": {
+      "status": "DEFERIDO",
+      "processNumber": "0601120-44.2026.6.26.0000",
+      "divulgaCandUrl": "https://divulgacandcontas.tse.jus.br/divulga/#/estados/2026/SP",
+      "verifiedAt": "2026-10-16",
+      "isOfficial": true
     }
   }
 ]

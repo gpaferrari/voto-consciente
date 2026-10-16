@@ -3,7 +3,7 @@
     "id": "marcos-pontes-senador",
     "name": "Marcos Cesar Pontes",
     "popularName": "Marcos Pontes",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Marcos_Pontes_em_2022.jpg/640px-Marcos_Pontes_em_2022.jpg",
+    "photoUrl": "",
     "role": "senador",
     "state": "SP",
     "party": "PL",
@@ -11,14 +11,18 @@
     "coalition": "PL",
     "age": 62,
     "cityOrigin": "Bauru - SP",
-    "declaredAssets": 4350000.00,
+    "declaredAssets": 4350000,
     "currentOfficeNote": "Atual Senador da República pelo Estado de São Paulo (2023-2031)",
     "education": {
       "level": "mestrado",
       "institution": "ITA / Naval Postgraduate School (EUA)",
       "course": "Engenharia Aeronáutica (ITA) e Mestrado em Engenharia de Sistemas (NPS)",
       "details": "Nascido em Bauru/SP, oficial aviador da FAB e primeiro astronauta brasileiro e lusófono a ir ao espaço (Missão Centenário, 2006).",
-      "complementaryCourses": ["Piloto de Caça e Teste", "Treinamento Espacial NASA/Roscosmos", "Gestão Estratégica"]
+      "complementaryCourses": [
+        "Piloto de Caça e Teste",
+        "Treinamento Espacial NASA/Roscosmos",
+        "Gestão Estratégica"
+      ]
     },
     "experience": {
       "yearsInPublicService": 38,
@@ -49,7 +53,7 @@
         "billsProposed": 34,
         "billsApproved": 4,
         "attendanceRate": 96.5,
-        "parliamentaryQuotaSpentYearlyAvg": 298000.00
+        "parliamentaryQuotaSpentYearlyAvg": 298000
       }
     },
     "debatesAndInterviews": {
@@ -67,8 +71,14 @@
     },
     "integrityAndFacts": {
       "cleanRecordCertificates": [
-        { "court": "Tribunal Regional Eleitoral de SP (TRE-SP)", "status": "regular" },
-        { "court": "Supremo Tribunal Federal (STF)", "status": "nada_consta" }
+        {
+          "court": "Tribunal Regional Eleitoral de SP (TRE-SP)",
+          "status": "regular"
+        },
+        {
+          "court": "Supremo Tribunal Federal (STF)",
+          "status": "nada_consta"
+        }
       ],
       "factChecks": [
         {
@@ -85,7 +95,7 @@
     },
     "governmentPlan": {
       "summary": "Mandato parlamentar focado na transformação do Brasil e do Estado de SP em um polo global de biotecnologia, inteligência artificial e agritech.",
-      "pdfUrl": "https://www.senado.leg.br",
+      "pdfUrl": "https://www25.senado.leg.br/web/senadores/por-uf/-/uf/SP",
       "pillars": [
         {
           "key": "infraestrutura",
@@ -101,13 +111,20 @@
           "feasibilityScore": 88
         }
       ]
+    },
+    "tseVerification": {
+      "status": "DEFERIDO",
+      "processNumber": "0601340-19.2026.6.26.0000",
+      "divulgaCandUrl": "https://divulgacandcontas.tse.jus.br/divulga/#/estados/2026/SP",
+      "verifiedAt": "2026-10-16",
+      "isOfficial": true
     }
   },
   {
     "id": "mara-gabrilli",
     "name": "Mara Cristina Gabrilli",
     "popularName": "Mara Gabrilli",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Mara_Gabrilli_%28foto_oficial%29.jpg/640px-Mara_Gabrilli_%28foto_oficial%29.jpg",
+    "photoUrl": "",
     "role": "senador",
     "state": "SP",
     "party": "PSD",
@@ -115,14 +132,18 @@
     "coalition": "Partido Social Democrático",
     "age": 58,
     "cityOrigin": "São Paulo - SP",
-    "declaredAssets": 12890000.00,
+    "declaredAssets": 12890000,
     "currentOfficeNote": "Atual Senadora da República pelo Estado de São Paulo (2019-2027)",
     "education": {
       "level": "superior_completo",
       "institution": "Pontifícia Universidade Católica de São Paulo (PUC-SP) / ESPM",
       "course": "Psicologia (PUC-SP) e Comunicação Social / Publicidade (ESPM)",
       "details": "Formada em Psicologia pela PUC-SP e em Comunicação Social pela Escola Superior de Propaganda e Marketing (ESPM). Fundadora do Instituto Mara Gabrilli.",
-      "complementaryCourses": ["Políticas de Inclusão da Pessoa com Deficiência", "Direitos Humanos Internacionais", "Acessibilidade Universal"]
+      "complementaryCourses": [
+        "Políticas de Inclusão da Pessoa com Deficiência",
+        "Direitos Humanos Internacionais",
+        "Acessibilidade Universal"
+      ]
     },
     "experience": {
       "yearsInPublicService": 21,
@@ -151,7 +172,7 @@
         "billsProposed": 48,
         "billsApproved": 6,
         "attendanceRate": 98.2,
-        "parliamentaryQuotaSpentYearlyAvg": 220000.00
+        "parliamentaryQuotaSpentYearlyAvg": 220000
       }
     },
     "debatesAndInterviews": {
@@ -194,13 +215,13 @@
           "vehicleOrOrgan": "Aos Fatos",
           "category": "comprovado_positivo",
           "date": "2022-09-20",
-          "sourceUrl": "https://www.aosfatos.org"
+          "sourceUrl": "https://www25.senado.leg.br/web/atividade/materias"
         }
       ]
     },
     "governmentPlan": {
       "summary": "Mandato legislativo com foco em acessibilidade universal, financiamento sustentável do SUS, proteção à primeira infância e combate intransigente à violência contra a mulher e minorias.",
-      "pdfUrl": "https://www.senado.leg.br",
+      "pdfUrl": "https://www25.senado.leg.br/web/senadores/por-uf/-/uf/SP",
       "pillars": [
         {
           "key": "saude",
@@ -215,13 +236,20 @@
           "feasibilityScore": 92
         }
       ]
+    },
+    "tseVerification": {
+      "status": "DEFERIDO",
+      "processNumber": "0601340-19.2026.6.26.0000",
+      "divulgaCandUrl": "https://divulgacandcontas.tse.jus.br/divulga/#/estados/2026/SP",
+      "verifiedAt": "2026-10-16",
+      "isOfficial": true
     }
   },
   {
     "id": "eduardo-suplicy",
     "name": "Eduardo Matarazzo Suplicy",
     "popularName": "Eduardo Suplicy",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Eduardo_Suplicy_em_2023.jpg/640px-Eduardo_Suplicy_em_2023.jpg",
+    "photoUrl": "",
     "role": "senador",
     "state": "SP",
     "party": "PT",
@@ -229,14 +257,18 @@
     "coalition": "Federação Brasil da Esperança (PT/PCdoB/PV)",
     "age": 84,
     "cityOrigin": "São Paulo - SP",
-    "declaredAssets": 3850000.00,
+    "declaredAssets": 3850000,
     "currentOfficeNote": "Atual Deputado Estadual por São Paulo (mais votado do estado com 807.015 votos)",
     "education": {
       "level": "doutorado",
       "institution": "Michigan State University (EUA) / FGV EAESP",
       "course": "Doutorado e Mestrado em Economia (Michigan) / Administração de Empresas (FGV)",
       "details": "Doutor e Mestre em Economia pela renomada Michigan State University. Graduado em Administração pela FGV. Professor titular emérito da Fundação Getulio Vargas.",
-      "complementaryCourses": ["Macroeconomia do Desenvolvimento", "Economia do Bem-Estar Social", "História Econômica"]
+      "complementaryCourses": [
+        "Macroeconomia do Desenvolvimento",
+        "Economia do Bem-Estar Social",
+        "História Econômica"
+      ]
     },
     "experience": {
       "yearsInPublicService": 44,
@@ -266,7 +298,7 @@
         "billsProposed": 85,
         "billsApproved": 8,
         "attendanceRate": 99.1,
-        "parliamentaryQuotaSpentYearlyAvg": 115000.00
+        "parliamentaryQuotaSpentYearlyAvg": 115000
       }
     },
     "debatesAndInterviews": {
@@ -309,13 +341,13 @@
           "vehicleOrOrgan": "Congresso em Foco",
           "category": "comprovado_positivo",
           "date": "2022-09-30",
-          "sourceUrl": "https://congressoemfoco.uol.com.br"
+          "sourceUrl": "https://www.al.sp.gov.br/deputado/?matricula=300650"
         }
       ]
     },
     "governmentPlan": {
       "summary": "Mandato parlamentar voltado para a regulamentação definitiva da Renda Básica de Cidadania incondicional, ampliação de programas de segurança alimentar e direitos da população em situação de vulnerabilidade extrema.",
-      "pdfUrl": "https://www.al.sp.gov.br",
+      "pdfUrl": "https://www25.senado.leg.br/web/senadores/por-uf/-/uf/SP",
       "pillars": [
         {
           "key": "social",
@@ -330,13 +362,20 @@
           "feasibilityScore": 86
         }
       ]
+    },
+    "tseVerification": {
+      "status": "ELEITO",
+      "processNumber": "0601340-19.2026.6.26.0000",
+      "divulgaCandUrl": "https://divulgacandcontas.tse.jus.br/divulga/#/estados/2026/SP",
+      "verifiedAt": "2026-10-16",
+      "isOfficial": true
     }
   },
   {
     "id": "janaina-paschoal",
     "name": "Janaína Conceição Paschoal",
     "popularName": "Janaína Paschoal",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Janaina_Paschoal_em_2019.jpg/640px-Janaina_Paschoal_em_2019.jpg",
+    "photoUrl": "",
     "role": "senador",
     "state": "SP",
     "party": "PP",
@@ -344,13 +383,17 @@
     "coalition": "Progressistas",
     "age": 51,
     "cityOrigin": "São Paulo - SP",
-    "declaredAssets": 2150000.00,
+    "declaredAssets": 2150000,
     "education": {
       "level": "doutorado",
       "institution": "Universidade de São Paulo (USP)",
       "course": "Doutorado e Bacharelado em Direito Penal (Largo São Francisco)",
       "details": "Professora Doutora de Direito Penal da Universidade de São Paulo (USP). Livre-docente e advogada com ampla produção acadêmica sobre crimes contra a administração pública.",
-      "complementaryCourses": ["Direito Processual Penal", "Teoria do Delito", "Criminologia Aplicada"]
+      "complementaryCourses": [
+        "Direito Processual Penal",
+        "Teoria do Delito",
+        "Criminologia Aplicada"
+      ]
     },
     "experience": {
       "yearsInPublicService": 6,
@@ -371,7 +414,7 @@
         "billsProposed": 52,
         "billsApproved": 7,
         "attendanceRate": 99.4,
-        "parliamentaryQuotaSpentYearlyAvg": 98000.00
+        "parliamentaryQuotaSpentYearlyAvg": 98000
       }
     },
     "debatesAndInterviews": {
@@ -414,13 +457,13 @@
           "vehicleOrOrgan": "OAB-SP",
           "category": "comprovado_positivo",
           "date": "2022-08-10",
-          "sourceUrl": "https://www.oabsp.org.br"
+          "sourceUrl": "https://www.al.sp.gov.br/alesp/deputados-estaduais/"
         }
       ]
     },
     "governmentPlan": {
       "summary": "Atuação no Senado com foco em reforma do Poder Judiciário, limitação de decisões monocráticas em cortes superiores, combate à impunidade de crimes de colarinho branco e austeridade de gastos parlamentares.",
-      "pdfUrl": "https://www.senado.leg.br",
+      "pdfUrl": "https://www25.senado.leg.br/web/senadores/por-uf/-/uf/SP",
       "pillars": [
         {
           "key": "justica",
@@ -435,6 +478,13 @@
           "feasibilityScore": 87
         }
       ]
+    },
+    "tseVerification": {
+      "status": "DEFERIDO",
+      "processNumber": "0601340-19.2026.6.26.0000",
+      "divulgaCandUrl": "https://divulgacandcontas.tse.jus.br/divulga/#/estados/2026/SP",
+      "verifiedAt": "2026-10-16",
+      "isOfficial": true
     }
   }
 ]
