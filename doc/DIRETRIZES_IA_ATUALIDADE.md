@@ -1,42 +1,48 @@
-# Diretrizes Mandatórias para Agentes e Inteligência Artificial (Protocolo de Atualidade Eleitoral)
+# Diretrizes Mandatórias para Agentes e Inteligência Artificial (Protocolo de Atualidade & Validação TSE)
 
-> **Objetivo:** Garantir que todo agente ou modelo de IA que realize ingestão, edição ou pesquisa de dados nesta plataforma apresente informações **estritamente atualizadas no contexto do ciclo eleitoral corrente (2026)**, evitando anacronismos ou replicações de cenários de pleitos passados.
-
----
-
-## 1. O Princípio da Atualidade Política
-
-Nas eleições brasileiras, alianças partidárias, pré-candidaturas e composições ministeriais sofrem constantes alterações. Um político que foi adversário em uma eleição pode integrar o governo atual no ciclo seguinte.
-
-### Regra de Ouro (Caso Simone Tebet / Ministérios):
-> **Nunca cadastrar figuras públicas que atualmente ocupam ministérios ou cargos de confiança no Governo Federal como candidatos de oposição ao Presidente em exercício**, a menos que tenha ocorrido demissão/rompimento formal e lançamento explícito de pré-candidatura nos últimos 60 dias documentado na imprensa de grande circulação.
+> **Objetivo:** Garantir que todo agente ou modelo de IA que realize ingestão, edição ou pesquisa de dados nesta plataforma apresente informações **estritamente comprovadas, homologadas pelo TSE e atualizadas no ciclo eleitoral corrente (Outubro de 2026 - 2º Turno e Eleitos)**, impedindo anacronismos, candidaturas especulativas ou fontes não verificadas.
 
 ---
 
-## 2. Checklist Obrigatório para Agentes de IA
+## 1. Regras de Ouro Inegociáveis
 
-Antes de adicionar qualquer candidato a qualquer cargo, o agente deve obrigatoriamente responder às 4 perguntas:
+### Regra de Ouro 1: Vedação Absoluta de Governadores / Pré-Candidatos Especulativos na Presidência
+> **É terminantemente proibido listar governadores estaduais em exercício (como Ratinho Júnior no PR, Ronaldo Caiado em GO, Romeu Zema em MG ou Eduardo Leite no RS) como candidatos a Presidente da República (`role: "presidente"`).**
+> - Nenhum desses governadores registrou candidatura presidencial no DivulgaCandContas do TSE.
+> - Eles devem constar **exclusivamente** em suas respectivas esferas estaduais (`/eleitos` sob sua UF) ou na seção de **Apoios Políticos Declarados no 2º Turno** (`/segundo-turno`).
+> - Qualquer tentativa de inseri-los como `presidente` é bloqueada pela função `validateCandidacyRole()` em `src/services/sourceValidator.ts`.
 
-1. **Qual é o cargo público que essa pessoa ocupa HOJE?**
-   - Se for Ministro, Secretário de Estado ou líder de bancada da situação, isso deve constar expressamente no campo `currentOfficeNote`.
-2. **Existe pré-candidatura formal declarada para o pleito de 2026?**
-   - É proibido "presumir" candidatura com base na eleição de 2022. É necessário que o político ou seu partido tenham oficializado ou manifestado pré-candidatura para o ano corrente.
-3. **Qual é o status jurídico no TSE (Ficha Limpa)?**
-   - O político possui direitos políticos ativos? Houve decisão de inelegibilidade recente?
-4. **As fontes e notícias referenciadas são do ciclo atual?**
-   - É mandatório linkar matérias recentes dos veículos consolidados e dos portais de tribunais com URLs diretas (deep links).
+### Regra de Ouro 2: Pessoas Inelegíveis pelo TSE
+> **Políticos com inelegibilidade decretada por decisão colegiada ou plenária do TSE (ex: Jair Bolsonaro, inelegível até 2030 nos autos da AIJE 0600814-85.2022.6.00.0000) NÃO podem ser listados como candidatos ativos na aba de concorrentes.**
+> - Seu posicionamento político e apoio a candidatos no 2º turno deve ser registrado apenas na seção de articulação e apoios políticos, com nota expressa sobre sua condição jurídica.
 
----
-
-## 3. Fontes Recomendadas para Checagem de Atualidade
-
-- **TSE DivulgaCandContas / Dados Abertos:** Homologações de convenções e registros.
-- **Portais Governamentais:** Planalto, Ministérios, Diário Oficial da União (DOU).
-- **Cobertura Política Atual:** Sabatinas do Roda Viva (TV Cultura), CNN Brasil, GloboNews, Estadão Política, Folha Poder, G1 Política, UOL Notícias.
-- **Agências de Fact-Checking (IFCN):** Aos Fatos, Agência Lupa, Fato ou Fake, Estadão Verifica.
+### Regra de Ouro 3: Caso Ministérios / Situação (Ex: Simone Tebet / Fernando Haddad)
+> **Nunca cadastrar figuras públicas que ocupam ministérios no Governo Federal como adversários presidenciais do Presidente em exercício**, e sempre explicitar o cargo atual no campo `currentOfficeNote` (usando o caractere `•` e nunca a entidade HTML literal `&bull;`).
 
 ---
 
-## 4. Auditoria Contínua por Scripts
+## 2. Uso Obrigatório do Motor `src/services/sourceValidator.ts`
 
-O script `scripts/sync-tse.ts` deve ser executado periodicamente para validar a consistência dos dados frente ao calendário eleitoral e evitar cadastros obsoletos.
+Qualquer dado inserido manual ou automaticamente (via `scripts/scrape-news.ts`) deve passar pelas funções de validação:
+
+1. **`validateCandidacyRole(candidateName, claimedRole)`:**
+   - Verifica se o político possui registro homologado no **DivulgaCandContas/TSE** para aquele cargo específico.
+2. **`validateTseRegistration(regCode)`:**
+   - Toda pesquisa eleitoral exibida deve conter código de registro válido no formato `BR-XXXXX/2026` ou `UF-XXXXX/2026`, auditável no **PesqEle/TSE** (Resolução TSE nº 23.600/2019).
+3. **`validateSourceUrl(url)` & `validateNewsArticle(article)`:**
+   - Aceita apenas:
+     - **Órgãos Oficiais:** TSE, STF, STJ, TCU, IBGE, Câmara, Senado, DOU (`*.jus.br`, `*.gov.br`, `*.leg.br`).
+     - **Agências Certificadas IFCN:** Agência Lupa, Aos Fatos, Projeto Comprova, Estadão Verifica, G1 Fato ou Fake, UOL Confere.
+     - **Institutos Registrados no TSE:** Datafolha, Quaest, AtlasIntel, Ipec, Paraná Pesquisas, MDA.
+     - **Imprensa Profissional:** Agência Brasil (EBC), G1, Folha de S.Paulo, Estadão, Valor Econômico, CNN Brasil, BBC News Brasil, Poder360, Nexo Jornal.
+   - Rejeita blogs sem expediente editorial, redes sociais sem checagem e manchetes sensacionalistas (*clickbait*).
+
+---
+
+## 3. Checklist Antes de Qualquer Commit de Dados
+
+- [ ] Os candidatos listados em `src/data/federal/presidente.json` possuem registro real para Presidente no TSE (`tseVerification.status`)?
+- [ ] Nenhum governador estadual está misturado na lista de candidatos a Presidente?
+- [ ] Não há entidades HTML escapadas literalmente (ex: `&bull;`) dentro de strings JSON renderizadas pelo Vue?
+- [ ] Todas as pesquisas em `/segundo-turno` e `/pesquisas` exibem o número de registro `BR-XXXXX/2026`, margem de erro, amostra e contratante?
+- [ ] O comando `npm run build` (`vue-tsc && vite build`) executa com zero erros?
