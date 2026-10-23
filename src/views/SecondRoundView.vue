@@ -171,10 +171,12 @@ function formatNumber(num: number) {
             v-model="selectedInstitute"
             class="text-xs py-1.5 px-3 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 text-slate-800 dark:text-slate-200 focus:outline-hidden"
           >
-            <option value="todos">Todos os Institutos</option>
+            <option value="todos">Todos os Institutos (6)</option>
             <option value="Datafolha">Datafolha</option>
             <option value="Quaest">Quaest</option>
             <option value="CNT/MDA">CNT/MDA</option>
+            <option value="Paraná Pesquisas">Paraná Pesquisas</option>
+            <option value="AtlasIntel">AtlasIntel</option>
             <option value="Futura">Futura</option>
           </select>
         </div>

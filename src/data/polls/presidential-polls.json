@@ -1,5 +1,69 @@
 [
   {
+    "id": "poll-br-2026-parana-2t",
+    "tseRegistration": "BR-05441/2026",
+    "institute": "Paraná Pesquisas",
+    "fieldStartDate": "2026-10-18",
+    "fieldEndDate": "2026-10-21",
+    "releaseDate": "2026-10-22",
+    "sampleSize": 2020,
+    "marginOfError": 2.2,
+    "confidenceLevel": 95,
+    "contractor": "Instituto Paraná Pesquisas / BNews",
+    "methodology": "Presencial face a face",
+    "targetOffice": "presidente",
+    "state": "BR",
+    "sourceUrl": "https://pesqele.tse.jus.br/pesqele-publico/app/pesquisa/detalhar.xhtml?numIdentificacao=BR-05441%2F2026",
+    "scenarios": [
+      {
+        "id": "sc-br-parana-2t-validos",
+        "title": "2º Turno - Votos Válidos (Paraná Pesquisas)",
+        "type": "segundo_turno",
+        "results": [
+          {
+            "candidateId": "flavio-bolsonaro-presidente",
+            "candidateName": "Flávio Bolsonaro",
+            "party": "PL",
+            "percentage": 51.3,
+            "color": "#2563eb"
+          },
+          {
+            "candidateId": "lula-presidente",
+            "candidateName": "Lula",
+            "party": "PT",
+            "percentage": 48.7,
+            "color": "#dc2626"
+          }
+        ],
+        "blankNull": 0,
+        "undecided": 0
+      },
+      {
+        "id": "sc-br-parana-2t-total",
+        "title": "2º Turno - Votos Totais (Paraná Pesquisas)",
+        "type": "segundo_turno",
+        "results": [
+          {
+            "candidateId": "flavio-bolsonaro-presidente",
+            "candidateName": "Flávio Bolsonaro",
+            "party": "PL",
+            "percentage": 46.9,
+            "color": "#2563eb"
+          },
+          {
+            "candidateId": "lula-presidente",
+            "candidateName": "Lula",
+            "party": "PT",
+            "percentage": 44.5,
+            "color": "#dc2626"
+          }
+        ],
+        "blankNull": 5.8,
+        "undecided": 2.8
+      }
+    ]
+  },
+  {
     "id": "poll-br-2026-datafolha-2t",
     "tseRegistration": "BR-00466/2026",
     "institute": "Datafolha",
@@ -24,14 +88,14 @@
             "candidateId": "flavio-bolsonaro-presidente",
             "candidateName": "Flávio Bolsonaro",
             "party": "PL",
-            "percentage": 51.0,
+            "percentage": 51,
             "color": "#2563eb"
           },
           {
             "candidateId": "lula-presidente",
             "candidateName": "Lula",
             "party": "PT",
-            "percentage": 49.0,
+            "percentage": 49,
             "color": "#dc2626"
           }
         ],

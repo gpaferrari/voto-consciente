@@ -115,20 +115,20 @@ function navigateToRole(role: string) {
               Disputa do 2º Turno Presidencial: Flávio Bolsonaro vs Lula
             </h3>
             <p class="text-xs sm:text-sm text-slate-300 leading-relaxed">
-              Consulte as pesquisas eleitorais registradas no TSE em Outubro/2026 (Datafolha, Quaest, CNT/MDA, Futura), resultado oficial do 1º turno (47,03% x 45,16%), apoios de governadores e o comparativo direto de propostas.
+              Consulte as pesquisas eleitorais registradas no TSE em Outubro/2026 (Datafolha, Quaest, Paraná Pesquisas, AtlasIntel, CNT/MDA, Futura), resultado oficial do 1º turno (47,03% x 45,16%), apoios de governadores e o comparativo direto de propostas.
             </p>
           </div>
 
           <!-- Placar Rápido Agregado -->
           <div class="bg-slate-800/80 rounded-2xl p-3.5 border border-slate-700/80 space-y-2">
             <div class="flex items-center justify-between text-xs font-bold">
-              <span class="text-blue-400">Flávio Bolsonaro (PL): 50,9%</span>
+              <span class="text-blue-400">Flávio Bolsonaro (PL): 51,1%</span>
               <span class="text-slate-400 font-mono text-[10px]">Votos Válidos (Empate Técnico)</span>
-              <span class="text-rose-400">Lula (PT): 49,1%</span>
+              <span class="text-rose-400">Lula (PT): 48,9%</span>
             </div>
             <div class="w-full h-2.5 bg-slate-700 rounded-full overflow-hidden flex">
-              <div class="h-full bg-blue-600 transition-all" style="width: 50.9%"></div>
-              <div class="h-full bg-rose-600 transition-all" style="width: 49.1%"></div>
+              <div class="h-full bg-blue-600 transition-all" style="width: 51.1%"></div>
+              <div class="h-full bg-rose-600 transition-all" style="width: 48.9%"></div>
             </div>
           </div>
 

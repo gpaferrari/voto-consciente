@@ -133,8 +133,8 @@
       "contractor": "Folha de S.Paulo / TV Globo",
       "methodology": "Presencial face a face em municípios de todas as regiões",
       "validVotes": {
-        "flavio": 51.0,
-        "lula": 49.0
+        "flavio": 51,
+        "lula": 49
       },
       "totalVotes": {
         "flavio": 47,
@@ -248,7 +248,7 @@
         "flavio": 46.2,
         "lula": 45.3,
         "blankNull": 6.5,
-        "undecided": 2.0
+        "undecided": 2
       },
       "rejection": {
         "flavio": 46,
@@ -336,13 +336,121 @@
         }
       ],
       "sourceUrl": "https://pesqele.tse.jus.br/pesqele-publico/app/pesquisa/detalhar.xhtml?numIdentificacao=BR-09302%2F2026"
+    },
+    {
+      "id": "poll-2t-parana-out-22",
+      "institute": "Paraná Pesquisas",
+      "tseRegistration": "BR-05441/2026",
+      "releaseDate": "2026-10-22",
+      "fieldStartDate": "2026-10-18",
+      "fieldEndDate": "2026-10-21",
+      "sampleSize": 2020,
+      "marginOfError": 2.2,
+      "contractor": "Instituto Paraná Pesquisas / BNews",
+      "methodology": "Presencial face a face com eleitores em 164 municípios",
+      "validVotes": {
+        "flavio": 51.3,
+        "lula": 48.7
+      },
+      "totalVotes": {
+        "flavio": 46.9,
+        "lula": 44.5,
+        "blankNull": 5.8,
+        "undecided": 2.8
+      },
+      "rejection": {
+        "flavio": 45.2,
+        "lula": 47.8
+      },
+      "regionalBreakdown": [
+        {
+          "region": "Nordeste",
+          "flavio": 34.2,
+          "lula": 65.8
+        },
+        {
+          "region": "Sudeste",
+          "flavio": 54.6,
+          "lula": 45.4
+        },
+        {
+          "region": "Sul",
+          "flavio": 61.8,
+          "lula": 38.2
+        },
+        {
+          "region": "Norte",
+          "flavio": 52.1,
+          "lula": 47.9
+        },
+        {
+          "region": "Centro-Oeste",
+          "flavio": 60.7,
+          "lula": 39.3
+        }
+      ],
+      "sourceUrl": "https://pesqele.tse.jus.br/pesqele-publico/app/pesquisa/detalhar.xhtml?numIdentificacao=BR-05441%2F2026"
+    },
+    {
+      "id": "poll-2t-atlas-out-21",
+      "institute": "AtlasIntel",
+      "tseRegistration": "BR-07981/2026",
+      "releaseDate": "2026-10-21",
+      "fieldStartDate": "2026-10-17",
+      "fieldEndDate": "2026-10-20",
+      "sampleSize": 4500,
+      "marginOfError": 1.5,
+      "contractor": "AtlasIntel / Bloomberg",
+      "methodology": "Recrutamento Digital Aleatório Probabilístico (Atlas RDR)",
+      "validVotes": {
+        "flavio": 51.8,
+        "lula": 48.2
+      },
+      "totalVotes": {
+        "flavio": 49.6,
+        "lula": 46.1,
+        "blankNull": 2.8,
+        "undecided": 1.5
+      },
+      "rejection": {
+        "flavio": 46.1,
+        "lula": 47.9
+      },
+      "regionalBreakdown": [
+        {
+          "region": "Nordeste",
+          "flavio": 35,
+          "lula": 65
+        },
+        {
+          "region": "Sudeste",
+          "flavio": 55.2,
+          "lula": 44.8
+        },
+        {
+          "region": "Sul",
+          "flavio": 62.5,
+          "lula": 37.5
+        },
+        {
+          "region": "Norte",
+          "flavio": 51.8,
+          "lula": 48.2
+        },
+        {
+          "region": "Centro-Oeste",
+          "flavio": 61.2,
+          "lula": 38.8
+        }
+      ],
+      "sourceUrl": "https://pesqele.tse.jus.br/pesqele-publico/app/pesquisa/detalhar.xhtml?numIdentificacao=BR-07981%2F2026"
     }
   ],
   "aggregateAverage": {
-    "flavioValid": 50.85,
-    "lulaValid": 49.15,
+    "flavioValid": 51.08,
+    "lulaValid": 48.92,
     "situation": "Empate Técnico dentro da margem de erro agregada (± 2,0 p.p.)",
-    "updatedAt": "2026-10-16T16:00:00Z"
+    "updatedAt": "2026-10-23T09:00:00Z"
   },
   "proposalsHeadToHead": [
     {
