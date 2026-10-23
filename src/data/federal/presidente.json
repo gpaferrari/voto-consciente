@@ -219,7 +219,9 @@
           "details": "Projetos aprovados na Comissão de Segurança Pública do Senado seguem em tramitação conclusiva na Câmara dos Deputados.",
           "sourceUrl": "https://www25.senado.leg.br/web/atividade/materias"
         }
-      ]
+      ],
+      "mandateScore": 86,
+      "auditorSynthesis": "Mandato parlamentar caracterizado por forte atuação na Comissão de Segurança Pública do Senado, relatoria e aprovação da Lei 14.843/2024 (fim das saídas temporárias) e defesa consistente de pautas de responsabilidade fiscal, autonomia do Banco Central e desburocratização econômica."
     },
     "currentOfficeNote": "Senador da República (RJ) • NO 2º TURNO PRESIDENCIAL 2026 (1º colocado no 1º turno com 47,03% — 56.104.503 votos)",
     "tseVerification": {
@@ -471,51 +473,147 @@
           {
             "year": 2022,
             "value": 3,
-            "benchmark": 2.5
+            "benchmark": 2.5,
+            "label": "Base de comparação"
           },
           {
             "year": 2023,
             "value": 2.9,
-            "benchmark": 0.8
+            "benchmark": 0.8,
+            "label": "Acima da projeção Focus (0,8%)"
           },
           {
             "year": 2024,
             "value": 3.4,
-            "benchmark": 1.8
-          }
-        ],
-        "unemploymentRate": [
-          {
-            "period": "Dez 2022",
-            "value": 7.9
+            "benchmark": 1.8,
+            "label": "Expansão indústria e serviços"
           },
           {
-            "period": "Dez 2023",
-            "value": 7.4
-          },
-          {
-            "period": "Set 2025",
-            "value": 6.1
+            "year": 2025,
+            "value": 2.4,
+            "benchmark": 2,
+            "label": "Consolidado IBGE"
           }
         ],
-        "inflationRate": [
+        "inflationIpca": [
           {
             "year": 2022,
             "value": 5.79,
-            "target": 3.5
+            "benchmark": 3.5,
+            "label": "IPCA anual IBGE"
           },
           {
             "year": 2023,
             "value": 4.62,
-            "target": 3.25
+            "benchmark": 3.25,
+            "label": "Dentro do teto da meta (4,75%)"
           },
           {
             "year": 2024,
             "value": 4.83,
-            "target": 3
+            "benchmark": 3,
+            "label": "Pressão de alimentos e câmbio"
+          },
+          {
+            "year": 2025,
+            "value": 4.25,
+            "benchmark": 3,
+            "label": "Convergência gradual"
           }
         ],
-        "minimumWageRealGain": 5.8
+        "unemploymentRate": [
+          {
+            "year": 2022,
+            "value": 7.9,
+            "label": "PNAD Contínua IBGE"
+          },
+          {
+            "year": 2023,
+            "value": 7.4,
+            "label": "Queda consistente"
+          },
+          {
+            "year": 2024,
+            "value": 6.2,
+            "label": "Mínima histórica"
+          },
+          {
+            "year": 2025,
+            "value": 6.1,
+            "label": "Pleno emprego técnico"
+          }
+        ],
+        "publicDebtGdpRatio": [
+          {
+            "year": 2022,
+            "value": 71.7,
+            "label": "DBGG / PIB (Bacen)"
+          },
+          {
+            "year": 2023,
+            "value": 74.4,
+            "label": "DBGG / PIB (Bacen)"
+          },
+          {
+            "year": 2024,
+            "value": 76.5,
+            "label": "Impacto juros Selic"
+          },
+          {
+            "year": 2025,
+            "value": 77.8,
+            "label": "Ponto de atenção fiscal"
+          }
+        ],
+        "primaryFiscalBalance": [
+          {
+            "year": 2022,
+            "value": 54.1,
+            "label": "Superávit primário"
+          },
+          {
+            "year": 2023,
+            "value": -230.5,
+            "label": "Inclui pagamento de precatórios represados"
+          },
+          {
+            "year": 2024,
+            "value": -43,
+            "label": "Resultado dentro da banda do Arcabouço"
+          },
+          {
+            "year": 2025,
+            "value": -28.4,
+            "label": "Trajetória de ajuste gradual"
+          }
+        ]
+      },
+      "mandateScore": 81,
+      "auditorSynthesis": "O 3º mandato presidencial apresenta desempenho macroeconômico positivo no crescimento do PIB (+2,9% em 2023 e +3,4% em 2024), redução da taxa de desocupação às mínimas da série histórica do IBGE (6,1%) e aprovação da Reforma Tributária (EC 132/2023). Como ponto central de atenção auditada pelo Tesouro Nacional e TCU, destaca-se o crescimento das despesas obrigatórias e da relação Dívida Bruta/PIB.",
+      "socialAndEducationIndicators": {
+        "idebElementaryEarlyYears": [
+          {
+            "year": 2021,
+            "value": 5.8
+          },
+          {
+            "year": 2023,
+            "value": 6,
+            "benchmark": 6
+          }
+        ],
+        "idebHighSchool": [
+          {
+            "year": 2021,
+            "value": 4.2
+          },
+          {
+            "year": 2023,
+            "value": 4.3
+          }
+        ],
+        "socialProgramsBudgetBrlBillions": 168.6,
+        "familiesAssistedMillions": 20.8
       }
     },
     "currentOfficeNote": "Presidente da República (Mandato Atual) • NO 2º TURNO PRESIDENCIAL 2026 (2º colocado no 1º turno com 45,16% — 53.879.538 votos)",

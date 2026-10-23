@@ -293,8 +293,9 @@ function handleMouseLeave() {
             @mouseenter="handleMouseEnter(item, $event)"
             @mouseleave="handleMouseLeave"
           >
-            <button
-              @click="handleNavigate(item.path)"
+            <RouterLink
+              :to="item.path"
+              @click="emit('update:isMobileOpen', false)"
               :class="[
                 'w-full flex items-center gap-3 rounded-xl transition-all duration-150 text-left cursor-pointer group',
                 isCollapsed && !isMobileOpen ? 'justify-center p-2.5' : 'px-3 py-2 text-xs font-semibold',
@@ -339,7 +340,7 @@ function handleMouseLeave() {
                   {{ item.badge }}
                 </span>
               </div>
-            </button>
+            </RouterLink>
           </div>
         </div>
       </nav>

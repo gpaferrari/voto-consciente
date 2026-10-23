@@ -33,11 +33,7 @@ const isTrustModalOpen = ref(false);
       <!-- Main Content Column -->
       <div class="flex-1 flex flex-col min-w-0 w-full overflow-y-auto">
         <main class="flex-1 w-full min-w-0">
-          <router-view v-slot="{ Component }">
-            <transition name="fade" mode="out-in">
-              <component :is="Component" />
-            </transition>
-          </router-view>
+          <router-view :key="$route.fullPath" />
         </main>
 
         <Footer />
@@ -59,20 +55,3 @@ const isTrustModalOpen = ref(false);
     <DisclaimerModal />
   </div>
 </template>
-
-<style>
-.fade-enter-active,
-.fade-leave-active {
-  transition: opacity 0.15s ease, transform 0.15s ease;
-}
-
-.fade-enter-from {
-  opacity: 0;
-  transform: translateY(4px);
-}
-
-.fade-leave-to {
-  opacity: 0;
-  transform: translateY(-4px);
-}
-</style>

@@ -78,15 +78,17 @@ const width = 560;
 const height = 240;
 const padding = { top: 30, right: 35, bottom: 40, left: 50 };
 
-const currentPoints = computed(() => activeConfig.value.data);
+const currentPoints = computed(() => activeConfig.value.data || []);
 
 const minY = computed(() => {
+  if (!currentPoints.value.length) return 0;
   const vals = currentPoints.value.map(d => d.value);
   const min = Math.min(...vals);
   return min < 0 ? Math.floor(min * 1.15) : 0;
 });
 
 const maxY = computed(() => {
+  if (!currentPoints.value.length) return 10;
   const vals = currentPoints.value.map(d => d.value);
   const max = Math.max(...vals);
   return Math.ceil(max * 1.15);
