@@ -40,12 +40,13 @@ Todas as informações cadastradas ou ingeridas automaticamente passam pelo moto
 ### C. Pesquisas Eleitorais e Segundo Turno
 * **Origem Primária:** Sistema **PesqEle** do Tribunal Superior Eleitoral (Resolução TSE nº 23.600/2019 e Art. 33 da Lei 9.504/1997).
 * **Parâmetros Obrigatórios para Exibição:**
-  1. Número de Registro Oficial (ex: `BR-00466/2026`, `BR-08729/2026`, `BR-09114/2026`, `BR-09302/2026`).
+  1. Número de Registro Oficial (ex: `BR-07943/2026` Datafolha, `BR-02883/2026` Quaest, `BR-06564/2026` Paraná Pesquisas, `BR-06165/2026` AtlasIntel, `BR-08005/2026` Real Time Big Data, além de `BR-00466/2026` e `BR-08729/2026`).
   2. Período de realização do trabalho de campo (datas de início e término).
   3. Tamanho da amostra de entrevistados e metodologia de amostragem.
   4. Margem de erro estimada e nível de confiança estatístico (95%).
   5. Nome da entidade contratante e de quem realizou a pesquisa.
   6. Link direto para a ficha de detalhamento da pesquisa no portal do TSE.
+  7. Separação clara entre cenários de **1º Turno (`scenarios`)** e cenários de **2º Turno (`secondRoundScenarios`)** no Agregador (`/pesquisas`) e no Painel de 2º Turno (`/segundo-turno`).
 
 ### D. Candidatos Eleitos em Todas as 27 UFs (`src/data/elected-2026.json`)
 * **Origem Primária:** Totalização Oficial dos Resultados do 1º Turno das Eleições 2026 proclamada pelo TSE em 05/10/2026 e Agência Senado.
@@ -57,7 +58,9 @@ Todas as informações cadastradas ou ingeridas automaticamente passam pelo moto
   - Propostas estruturadas em compromissos programáticos por área (Saúde, Educação, Segurança, Infraestrutura, etc.).
 
 ### E. Notícias Monitoradas em Tempo Real (`src/data/live-news.json`)
-* **Origem Primária:** Pipeline automatizado [`scripts/scrape-news.ts`](../scripts/scrape-news.ts) consultando feeds RSS de veículos homologados.
+* **Origem Primária:** Pipeline automatizado [`scripts/scrape-news.ts`](../scripts/scrape-news.ts) executado a cada 6 horas via GitHub Actions (`.github/workflows/update-news.yml`), consultando:
+  - Feeds RSS geolocalizados do Google News Brasil por candidato e por pesquisas de 2º turno;
+  - Feeds institucionais diretos da **Agência Senado**, **Agência Câmara** e **Agência Brasil (EBC)**.
 * **Filtros Aplicados Antes da Gravação:**
   - **Bloqueio de Clickbait:** Rejeição de manchetes sensacionalistas contendo gatilhos como *"urgente veja antes que apaguem"*, *"bomba secreta"*, *"escândalo revelado"*.
   - **Whitelist de Veículos:** Rejeição automática de portais sem expediente editorial ou não constantes na lista de veículos homologados.

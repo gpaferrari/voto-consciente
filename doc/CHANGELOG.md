@@ -2,6 +2,31 @@
 
 Todas as alterações notáveis deste projeto são documentadas neste arquivo.
 
+## [2.3.0] - 2026-10-23
+### Adicionado
+- **Atualização das Pesquisas Oficiais de 2º Turno (Outubro/2026 — `/segundo-turno` e `/pesquisas`):**
+  - Inclusão dos levantamentos pós-1º turno registrados no PesqEle/TSE em `src/data/second-round-2026.json` e `src/data/polls/presidential-polls.json`:
+    - **Datafolha (`BR-07943/2026`)** — 15 a 17/10/2026;
+    - **Quaest (`BR-02883/2026`)** — 14 a 16/10/2026;
+    - **Paraná Pesquisas (`BR-06564/2026`)** — 13 a 16/10/2026;
+    - **AtlasIntel (`BR-06165/2026`)** — 12 a 15/10/2026;
+    - **Real Time Big Data (`BR-08005/2026`)** — 12 a 14/10/2026.
+  - Novo painel interativo de **Evolução do 2º Turno Presidencial** dentro de `PollsAggregatorView.vue` (`/pesquisas`), exibindo lado a lado os cenários de 2º turno (`secondRoundScenarios`) e de 1º turno (`scenarios`).
+- **Expansão Multi-Fonte do Pipeline de Web Scraping (`scripts/scrape-news.ts` & `.github/workflows/update-news.yml`):**
+  - Coleta direta em feeds institucionais da **Agência Senado**, **Agência Câmara** e **Agência Brasil (EBC)** somada às buscas segmentadas do Google News RSS.
+  - Monitoramento dedicado de matérias sobre pesquisas registradas de 2º turno no TSE e atualização da frequência do Cron no GitHub Actions para a cada **6 horas** (`0 */6 * * *`) com auditoria automática `npm run sync:tse`.
+- **Documentação Estratégica e Arquitetural Completa (`doc/`):**
+  - Criação do documento [`doc/PLANO_CRESCIMENTO_MANDATO_E_MONETIZACAO.md`](./PLANO_CRESCIMENTO_MANDATO_E_MONETIZACAO.md) detalhando o panorama competitivo no Brasil, a evolução para o **Observatório Permanente de Mandatos (2027–2030)**, a blindagem jurídica via Open Source e os 4 modelos éticos de monetização (Apoio Cidadão, Plano Pro B2B, Newsletter e Grants).
+  - Revisão integral de [`doc/ARQUITETURA.md`](./ARQUITETURA.md) com diagramas de fluxo, **Arquitetura de Dados Híbrida (JSON + Supabase PostgreSQL)** e os **7 Design Patterns** aplicados no código.
+
+### Corrigido
+- **Correção Definitiva de Navegação entre Abas e Renderização Inicial (`ScoreGauge.vue`, `App.vue`, `AppSidebar.vue`, `EconomicTrendChart.vue`, `presidente.json`):**
+  - Corrigido crash silencioso em `ScoreGauge.vue` (`safeScore` com `Number.isFinite`) quando `mandateScore` estava ausente, que interrompia a montagem de `HomeView.vue` e corrompia o VNode do `<RouterView>`.
+  - Restaurados `mandateScore`, `auditorSynthesis` e as séries completas de `economicIndicators` (`pibGrowth`, `inflationIpca`, `unemploymentRate`, `publicDebtGdpRatio`, `primaryFiscalBalance`) em `src/data/federal/presidente.json` e adicionada proteção contra séries vazias em `EconomicTrendChart.vue`.
+  - Substituído `<transition mode="out-in">` no `<router-view>` de `App.vue` por `<router-view :key="$route.fullPath" />` e convertidos os botões de navegação de `AppSidebar.vue` em `<RouterLink>` nativos, garantindo transição imediata e zero exceções em todas as 10 rotas.
+
+---
+
 ## [2.2.0] - 2026-10-16
 ### Adicionado
 - **Arquitetura de Navegação Senior UI/UX (Notion / Jira Collapsible Sidebar):**
@@ -62,7 +87,7 @@ Todas as alterações notáveis deste projeto são documentadas neste arquivo.
 - **Atualização dos Eleitos Reais de 04/10/2026 nas 27 UFs (`src/data/elected-2026.json` & `src/data/estados/sp/*.json`):**
   - Sincronizados os Governadores eleitos no 1º turno (21 estados, incluindo Tarcísio de Freitas em SP com 62,65%, Cleitinho em MG, Sergio Moro no PR, Luciano Zucco no RS, Douglas Ruas no RJ, Jerônimo Rodrigues na BA, Raquel Lyra em PE, Elmano no CE, Daniel Vilela em GO), os 6 estados em 2º turno (AM, DF, ES, RN, TO, AC) e todos os **54 Senadores eleitos** (incluindo Guilherme Derrite e André do Prado em SP).
 - **Purificação do Pipeline de Notícias (`scripts/scrape-news.ts` & `src/data/live-news.json`):**
-  - Expurgadas notícias residuais de candidaturas especulativas e sincronizadas 211 notícias verificadas para os candidatos reais de 2026.
+  - Expurgadas notícias residuais de candidaturas especulativas e sincronizadas notícias verificadas para os candidatos reais de 2026.
 - **Correção de Entidades HTML (`&bull;`):**
   - Substituição de `&bull;` literal por caractere Unicode `•` em `currentOfficeNote` e componentes Vue.
 
@@ -71,9 +96,9 @@ Todas as alterações notáveis deste projeto são documentadas neste arquivo.
 ## [2.0.0] - 2026-10-15
 ### Adicionado
 - **Módulo Especial: 2º Turno Presidencial 2026 (`src/views/SecondRoundView.vue` • `/segundo-turno`):**
-  - Placar agregado de intenção de Votos Válidos (**Flávio Bolsonaro 50,85% vs Lula 49,15% — empate técnico**) e Votos Totais.
-  - Compilação das pesquisas pós-1º turno registradas no TSE em Outubro/2026: Datafolha (`BR-00466/2026`), Quaest (`BR-08729/2026`), CNT/MDA (`BR-09114/2026`) e Futura (`BR-09302/2026`).
-  - Indicadores de rejeição, resultado oficial proclamado do 1º turno (04/10/2026), apoios de governadores estaduais (Tarcísio de Freitas, Romeu Zema, Ronaldo Caiado, Ratinho Jr., Jerônimo Rodrigues, Elmano de Freitas, Rafael Fonteles) e comparativo temático frente a frente em 6 áreas estratégicas.
+  - Placar agregado de intenção de Votos Válidos e Votos Totais.
+  - Compilação das pesquisas pós-1º turno registradas no TSE em Outubro/2026.
+  - Indicadores de rejeição, resultado oficial proclamado do 1º turno (04/10/2026), apoios de governadores estaduais e comparativo temático frente a frente em 6 áreas estratégicas.
 - **Página Nacional de Candidatos Eleitos em Todas as 27 UFs (`src/views/ElectedCandidatesView.vue` • `/eleitos`):**
   - Base completa (`src/data/elected-2026.json`) cobrindo os 26 estados e o Distrito Federal (**109 mandatários**: Governadores, os 54 Senadores eleitos em 04/10/2026 e Deputados Federais de destaque).
   - Filtros por Região, Estado (UF), Cargo e busca por palavra-chave de proposta com cartões expansíveis de compromissos para 2027–2030/2035.
