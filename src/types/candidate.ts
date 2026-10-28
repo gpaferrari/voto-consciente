@@ -132,7 +132,7 @@ export interface Candidate {
   };
   mandateEvaluation?: MandateEvaluation;
   tseVerification?: {
-    status: 'DEFERIDO' | '2º TURNO' | 'ELEITO' | 'NÃO ELEITO';
+    status: string;
     processNumber: string;
     divulgaCandUrl: string;
     verifiedAt: string;

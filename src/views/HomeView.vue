@@ -53,15 +53,15 @@ function navigateToRole(role: string) {
       <div class="max-w-4xl mx-auto text-center space-y-4">
         <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-50 dark:bg-emerald-950/60 border border-emerald-200 dark:border-emerald-800/80 text-emerald-700 dark:text-emerald-300 text-xs font-bold tracking-wide">
           <Sparkles class="w-3.5 h-3.5 text-emerald-500 animate-pulse" />
-          <span>ELEIÇÕES CONSCIENTES & TRANSPARENTES 2026</span>
+          <span>ELEIÇÕES 2026 CONSOLIDADAS & AUDITORIA DE MANDATOS (2027–2030)</span>
         </div>
 
         <h1 class="text-2xl sm:text-4xl md:text-5xl font-black tracking-tight text-slate-900 dark:text-white leading-[1.18]">
-          Decida seu voto com base em <span class="bg-linear-to-r from-emerald-600 via-teal-600 to-sky-600 bg-clip-text text-transparent">Fatos Reais</span> e Dados Oficiais.
+          Acompanhe os Eleitos e Audite com <span class="bg-linear-to-r from-emerald-600 via-teal-600 to-sky-600 bg-clip-text text-transparent">Fatos Reais</span> e Dados Oficiais.
         </h1>
 
         <p class="text-sm sm:text-base text-slate-600 dark:text-slate-300 max-w-2xl mx-auto leading-relaxed">
-          Sem polarização cega, sem boatos de redes sociais. Uma plataforma cívica apartidária que audita escolaridade, experiência pública, sabatinas, planos de governo registrados no TSE e metas do mandato atual.
+          Sem polarização cega, sem boatos de redes sociais. Uma plataforma cívica apartidária que consolida os resultados oficiais do TSE (1º e 2º turnos de 2026) e audita escolaridade, experiência pública, planos de governo e metas de mandato.
         </p>
 
         <!-- Ações do Hero -->
@@ -70,8 +70,8 @@ function navigateToRole(role: string) {
             @click="router.push('/segundo-turno')"
             class="px-5 py-3 rounded-2xl bg-rose-600 hover:bg-rose-700 text-white font-extrabold text-xs sm:text-sm shadow-md shadow-rose-600/20 hover:shadow-rose-600/30 transition-all flex items-center gap-2 group cursor-pointer"
           >
-            <span class="w-2 h-2 rounded-full bg-white animate-pulse"></span>
-            <span>2º Turno Presidencial 2026</span>
+            <CheckCircle2 class="w-4 h-4" />
+            <span>Resultado Oficial 2º Turno (TSE)</span>
             <ArrowRight class="w-4 h-4 group-hover:translate-x-1 transition-transform" />
           </button>
 
@@ -79,7 +79,7 @@ function navigateToRole(role: string) {
             @click="router.push('/eleitos')"
             class="px-5 py-3 rounded-2xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs sm:text-sm shadow-md shadow-emerald-600/20 hover:shadow-emerald-600/30 transition-all flex items-center gap-2 group cursor-pointer"
           >
-            <CheckCircle2 class="w-4 h-4" />
+            <Award class="w-4 h-4" />
             <span>Eleitos 2026 & Propostas (27 UFs)</span>
           </button>
 
@@ -88,7 +88,7 @@ function navigateToRole(role: string) {
             class="px-4 py-3 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 hover:bg-slate-50 dark:hover:bg-slate-800 text-slate-800 dark:text-slate-200 font-bold text-xs sm:text-sm shadow-xs transition-all flex items-center gap-2 cursor-pointer"
           >
             <BarChart3 class="w-4 h-4 text-blue-500" />
-            <span>Pesquisas TSE</span>
+            <span>Histórico de Pesquisas TSE</span>
           </button>
         </div>
       </div>
@@ -97,43 +97,43 @@ function navigateToRole(role: string) {
     <!-- Destaques Especiais das Eleições 2026 (2º Turno & Eleitos) -->
     <section class="w-full">
       <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
-        <!-- Card 1: 2º Turno Presidencial -->
+        <!-- Card 1: Resultado Oficial do 2º Turno Presidencial -->
         <div
           @click="router.push('/segundo-turno')"
-          class="relative overflow-hidden bg-linear-to-br from-slate-900 to-slate-950 text-white border border-slate-800 rounded-3xl p-6 sm:p-7 hover:border-rose-500/50 transition-all cursor-pointer group shadow-lg flex flex-col justify-between space-y-4"
+          class="relative overflow-hidden bg-linear-to-br from-slate-900 to-slate-950 text-white border border-slate-800 rounded-3xl p-6 sm:p-7 hover:border-emerald-500/50 transition-all cursor-pointer group shadow-lg flex flex-col justify-between space-y-4"
         >
           <div class="space-y-2.5">
             <div class="flex items-center justify-between">
-              <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[11px] font-bold bg-rose-500/20 text-rose-300 border border-rose-500/30">
-                <span class="w-2 h-2 rounded-full bg-rose-500 animate-pulse"></span>
-                VOTAÇÃO 25 DE OUTUBRO
+              <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[11px] font-bold bg-emerald-500/20 text-emerald-300 border border-emerald-500/30">
+                <CheckCircle2 class="w-3.5 h-3.5 text-emerald-400" />
+                RESULTADO OFICIAL 2º TURNO (25/10)
               </span>
-              <span class="text-xs text-slate-400 font-mono">TSE Oficial</span>
+              <span class="text-xs text-slate-400 font-mono">100% Apurado TSE</span>
             </div>
 
-            <h3 class="text-xl sm:text-2xl font-black text-white group-hover:text-rose-400 transition-colors">
-              Disputa do 2º Turno Presidencial: Flávio Bolsonaro vs Lula
+            <h3 class="text-xl sm:text-2xl font-black text-white group-hover:text-emerald-400 transition-colors">
+              2º Turno Presidencial: Lula Reeleito (51,79% x 48,21%)
             </h3>
             <p class="text-xs sm:text-sm text-slate-300 leading-relaxed">
-              Consulte as pesquisas eleitorais registradas no TSE em Outubro/2026 (Datafolha, Quaest, Paraná Pesquisas, AtlasIntel, CNT/MDA, Futura), resultado oficial do 1º turno (47,03% x 45,16%), apoios de governadores e o comparativo direto de propostas.
+              Com 100% das urnas totalizadas pelo TSE em 25/10/2026, Luiz Inácio Lula da Silva (PT) recebeu 64.256.232 votos (51,79%) contra 59.826.041 votos (48,21%) de Flávio Bolsonaro (PL). Confira os números completos e as propostas para 2027–2030.
             </p>
           </div>
 
-          <!-- Placar Rápido Agregado -->
+          <!-- Placar Oficial das Urnas -->
           <div class="bg-slate-800/80 rounded-2xl p-3.5 border border-slate-700/80 space-y-2">
             <div class="flex items-center justify-between text-xs font-bold">
-              <span class="text-blue-400">Flávio Bolsonaro (PL): 51,1%</span>
-              <span class="text-slate-400 font-mono text-[10px]">Votos Válidos (Empate Técnico)</span>
-              <span class="text-rose-400">Lula (PT): 48,9%</span>
+              <span class="text-rose-400">Lula (PT - Eleito): 51,79%</span>
+              <span class="text-emerald-400 font-mono text-[10px]">124,08 mi votos válidos</span>
+              <span class="text-blue-400">Flávio Bolsonaro (PL): 48,21%</span>
             </div>
             <div class="w-full h-2.5 bg-slate-700 rounded-full overflow-hidden flex">
-              <div class="h-full bg-blue-600 transition-all" style="width: 51.1%"></div>
-              <div class="h-full bg-rose-600 transition-all" style="width: 48.9%"></div>
+              <div class="h-full bg-rose-600 transition-all" style="width: 51.79%"></div>
+              <div class="h-full bg-blue-600 transition-all" style="width: 48.21%"></div>
             </div>
           </div>
 
-          <div class="flex items-center justify-between text-xs font-bold text-rose-400 group-hover:translate-x-1 transition-transform">
-            <span>Acessar Painel Completo do 2º Turno</span>
+          <div class="flex items-center justify-between text-xs font-bold text-emerald-400 group-hover:translate-x-1 transition-transform">
+            <span>Acessar Resultado Detalhado & Metas 2027–2030</span>
             <ArrowRight class="w-4 h-4" />
           </div>
         </div>
@@ -147,22 +147,22 @@ function navigateToRole(role: string) {
             <div class="flex items-center justify-between">
               <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[11px] font-bold bg-emerald-50 dark:bg-emerald-950/40 text-emerald-700 dark:text-emerald-300 border border-emerald-200 dark:border-emerald-800">
                 <CheckCircle2 class="w-3.5 h-3.5 text-emerald-500" />
-                RESULTADO DO 1º TURNO PROCLAMADO
+                1º E 2º TURNOS CONSOLIDADOS PELO TSE
               </span>
-              <span class="text-xs text-slate-400 font-mono">27 UFs</span>
+              <span class="text-xs text-slate-400 font-mono">27 UFs (100%)</span>
             </div>
 
             <h3 class="text-xl sm:text-2xl font-black text-slate-900 dark:text-white group-hover:text-emerald-600 dark:group-hover:text-emerald-400 transition-colors">
               Candidatos Eleitos 2026 & Suas Propostas
             </h3>
             <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
-              Consulte governadores eleitos, novos senadores (2 vagas por estado renovadas) e bancadas federais de todos os 26 estados e DF, com suas metas e compromissos registrados para 2027-2030.
+              Consulte todos os 27 Governadores eleitos (21 no 1º turno e 6 no 2º turno), os 54 novos Senadores e bancadas federais, com seus compromissos registrados para o mandato 2027–2030.
             </p>
           </div>
 
           <!-- Destaque Rápido de Estados -->
           <div class="bg-slate-50 dark:bg-slate-800/60 rounded-2xl p-3.5 border border-slate-100 dark:border-slate-800 text-xs space-y-1.5">
-            <span class="text-[10px] font-bold uppercase tracking-wider text-slate-400">Cobertura Nacional Completa:</span>
+            <span class="text-[10px] font-bold uppercase tracking-wider text-slate-400">Cobertura Nacional Completa (109 Mandatários):</span>
             <div class="flex flex-wrap gap-1 text-[11px] font-mono font-bold text-slate-600 dark:text-slate-300">
               <span class="px-1.5 py-0.5 rounded-sm bg-white dark:bg-slate-700 border border-slate-200 dark:border-slate-600">SP</span>
               <span class="px-1.5 py-0.5 rounded-sm bg-white dark:bg-slate-700 border border-slate-200 dark:border-slate-600">RJ</span>
@@ -170,7 +170,7 @@ function navigateToRole(role: string) {
               <span class="px-1.5 py-0.5 rounded-sm bg-white dark:bg-slate-700 border border-slate-200 dark:border-slate-600">BA</span>
               <span class="px-1.5 py-0.5 rounded-sm bg-white dark:bg-slate-700 border border-slate-200 dark:border-slate-600">PR</span>
               <span class="px-1.5 py-0.5 rounded-sm bg-white dark:bg-slate-700 border border-slate-200 dark:border-slate-600">RS</span>
-              <span class="px-1.5 py-0.5 rounded-sm bg-white dark:bg-slate-700 border border-slate-200 dark:border-slate-600">+ 21 Estados</span>
+              <span class="px-1.5 py-0.5 rounded-sm bg-white dark:bg-slate-700 border border-slate-200 dark:border-slate-600">+ 21 UFs</span>
             </div>
           </div>
 
@@ -343,10 +343,10 @@ function navigateToRole(role: string) {
               </span>
             </div>
             <h3 class="text-xl sm:text-2xl font-black">
-              Como foi o Mandato do Presidente Atual?
+              Como foi o Mandato 2023–2026 e o que esperar para 2027–2030?
             </h3>
             <p class="text-xs sm:text-sm text-slate-300 leading-relaxed">
-              Examinamos se o presidente cumpriu as promessas da campanha anterior, se a economia cresceu (PIB), o comportamento da inflação (IPCA), os gastos públicos e os programas sociais.
+              Examinamos o cumprimento das promessas do mandato presidencial, a trajetória do PIB, o comportamento da inflação (IPCA), a relação Dívida/PIB e os programas sociais.
             </p>
             <div class="flex flex-wrap items-center gap-3 pt-1 text-xs text-slate-400">
               <span>📊 <strong>{{ currentPresident.mandateEvaluation.promisesStats.fulfilled }}</strong> promessas cumpridas</span>
@@ -391,7 +391,7 @@ function navigateToRole(role: string) {
               Agregador de Pesquisas Eleitorais 2026 (TSE)
             </h3>
             <p class="text-xs sm:text-sm text-slate-300 leading-relaxed">
-              Consulte séries históricas e comparações entre levantamentos de institutos registrados na Justiça Eleitoral (Datafolha, Quaest, Paraná Pesquisas e AtlasIntel). Acompanhe cenários de 1º e 2º turnos com margens de erro auditáveis.
+              Consulte séries históricas e comparações entre levantamentos de institutos registrados na Justiça Eleitoral (Datafolha, Quaest, Paraná Pesquisas e AtlasIntel). Compare o que indicavam as pesquisas de 1º e 2º turnos com o resultado proclamado pelo TSE.
             </p>
           </div>
 

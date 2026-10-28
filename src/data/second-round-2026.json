@@ -597,5 +597,29 @@
         ]
       }
     }
-  ]
+  ],
+  "secondRoundOfficialResult": {
+    "proclaimedAt": "2026-10-25T20:15:00-03:00",
+    "sectionsTotalizedPct": 100,
+    "winnerId": "lula-presidente",
+    "winnerName": "Luiz Inácio Lula da Silva",
+    "winnerParty": "PT",
+    "winnerVotes": 64256232,
+    "winnerPercentage": 51.79,
+    "runnerUpId": "flavio-bolsonaro-presidente",
+    "runnerUpName": "Flávio Nantes Bolsonaro",
+    "runnerUpParty": "PL",
+    "runnerUpVotes": 59826041,
+    "runnerUpPercentage": 48.21,
+    "validVotes": 124082273,
+    "validVotesPct": 96.76,
+    "blankVotes": 1430496,
+    "blankVotesPct": 1.12,
+    "nullVotes": 2723305,
+    "nullVotesPct": 2.12,
+    "totalTurnout": 128236074,
+    "turnoutPct": 80.78,
+    "abstentionPct": 19.21,
+    "sourceUrl": "https://resultados.tse.jus.br"
+  }
 }

@@ -95,9 +95,9 @@ const navGroups = computed<NavGroup[]>(() => [
         name: '2º Turno Presidencial',
         path: '/segundo-turno',
         icon: Flame,
-        badge: 'Disputa',
-        badgeClass: 'bg-rose-500/20 text-rose-600 dark:text-rose-400 border border-rose-500/30',
-        description: 'Flávio Bolsonaro vs Lula: Apuração & Pesquisas',
+        badge: 'Apurado',
+        badgeClass: 'bg-emerald-500/20 text-emerald-700 dark:text-emerald-300 border border-emerald-500/30',
+        description: 'Resultado Oficial TSE (25/10): Lula 51,79% vs Flávio 48,21%',
         urgent: true
       },
       {
@@ -385,7 +385,7 @@ function handleMouseLeave() {
               TSE 2026
             </span>
           </div>
-          <p class="text-[9px] text-slate-400 leading-tight">Atualizado com os dados oficiais do 1º turno.</p>
+          <p class="text-[9px] text-slate-400 leading-tight">Atualizado com o resultado oficial de 1º e 2º turnos.</p>
         </div>
       </div>
     </aside>

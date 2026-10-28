@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-16T17:00:00.000Z",
+  "updatedAt": "2026-10-26T12:00:00.000Z",
   "totalStates": 27,
   "totalOfficials": 109,
   "states": [
@@ -195,19 +195,19 @@
       "votes": 13273880,
       "votePercentage": 30.59,
       "status": "eleito_1_turno",
-      "summary": "Pioneiro da Renda Básica de Cidadania Universal, defesa dos direitos humanos e combate às desigualdades no Senado.",
+      "summary": "Ex-Secretário de Segurança Pública de SP e Deputado Federal; eleito Senador com foco no endurecimento penal, fim da progressão rápida para crimes graves e combate às facções.",
       "proposals": [
         {
-          "category": "social",
-          "categoryLabel": "Social",
-          "title": "Implementação Gradual da Renda Básica de Cidadania Nacional",
-          "description": "Ampliação do programa de transferência de renda garantindo renda mínima para todos os brasileiros conforme Lei 10.835/2004."
+          "category": "seguranca",
+          "categoryLabel": "Segurança Pública",
+          "title": "Reforma do Código de Processo Penal e Fim da Reincidência Impune",
+          "description": "Endurecimento das regras de audiência de custódia e bloqueio patrimonial imediato de organizações criminosas."
         },
         {
           "category": "reformas",
-          "categoryLabel": "Reformas",
-          "title": "Defesa da Tributação sobre Grandes Heranças e Fortunas",
-          "description": "Direcionamento de recursos de taxação dos super-ricos para fundos de erradicação da extrema pobreza."
+          "categoryLabel": "Legislação Penal",
+          "title": "Valorização Nacional das Forças Policiais e Guardas Municipais",
+          "description": "Segurança jurídica para agentes da lei e ampliação do Fundo Nacional de Segurança Pública para estados e municípios."
         }
       ],
       "office": "senador",
@@ -216,7 +216,7 @@
       "stateName": "São Paulo",
       "region": "Sudeste",
       "statusLabel": "Eleito para o Senado (Mandato 2027-2035)",
-      "keyCommitmentSummary": "Pioneiro da Renda Básica de Cidadania Universal, defesa dos direitos humanos e combate às desigualdades no Senado.",
+      "keyCommitmentSummary": "Ex-Secretário de Segurança Pública de SP e Deputado Federal; eleito Senador com foco no endurecimento penal, fim da progressão rápida para crimes graves e combate às facções.",
       "cleanRecordStatus": "regular",
       "photoUrl": ""
     },
@@ -229,19 +229,19 @@
       "votes": 12703089,
       "votePercentage": 29.28,
       "status": "eleito_1_turno",
-      "summary": "Apostolado pelo fomento à ciência, tecnologia espacial, inovação e modernização das Forças Armadas.",
+      "summary": "Presidente da ALESP e ex-prefeito; eleito Senador com pauta municipalista, defesa do Novo Pacto Federativo, infraestrutura regional e apoio às Santas Casas paulistas.",
       "proposals": [
         {
-          "category": "economia",
-          "categoryLabel": "Economia / Tecnologia",
-          "title": "Marco Legal dos Semicondutores e Aeroespacial",
-          "description": "Incentivos fiscais plurianuais para atração de fábricas de chips e expansão do Centro Espacial de Alcântara."
+          "category": "infraestrutura",
+          "categoryLabel": "Municípios & Infraestrutura",
+          "title": "Novo Pacto Federativo e Descentralização de Recursos aos Municípios",
+          "description": "Ampliação da fatia municipal na arrecadação tributária para investimentos diretos em mobilidade, saneamento e vicinais."
         },
         {
-          "category": "educacao",
-          "categoryLabel": "Educação",
-          "title": "Incentivo à Formação STEM em Escolas Públicas",
-          "description": "Criação de bolsas federais para estudantes com aptidão em matemática, física e engenharia."
+          "category": "saude",
+          "categoryLabel": "Saúde Regional",
+          "title": "Financiamento Permanente para Santas Casas e Hospitais Filantrópicos",
+          "description": "Reajuste nacional da Tabela SUS e linhas federais para zerar filas de cirurgias e exames no interior e Grande SP."
         }
       ],
       "office": "senador",
@@ -250,7 +250,7 @@
       "stateName": "São Paulo",
       "region": "Sudeste",
       "statusLabel": "Eleito para o Senado (Mandato 2027-2035)",
-      "keyCommitmentSummary": "Apostolado pelo fomento à ciência, tecnologia espacial, inovação e modernização das Forças Armadas.",
+      "keyCommitmentSummary": "Presidente da ALESP e ex-prefeito; eleito Senador com pauta municipalista, defesa do Novo Pacto Federativo, infraestrutura regional e apoio às Santas Casas paulistas.",
       "cleanRecordStatus": "regular",
       "photoUrl": ""
     },
@@ -553,15 +553,15 @@
       "photoUrl": ""
     },
     {
-      "id": "gov-es-lorenzo-pazolini-vs-ricardo-ferra-o-2-turno-",
+      "id": "gov-es-lorenzo-pazolini",
       "name": "Lorenzo Silva de Pazolini",
-      "popularName": "Lorenzo Pazolini (vs Ricardo Ferraço - 2º Turno)",
+      "popularName": "Lorenzo Pazolini",
       "party": "Republicanos",
       "ballotNumber": "10",
-      "votes": 1120450,
-      "votePercentage": 54.8,
+      "votes": 1151818,
+      "votePercentage": 52.17,
       "status": "eleito_2_turno",
-      "summary": "Continuidade do equilíbrio fiscal de Renato Casagrande e expansão dos portos e ferrovias capixabas.",
+      "summary": "Ex-prefeito de Vitória e delegado; eleito no 2º turno com foco em segurança pública integrada, equilíbrio fiscal e investimentos em infraestrutura portuária e logística.",
       "proposals": [
         {
           "category": "infraestrutura",
@@ -575,8 +575,8 @@
       "state": "ES",
       "stateName": "Espírito Santo",
       "region": "Sudeste",
-      "statusLabel": "Em Disputa de 2º Turno (25/10)",
-      "keyCommitmentSummary": "Continuidade do equilíbrio fiscal de Renato Casagrande e expansão dos portos e ferrovias capixabas.",
+      "statusLabel": "Eleito no 2º Turno (Oficial TSE — 52,17%)",
+      "keyCommitmentSummary": "Ex-prefeito de Vitória e delegado; eleito no 2º turno com foco em segurança pública integrada, equilíbrio fiscal e investimentos em infraestrutura portuária e logística.",
       "cleanRecordStatus": "regular",
       "photoUrl": ""
     },
@@ -1491,15 +1491,15 @@
       "photoUrl": ""
     },
     {
-      "id": "gov-df-celina-le-o-vs-leandro-grass-2-turno-",
+      "id": "gov-df-celina-leao",
       "name": "Celina Leão Hizim Ferreira",
-      "popularName": "Celina Leão (vs Leandro Grass - 2º Turno)",
+      "popularName": "Celina Leão",
       "party": "PP",
       "ballotNumber": "11",
-      "votes": 890450,
-      "votePercentage": 52.3,
+      "votes": 987142,
+      "votePercentage": 57.18,
       "status": "eleito_2_turno",
-      "summary": "Continuidade das obras de mobilidade de Ibaneis Rocha, proteção às mulheres e ampliação de UPAs nas cidades-satélites.",
+      "summary": "Eleita Governadora do DF no 2º turno; foco na ampliação de hospitais regionais, mobilidade nas Regiões Administrativas e rede de proteção à mulher.",
       "proposals": [
         {
           "category": "saude",
@@ -1519,8 +1519,8 @@
       "state": "DF",
       "stateName": "Distrito Federal",
       "region": "Centro-Oeste",
-      "statusLabel": "Em Disputa de 2º Turno (25/10)",
-      "keyCommitmentSummary": "Continuidade das obras de mobilidade de Ibaneis Rocha, proteção às mulheres e ampliação de UPAs nas cidades-satélites.",
+      "statusLabel": "Eleita no 2º Turno (Oficial TSE — 57,18%)",
+      "keyCommitmentSummary": "Eleita Governadora do DF no 2º turno; foco na ampliação de hospitais regionais, mobilidade nas Regiões Administrativas e rede de proteção à mulher.",
       "cleanRecordStatus": "regular",
       "photoUrl": ""
     },
@@ -1951,15 +1951,15 @@
       "photoUrl": ""
     },
     {
-      "id": "gov-am-omar-aziz-vs-prof-maria-do-carmo-2-turno-",
+      "id": "gov-am-omar-aziz",
       "name": "Omar José Abdel Aziz",
-      "popularName": "Omar Aziz (vs Profª Maria do Carmo - 2º Turno)",
+      "popularName": "Omar Aziz",
       "party": "PSD",
       "ballotNumber": "55",
-      "votes": 1120300,
-      "votePercentage": 54.1,
+      "votes": 1273975,
+      "votePercentage": 61.42,
       "status": "eleito_2_turno",
-      "summary": "Reeleito no 1º turno, defesa das vantagens comparativas da Zona Franca de Manaus e repavimentação da BR-319.",
+      "summary": "Eleito Governador do Amazonas no 2º turno; defesa da competitividade da Zona Franca de Manaus, repavimentação da BR-319 e saúde no interior.",
       "proposals": [
         {
           "category": "economia",
@@ -1979,8 +1979,8 @@
       "state": "AM",
       "stateName": "Amazonas",
       "region": "Norte",
-      "statusLabel": "Em Disputa de 2º Turno (25/10)",
-      "keyCommitmentSummary": "Reeleito no 1º turno, defesa das vantagens comparativas da Zona Franca de Manaus e repavimentação da BR-319.",
+      "statusLabel": "Eleito no 2º Turno (Oficial TSE — 61,42%)",
+      "keyCommitmentSummary": "Eleito Governador do Amazonas no 2º turno; defesa da competitividade da Zona Franca de Manaus, repavimentação da BR-319 e saúde no interior.",
       "cleanRecordStatus": "regular",
       "photoUrl": ""
     },
@@ -2181,15 +2181,15 @@
       "photoUrl": ""
     },
     {
-      "id": "gov-rn-allyson-bezerra-vs-cadu-xavier-2-turno-",
-      "name": "Allyson Leandro Bezerra Silva",
-      "popularName": "Allyson Bezerra (vs Cadu Xavier - 2º Turno)",
-      "party": "União Brasil",
-      "ballotNumber": "44",
-      "votes": 940120,
-      "votePercentage": 51.5,
+      "id": "gov-rn-cadu-xavier",
+      "name": "Carlos Eduardo Xavier",
+      "popularName": "Cadu de Lula (Cadu Xavier)",
+      "party": "PT",
+      "ballotNumber": "13",
+      "votes": 1073024,
+      "votePercentage": 50.77,
       "status": "eleito_2_turno",
-      "summary": "Continuidade dos investimentos de Fátima Bezerra, liderança mundial em energia eólica e porto-indústria verde.",
+      "summary": "Eleito Governador do RN no 2º turno; continuidade da expansão em energia eólica/hidrogênio verde, infraestrutura hídrica e recuperação de rodovias.",
       "proposals": [
         {
           "category": "economia",
@@ -2203,8 +2203,8 @@
       "state": "RN",
       "stateName": "Rio Grande do Norte",
       "region": "Nordeste",
-      "statusLabel": "Em Disputa de 2º Turno (25/10)",
-      "keyCommitmentSummary": "Continuidade dos investimentos de Fátima Bezerra, liderança mundial em energia eólica e porto-indústria verde.",
+      "statusLabel": "Eleito no 2º Turno (Oficial TSE — 50,77%)",
+      "keyCommitmentSummary": "Eleito Governador do RN no 2º turno; continuidade da expansão em energia eólica/hidrogênio verde, infraestrutura hídrica e recuperação de rodovias.",
       "cleanRecordStatus": "regular",
       "photoUrl": ""
     },
@@ -2859,15 +2859,15 @@
       "photoUrl": ""
     },
     {
-      "id": "gov-ac-mailza-assis-vs-alan-rick-2-turno-",
+      "id": "gov-ac-mailza-assis",
       "name": "Mailza Assis da Silva",
-      "popularName": "Mailza Assis (vs Alan Rick - 2º Turno)",
+      "popularName": "Mailza Assis",
       "party": "PP",
       "ballotNumber": "11",
-      "votes": 245100,
-      "votePercentage": 56.2,
+      "votes": 272635,
+      "votePercentage": 66.21,
       "status": "eleito_2_turno",
-      "summary": "Reeleito no 1º turno, foco na ligação terrestre com o Peru (Rota do Pacífico), hospitais de campanha e agronegócio.",
+      "summary": "Governadora reeleita no 2º turno; foco na integração logística com o Pacífico (Peru), fortalecimento do agronegócio sustentável e saúde regional.",
       "proposals": [
         {
           "category": "infraestrutura",
@@ -2881,8 +2881,8 @@
       "state": "AC",
       "stateName": "Acre",
       "region": "Norte",
-      "statusLabel": "Em Disputa de 2º Turno (25/10)",
-      "keyCommitmentSummary": "Reeleito no 1º turno, foco na ligação terrestre com o Peru (Rota do Pacífico), hospitais de campanha e agronegócio.",
+      "statusLabel": "Reeleita no 2º Turno (Oficial TSE — 66,21%)",
+      "keyCommitmentSummary": "Governadora reeleita no 2º turno; foco na integração logística com o Pacífico (Peru), fortalecimento do agronegócio sustentável e saúde regional.",
       "cleanRecordStatus": "regular",
       "photoUrl": ""
     },
@@ -3195,15 +3195,15 @@
       "photoUrl": ""
     },
     {
-      "id": "gov-to-prof-dorinha-vs-vicentinho-jr-2-turno-",
-      "name": "Dorinha Seabra Rezende",
-      "popularName": "Profª Dorinha (vs Vicentinho Jr - 2º Turno)",
-      "party": "União Brasil",
-      "ballotNumber": "44",
-      "votes": 495120,
-      "votePercentage": 58.4,
+      "id": "gov-to-vicentinho-junior",
+      "name": "Vicente Alves de Oliveira Júnior",
+      "popularName": "Vicentinho Júnior",
+      "party": "PSDB",
+      "ballotNumber": "45",
+      "votes": 562083,
+      "votePercentage": 64.52,
       "status": "eleito_2_turno",
-      "summary": "Reeleito no 1º turno, foco na duplicação de rodovias estaduais, agronegócio no Matopiba e pavimentação urbana em Palmas.",
+      "summary": "Eleito Governador do Tocantins no 2º turno; foco em infraestrutura logística no corredor do Matopiba, industrialização regional e hospitais estaduais.",
       "proposals": [
         {
           "category": "infraestrutura",
@@ -3217,8 +3217,8 @@
       "state": "TO",
       "stateName": "Tocantins",
       "region": "Norte",
-      "statusLabel": "Em Disputa de 2º Turno (25/10)",
-      "keyCommitmentSummary": "Reeleito no 1º turno, foco na duplicação de rodovias estaduais, agronegócio no Matopiba e pavimentação urbana em Palmas.",
+      "statusLabel": "Eleito no 2º Turno (Oficial TSE — 64,52%)",
+      "keyCommitmentSummary": "Eleito Governador do Tocantins no 2º turno; foco em infraestrutura logística no corredor do Matopiba, industrialização regional e hospitais estaduais.",
       "cleanRecordStatus": "regular",
       "photoUrl": ""
     },

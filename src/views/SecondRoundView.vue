@@ -1,7 +1,13 @@
 <script setup lang="ts">
 import { ref, computed } from 'vue';
 import secondRoundDataRaw from '../data/second-round-2026.json';
-import type { SecondRoundPoll, ProposalComparison, FirstRoundResult, GovernorEndorsement } from '../types/secondRound';
+import type {
+  SecondRoundPoll,
+  ProposalComparison,
+  FirstRoundResult,
+  GovernorEndorsement,
+  SecondRoundOfficialResult
+} from '../types/secondRound';
 import { 
   TrendingUp, 
   Scale, 
@@ -12,13 +18,15 @@ import {
   GraduationCap, 
   Coins, 
   Leaf, 
-  CheckCircle2
+  CheckCircle2,
+  Award
 } from 'lucide-vue-next';
 
 interface SecondRoundDataset {
   electionDateSecondRound: string;
   electionDateFirstRound: string;
   tseProclamationDate: string;
+  secondRoundOfficialResult?: SecondRoundOfficialResult;
   firstRoundResults: FirstRoundResult[];
   governorEndorsements: GovernorEndorsement[];
   pollsSecondRound: SecondRoundPoll[];
@@ -70,83 +78,132 @@ function formatNumber(num: number) {
 
 <template>
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 md:py-8 space-y-6 md:space-y-8 pb-8 min-w-0">
-    <!-- Header Hero do 2º Turno -->
+    <!-- Header Hero: Resultado Oficial do 2º Turno Proclamado pelo TSE -->
     <div class="relative overflow-hidden bg-linear-to-br from-slate-900 via-slate-900 to-slate-950 text-white rounded-3xl p-6 sm:p-10 border border-slate-800 shadow-xl space-y-6">
       <div class="flex flex-col lg:flex-row lg:items-center justify-between gap-6">
         <div class="space-y-3 max-w-2xl">
-          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-bold bg-rose-500/20 text-rose-300 border border-rose-500/30">
-            <span class="w-2 h-2 rounded-full bg-rose-500 animate-pulse"></span>
-            DISPUTA DECISIVA • 2º TURNO PRESIDENCIAL 2026
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-bold bg-emerald-500/20 text-emerald-300 border border-emerald-500/30">
+            <CheckCircle2 class="w-3.5 h-3.5 text-emerald-400" />
+            RESULTADO OFICIAL PROCLAMADO PELO TSE • 100% DAS SEÇÕES TOTALIZADAS
           </div>
           <h1 class="text-3xl sm:text-5xl font-black tracking-tight leading-tight">
-            Flávio Bolsonaro vs Lula
+            2º Turno Presidencial: Lula Reeleito (51,79% x 48,21%)
           </h1>
           <p class="text-sm sm:text-base text-slate-300 leading-relaxed">
-            Acompanhamento consolidado e apartidário das pesquisas de intenção de voto registradas no TSE (Outubro/2026),
-            resultado proclamado do 1º turno (04/10), apoios de governadores estaduais e comparativo detalhado dos planos de governo.
+            Apuração oficial de 100% das urnas realizada pelo Tribunal Superior Eleitoral em <strong>25 de outubro de 2026</strong>.
+            Confira abaixo os números finais da totalização nacional, o histórico das pesquisas registradas no PesqEle/TSE, o resultado do 1º turno e as propostas assumidas para o mandato 2027–2030.
           </p>
         </div>
 
-        <!-- Card de Votação Oficial do 2º Turno -->
-        <div class="bg-slate-800/80 backdrop-blur-md rounded-2xl p-5 border border-slate-700/80 text-center space-y-2 shrink-0 lg:w-72">
-          <span class="text-xs font-bold uppercase tracking-wider text-slate-400">Data da Votação</span>
-          <div class="text-2xl font-black text-white flex items-center justify-center gap-2">
-            <Calendar class="w-5 h-5 text-emerald-400" />
-            <span>25 de Outubro</span>
+        <!-- Card de Totalização Oficial do TSE -->
+        <div class="bg-slate-800/80 backdrop-blur-md rounded-2xl p-5 border border-emerald-500/40 text-center space-y-2 shrink-0 lg:w-80">
+          <span class="text-xs font-bold uppercase tracking-wider text-emerald-400 flex items-center justify-center gap-1.5">
+            <Award class="w-4 h-4" />
+            Presidente Eleito (2027–2030)
+          </span>
+          <div class="text-xl font-black text-white">
+            Luiz Inácio Lula da Silva (PT)
           </div>
-          <p class="text-[11px] text-slate-400">
-            Domingo • Das 8h às 17h (Horário de Brasília)
-          </p>
-          <div class="pt-2 border-t border-slate-700 text-[10px] text-emerald-400 font-bold uppercase">
-            Apuração Oficial pelo TSE
+          <div class="text-xs text-slate-300 font-mono">
+            64.256.232 votos • <strong class="text-emerald-400">51,79%</strong> válidos
+          </div>
+          <div class="pt-2 border-t border-slate-700 text-[11px] text-slate-400 flex items-center justify-center gap-1.5">
+            <Calendar class="w-3.5 h-3.5 text-slate-400" />
+            <span>Eleição encerrada em 25/10/2026</span>
           </div>
         </div>
       </div>
 
-      <!-- Placar da Média Ponderada Agregada (Votos Válidos) -->
-      <div class="pt-6 border-t border-slate-800 space-y-3">
+      <!-- Placar Oficial Final das Urnas (TSE 100% Apurado) -->
+      <div v-if="data.secondRoundOfficialResult" class="pt-6 border-t border-slate-800 space-y-4">
         <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 text-xs">
-          <span class="font-bold text-slate-300 uppercase tracking-wider flex items-center gap-1.5">
-            <Scale class="w-4 h-4 text-emerald-400" />
-            Média Agregada das Pesquisas Registradas (Votos Válidos - TSE):
+          <span class="font-bold text-emerald-400 uppercase tracking-wider flex items-center gap-1.5">
+            <CheckCircle2 class="w-4 h-4" />
+            Placar Oficial das Urnas (100% Apurado pelo TSE — Votos Válidos):
           </span>
-          <span class="text-slate-400 font-mono text-[11px]">
-            {{ data.aggregateAverage.situation }}
-          </span>
+          <a
+            :href="data.secondRoundOfficialResult.sourceUrl"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex items-center gap-1 text-slate-300 hover:text-white font-mono text-[11px] underline"
+          >
+            <span>Fonte: Divulgação de Resultados TSE ({{ formatNumber(data.secondRoundOfficialResult.validVotes) }} votos válidos)</span>
+            <ExternalLink class="w-3 h-3" />
+          </a>
         </div>
 
-        <!-- Termômetro Barra de Votos Válidos -->
+        <!-- Barra Oficial das Urnas -->
         <div class="space-y-2">
-          <div class="flex items-center justify-between text-base font-extrabold">
-            <div class="flex items-center gap-2 text-blue-400">
-              <span class="w-3 h-3 rounded-full bg-blue-600"></span>
-              <span>Flávio Bolsonaro (PL - 22)</span>
-              <span class="text-xl font-black">{{ data.aggregateAverage.flavioValid }}%</span>
-            </div>
+          <div class="flex flex-wrap items-center justify-between gap-2 text-base font-extrabold">
             <div class="flex items-center gap-2 text-rose-400">
-              <span class="text-xl font-black">{{ data.aggregateAverage.lulaValid }}%</span>
-              <span>Lula (PT - 13)</span>
               <span class="w-3 h-3 rounded-full bg-rose-600"></span>
+              <span>Lula (PT - 13)</span>
+              <span class="px-2 py-0.5 rounded-full text-[10px] font-black bg-emerald-500/20 text-emerald-300 border border-emerald-500/40">
+                ELEITO
+              </span>
+              <span class="text-2xl font-black text-white">{{ data.secondRoundOfficialResult.winnerPercentage }}%</span>
+              <span class="text-xs text-slate-400 font-mono">({{ formatNumber(data.secondRoundOfficialResult.winnerVotes) }} votos)</span>
+            </div>
+            <div class="flex items-center gap-2 text-blue-400">
+              <span class="text-xs text-slate-400 font-mono">({{ formatNumber(data.secondRoundOfficialResult.runnerUpVotes) }} votos)</span>
+              <span class="text-2xl font-black text-white">{{ data.secondRoundOfficialResult.runnerUpPercentage }}%</span>
+              <span>Flávio Bolsonaro (PL - 22)</span>
+              <span class="w-3 h-3 rounded-full bg-blue-600"></span>
             </div>
           </div>
 
-          <div class="w-full h-4 bg-slate-800 rounded-full overflow-hidden flex">
-            <div
-              class="h-full bg-blue-600 transition-all duration-500"
-              :style="{ width: `${data.aggregateAverage.flavioValid}%` }"
-              title="Flávio Bolsonaro (PL)"
-            ></div>
+          <div class="w-full h-5 bg-slate-800 rounded-full overflow-hidden flex border border-slate-700">
             <div
               class="h-full bg-rose-600 transition-all duration-500"
-              :style="{ width: `${data.aggregateAverage.lulaValid}%` }"
-              title="Lula (PT)"
+              :style="{ width: `${data.secondRoundOfficialResult.winnerPercentage}%` }"
+              title="Lula (PT) - 51,79% (Eleito)"
+            ></div>
+            <div
+              class="h-full bg-blue-600 transition-all duration-500"
+              :style="{ width: `${data.secondRoundOfficialResult.runnerUpPercentage}%` }"
+              title="Flávio Bolsonaro (PL) - 48,21%"
             ></div>
           </div>
         </div>
+
+        <!-- Resumo Estatístico da Totalização TSE -->
+        <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-2">
+          <div class="bg-slate-800/60 border border-slate-700/80 rounded-xl p-3">
+            <span class="text-[10px] font-bold uppercase text-slate-400 block">Votos Válidos</span>
+            <span class="text-sm font-black text-white">{{ formatNumber(data.secondRoundOfficialResult.validVotes) }}</span>
+            <span class="text-[10px] text-emerald-400 font-mono block">{{ data.secondRoundOfficialResult.validVotesPct }}% do total</span>
+          </div>
+          <div class="bg-slate-800/60 border border-slate-700/80 rounded-xl p-3">
+            <span class="text-[10px] font-bold uppercase text-slate-400 block">Votos em Branco</span>
+            <span class="text-sm font-black text-white">{{ formatNumber(data.secondRoundOfficialResult.blankVotes) }}</span>
+            <span class="text-[10px] text-slate-400 font-mono block">{{ data.secondRoundOfficialResult.blankVotesPct }}% do total</span>
+          </div>
+          <div class="bg-slate-800/60 border border-slate-700/80 rounded-xl p-3">
+            <span class="text-[10px] font-bold uppercase text-slate-400 block">Votos Nulos</span>
+            <span class="text-sm font-black text-white">{{ formatNumber(data.secondRoundOfficialResult.nullVotes) }}</span>
+            <span class="text-[10px] text-slate-400 font-mono block">{{ data.secondRoundOfficialResult.nullVotesPct }}% do total</span>
+          </div>
+          <div class="bg-slate-800/60 border border-slate-700/80 rounded-xl p-3">
+            <span class="text-[10px] font-bold uppercase text-slate-400 block">Comparecimento / Abstenção</span>
+            <span class="text-sm font-black text-white">{{ data.secondRoundOfficialResult.turnoutPct }}%</span>
+            <span class="text-[10px] text-slate-400 font-mono block">Abstenção: {{ data.secondRoundOfficialResult.abstentionPct }}%</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Comparativo com a Média das Pesquisas Pré-Eleição -->
+      <div class="pt-4 border-t border-slate-800/80 flex flex-col sm:flex-row sm:items-center justify-between gap-2 text-xs text-slate-400">
+        <span class="flex items-center gap-1.5">
+          <Scale class="w-4 h-4 text-sky-400" />
+          <strong>Média Agregada das Pesquisas Pré-Votação (23/10):</strong> Flávio Bolsonaro {{ data.aggregateAverage.flavioValid }}% vs Lula {{ data.aggregateAverage.lulaValid }}%
+        </span>
+        <span class="font-mono text-[11px] text-slate-400">
+          {{ data.aggregateAverage.situation }}
+        </span>
       </div>
     </div>
 
-    <!-- SEÇÃO 1: Pesquisas Oficiais Registradas no TSE pós-1º Turno -->
+    <!-- SEÇÃO 1: Histórico das Pesquisas Oficiais Registradas no TSE no 2º Turno -->
     <div class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl p-6 sm:p-8 space-y-6 shadow-xs">
       <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-4 border-b border-slate-100 dark:border-slate-800">
         <div>
@@ -154,13 +211,13 @@ function formatNumber(num: number) {
             <span class="inline-flex items-center px-2 py-0.5 rounded-sm text-[10px] font-bold bg-blue-50 dark:bg-blue-950 text-blue-700 dark:text-blue-300 border border-blue-200 dark:border-blue-800">
               Resolução TSE 23.600
             </span>
-            <span class="text-xs text-slate-400 font-mono">Pós-1º Turno (Outubro/2026)</span>
+            <span class="text-xs text-slate-400 font-mono">Histórico Pós-1º Turno (Outubro/2026)</span>
           </div>
           <h2 class="text-xl font-bold text-slate-900 dark:text-white mt-1">
-            Pesquisas Eleitorais de 2º Turno (Flávio Bolsonaro vs Lula)
+            Histórico das Pesquisas Eleitorais do 2º Turno vs. Urnas
           </h2>
           <p class="text-xs text-slate-500 dark:text-slate-400">
-            Apenas pesquisas oficiais com registro válido no sistema PesqEle do Tribunal Superior Eleitoral.
+            Levantamentos oficiais registrados no PesqEle/TSE antes da votação de 25/10/2026 (Resultado real nas urnas: Lula 51,79% x Flávio 48,21%).
           </p>
         </div>
 
@@ -218,7 +275,7 @@ function formatNumber(num: number) {
 
           <!-- Comparativo Votos Válidos -->
           <div class="space-y-1.5 bg-white dark:bg-slate-900 p-3.5 rounded-xl border border-slate-100 dark:border-slate-800">
-            <span class="text-[10px] font-bold uppercase tracking-wider text-slate-400">Votos Válidos</span>
+            <span class="text-[10px] font-bold uppercase tracking-wider text-slate-400">Votos Válidos Estimados na Pesquisa</span>
             <div class="flex items-center justify-between text-sm font-black">
               <span class="text-blue-600 dark:text-blue-400">Flávio Bolsonaro: {{ poll.validVotes.flavio }}%</span>
               <span class="text-xs text-slate-400 font-mono">Margem ± {{ poll.marginOfError }}%</span>
@@ -371,10 +428,10 @@ function formatNumber(num: number) {
     <div class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl p-6 sm:p-8 space-y-6 shadow-xs">
       <div class="border-b border-slate-100 dark:border-slate-800 pb-4">
         <span class="text-xs font-bold text-blue-600 dark:text-blue-400 uppercase tracking-wider">
-          Comparação Temática Imparcial
+          Comparação Temática Imparcial • Compromissos para 2027–2030
         </span>
         <h2 class="text-xl font-bold text-slate-900 dark:text-white mt-1">
-          Propostas Frente a Frente: Flávio Bolsonaro (PL) vs Lula (PT)
+          Propostas Frente a Frente: Lula (PT - Eleito) vs Flávio Bolsonaro (PL)
         </h2>
         <p class="text-xs text-slate-500 dark:text-slate-400">
           Compare as diretrizes dos planos de governo registrados no DivulgaCandContas/TSE para cada área estratégica.
@@ -401,18 +458,61 @@ function formatNumber(num: number) {
 
       <!-- Comparativo Lado a Lado -->
       <div class="grid grid-cols-1 md:grid-cols-2 gap-6 pt-2">
+        <!-- Lula -->
+        <div class="bg-rose-50/50 dark:bg-rose-950/20 border border-rose-200 dark:border-rose-900/60 rounded-2xl p-6 space-y-4">
+          <div class="flex items-center justify-between gap-3 pb-3 border-b border-rose-200/80 dark:border-rose-900/40">
+            <div class="flex items-center gap-3">
+              <span class="w-3.5 h-3.5 rounded-full bg-rose-600"></span>
+              <div>
+                <h3 class="text-base font-extrabold text-slate-900 dark:text-white">
+                  Luiz Inácio Lula da Silva (PT - 13)
+                </h3>
+                <p class="text-xs text-rose-700 dark:text-rose-400 font-semibold">
+                  {{ currentThemeComparison.lulaProposal.title }}
+                </p>
+              </div>
+            </div>
+            <span class="px-2 py-0.5 rounded-full text-[10px] font-black bg-emerald-500/20 text-emerald-700 dark:text-emerald-300 border border-emerald-500/30">
+              ELEITO (51,79%)
+            </span>
+          </div>
+
+          <p class="text-xs text-slate-700 dark:text-slate-300 leading-relaxed">
+            {{ currentThemeComparison.lulaProposal.description }}
+          </p>
+
+          <div class="space-y-2 pt-2">
+            <span class="text-[10px] font-bold uppercase tracking-wider text-slate-400">Pontos-Chave (Metas 2027–2030):</span>
+            <ul class="space-y-1.5">
+              <li
+                v-for="(point, pIdx) in currentThemeComparison.lulaProposal.keyPoints"
+                :key="pIdx"
+                class="flex items-start gap-2 text-xs text-slate-700 dark:text-slate-300 leading-snug"
+              >
+                <CheckCircle2 class="w-3.5 h-3.5 text-rose-600 shrink-0 mt-0.5" />
+                <span>{{ point }}</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
         <!-- Flávio Bolsonaro -->
         <div class="bg-blue-50/50 dark:bg-blue-950/20 border border-blue-200 dark:border-blue-900/60 rounded-2xl p-6 space-y-4">
-          <div class="flex items-center gap-3 pb-3 border-b border-blue-200/80 dark:border-blue-900/40">
-            <span class="w-3.5 h-3.5 rounded-full bg-blue-600"></span>
-            <div>
-              <h3 class="text-base font-extrabold text-slate-900 dark:text-white">
-                Flávio Bolsonaro (PL - 22)
-              </h3>
-              <p class="text-xs text-blue-700 dark:text-blue-400 font-semibold">
-                {{ currentThemeComparison.flavioProposal.title }}
-              </p>
+          <div class="flex items-center justify-between gap-3 pb-3 border-b border-blue-200/80 dark:border-blue-900/40">
+            <div class="flex items-center gap-3">
+              <span class="w-3.5 h-3.5 rounded-full bg-blue-600"></span>
+              <div>
+                <h3 class="text-base font-extrabold text-slate-900 dark:text-white">
+                  Flávio Bolsonaro (PL - 22)
+                </h3>
+                <p class="text-xs text-blue-700 dark:text-blue-400 font-semibold">
+                  {{ currentThemeComparison.flavioProposal.title }}
+                </p>
+              </div>
             </div>
+            <span class="px-2 py-0.5 rounded-full text-[10px] font-bold bg-slate-200 dark:bg-slate-800 text-slate-700 dark:text-slate-300">
+              2º Colocado (48,21%)
+            </span>
           </div>
 
           <p class="text-xs text-slate-700 dark:text-slate-300 leading-relaxed">
@@ -428,39 +528,6 @@ function formatNumber(num: number) {
                 class="flex items-start gap-2 text-xs text-slate-700 dark:text-slate-300 leading-snug"
               >
                 <CheckCircle2 class="w-3.5 h-3.5 text-blue-600 shrink-0 mt-0.5" />
-                <span>{{ point }}</span>
-              </li>
-            </ul>
-          </div>
-        </div>
-
-        <!-- Lula -->
-        <div class="bg-rose-50/50 dark:bg-rose-950/20 border border-rose-200 dark:border-rose-900/60 rounded-2xl p-6 space-y-4">
-          <div class="flex items-center gap-3 pb-3 border-b border-rose-200/80 dark:border-rose-900/40">
-            <span class="w-3.5 h-3.5 rounded-full bg-rose-600"></span>
-            <div>
-              <h3 class="text-base font-extrabold text-slate-900 dark:text-white">
-                Luiz Inácio Lula da Silva (PT - 13)
-              </h3>
-              <p class="text-xs text-rose-700 dark:text-rose-400 font-semibold">
-                {{ currentThemeComparison.lulaProposal.title }}
-              </p>
-            </div>
-          </div>
-
-          <p class="text-xs text-slate-700 dark:text-slate-300 leading-relaxed">
-            {{ currentThemeComparison.lulaProposal.description }}
-          </p>
-
-          <div class="space-y-2 pt-2">
-            <span class="text-[10px] font-bold uppercase tracking-wider text-slate-400">Pontos-Chave:</span>
-            <ul class="space-y-1.5">
-              <li
-                v-for="(point, pIdx) in currentThemeComparison.lulaProposal.keyPoints"
-                :key="pIdx"
-                class="flex items-start gap-2 text-xs text-slate-700 dark:text-slate-300 leading-snug"
-              >
-                <CheckCircle2 class="w-3.5 h-3.5 text-rose-600 shrink-0 mt-0.5" />
                 <span>{{ point }}</span>
               </li>
             </ul>

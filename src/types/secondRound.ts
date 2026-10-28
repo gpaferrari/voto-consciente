@@ -66,3 +66,28 @@ export interface GovernorEndorsement {
   declaredAt: string;
   pactThemes: string;
 }
+
+export interface SecondRoundOfficialResult {
+  proclaimedAt: string;
+  sectionsTotalizedPct: number;
+  winnerId: string;
+  winnerName: string;
+  winnerParty: string;
+  winnerVotes: number;
+  winnerPercentage: number;
+  runnerUpId: string;
+  runnerUpName: string;
+  runnerUpParty: string;
+  runnerUpVotes: number;
+  runnerUpPercentage: number;
+  validVotes: number;
+  validVotesPct: number;
+  blankVotes: number;
+  blankVotesPct: number;
+  nullVotes: number;
+  nullVotesPct: number;
+  totalTurnout: number;
+  turnoutPct: number;
+  abstentionPct: number;
+  sourceUrl: string;
+}
