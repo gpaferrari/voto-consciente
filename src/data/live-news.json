@@ -1,6 +1,6 @@
 [
   {
-    "id": "news-tarcisio-governador-1795374941736-12fm",
+    "id": "news-tarcisio-governador-1795416425209-my99",
     "candidateId": "tarcisio-governador",
     "candidateName": "Tarcísio de Freitas (Governador Reeleito SP)",
     "title": "De olho em 2030, Tarcísio distribui pastas, anuncia nomes e acena a aliados",
@@ -11,7 +11,7 @@
     "isVerifiedSource": true
   },
   {
-    "id": "news-andre-do-prado-senador-1795374946174-1t9s",
+    "id": "news-andre-do-prado-senador-1795416429097-is5h",
     "candidateId": "andre-do-prado-senador",
     "candidateName": "André do Prado",
     "title": "Sucessão na presidência da Alesp opõe novatos e veteranos; veja nomes dispostos a concorrer",
@@ -22,7 +22,7 @@
     "isVerifiedSource": true
   },
   {
-    "id": "news-lula-presidente-1795374938342-l7av",
+    "id": "news-lula-presidente-1795416421847-p52w",
     "candidateId": "lula-presidente",
     "candidateName": "Luiz Inácio Lula da Silva",
     "title": "Lula presta solidariedade à cidade gaúcha devastada por tempestade",
@@ -44,7 +44,7 @@
     "isVerifiedSource": true
   },
   {
-    "id": "news-lula-presidente-1795374938342-2oqc",
+    "id": "news-lula-presidente-1795416421847-h2k6",
     "candidateId": "lula-presidente",
     "candidateName": "Luiz Inácio Lula da Silva",
     "title": "Briga na esquerda menos de um mês após eleição expõe divergências sobre rumos do governo Lula 4",
@@ -55,7 +55,7 @@
     "isVerifiedSource": true
   },
   {
-    "id": "news-tarcisio-governador-1795374941736-ld87",
+    "id": "news-tarcisio-governador-1795416425209-0d8u",
     "candidateId": "tarcisio-governador",
     "candidateName": "Tarcísio de Freitas (Governador Reeleito SP)",
     "title": "Tarcísio mantém mais três secretários para novo governo em SP",
@@ -66,7 +66,7 @@
     "isVerifiedSource": true
   },
   {
-    "id": "news-andre-do-prado-senador-1795374946174-68p9",
+    "id": "news-andre-do-prado-senador-1795416429097-z2xs",
     "candidateId": "andre-do-prado-senador",
     "candidateName": "André do Prado",
     "title": "André do Prado usou brecha na Alesp para fazer campanha ao Senado",
@@ -88,7 +88,7 @@
     "isVerifiedSource": true
   },
   {
-    "id": "news-lula-presidente-1795374938342-kk2z",
+    "id": "news-lula-presidente-1795416421847-t3yy",
     "candidateId": "lula-presidente",
     "candidateName": "Luiz Inácio Lula da Silva",
     "title": "Ajuste Fiscal: Lula promete manter direitos e programas sociais | Radioagência Nacional",
@@ -154,23 +154,23 @@
     "isVerifiedSource": true
   },
   {
+    "id": "news-ricardo-nunes-1795416427826-ugyy",
+    "candidateId": "ricardo-nunes",
+    "candidateName": "Ricardo Nunes",
+    "title": "MP aponta Ricardo Nunes como suspeito de ser sócio oculto de empresas ligadas a desvios de emendas, diz jornal",
+    "source": "Valor Econômico",
+    "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPUnFxQy16djNocXA1bm44UXByQm0zcHkxczRuTWQ1NDhOODkyamJ5dlJsc1puYmNzbGQ1QTdidDlEaHZXRktHaHUwRmVKSE9zMENUdHZkaGZ0VDJMNmk2SHlEUUhSbWxfTEZKVlNLNW5mMEk5TzVYV2o2eWdmbmptQ3VEdkMxaGQyMmM5R19iRHlWMTk1R2VlYm4xS2w2TWt4TVpLQmFobk5QVk82QmlqbXRmVVFIQ0RESDE1Q0tvY2RodUNmb0oyUnJRSXhlMDlYdTctbkYwMnVoR2RyQWVZOTF5dGQ4dFJVcVBIcjk0bzg0QldWSEdCSERKZ9IBigJBVV95cUxQTENTTjhYWGRiMXNZa3lUVDI2X3lBNVdpMXBmOEF3ZHdBR3JLRE5EZVptNHdJNTZOTGFYS1NOTGtYeXU2ZlBvQUNBQXpCM3pDRm8wLV9uNER6bHhWU2xnaUlDZENGZXV5LWJ5M05mcEpSSF9rM3cwLWtMZHpObWRkaW1YamZTejNTR2pZbzFBUjRYenBwb01yMTFSTTUwMHlaNDU3eFZkaVBNOXZoZ2lCdWJVb3FBcC1mQV82bVdhZW9JQXNTTWFuaVdjTnltS0s0eVEwLUlQZ3Bjb3pNZ2p6N1JtLWcwLUxqYjVZS0Z0RzltamZyYTM0Nl8tcTZMT3ZNeVhNN0Z0YkR5dw?oc=5",
+    "publishedAt": "2026-11-18",
+    "category": "declaracao",
+    "isVerifiedSource": true
+  },
+  {
     "id": "news-augusto-cury-presidente-1795374938984-euzg",
     "candidateId": "augusto-cury-presidente",
     "candidateName": "Augusto Cury",
     "title": "Eleições 2026: Ficha de Escritor Augusto Cury (AVANTE)",
     "source": "Folha de S.Paulo",
     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQYmpmN1VaZ2hMRjBlOXF0VjllV3hfV21CVkZ3Ni1NTnc4YWRQUGo3NlotZHdDMnkzOTJza2JOQ3l4OVF2dHBhMldLbGRzMm5qRy1pb1JielVrbkNCQ3phUUhnR3ZwUGVvRVpPaERnWExMeHZ1SV9ySHlicUZGWW1BQWlydm1qa3BTRjhXRmtlaTdrQWtGOXJtNjBVZmprVzQ4a0lNOGQ5cGlMamp3OFptVFRfakJvUQ?oc=5",
-    "publishedAt": "2026-11-18",
-    "category": "declaracao",
-    "isVerifiedSource": true
-  },
-  {
-    "id": "news-ricardo-nunes-1795374944287-xh6y",
-    "candidateId": "ricardo-nunes",
-    "candidateName": "Ricardo Nunes",
-    "title": "MP aponta Ricardo Nunes como suspeito de ser sócio oculto de empresas ligadas a desvios de emendas, diz jornal",
-    "source": "Valor Econômico",
-    "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPUnFxQy16djNocXA1bm44UXByQm0zcHkxczRuTWQ1NDhOODkyamJ5dlJsc1puYmNzbGQ1QTdidDlEaHZXRktHaHUwRmVKSE9zMENUdHZkaGZ0VDJMNmk2SHlEUUhSbWxfTEZKVlNLNW5mMEk5TzVYV2o2eWdmbmptQ3VEdkMxaGQyMmM5R19iRHlWMTk1R2VlYm4xS2w2TWt4TVpLQmFobk5QVk82QmlqbXRmVVFIQ0RESDE1Q0tvY2RodUNmb0oyUnJRSXhlMDlYdTctbkYwMnVoR2RyQWVZOTF5dGQ4dFJVcVBIcjk0bzg0QldWSEdCSERKZ9IBigJBVV95cUxQTENTTjhYWGRiMXNZa3lUVDI2X3lBNVdpMXBmOEF3ZHdBR3JLRE5EZVptNHdJNTZOTGFYS1NOTGtYeXU2ZlBvQUNBQXpCM3pDRm8wLV9uNER6bHhWU2xnaUlDZENGZXV5LWJ5M05mcEpSSF9rM3cwLWtMZHpObWRkaW1YamZTejNTR2pZbzFBUjRYenBwb01yMTFSTTUwMHlaNDU3eFZkaVBNOXZoZ2lCdWJVb3FBcC1mQV82bVdhZW9JQXNTTWFuaVdjTnltS0s0eVEwLUlQZ3Bjb3pNZ2p6N1JtLWcwLUxqYjVZS0Z0RzltamZyYTM0Nl8tcTZMT3ZNeVhNN0Z0YkR5dw?oc=5",
     "publishedAt": "2026-11-18",
     "category": "declaracao",
     "isVerifiedSource": true
@@ -264,7 +264,18 @@
     "isVerifiedSource": true
   },
   {
-    "id": "news-tarcisio-governador-1795374941736-z7lw",
+    "id": "news-tarcisio-governador-1795416425209-cj3p",
+    "candidateId": "tarcisio-governador",
+    "candidateName": "Tarcísio de Freitas (Governador Reeleito SP)",
+    "title": "Tarcísio anuncia mais quatro secretários para novo mandato em São Paulo",
+    "source": "O GLOBO",
+    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQd0lTR1p6dG41VnFCVUdsekxoMWV0T01oRXBYWU4tU0VCMDAyQ3YyZXBGNzRoNzVBVUU1RDRRcUE2YTd5S1RwNk51TDhaZGtHWVU4Q1lPVkRjMlRGcGRjYU1ER2YtYngzemNMbklmRHV6ZUR2U3hoQ2M0U3RzTGJTY0lNeEZBcWxqR3dpTG5sOUNxdnFNaTRnek1qWWh0U2pTXzZCM1RadXFGQU9kMllVTjBqS3hMSUlDQjlITjhqQ01tNzhkUmJyNkxR0gHYAUFVX3lxTE0tT2ROMHFZNVQzVHlEQjc5UzR1Y2hXdVNyRFhLYjJzVjd6VFVod0w2czc5d0M2c2RWQm90a01YRjJDUW5IOUk5YVl3NVNxSjNveHZWNWdfc3RpR05FV1VIeVJ4ZGxkOS1VZzBzdlB5Y09kcWNoWDBhN1hsYm0wVHNTRXZoMG9kV0lZUTcwZ1pSRi1vVEFaVVkwcVdONGF6NjJ6bldXSzR2MnU3UlhHWUJLLU1qWi1mejU0cDAybkVTSVV3UTltYjUtZ2lQdG5aMjhoZ2xQMGR5UQ?oc=5",
+    "publishedAt": "2026-11-17",
+    "category": "declaracao",
+    "isVerifiedSource": true
+  },
+  {
+    "id": "news-tarcisio-governador-1795416425209-64pd",
     "candidateId": "tarcisio-governador",
     "candidateName": "Tarcísio de Freitas (Governador Reeleito SP)",
     "title": "Tarcísio define cinco mudanças no secretariado e desmembra duas pastas para segundo mandato",
@@ -283,17 +294,6 @@
     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdmJMTkJqUnFYUU05QldING9JSjJfc2drRDBXV1VhQmV0SjhmMzFyMTNacWxjT1ZBNldXdnNUVEZqa3VJSGR4VlUyUlIyelE2cXpzd0JCRG5Gb19sOVNaMFZXTHlTQkFabnRyazNXOXdSTW5Od3Y0b2g0dVpEMW9peHVQdV8tbWJ4ZmcweHpwSWFNRVFWZ2JRdWROSjNZSkxDZVFuSHMtVGplWWRW?oc=5",
     "publishedAt": "2026-11-17",
     "category": "gestao",
-    "isVerifiedSource": true
-  },
-  {
-    "id": "news-tarcisio-governador-1795326993806-pmp5",
-    "candidateId": "tarcisio-governador",
-    "candidateName": "Tarcísio de Freitas (Governador Reeleito SP)",
-    "title": "Tarcísio anuncia mais quatro secretários para novo mandato em São Paulo",
-    "source": "O GLOBO",
-    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQd0lTR1p6dG41VnFCVUdsekxoMWV0T01oRXBYWU4tU0VCMDAyQ3YyZXBGNzRoNzVBVUU1RDRRcUE2YTd5S1RwNk51TDhaZGtHWVU4Q1lPVkRjMlRGcGRjYU1ER2YtYngzemNMbklmRHV6ZUR2U3hoQ2M0U3RzTGJTY0lNeEZBcWxqR3dpTG5sOUNxdnFNaTRnek1qWWh0U2pTXzZCM1RadXFGQU9kMllVTjBqS3hMSUlDQjlITjhqQ01tNzhkUmJyNkxR0gHYAUFVX3lxTE0tT2ROMHFZNVQzVHlEQjc5UzR1Y2hXdVNyRFhLYjJzVjd6VFVod0w2czc5d0M2c2RWQm90a01YRjJDUW5IOUk5YVl3NVNxSjNveHZWNWdfc3RpR05FV1VIeVJ4ZGxkOS1VZzBzdlB5Y09kcWNoWDBhN1hsYm0wVHNTRXZoMG9kV0lZUTcwZ1pSRi1vVEFaVVkwcVdONGF6NjJ6bldXSzR2MnU3UlhHWUJLLU1qWi1mejU0cDAybkVTSVV3UTltYjUtZ2lQdG5aMjhoZ2xQMGR5UQ?oc=5",
-    "publishedAt": "2026-11-17",
-    "category": "declaracao",
     "isVerifiedSource": true
   },
   {
@@ -627,7 +627,7 @@
     "isVerifiedSource": true
   },
   {
-    "id": "news-romeu-zema-presidente-1795374941025-4yrq",
+    "id": "news-romeu-zema-presidente-1795416424525-e807",
     "candidateId": "romeu-zema-presidente",
     "candidateName": "Romeu Zema",
     "title": "Alcolumbre ironiza vídeo de Zema comendo banana: \"teve 0,27% dos votos\"",
@@ -847,6 +847,17 @@
     "isVerifiedSource": true
   },
   {
+    "id": "news-andre-do-prado-senador-1795416429097-r6xl",
+    "candidateId": "andre-do-prado-senador",
+    "candidateName": "André do Prado",
+    "title": "André do Prado 222 (PL): candidato a Senador pelo SP",
+    "source": "Gazeta do Povo",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZjdjRGlVcHhpNmplYlYyVlJkU2FpTDhsbXVDTzM0djVLSlk3V2pIc1VfNm1tU1dEWUZ0cmFUM3F2dzRQTnhiV0R5cmxCZzAwVlpBMnB3VFFxdUNZMEpfOUh0bFR0MzFBazJsNGhLeWhKT1Etemk2RGVheTdNYkVPV3NNNk9yaWNHczByaXdzYUFHWmdW?oc=5",
+    "publishedAt": "2026-11-09",
+    "category": "declaracao",
+    "isVerifiedSource": true
+  },
+  {
     "id": "news-ronaldo-caiado-presidente-1795374940324-m5ew",
     "candidateId": "ronaldo-caiado-presidente",
     "candidateName": "Ronaldo Caiado",
@@ -886,17 +897,6 @@
     "title": "Renan Santos 14 (MISSÃO): candidato a Presidente em 2026",
     "source": "Gazeta do Povo",
     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNS2RVY1dwekdFMXRhUzdCZ1FhX2p4QlNoczkxalFDaVRDTUFMNHBBdWFVenlsUjlVUkt4M3QtWXBHaXVKU09oZzBEUXN0a19VaUxLV0JtNEZnS2FuXzk4bjQ5UFFsSm14WG5zcm9OVWl4X1NjaDVqME9YWU5HUVlIZzRjc3o1dW9Xd0tyazlRbENaZnNmTlZ4S19R?oc=5",
-    "publishedAt": "2026-11-09",
-    "category": "declaracao",
-    "isVerifiedSource": true
-  },
-  {
-    "id": "news-andre-do-prado-senador-1795326997841-o85c",
-    "candidateId": "andre-do-prado-senador",
-    "candidateName": "André do Prado",
-    "title": "André do Prado 222 (PL): candidato a Senador pelo SP",
-    "source": "Gazeta do Povo",
-    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZjdjRGlVcHhpNmplYlYyVlJkU2FpTDhsbXVDTzM0djVLSlk3V2pIc1VfNm1tU1dEWUZ0cmFUM3F2dzRQTnhiV0R5cmxCZzAwVlpBMnB3VFFxdUNZMEpfOUh0bFR0MzFBazJsNGhLeWhKT1Etemk2RGVheTdNYkVPV3NNNk9yaWNHczByaXdzYUFHWmdW?oc=5",
     "publishedAt": "2026-11-09",
     "category": "declaracao",
     "isVerifiedSource": true
@@ -1364,12 +1364,34 @@
     "isVerifiedSource": true
   },
   {
-    "id": "news-renan-santos-presidente-1795374939637-22nn",
+    "id": "news-renan-santos-presidente-1795416423208-76ws",
     "candidateId": "renan-santos-presidente",
     "candidateName": "Renan Santos",
     "title": "Eleições 2026: Ficha de Renan Santos (MISSÃO)",
     "source": "Folha de S.Paulo",
     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNll2VVlRd01idE1QOE03MVp0WkxqY3JCY2wzUk9URG1vU1IwMHdWc3gySllrd2F4NU43U1ljNnY4QXpzMS1TQ3M4R3FzTVNsV2d4d21scXM0SjBfcnF4Tm9nelczQVZjWkNVWTFEeEdxZjJNSkZSZHBHcEstbTNfM0FJUW5aSHF4UFdib25KaGVkTTJ4V0tVYXZmUXdDa0ZFRGROS2tINUE0UQ?oc=5",
+    "publishedAt": "2026-11-03",
+    "category": "declaracao",
+    "isVerifiedSource": true
+  },
+  {
+    "id": "news-romeu-zema-presidente-1795416424525-ficg",
+    "candidateId": "romeu-zema-presidente",
+    "candidateName": "Romeu Zema",
+    "title": "Eleições 2026: Ficha de Zema (NOVO)",
+    "source": "Folha de S.Paulo",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPX1hoSmNseGwyTDNvYUJqTVlkWWVOS3dsU1BEbXNQejVscGkzTGVRZVljUnR2UncyY1ZQenpRVWpXWFVBclRzSGlBQWxwUTFtVk1qZ2ZfTFh4cUVhRVZVaGI4a2dmckVEQjBTa2V2cjJzWVZ3QVFuYlFzTEpXRzNUQldNVzVTX0E5VTBUSEg0dWhITWhnOEdZY3Z3QmktTWs?oc=5",
+    "publishedAt": "2026-11-03",
+    "category": "declaracao",
+    "isVerifiedSource": true
+  },
+  {
+    "id": "news-haddad-governador-1795416425865-aibe",
+    "candidateId": "haddad-governador",
+    "candidateName": "Fernando Haddad",
+    "title": "Eleições 2026: Ficha de Fernando Haddad (PT)",
+    "source": "Folha de S.Paulo",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPeXl3dTBuNkFrbGJxRVdfT3ZvQjNvTVQxeVNIemJJcEtxZnJwR0VWM1JWQXNrT1otU0h6blczUWFlNVdVTWdGdU50NkF4NlotREJHUVNzcVVBRUZ5QTQ3XzJxcHNob2MxR3JSMHQ0THE3UEFheTFQQng3ZkNSUk9zUWdHc1hnRkVWY01kRVd0bzl3SGtZcXJfeUktS1lxNkNPZDZuNjkwNWVsNDlkOUE?oc=5",
     "publishedAt": "2026-11-03",
     "category": "declaracao",
     "isVerifiedSource": true
@@ -1381,28 +1403,6 @@
     "title": "Eleições 2026: Ficha de Ronaldo Caiado (PSD)",
     "source": "Folha de S.Paulo",
     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNR244WWFEeWtuVVl3U3hlMG5meExnYlNwRWtIcVBPY284ckxwMWlTV3k0WktKREhjbjlGY01JOEpnOUdFOVBCTVhCQkVGRlNoaUY2X0FaaEp3NDlKSGdqOGlRdzE1WHFZRnMzVzlxUEFydWpROWNKN3o1TVBVNGQ0ZnpiWTFuM0Y4RmJRM1ZtLUNnZHFyNjdhVUd0NnRuamdjRXF1U3VtQ0I5TkpK?oc=5",
-    "publishedAt": "2026-11-03",
-    "category": "declaracao",
-    "isVerifiedSource": true
-  },
-  {
-    "id": "news-romeu-zema-presidente-1795374941025-o1ni",
-    "candidateId": "romeu-zema-presidente",
-    "candidateName": "Romeu Zema",
-    "title": "Eleições 2026: Ficha de Zema (NOVO)",
-    "source": "Folha de S.Paulo",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPX1hoSmNseGwyTDNvYUJqTVlkWWVOS3dsU1BEbXNQejVscGkzTGVRZVljUnR2UncyY1ZQenpRVWpXWFVBclRzSGlBQWxwUTFtVk1qZ2ZfTFh4cUVhRVZVaGI4a2dmckVEQjBTa2V2cjJzWVZ3QVFuYlFzTEpXRzNUQldNVzVTX0E5VTBUSEg0dWhITWhnOEdZY3Z3QmktTWs?oc=5",
-    "publishedAt": "2026-11-03",
-    "category": "declaracao",
-    "isVerifiedSource": true
-  },
-  {
-    "id": "news-haddad-governador-1795374942388-50mr",
-    "candidateId": "haddad-governador",
-    "candidateName": "Fernando Haddad",
-    "title": "Eleições 2026: Ficha de Fernando Haddad (PT)",
-    "source": "Folha de S.Paulo",
-    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPeXl3dTBuNkFrbGJxRVdfT3ZvQjNvTVQxeVNIemJJcEtxZnJwR0VWM1JWQXNrT1otU0h6blczUWFlNVdVTWdGdU50NkF4NlotREJHUVNzcVVBRUZ5QTQ3XzJxcHNob2MxR3JSMHQ0THE3UEFheTFQQng3ZkNSUk9zUWdHc1hnRkVWY01kRVd0bzl3SGtZcXJfeUktS1lxNkNPZDZuNjkwNWVsNDlkOUE?oc=5",
     "publishedAt": "2026-11-03",
     "category": "declaracao",
     "isVerifiedSource": true
@@ -1815,7 +1815,7 @@
     "isVerifiedSource": true
   },
   {
-    "id": "news-flavio-bolsonaro-presidente-1795374937616-r5ce",
+    "id": "news-flavio-bolsonaro-presidente-1795416421118-e2nj",
     "candidateId": "flavio-bolsonaro-presidente",
     "candidateName": "Flávio Bolsonaro",
     "title": "'Ele achou que já estava eleito': os erros da campanha de Flávio Bolsonaro no segundo turno apontados por analistas",
@@ -1826,7 +1826,7 @@
     "isVerifiedSource": true
   },
   {
-    "id": "news-arnaldo-jardim-deputado-1795374949374-8mbn",
+    "id": "news-arnaldo-jardim-deputado-1795416432177-tqg4",
     "candidateId": "arnaldo-jardim-deputado",
     "candidateName": "Arnaldo Jardim",
     "title": "Arnaldo Jardim propõe crédito tributário para estoques de remédios",
@@ -2233,7 +2233,7 @@
     "isVerifiedSource": true
   },
   {
-    "id": "news-flavio-bolsonaro-presidente-1795374937616-zqzi",
+    "id": "news-flavio-bolsonaro-presidente-1795416421118-7qc9",
     "candidateId": "flavio-bolsonaro-presidente",
     "candidateName": "Flávio Bolsonaro",
     "title": "Flávio Bolsonaro fugiu para os EUA, diz Agência Reuters",
@@ -2497,7 +2497,7 @@
     "isVerifiedSource": true
   },
   {
-    "id": "news-lula-presidente-1795374938342-qq6i",
+    "id": "news-lula-presidente-1795416421847-yd7y",
     "candidateId": "lula-presidente",
     "candidateName": "Luiz Inácio Lula da Silva",
     "title": "Presidente do TSE anuncia reeleição de Lula e faz balanço do 2º turno das Eleições 2026",
@@ -2992,23 +2992,23 @@
     "isVerifiedSource": true
   },
   {
+    "id": "news-lula-presidente-1795416421847-3moh",
+    "candidateId": "lula-presidente",
+    "candidateName": "Luiz Inácio Lula da Silva",
+    "title": "Veja como foi o resultado das eleições 2026 - Lula derrota Flávio e é reeleito presidente da República, em virada histórica",
+    "source": "JOTA Info",
+    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNeEVsRmVNd3NucjlGX2I5RFJELVVueENCWW11SjljSU1KT2VMckgtYmtJcUlqYm4yVVdqY1VobXRrQ2VYVkJuMlY2RGxfMlUtZjYxNFhnZzAtUmU0SVN0V3FVTGdPZW5ENF9LZkN2MXZ3amtNUUNqU3MyTVFfZGZ4aTNzQTlfVUJUZXgyU01MdVI3NEo0THpBc0h0S1BvXzdYZE92NUYzMTRtVDlRb0JVamU3MXJqMGdTWWd4MEdhT3VhWGFD?oc=5",
+    "publishedAt": "2026-10-25",
+    "category": "declaracao",
+    "isVerifiedSource": true
+  },
+  {
     "id": "news-flavio-bolsonaro-presidente-1795374937616-mtz1",
     "candidateId": "flavio-bolsonaro-presidente",
     "candidateName": "Flávio Bolsonaro",
     "title": "Como fica o bolsonarismo após a derrota de Flávio",
     "source": "Nexo Jornal",
     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOWk9nLUt0WWRqd2pMTlJKSEdvUWFnaTA2LXVxTHBXTnppRlNhR1g2QzFscS04c2ZwajZfaEU2SGdzcUNBOThWMm51d2VpZDhMRG93ZFZfVDN5b3pkNUxJaEEweFljNi1JRjZDeUd6Yzh5dzQtRHlBVUgtOUhYXzF2UmF2emlib3pCeERpS3NaaElKem5uLXQ2S051RHBMaHdEYnRsQ2tyR3VITUNFZXFhaDBOZWpfV3VDcmc?oc=5",
-    "publishedAt": "2026-10-25",
-    "category": "declaracao",
-    "isVerifiedSource": true
-  },
-  {
-    "id": "news-lula-presidente-1795374938342-4xsq",
-    "candidateId": "lula-presidente",
-    "candidateName": "Luiz Inácio Lula da Silva",
-    "title": "Veja como foi o resultado das eleições 2026 - Lula derrota Flávio e é reeleito presidente da República, em virada histórica",
-    "source": "JOTA Info",
-    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNeEVsRmVNd3NucjlGX2I5RFJELVVueENCWW11SjljSU1KT2VMckgtYmtJcUlqYm4yVVdqY1VobXRrQ2VYVkJuMlY2RGxfMlUtZjYxNFhnZzAtUmU0SVN0V3FVTGdPZW5ENF9LZkN2MXZ3amtNUUNqU3MyTVFfZGZ4aTNzQTlfVUJUZXgyU01MdVI3NEo0THpBc0h0S1BvXzdYZE92NUYzMTRtVDlRb0JVamU3MXJqMGdTWWd4MEdhT3VhWGFD?oc=5",
     "publishedAt": "2026-10-25",
     "category": "declaracao",
     "isVerifiedSource": true
@@ -5049,7 +5049,7 @@
     "isVerifiedSource": true
   },
   {
-    "id": "news-guilherme-derrite-senador-1795374945214-cwle",
+    "id": "news-guilherme-derrite-senador-1795416428460-m15i",
     "candidateId": "guilherme-derrite-senador",
     "candidateName": "Guilherme Derrite",
     "title": "Derrite desponta como favorito para Segurança Pública em eventual governo Flávio Bolsonaro",
@@ -5548,7 +5548,7 @@
     "category": "pesquisa"
   },
   {
-    "id": "news-baleia-rossi-deputado-1795374949957-imbj",
+    "id": "news-baleia-rossi-deputado-1795416432736-ulh8",
     "candidateId": "baleia-rossi-deputado",
     "candidateName": "Baleia Rossi",
     "title": "Flávio diz querer discutir mudanças na reforma tributária com Baleia Rossi",
@@ -5837,7 +5837,7 @@
     "category": "declaracao"
   },
   {
-    "id": "news-renan-santos-presidente-1795374939637-ui2l",
+    "id": "news-renan-santos-presidente-1795416423208-rh2k",
     "candidateId": "renan-santos-presidente",
     "candidateName": "Renan Santos",
     "title": "5 falas de Renan que mostram os dilemas da direita pós-eleição",
@@ -6190,7 +6190,7 @@
     "category": "declaracao"
   },
   {
-    "id": "news-romeu-zema-presidente-1795374941025-cqv6",
+    "id": "news-romeu-zema-presidente-1795416424525-xxxd",
     "candidateId": "romeu-zema-presidente",
     "candidateName": "Romeu Zema",
     "title": "Zema não vence em nenhuma cidade de MG e fica em 3º na cidade natal, Araxá",
@@ -6324,23 +6324,34 @@
     "category": "pesquisa"
   },
   {
+    "id": "news-flavio-bolsonaro-presidente-1795416421118-6fnw",
+    "candidateId": "flavio-bolsonaro-presidente",
+    "candidateName": "Flávio Bolsonaro",
+    "title": "O que esperar das campanhas de Flávio e Lula no 2º turno",
+    "source": "Nexo Jornal",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOSVZidDRfa29lOHNxT1RwZVVoZlNULThSd3NDakgyV0g5MWxRYXkxQnBnWTQ4enJzdGlld3hkcmE2b3RhRTZWZnpmbmUtVmtFYVRYNXJ5eHZ4UWtXZ0doR0tldTgwbGMyVFg4bDI2aTBJUTV2SFJaREt5dU1fekZyc2JNb0t0RUJvNlFWcTc3SzdpZkhnRmlWeDlvTHUzMTZMR3BR?oc=5",
+    "publishedAt": "2026-10-05",
+    "category": "declaracao",
+    "isVerifiedSource": true
+  },
+  {
+    "id": "news-renan-santos-presidente-1795416423208-r4on",
+    "candidateId": "renan-santos-presidente",
+    "candidateName": "Renan Santos",
+    "title": "Renan descarta apoio no 2º turno; PSD de Caiado libera bases estaduais",
+    "source": "Agência Brasil",
+    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQa1hlX0xjOU8zQjM1NDJMeTExdHBCSDI0bjBkbHh1TlJ5VXIzMk9ERUxKUVB3bTVYM3BUSllhU3hTZ3F2Yl9lQnZhOWZSN3FOMWdjQ3VTSE80d1dyYmJjOWF3ZGNtYjhBQjdjWHRtVzBYaG1pczh0SUU1al9kX0VaQXdnc2NSSEFFVTRTd1dLMFZsVVhweXNNQVduQTZuaVE0eWJ6Y0tpX0JMRXk1Q3lCVkl1QmY5N3h3eHZyRmZoU2RrYm5NbFE?oc=5",
+    "publishedAt": "2026-10-05",
+    "category": "declaracao",
+    "isVerifiedSource": true
+  },
+  {
     "id": "news-augusto-cury-presidente-1795374938984-4gfu",
     "candidateId": "augusto-cury-presidente",
     "candidateName": "Augusto Cury",
     "title": "Terceiro colocado, Cury fala em manter “silêncio” no segundo turno",
     "source": "Agência Brasil",
     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOOE14cExOTU10WnNqZGl6VUt4ZjZ1VGhneXpGOUdjRzJOaVB2d0ZjWE5POE1fUi1meG90LXFUSEpRS09UMXJxQkVwQmxJbjU0djJqUnVXRWgzUFVJdy1wblFIN0lpYlZhMDkyS2RTSFk4SnRmSzVSUmlGV001WWFDR2hVbi1QaTBhcFBIUnpZR3BHWVVUaDVjOEItaVh0bllMYkpLUFRYazBlTm9XZnR0VE1VY1htTlhLcEZtRW9B?oc=5",
-    "publishedAt": "2026-10-05",
-    "category": "declaracao",
-    "isVerifiedSource": true
-  },
-  {
-    "id": "news-renan-santos-presidente-1795374939637-8wjt",
-    "candidateId": "renan-santos-presidente",
-    "candidateName": "Renan Santos",
-    "title": "Renan descarta apoio no 2º turno; PSD de Caiado libera bases estaduais",
-    "source": "Agência Brasil",
-    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQa1hlX0xjOU8zQjM1NDJMeTExdHBCSDI0bjBkbHh1TlJ5VXIzMk9ERUxKUVB3bTVYM3BUSllhU3hTZ3F2Yl9lQnZhOWZSN3FOMWdjQ3VTSE80d1dyYmJjOWF3ZGNtYjhBQjdjWHRtVzBYaG1pczh0SUU1al9kX0VaQXdnc2NSSEFFVTRTd1dLMFZsVVhweXNNQVduQTZuaVE0eWJ6Y0tpX0JMRXk1Q3lCVkl1QmY5N3h3eHZyRmZoU2RrYm5NbFE?oc=5",
     "publishedAt": "2026-10-05",
     "category": "declaracao",
     "isVerifiedSource": true
@@ -6385,17 +6396,6 @@
     "title": "Tarcísio é reeleito em São Paulo com mais de 60% dos votos válidos",
     "source": "Agência Brasil",
     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOYUZpN0hWbGpMaF9sSTNmYlFmaDVhOUNNR1AxZmlRWkxZRWFoMUJTQ05yamUxT1FoTHN3OEpHcUt4bUpXYm1lY0VlZEFobXJrUVdDM2VQM01maHRMSl9MQTBhTFNmXzhfT29rSjJwUERWZ0dKcko5ekI5QjRJX0h5VVhMTmdMaVIwcTVwN21vSFRBMUd0YVBUak8zcGVkNkdQRTd4bkltMGZmOE9YWkYzOGRCaVcxWjhocXQtSzVvV2NzQzA1ZWx3b3V4SU1qeTlwSmY4STFlOG02aWs?oc=5",
-    "publishedAt": "2026-10-05",
-    "category": "declaracao",
-    "isVerifiedSource": true
-  },
-  {
-    "id": "news-flavio-bolsonaro-presidente-1794465411918-7ind",
-    "candidateId": "flavio-bolsonaro-presidente",
-    "candidateName": "Flávio Bolsonaro",
-    "title": "O que esperar das campanhas de Flávio e Lula no 2º turno",
-    "source": "Nexo Jornal",
-    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOSVZidDRfa29lOHNxT1RwZVVoZlNULThSd3NDakgyV0g5MWxRYXkxQnBnWTQ4enJzdGlld3hkcmE2b3RhRTZWZnpmbmUtVmtFYVRYNXJ5eHZ4UWtXZ0doR0tldTgwbGMyVFg4bDI2aTBJUTV2SFJaREt5dU1fekZyc2JNb0t0RUJvNlFWcTc3SzdpZkhnRmlWeDlvTHUzMTZMR3BR?oc=5",
     "publishedAt": "2026-10-05",
     "category": "declaracao",
     "isVerifiedSource": true
@@ -6559,6 +6559,149 @@
     "category": "declaracao"
   },
   {
+    "id": "news-renan-santos-presidente-1795416423208-wr4o",
+    "candidateId": "renan-santos-presidente",
+    "candidateName": "Renan Santos",
+    "title": "Empresário e fundador do MBL, Renan Santos estreia em eleições na disputa pela Presidência",
+    "source": "G1",
+    "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNTW1wVDZNSWRMWHlsdTNSQUNuX2c3ak02NmU1bHQ2ZXRZWTc0TnVZU1pXcFE2WElHZjJjTlE4OUNmVEhkd1RNSzRFbjB5SmQ1Z1B6U1hILU5LNW85OGJvT0h2VEF1TGNyTldHcW9DTzhGZk1fXzQyYW5Ba0x2U3NYWmNDVXlZVVlHaGVSN0Zra1JERW9JaFRBRk9BQjVnSWlKZnRXNE5haU1ndHBkQ0Q4VVZpeF8tb1czQkx2QWZYWjBRVUFvNmxGeHRxVlBGelpQQnpfTUZCdTUwd21UVV9JWWRfc0xjTGtwR1dRZzNOONIB_gFBVV95cUxQMTc4XzFXajJqeGpYMG5zeVZ2b2pidzF4TkczNnhzN2gzZFZtOHBTSTZ6akdUUkNXRTdEajZIbFhTdVV3T2xFMXlzS0J0RGE1UHRFS2RVNF9hS1c5V1J4MGpWVmw3LVdKVU9hT2hqeTRScDlGT2daWmEzZHJnMjJ2QXFyYXhnVEJfbEF6M2FpdGxocUFWYU9haHFSeEtJUlNFZTZkNkRKVVNZdWU3OG9selFFeW4wdXE3ZXRkRGpVUHhLSGdtMEtvNmp1OVQ0X3c3OTIzTXlxZDZIOWJpRlVKRHVwR1JZR0xsUE1qOV9heHBqNjMyUzNYT1BnMUhIQQ?oc=5",
+    "publishedAt": "2026-10-04",
+    "category": "declaracao",
+    "isVerifiedSource": true
+  },
+  {
+    "id": "news-romeu-zema-presidente-1795416424525-d14q",
+    "candidateId": "romeu-zema-presidente",
+    "candidateName": "Romeu Zema",
+    "title": "Tribunal Eleitoral de Minas vai apurar uso de celular por Zema na urna",
+    "source": "Agência Brasil",
+    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPNU9zQzlFZWpJc0NLdEkxeERVX2ZSeVF4bEt5aWpZcG12ZUczNURFRHNTaDZhNHZaa1lfTEdNaWFrLVhiUVZ4czhVWGVLNl9kNWRoR1pWTmQwcDJzaGpBS2lGblhaQ3QtR2JmM3l3M1plUVBHczFOUXk4X1Fsa1JHS2w3VTJqX1JneXB3WDIzUlVrYVN2NUhMcXpQOEM4VFpkVnp4UGdIaUxqN2ZNOEFEXy1WN2loUHRjQ3RHVWtpT1gwMDNxQUE?oc=5",
+    "publishedAt": "2026-10-04",
+    "category": "declaracao",
+    "isVerifiedSource": true
+  },
+  {
+    "id": "news-romeu-zema-presidente-1795416424525-20aq",
+    "candidateId": "romeu-zema-presidente",
+    "candidateName": "Romeu Zema",
+    "title": "Quem são e os números dos candidatos ao governo de Minas Gerais (MG) nas eleições 2026",
+    "source": "JOTA Info",
+    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNZkhObkhyRTAzd2hIZzl5MTJpRldra0FDS2VXRDBHS2VkNHdrTFpKV1pjZFEyeW1qZVBtVkt4QlliM25OUDBlalJ3TTBDc2pZYXFULTA1c2ZfU3dUSldYYkxWNFM3Z1lLUVo5LW45bnhpUHdJMUtKb002a2d6NEVxM3RESFRDRG9IQ1dlcHdhV3pZbXowTG5WZmgzSVA1X3hPUkRCajRLWGNoTzVhamhGQS05T0FHTk4tUF90eWtqcGczZDc3QjdOVg?oc=5",
+    "publishedAt": "2026-10-04",
+    "category": "declaracao",
+    "isVerifiedSource": true
+  },
+  {
+    "id": "news-tarcisio-governador-1795416425209-xff4",
+    "candidateId": "tarcisio-governador",
+    "candidateName": "Tarcísio de Freitas (Governador Reeleito SP)",
+    "title": "Tarcísio é reeleito governador de São Paulo",
+    "source": "Agência Brasil",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNYXhzUXdHeG10Ni03MXU3TnJ4a3lMWFVnUUdRbXZSb1N3c3VuOHhkcTVVRkotd3pUVXZJQTZHaWlWTTlyUUdXRGdjc3cxQ2NVeFI5NXB4dEZ3TFhnMW40aWpoSTVHVWxmQWxsQjYzLWNJR0Z0ZWtPN3M0aGxpSTI5ZmtTWlNuZW5tRnVDRERHOFlYTFdLeXptZDdlM2VhQlhqNWow?oc=5",
+    "publishedAt": "2026-10-04",
+    "category": "declaracao",
+    "isVerifiedSource": true
+  },
+  {
+    "id": "news-haddad-governador-1795416425865-g2sz",
+    "candidateId": "haddad-governador",
+    "candidateName": "Fernando Haddad",
+    "title": "Derrotado no primeiro turno em SP, Haddad diz que obteve 'grande resultado' com campanha de 'alto nível'",
+    "source": "O GLOBO",
+    "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPc3RCNG1lQUdrVlUtd3MxeGlQMUVTMTZjSkdscmxURkFCbkd2VHVNT0I0emhSVGpWaW1kMXR3dVZJU1FXQlFfOFI3NG1rbWpmaC1UZjdmVkZnZmJLQWRqaVphV1NtaWFqV1Z0WVZ5bjhyMWRUXzFhZlo5MU5iU1RDa244Tnp0UWduSnhIaDVEbVlFeXdzOGFSQmM0UXc0VkV6cUZFWW1uQ3NVY3FnOXgxTG9PS0J5Nk5Lbmd4a3V2dkRlck5JNlRXR1FZQTJyQ2RzOTVRSERwbDlVcE8yT0l6d2hfb3NnX1Q0d0UtR01NX0dWNnpBSDhXYkNydEs4elJqZmfSAZACQVVfeXFMTVFLQk1LTlFKalB3RU1DNUNXc1phSmp2Y3FFdl96UWF4ZzJ5R0ZHd3VEbFFaTnhmbmpqU0d3NnFGMHRRY3RJSHUyeFhxS09zcGVmaDBUZHQzRWhZVklQbXpfdjNGd0lPMUdzVWlrcnVibUtHQWc4M0FpbEZCQUFhcldHbDNuNW91ZjdkRmNMZlVoMlRpdy05M2VVR2RHRE5yRTBpOHFzVEt1SkplcTVLb3RqQjFyaWkweUEtc3JzTFljazlaRlBZUHM1eGh6eEdudFJjSU5VR3NrbldlT2MwR1FBQnI0ZGVKd05jNUZTaWFSVF9TV1BPOWRaWHpSdkZaNGY1dm9IVTZ1N0xUZ2Zydjg?oc=5",
+    "publishedAt": "2026-10-04",
+    "category": "declaracao",
+    "isVerifiedSource": true
+  },
+  {
+    "id": "news-haddad-governador-1795416425865-7w5s",
+    "candidateId": "haddad-governador",
+    "candidateName": "Fernando Haddad",
+    "title": "Veja quem são todos os candidatos a governador de São Paulo (SP) nas eleições 2026",
+    "source": "JOTA Info",
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPWDNSSnI2OXRjNExsbXVmNm5iUkNrVkZjaUxkejhxWU9lN2JEVFhwUVZRaFM4aDFKLTNydEgzZE85cTIteWJoaVpJM0hlbnI5QXkwVVV2elQwaXFUYmJocHdJMGlZemR0cnJVcHpaSTFhOTBUdkpJZHVWcGNCSUNHV3ZaNGFSRm5WRDgweVZBYXZSMnpjdHYyeWx0M0Jtalc4NDQ0QzZWQnFtMTBxZzgxOEJjYmU0a0pFc3lqRFkxeXdwUTQ?oc=5",
+    "publishedAt": "2026-10-04",
+    "category": "declaracao",
+    "isVerifiedSource": true
+  },
+  {
+    "id": "news-haddad-governador-1795416425866-b49m",
+    "candidateId": "haddad-governador",
+    "candidateName": "Fernando Haddad",
+    "title": "Qual é o número de Fernando Haddad para o governo de São Paulo?",
+    "source": "O GLOBO",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZy0yRWVZWEFXdTdjdGlLYlZaLVJYdEdRdzN6VFkxalprcm9BSkV4Y2pMNE1QV09TTjFZUXl4RnA5SFFSVUdWR2xkbUNJdHhrLS1ZYUN5Sk96LUNXLWlEbkxBWnRXeXdoa2U5cC1yT0pxOExyZ0NHTVR3WEE0NkpDLXEycXVENlNfS3RWOFI4QjhLZk9Gd0l6dEFnakFaekNJa2N2TVBNQWZ1ejFncTI0aTJsWnd5Ykh6a041ai130gHMAUFVX3lxTE9OODNpdUMtc2NnLUlBUGVQVU5mYnhsN095cWxEcU15bFFyczdCd0FXOVNOWDFRZ2ZwOGNxUkN2Q05xMGpIcUZpYVNsZ25YSkFSZlB0M1dXam14emp5ZEtiN2ZmbDBiNGZaWnpOaXE5SDJLOUI1SnNNYTYwQmJlemtvcURvak9HSnBxVndpZkNObmxaREVSZDZ6elFER0FTQ2VDQVBPeGN1bE9ZbUVRYjBBZkVqNWpuNFBDaXJCX3dRS1F2Zk1TVUFCNkhNLQ?oc=5",
+    "publishedAt": "2026-10-04",
+    "category": "declaracao",
+    "isVerifiedSource": true
+  },
+  {
+    "id": "news-guilherme-derrite-senador-1795416428460-rv3x",
+    "candidateId": "guilherme-derrite-senador",
+    "candidateName": "Guilherme Derrite",
+    "title": "Derrite chega ao Senado após gestão na Segurança de SP marcada por alta da letalidade policial e redução de indicadores criminais",
+    "source": "G1",
+    "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNMzVqUzVQOThBZHJCSHhBRzRycFlSR1RybVZqOEpHRnVCbXhJR3BDNnVfalFQQUpzWEpuUTZXOGt6NENKM0luZDlNckNzOVVHOWZGNV82aVNYbldpdVM5Wk05d1pXS0FCRFNDc2I0VjdJUjZUd2VreWtjSzA5STNQMTR6NGRvZDNXemE4WXVLb1Zab0JTVlh1a2NPeHVkWU5nTHl4SGswdC1ROU5tMDVWeXVPWjFnN1R1bW0xSzVmZzc1V1l1cXJValB6eFd5anRTQmg0WlVVNFNEMVhqWHctREZWdXZ2WFQ1X05yLVhhdGxGVWdEQUV1OTEyNGdLak05ZkI4NVh6VmrSAZcCQVVfeXFMT2ZlM3YzYWIzRThCYlp4NzNKbTR2RERhdUd1eVJhRkJ6VlYxM1d2TktSeWVfWUNHZkIxOFpudHNIRG1ldnVXVGw5RHIxOERHeFFKRUU1eEpTdUlqTVF6NGJ1YzlYQkcwQU9mcHR1NGlhWElEWXo5bXkyVUhPMWRyNXVwZ251cWxoN3FSU3o2NjNpTkk1UnJ5OVpVOFk2c2Rzald2X2JWV0hVUTZQMGZ0MnQ2eDQtS3V6ckp1b0xCbV9XYTQwcU5ZVjFrVXc5aElKTnRTV21hMlRldm1PTXBHQmRucm9YM2RTaU4wTTBDVFRBMGxSdkNnay0wbUlMNzZjZm10X2lRZWJ2MUo0TFd4N0YtOUdaWkxv?oc=5",
+    "publishedAt": "2026-10-04",
+    "category": "gestao",
+    "isVerifiedSource": true
+  },
+  {
+    "id": "news-andre-do-prado-senador-1795416429097-vcej",
+    "candidateId": "andre-do-prado-senador",
+    "candidateName": "André do Prado",
+    "title": "Guilherme Derrite (PP) e André do Prado (PL) são eleitos senadores por São Paulo",
+    "source": "JOTA Info",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQb0RsQXBZNnhlMnF6d0ZLcTRhY2FoNnlJUUxFenI1LXp6c2ppTmFXVWZSSFJQMjZjbHpiTm1ELXdackRXTUpOQktOdG5oTVdpMUdrWjNmYXZWRGxBdk9vTnRIRXg0c0dPcGJJX2FwX2Z5Y19PY1VUZWNWS0sxam03Rm9tWTVQMWNKSmZGbWN4YXBfSE9aYjBhRkI0aXJXUm5xTy1WbkNxOUZDUGd2Qi1CUjAwYnFHUF9xZzI3WTN3?oc=5",
+    "publishedAt": "2026-10-04",
+    "category": "declaracao",
+    "isVerifiedSource": true
+  },
+  {
+    "id": "news-guilherme-derrite-senador-1795416428460-sdj6",
+    "candidateId": "guilherme-derrite-senador",
+    "candidateName": "Guilherme Derrite",
+    "title": "Mais bem votado ao Senado por São Paulo, Derrite fez campanha calcada na pauta da segurança pública e no bolsonarismo",
+    "source": "O GLOBO",
+    "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxQeDEyWE1TU0g4aU1KdTNZX1MyQXlWeUdHcTg4SVNoaVdfUVZNSzYySmhYSFVRN2x2RExzZFRuRE91dlBUWGt2dkdVX1Vvc1U0ZFV4Tm55MC1HZnBaM2ZBRkpfaWstOFFOOVRPSVJiS1ppVktrQndVa2dQckFzUHdnVndSU0ZsLW54d054dkxiOTBfOWR1M21WSTd5cTJRb3pGRlBpTlc4SEpBQ0xMVExzcEZhQ2ZUeHg2ZjVRbm5Hb0ZOSGxSZmRjMHV1N29RajVBSUNaX196NndIN2ppY1VGOXBSbDEtd21rUC1INlhKbThBS2tRUWtQZlVPWFNKMTlYMjNCMjJrd3E2N3d2V1A5MVpYbmxwdXBs0gGnAkFVX3lxTE05X2wtTndjRkVQZk15NENZY2VWQjF6MFBhUmZtWVhONVlxRFI2NHJGSEhmMlNQSVg4YXdxblVac1pTeXZnOFpFNkpRaGZqVUlCQnRfdVpoek1TUWcyQ09LTDNVeGFJX1lJb2RlYXJKNmJQWFJKdnJROVhHeVdpNDZ5U1lnOWNLeXQ0UUNVTm90ZUFJQk5aY2lsQ2NJb2hBcGFPOXFNVm93Z3I1NHZjS1JMMlRGcENVSlR1QjBadGZwZ3VNMno0ZHlZdFI5UFpFQVczbkRwVHBsRnhHYTlQQktVRjBISDdfUHhXVnQ4cUF2djF5UTQ3Vmp4SktNekFUeUdSUHdZMUdOWW9YNmMzU0RJWFVfRFNZcGV6cW8xbC01Y0pLTTlDUk0?oc=5",
+    "publishedAt": "2026-10-04",
+    "category": "declaracao",
+    "isVerifiedSource": true
+  },
+  {
+    "id": "news-andre-do-prado-senador-1795416429097-mylt",
+    "candidateId": "andre-do-prado-senador",
+    "candidateName": "André do Prado",
+    "title": "Derrite e André do Prado são eleitos senadores por São Paulo",
+    "source": "Congresso em Foco",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNekVOQ2VvVHNRZmNsbjZmeFF4c3djMnQ2SnNTVlhMc2NjLUZSaU9FVzNWZ29hMzN0eWtwa0xYYUpZUk9jZUI5Nnd0NkVsQV94a2gtQldlLXhZelFoMTNWYjFOZXJGbzFlM3NjY2VYSjBtUm5ZRk9DMlpySHBmZmxmYnlDdnJlMnhLaVhwc2hCMGhBQ0szOEZqcDdaV2t5U0F5YVdQOVZjOXNXUjE0VnJN?oc=5",
+    "publishedAt": "2026-10-04",
+    "category": "declaracao",
+    "isVerifiedSource": true
+  },
+  {
+    "id": "news-simone-tebet-senadora-1795416429733-emtr",
+    "candidateId": "simone-tebet-senadora",
+    "candidateName": "Simone Tebet",
+    "title": "Marina Silva e Simone Tebet perdem disputa pelo Senado em SP",
+    "source": "Valor Econômico",
+    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPa29udlFOVU9sTWVrRnJVSG5SRDZ6SDJaRndrVDZNbkpoeWd3N1V3NW5WM2pwZlg2NVFNWXF0eFpzU0JzNE9pQlNLcFNWSmxZV1VBdHFpYmgybVZZSGs1dVZmUnRsSEdyUEhnekhtblNuSXFNdVdtZ3Z5dkhtRVhoMFJBQmJiVWFPNlhfUHEzcm5ZT2xxWjR1N0RMTVdRcVJNMjNVb2E1TzJ6T1BTbDB1bWt0a1V5QWZBNnVCdVhwZ0tFajU2TDNxRFdxUzHSAdsBQVVfeXFMTjdHYnA1bnpud19xVnpmbzM5eGlTQ3NNQlRubUlEWUZLZHN5TkVLWmYzTHk2bTVUSjVhcUZaYllCMUZlTVZWM19yMUpBZXozRVZmZmJEcHdoMWdVOTBPdGpOaVVYamhhYjItZUtNSVBNZ0tjTjVxcnhnVWFuNE5GTnIyd0RlaGN2bTBtUk1INl9JRjVXOGFLcTFjNGFvdGVJSDRJUHNEZlBRdmRJc2ItdTJ5cC1UZWMzLVNhQXh6WWktQ3VQV01lbkJKZnYxbWZDcDBjaHFRbmtXeTI0?oc=5",
+    "publishedAt": "2026-10-04",
+    "category": "declaracao",
+    "isVerifiedSource": true
+  },
+  {
+    "id": "news-simone-tebet-senadora-1795416429733-b122",
+    "candidateId": "simone-tebet-senadora",
+    "candidateName": "Simone Tebet",
+    "title": "Qual é o número de Simone Tebet para o Senado por São Paulo?",
+    "source": "O GLOBO",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQOWJvQ25CRmw5QzVrNFZDQzVWS0gtWVZvMnJWSjluNExXU2xMZG9WTFRNR1ZVcFhjRmFFdFVlZGU4b1V5UVZTdGsxR0o0b2N2T19vbEh6bms2dXFMbVpTcjl4REpWdGk2b29neVJpV0ZGQ3FPeC1HenlvcHZvakZWZ2VVVElKTVpZOEJhNGlRUi0yT2FVekFMNXdhYjg3NTltMFhjVWtEVm8yUC1BZkllTEVFVGlYZUpHSlHSAcgBQVVfeXFMUGhGS3RoNDlWSnNCV0N1VjBlek02TDRTRGpIYTlkWThPTXYyNnZDQ2JpUmIwV0plYkF1V2Y5TmxZZ0xXeFRfeXZIbXc2REJEVHl3RVZlWkFjZUY5Smt0VDlaRXVPaU1Pb3RMUDVFLWN0TjlsSzBwV1lYOFBETF85c2JtMGRiX0R1YWRDNXhwS0paM0xwOFc5cEtON0ctRXNHTWNBMDJON2RZdmFoeXc4bUJ6eC12M3IxRUxVNm8zVkZxRTRjTzB4QXg?oc=5",
+    "publishedAt": "2026-10-04",
+    "category": "declaracao",
+    "isVerifiedSource": true
+  },
+  {
     "id": "news-renan-santos-presidente-1795374939637-v9fi",
     "candidateId": "renan-santos-presidente",
     "candidateName": "Renan Santos",
@@ -6581,144 +6724,12 @@
     "isVerifiedSource": true
   },
   {
-    "id": "news-romeu-zema-presidente-1795374941025-d58c",
-    "candidateId": "romeu-zema-presidente",
-    "candidateName": "Romeu Zema",
-    "title": "Tribunal Eleitoral de Minas vai apurar uso de celular por Zema na urna",
-    "source": "Agência Brasil",
-    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPNU9zQzlFZWpJc0NLdEkxeERVX2ZSeVF4bEt5aWpZcG12ZUczNURFRHNTaDZhNHZaa1lfTEdNaWFrLVhiUVZ4czhVWGVLNl9kNWRoR1pWTmQwcDJzaGpBS2lGblhaQ3QtR2JmM3l3M1plUVBHczFOUXk4X1Fsa1JHS2w3VTJqX1JneXB3WDIzUlVrYVN2NUhMcXpQOEM4VFpkVnp4UGdIaUxqN2ZNOEFEXy1WN2loUHRjQ3RHVWtpT1gwMDNxQUE?oc=5",
-    "publishedAt": "2026-10-04",
-    "category": "declaracao",
-    "isVerifiedSource": true
-  },
-  {
-    "id": "news-romeu-zema-presidente-1795374941025-ogq2",
-    "candidateId": "romeu-zema-presidente",
-    "candidateName": "Romeu Zema",
-    "title": "Quem são e os números dos candidatos ao governo de Minas Gerais (MG) nas eleições 2026",
-    "source": "JOTA Info",
-    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNZkhObkhyRTAzd2hIZzl5MTJpRldra0FDS2VXRDBHS2VkNHdrTFpKV1pjZFEyeW1qZVBtVkt4QlliM25OUDBlalJ3TTBDc2pZYXFULTA1c2ZfU3dUSldYYkxWNFM3Z1lLUVo5LW45bnhpUHdJMUtKb002a2d6NEVxM3RESFRDRG9IQ1dlcHdhV3pZbXowTG5WZmgzSVA1X3hPUkRCajRLWGNoTzVhamhGQS05T0FHTk4tUF90eWtqcGczZDc3QjdOVg?oc=5",
-    "publishedAt": "2026-10-04",
-    "category": "declaracao",
-    "isVerifiedSource": true
-  },
-  {
-    "id": "news-tarcisio-governador-1795374941737-tvzd",
-    "candidateId": "tarcisio-governador",
-    "candidateName": "Tarcísio de Freitas (Governador Reeleito SP)",
-    "title": "Tarcísio é reeleito governador de São Paulo",
-    "source": "Agência Brasil",
-    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNYXhzUXdHeG10Ni03MXU3TnJ4a3lMWFVnUUdRbXZSb1N3c3VuOHhkcTVVRkotd3pUVXZJQTZHaWlWTTlyUUdXRGdjc3cxQ2NVeFI5NXB4dEZ3TFhnMW40aWpoSTVHVWxmQWxsQjYzLWNJR0Z0ZWtPN3M0aGxpSTI5ZmtTWlNuZW5tRnVDRERHOFlYTFdLeXptZDdlM2VhQlhqNWow?oc=5",
-    "publishedAt": "2026-10-04",
-    "category": "declaracao",
-    "isVerifiedSource": true
-  },
-  {
-    "id": "news-haddad-governador-1795374942388-gbxd",
-    "candidateId": "haddad-governador",
-    "candidateName": "Fernando Haddad",
-    "title": "Derrotado no primeiro turno em SP, Haddad diz que obteve 'grande resultado' com campanha de 'alto nível'",
-    "source": "O GLOBO",
-    "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPc3RCNG1lQUdrVlUtd3MxeGlQMUVTMTZjSkdscmxURkFCbkd2VHVNT0I0emhSVGpWaW1kMXR3dVZJU1FXQlFfOFI3NG1rbWpmaC1UZjdmVkZnZmJLQWRqaVphV1NtaWFqV1Z0WVZ5bjhyMWRUXzFhZlo5MU5iU1RDa244Tnp0UWduSnhIaDVEbVlFeXdzOGFSQmM0UXc0VkV6cUZFWW1uQ3NVY3FnOXgxTG9PS0J5Nk5Lbmd4a3V2dkRlck5JNlRXR1FZQTJyQ2RzOTVRSERwbDlVcE8yT0l6d2hfb3NnX1Q0d0UtR01NX0dWNnpBSDhXYkNydEs4elJqZmfSAZACQVVfeXFMTVFLQk1LTlFKalB3RU1DNUNXc1phSmp2Y3FFdl96UWF4ZzJ5R0ZHd3VEbFFaTnhmbmpqU0d3NnFGMHRRY3RJSHUyeFhxS09zcGVmaDBUZHQzRWhZVklQbXpfdjNGd0lPMUdzVWlrcnVibUtHQWc4M0FpbEZCQUFhcldHbDNuNW91ZjdkRmNMZlVoMlRpdy05M2VVR2RHRE5yRTBpOHFzVEt1SkplcTVLb3RqQjFyaWkweUEtc3JzTFljazlaRlBZUHM1eGh6eEdudFJjSU5VR3NrbldlT2MwR1FBQnI0ZGVKd05jNUZTaWFSVF9TV1BPOWRaWHpSdkZaNGY1dm9IVTZ1N0xUZ2Zydjg?oc=5",
-    "publishedAt": "2026-10-04",
-    "category": "declaracao",
-    "isVerifiedSource": true
-  },
-  {
-    "id": "news-haddad-governador-1795374942388-hqnd",
-    "candidateId": "haddad-governador",
-    "candidateName": "Fernando Haddad",
-    "title": "Veja quem são todos os candidatos a governador de São Paulo (SP) nas eleições 2026",
-    "source": "JOTA Info",
-    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPWDNSSnI2OXRjNExsbXVmNm5iUkNrVkZjaUxkejhxWU9lN2JEVFhwUVZRaFM4aDFKLTNydEgzZE85cTIteWJoaVpJM0hlbnI5QXkwVVV2elQwaXFUYmJocHdJMGlZemR0cnJVcHpaSTFhOTBUdkpJZHVWcGNCSUNHV3ZaNGFSRm5WRDgweVZBYXZSMnpjdHYyeWx0M0Jtalc4NDQ0QzZWQnFtMTBxZzgxOEJjYmU0a0pFc3lqRFkxeXdwUTQ?oc=5",
-    "publishedAt": "2026-10-04",
-    "category": "declaracao",
-    "isVerifiedSource": true
-  },
-  {
-    "id": "news-haddad-governador-1795374942388-2tlr",
-    "candidateId": "haddad-governador",
-    "candidateName": "Fernando Haddad",
-    "title": "Qual é o número de Fernando Haddad para o governo de São Paulo?",
-    "source": "O GLOBO",
-    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZy0yRWVZWEFXdTdjdGlLYlZaLVJYdEdRdzN6VFkxalprcm9BSkV4Y2pMNE1QV09TTjFZUXl4RnA5SFFSVUdWR2xkbUNJdHhrLS1ZYUN5Sk96LUNXLWlEbkxBWnRXeXdoa2U5cC1yT0pxOExyZ0NHTVR3WEE0NkpDLXEycXVENlNfS3RWOFI4QjhLZk9Gd0l6dEFnakFaekNJa2N2TVBNQWZ1ejFncTI0aTJsWnd5Ykh6a041ai130gHMAUFVX3lxTE9OODNpdUMtc2NnLUlBUGVQVU5mYnhsN095cWxEcU15bFFyczdCd0FXOVNOWDFRZ2ZwOGNxUkN2Q05xMGpIcUZpYVNsZ25YSkFSZlB0M1dXam14emp5ZEtiN2ZmbDBiNGZaWnpOaXE5SDJLOUI1SnNNYTYwQmJlemtvcURvak9HSnBxVndpZkNObmxaREVSZDZ6elFER0FTQ2VDQVBPeGN1bE9ZbUVRYjBBZkVqNWpuNFBDaXJCX3dRS1F2Zk1TVUFCNkhNLQ?oc=5",
-    "publishedAt": "2026-10-04",
-    "category": "declaracao",
-    "isVerifiedSource": true
-  },
-  {
-    "id": "news-guilherme-derrite-senador-1795374945214-tugx",
-    "candidateId": "guilherme-derrite-senador",
-    "candidateName": "Guilherme Derrite",
-    "title": "Mais bem votado ao Senado por São Paulo, Derrite fez campanha calcada na pauta da segurança pública e no bolsonarismo",
-    "source": "O GLOBO",
-    "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxQeDEyWE1TU0g4aU1KdTNZX1MyQXlWeUdHcTg4SVNoaVdfUVZNSzYySmhYSFVRN2x2RExzZFRuRE91dlBUWGt2dkdVX1Vvc1U0ZFV4Tm55MC1HZnBaM2ZBRkpfaWstOFFOOVRPSVJiS1ppVktrQndVa2dQckFzUHdnVndSU0ZsLW54d054dkxiOTBfOWR1M21WSTd5cTJRb3pGRlBpTlc4SEpBQ0xMVExzcEZhQ2ZUeHg2ZjVRbm5Hb0ZOSGxSZmRjMHV1N29RajVBSUNaX196NndIN2ppY1VGOXBSbDEtd21rUC1INlhKbThBS2tRUWtQZlVPWFNKMTlYMjNCMjJrd3E2N3d2V1A5MVpYbmxwdXBs0gGnAkFVX3lxTE05X2wtTndjRkVQZk15NENZY2VWQjF6MFBhUmZtWVhONVlxRFI2NHJGSEhmMlNQSVg4YXdxblVac1pTeXZnOFpFNkpRaGZqVUlCQnRfdVpoek1TUWcyQ09LTDNVeGFJX1lJb2RlYXJKNmJQWFJKdnJROVhHeVdpNDZ5U1lnOWNLeXQ0UUNVTm90ZUFJQk5aY2lsQ2NJb2hBcGFPOXFNVm93Z3I1NHZjS1JMMlRGcENVSlR1QjBadGZwZ3VNMno0ZHlZdFI5UFpFQVczbkRwVHBsRnhHYTlQQktVRjBISDdfUHhXVnQ4cUF2djF5UTQ3Vmp4SktNekFUeUdSUHdZMUdOWW9YNmMzU0RJWFVfRFNZcGV6cW8xbC01Y0pLTTlDUk0?oc=5",
-    "publishedAt": "2026-10-04",
-    "category": "declaracao",
-    "isVerifiedSource": true
-  },
-  {
-    "id": "news-andre-do-prado-senador-1795374946174-evra",
-    "candidateId": "andre-do-prado-senador",
-    "candidateName": "André do Prado",
-    "title": "Guilherme Derrite (PP) e André do Prado (PL) são eleitos senadores por São Paulo",
-    "source": "JOTA Info",
-    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQb0RsQXBZNnhlMnF6d0ZLcTRhY2FoNnlJUUxFenI1LXp6c2ppTmFXVWZSSFJQMjZjbHpiTm1ELXdackRXTUpOQktOdG5oTVdpMUdrWjNmYXZWRGxBdk9vTnRIRXg0c0dPcGJJX2FwX2Z5Y19PY1VUZWNWS0sxam03Rm9tWTVQMWNKSmZGbWN4YXBfSE9aYjBhRkI0aXJXUm5xTy1WbkNxOUZDUGd2Qi1CUjAwYnFHUF9xZzI3WTN3?oc=5",
-    "publishedAt": "2026-10-04",
-    "category": "declaracao",
-    "isVerifiedSource": true
-  },
-  {
-    "id": "news-andre-do-prado-senador-1795374946174-v30s",
-    "candidateId": "andre-do-prado-senador",
-    "candidateName": "André do Prado",
-    "title": "Derrite e André do Prado são eleitos senadores por São Paulo",
-    "source": "Congresso em Foco",
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNekVOQ2VvVHNRZmNsbjZmeFF4c3djMnQ2SnNTVlhMc2NjLUZSaU9FVzNWZ29hMzN0eWtwa0xYYUpZUk9jZUI5Nnd0NkVsQV94a2gtQldlLXhZelFoMTNWYjFOZXJGbzFlM3NjY2VYSjBtUm5ZRk9DMlpySHBmZmxmYnlDdnJlMnhLaVhwc2hCMGhBQ0szOEZqcDdaV2t5U0F5YVdQOVZjOXNXUjE0VnJN?oc=5",
-    "publishedAt": "2026-10-04",
-    "category": "declaracao",
-    "isVerifiedSource": true
-  },
-  {
-    "id": "news-simone-tebet-senadora-1795374946860-cgua",
-    "candidateId": "simone-tebet-senadora",
-    "candidateName": "Simone Tebet",
-    "title": "Marina Silva e Simone Tebet perdem disputa pelo Senado em SP",
-    "source": "Valor Econômico",
-    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPa29udlFOVU9sTWVrRnJVSG5SRDZ6SDJaRndrVDZNbkpoeWd3N1V3NW5WM2pwZlg2NVFNWXF0eFpzU0JzNE9pQlNLcFNWSmxZV1VBdHFpYmgybVZZSGs1dVZmUnRsSEdyUEhnekhtblNuSXFNdVdtZ3Z5dkhtRVhoMFJBQmJiVWFPNlhfUHEzcm5ZT2xxWjR1N0RMTVdRcVJNMjNVb2E1TzJ6T1BTbDB1bWt0a1V5QWZBNnVCdVhwZ0tFajU2TDNxRFdxUzHSAdsBQVVfeXFMTjdHYnA1bnpud19xVnpmbzM5eGlTQ3NNQlRubUlEWUZLZHN5TkVLWmYzTHk2bTVUSjVhcUZaYllCMUZlTVZWM19yMUpBZXozRVZmZmJEcHdoMWdVOTBPdGpOaVVYamhhYjItZUtNSVBNZ0tjTjVxcnhnVWFuNE5GTnIyd0RlaGN2bTBtUk1INl9JRjVXOGFLcTFjNGFvdGVJSDRJUHNEZlBRdmRJc2ItdTJ5cC1UZWMzLVNhQXh6WWktQ3VQV01lbkJKZnYxbWZDcDBjaHFRbmtXeTI0?oc=5",
-    "publishedAt": "2026-10-04",
-    "category": "declaracao",
-    "isVerifiedSource": true
-  },
-  {
-    "id": "news-guilherme-derrite-senador-1795326997107-gpj7",
-    "candidateId": "guilherme-derrite-senador",
-    "candidateName": "Guilherme Derrite",
-    "title": "Derrite chega ao Senado após gestão na Segurança de SP marcada por alta da letalidade policial e redução de indicadores criminais",
-    "source": "G1",
-    "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNMzVqUzVQOThBZHJCSHhBRzRycFlSR1RybVZqOEpHRnVCbXhJR3BDNnVfalFQQUpzWEpuUTZXOGt6NENKM0luZDlNckNzOVVHOWZGNV82aVNYbldpdVM5Wk05d1pXS0FCRFNDc2I0VjdJUjZUd2VreWtjSzA5STNQMTR6NGRvZDNXemE4WXVLb1Zab0JTVlh1a2NPeHVkWU5nTHl4SGswdC1ROU5tMDVWeXVPWjFnN1R1bW0xSzVmZzc1V1l1cXJValB6eFd5anRTQmg0WlVVNFNEMVhqWHctREZWdXZ2WFQ1X05yLVhhdGxGVWdEQUV1OTEyNGdLak05ZkI4NVh6VmrSAZcCQVVfeXFMT2ZlM3YzYWIzRThCYlp4NzNKbTR2RERhdUd1eVJhRkJ6VlYxM1d2TktSeWVfWUNHZkIxOFpudHNIRG1ldnVXVGw5RHIxOERHeFFKRUU1eEpTdUlqTVF6NGJ1YzlYQkcwQU9mcHR1NGlhWElEWXo5bXkyVUhPMWRyNXVwZ251cWxoN3FSU3o2NjNpTkk1UnJ5OVpVOFk2c2Rzald2X2JWV0hVUTZQMGZ0MnQ2eDQtS3V6ckp1b0xCbV9XYTQwcU5ZVjFrVXc5aElKTnRTV21hMlRldm1PTXBHQmRucm9YM2RTaU4wTTBDVFRBMGxSdkNnay0wbUlMNzZjZm10X2lRZWJ2MUo0TFd4N0YtOUdaWkxv?oc=5",
-    "publishedAt": "2026-10-04",
-    "category": "gestao",
-    "isVerifiedSource": true
-  },
-  {
     "id": "news-andre-do-prado-senador-1795326997841-mm1u",
     "candidateId": "andre-do-prado-senador",
     "candidateName": "André do Prado",
     "title": "André do Prado é eleito senador por SP após campanha apoiada por Tarcísio e Flávio Bolsonaro",
     "source": "G1",
     "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPeWQzVnQ3SUs1eDVrYk9hS2FJUTg4WnNMdmxxMm1mNGo2Z2lzRHFtSmFkRVo2VW55S3BrVTNOZlF6ekg1ZU9hQXRmMFFoUGFtbWJERkFyNDZkeXcyam9SN1dEbk5BTjZzbFpIZHVvNlRxeE9wX3RGbjRvUmQ1cHB3R05wNDJWVlhiZkxfX3dKQ3BGcEtvQTBSVnAwWm5leXNoWWphZXVSWkY3Z2V4VzQ5YlZyOF9XdlpNZ2RyYUJ0TW5JNUhnbEpBc0hYb1ZyQzVGWTl3V0F2SE1WNDRWeV9wVFhNdk1PbTkxWEZMVXJmTGZTR1JHQXFVaNIBhwJBVV95cUxQVW05QWdLa1RnQ2h6emhacWc3MC1OUExJc1Btc0s3ai1PVTJFMmVQWWVKTXFjblBZRkpaLXYwRWcxbmFLVFMyZjBISDBBeTN1UFRkcDA5REVnWUMtYWxSOU51cWY2NnRpbUMwVjZId1pvS2FvaDVxbEdjLXJVRVFsY0xhaHdPSjVVY2JPVGlROHJHNmxuVmRNd2ZiSzVkbEJfWC0yWTRGdl9PMnZIWlp6cjFKQnZ0X0tHV004dUVfV2lCSzV4SENESXg5MjNSRlo5ODVWUUx5VWZJNkRJeEJaWkpsUXlnV1R6VG1rVmcwbFhDTURHQnBLbDVGbi1BWV9wWXRxcS1HZw?oc=5",
-    "publishedAt": "2026-10-04",
-    "category": "declaracao",
-    "isVerifiedSource": true
-  },
-  {
-    "id": "news-simone-tebet-senadora-1795326998513-d2yj",
-    "candidateId": "simone-tebet-senadora",
-    "candidateName": "Simone Tebet",
-    "title": "Qual é o número de Simone Tebet para o Senado por São Paulo?",
-    "source": "O GLOBO",
-    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQOWJvQ25CRmw5QzVrNFZDQzVWS0gtWVZvMnJWSjluNExXU2xMZG9WTFRNR1ZVcFhjRmFFdFVlZGU4b1V5UVZTdGsxR0o0b2N2T19vbEh6bms2dXFMbVpTcjl4REpWdGk2b29neVJpV0ZGQ3FPeC1HenlvcHZvakZWZ2VVVElKTVpZOEJhNGlRUi0yT2FVekFMNXdhYjg3NTltMFhjVWtEVm8yUC1BZkllTEVFVGlYZUpHSlHSAcgBQVVfeXFMUGhGS3RoNDlWSnNCV0N1VjBlek02TDRTRGpIYTlkWThPTXYyNnZDQ2JpUmIwV0plYkF1V2Y5TmxZZ0xXeFRfeXZIbXc2REJEVHl3RVZlWkFjZUY5Smt0VDlaRXVPaU1Pb3RMUDVFLWN0TjlsSzBwV1lYOFBETF85c2JtMGRiX0R1YWRDNXhwS0paM0xwOFc5cEtON0ctRXNHTWNBMDJON2RZdmFoeXc4bUJ6eC12M3IxRUxVNm8zVkZxRTRjTzB4QXg?oc=5",
     "publishedAt": "2026-10-04",
     "category": "declaracao",
     "isVerifiedSource": true
@@ -6774,17 +6785,6 @@
     "title": "Qual é o número de Fernando Haddad para o governo de São Paulo?",
     "source": "O GLOBO",
     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZy0yRWVZWEFXdTdjdGlLYlZaLVJYdEdRdzN6VFkxalprcm9BSkV4Y2pMNE1QV09TTjFZUXl4RnA5SFFSVUdWR2xkbUNJdHhrLS1ZYUN5Sk96LUNXLWlEbkxBWnRXeXdoa2U5cC1yT0pxOExyZ0NHTVR3WEE0NkpDLXEycXVENlNfS3RWOFI4QjhLZk9Gd0l6dEFnakFaekNJa2N2TVBNQWZ1ejFncTI0aTJsWnd5Ykh6a041ai13?oc=5",
-    "publishedAt": "2026-10-04",
-    "category": "declaracao",
-    "isVerifiedSource": true
-  },
-  {
-    "id": "news-renan-santos-presidente-1794984297170-9pci",
-    "candidateId": "renan-santos-presidente",
-    "candidateName": "Renan Santos",
-    "title": "Empresário e fundador do MBL, Renan Santos estreia em eleições na disputa pela Presidência",
-    "source": "G1",
-    "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNTW1wVDZNSWRMWHlsdTNSQUNuX2c3ak02NmU1bHQ2ZXRZWTc0TnVZU1pXcFE2WElHZjJjTlE4OUNmVEhkd1RNSzRFbjB5SmQ1Z1B6U1hILU5LNW85OGJvT0h2VEF1TGNyTldHcW9DTzhGZk1fXzQyYW5Ba0x2U3NYWmNDVXlZVVlHaGVSN0Zra1JERW9JaFRBRk9BQjVnSWlKZnRXNE5haU1ndHBkQ0Q4VVZpeF8tb1czQkx2QWZYWjBRVUFvNmxGeHRxVlBGelpQQnpfTUZCdTUwd21UVV9JWWRfc0xjTGtwR1dRZzNOONIB_gFBVV95cUxQMTc4XzFXajJqeGpYMG5zeVZ2b2pidzF4TkczNnhzN2gzZFZtOHBTSTZ6akdUUkNXRTdEajZIbFhTdVV3T2xFMXlzS0J0RGE1UHRFS2RVNF9hS1c5V1J4MGpWVmw3LVdKVU9hT2hqeTRScDlGT2daWmEzZHJnMjJ2QXFyYXhnVEJfbEF6M2FpdGxocUFWYU9haHFSeEtJUlNFZTZkNkRKVVNZdWU3OG9selFFeW4wdXE3ZXRkRGpVUHhLSGdtMEtvNmp1OVQ0X3c3OTIzTXlxZDZIOWJpRlVKRHVwR1JZR0xsUE1qOV9heHBqNjMyUzNYT1BnMUhIQQ?oc=5",
     "publishedAt": "2026-10-04",
     "category": "declaracao",
     "isVerifiedSource": true
@@ -7417,7 +7417,7 @@
     "category": "pesquisa"
   },
   {
-    "id": "news-renan-santos-presidente-1795374939637-sf3q",
+    "id": "news-renan-santos-presidente-1795416423208-kbri",
     "candidateId": "renan-santos-presidente",
     "candidateName": "Renan Santos",
     "title": "Renan Santos pede que STF garanta participação dele no debate presidencial da Globo",
@@ -7428,7 +7428,7 @@
     "isVerifiedSource": true
   },
   {
-    "id": "news-simone-tebet-senadora-1795374946860-dch2",
+    "id": "news-simone-tebet-senadora-1795416429733-i0l1",
     "candidateId": "simone-tebet-senadora",
     "candidateName": "Simone Tebet",
     "title": "Qual é o número de Simone Tebet (PSB) para o Senado em São Paulo?",
@@ -7601,7 +7601,18 @@
     "isVerifiedSource": true
   },
   {
-    "id": "news-simone-tebet-senadora-1795374946860-gkc6",
+    "id": "news-guilherme-derrite-senador-1795416428460-r1li",
+    "candidateId": "guilherme-derrite-senador",
+    "candidateName": "Guilherme Derrite",
+    "title": "Quem é Guilherme Derrite, candidato ao Senado por SP",
+    "source": "CNN Brasil",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZ2VSOWh1LTZ6Q2QyZkhSZ0NuNjloSEluVXdMMzN1SzhNWVJBT00wclFSc0kxMy1OUkNlbFdQb2tnOHMzdVJ4dzZQQTNYRER1VWhOSnZPemU1YzdMd2VJQjVsc0dwejFKd0E1X0t0TEFjOHRDdnJvdzJ6aVkzeGdMT2k0RTZxTGNGZVBPM2lUNXV1ZVl5?oc=5",
+    "publishedAt": "2026-09-14",
+    "category": "declaracao",
+    "isVerifiedSource": true
+  },
+  {
+    "id": "news-simone-tebet-senadora-1795416429733-7avf",
     "candidateId": "simone-tebet-senadora",
     "candidateName": "Simone Tebet",
     "title": "Quem é Simone Tebet, candidata ao Senado por SP",
@@ -7728,7 +7739,7 @@
     "isVerifiedSource": true
   },
   {
-    "id": "news-simone-tebet-senadora-1795374946860-zdyg",
+    "id": "news-simone-tebet-senadora-1795416429733-eyv2",
     "candidateId": "simone-tebet-senadora",
     "candidateName": "Simone Tebet",
     "title": "Pesquisa Ideia em SP: Tebet tem 27% para o Senado, Marina marca 23%; Derrite, Prado e Salles aparecem embolados",
@@ -7772,7 +7783,7 @@
     "isVerifiedSource": true
   },
   {
-    "id": "news-haddad-governador-1795374942388-tve0",
+    "id": "news-haddad-governador-1795416425865-3074",
     "candidateId": "haddad-governador",
     "candidateName": "Fernando Haddad",
     "title": "PT lança candidatura de Fernando Haddad ao governo de São Paulo",
@@ -7816,7 +7827,7 @@
     "isVerifiedSource": true
   },
   {
-    "id": "news-rodrigo-agostinho-deputado-1795374948096-dlao",
+    "id": "news-rodrigo-agostinho-deputado-1795416430933-6cce",
     "candidateId": "rodrigo-agostinho-deputado",
     "candidateName": "Rodrigo Agostinho",
     "title": "Ex-presidente do Ibama, Rodrigo Agostinho anuncia pré-candidatura a deputado federal por SP",
@@ -7838,7 +7849,7 @@
     "isVerifiedSource": true
   },
   {
-    "id": "news-guilherme-boulos-1795374943012-0fbb",
+    "id": "news-guilherme-boulos-1795416426464-m05g",
     "candidateId": "guilherme-boulos",
     "candidateName": "Guilherme Boulos",
     "title": "Boulos rebate Tabata por críticas de poucas aprovações de deputados",
@@ -7870,7 +7881,7 @@
     "category": "proposta"
   },
   {
-    "id": "news-marcio-franca-1795374943633-mv3z",
+    "id": "news-marcio-franca-1795416427079-d8hz",
     "candidateId": "marcio-franca",
     "candidateName": "Márcio França",
     "title": "Haddad confirma Márcio França como vice e fecha chapa em São Paulo",
@@ -7925,7 +7936,7 @@
     "isVerifiedSource": true
   },
   {
-    "id": "news-marcio-franca-1795374943633-e8nx",
+    "id": "news-marcio-franca-1795416427079-zq5z",
     "candidateId": "marcio-franca",
     "candidateName": "Márcio França",
     "title": "Para Márcio França, Tarcísio circula com aliados e esquerda perde tempo",
@@ -8024,7 +8035,7 @@
     "isVerifiedSource": true
   },
   {
-    "id": "news-marcio-franca-1795374943633-0jnh",
+    "id": "news-marcio-franca-1795416427079-dmvh",
     "candidateId": "marcio-franca",
     "candidateName": "Márcio França",
     "title": "PSB intensifica articulação por Márcio França na disputa ao Senado em SP",
@@ -8068,7 +8079,7 @@
     "isVerifiedSource": true
   },
   {
-    "id": "news-rodrigo-agostinho-deputado-1795374948096-p4lh",
+    "id": "news-rodrigo-agostinho-deputado-1795416430933-7cw5",
     "candidateId": "rodrigo-agostinho-deputado",
     "candidateName": "Rodrigo Agostinho",
     "title": "Rodrigo Agostinho deixa presidência do Ibama após três anos",
@@ -8090,7 +8101,7 @@
     "isVerifiedSource": true
   },
   {
-    "id": "news-marcio-franca-1795374943633-rw2y",
+    "id": "news-marcio-franca-1795416427079-zmwt",
     "candidateId": "marcio-franca",
     "candidateName": "Márcio França",
     "title": "Queda de braço por sucessão em ministério opõe França e João Campos",
@@ -8123,7 +8134,7 @@
     "isVerifiedSource": true
   },
   {
-    "id": "news-guilherme-boulos-1795374943012-x4tw",
+    "id": "news-guilherme-boulos-1795416426464-0ter",
     "candidateId": "guilherme-boulos",
     "candidateName": "Guilherme Boulos",
     "title": "Boulos sobre 6x1: se houver demora, governo envia projeto com urgência",
@@ -8134,7 +8145,7 @@
     "isVerifiedSource": true
   },
   {
-    "id": "news-capitao-augusto-deputado-1795374948809-xt2v",
+    "id": "news-capitao-augusto-deputado-1795416431609-oety",
     "candidateId": "capitao-augusto-deputado",
     "candidateName": "Capitão Augusto",
     "title": "Deputado quer extinção da Ancine, EBC e de outros oito órgãos federais",
@@ -8189,7 +8200,7 @@
     "isVerifiedSource": true
   },
   {
-    "id": "news-guilherme-boulos-1795374943013-jy7h",
+    "id": "news-guilherme-boulos-1795416426464-vsj5",
     "candidateId": "guilherme-boulos",
     "candidateName": "Guilherme Boulos",
     "title": "Boulos diz que trabalhador por aplicativo trabalha em escala 7×0 e defende regulamentação",
@@ -8233,7 +8244,7 @@
     "isVerifiedSource": true
   },
   {
-    "id": "news-guilherme-boulos-1795374943013-hd76",
+    "id": "news-guilherme-boulos-1795416426464-4sz0",
     "candidateId": "guilherme-boulos",
     "candidateName": "Guilherme Boulos",
     "title": "Boulos considera relatório antifacção de Derrite PEC da Blindagem 2.0",
@@ -8266,7 +8277,7 @@
     "isVerifiedSource": true
   },
   {
-    "id": "news-guilherme-boulos-1795374943013-dub6",
+    "id": "news-guilherme-boulos-1795416426464-zpxy",
     "candidateId": "guilherme-boulos",
     "candidateName": "Guilherme Boulos",
     "title": "Guilherme Boulos apresenta projeto de lei para taxar big techs",
@@ -8310,7 +8321,7 @@
     "isVerifiedSource": true
   },
   {
-    "id": "news-marcio-franca-1795374943633-d5yt",
+    "id": "news-marcio-franca-1795416427079-3yyl",
     "candidateId": "marcio-franca",
     "candidateName": "Márcio França",
     "title": "Ministro Márcio França defende alteração na tributação no faturamento excedido pelos MEIs",
@@ -8332,7 +8343,7 @@
     "isVerifiedSource": true
   },
   {
-    "id": "news-arnaldo-jardim-deputado-1795374949374-2dh7",
+    "id": "news-arnaldo-jardim-deputado-1795416432177-o9ds",
     "candidateId": "arnaldo-jardim-deputado",
     "candidateName": "Arnaldo Jardim",
     "title": "Como votou cada deputado na reforma tributária",
@@ -8420,7 +8431,7 @@
     "isVerifiedSource": true
   },
   {
-    "id": "news-rodrigo-agostinho-deputado-1795374948096-xsm2",
+    "id": "news-rodrigo-agostinho-deputado-1795416430933-kjex",
     "candidateId": "rodrigo-agostinho-deputado",
     "candidateName": "Rodrigo Agostinho",
     "title": "Presidente do Ibama frisa impunidade e defende leis ambientais duras",
@@ -8431,7 +8442,7 @@
     "isVerifiedSource": true
   },
   {
-    "id": "news-arnaldo-jardim-deputado-1795374949374-szsg",
+    "id": "news-arnaldo-jardim-deputado-1795416432177-gx5x",
     "candidateId": "arnaldo-jardim-deputado",
     "candidateName": "Arnaldo Jardim",
     "title": "Continuar pela Reforma Tributária",
@@ -8496,7 +8507,7 @@
     "category": "proposta"
   },
   {
-    "id": "news-baleia-rossi-deputado-1795374949957-hal9",
+    "id": "news-baleia-rossi-deputado-1795416432736-zmw5",
     "candidateId": "baleia-rossi-deputado",
     "candidateName": "Baleia Rossi",
     "title": "O que é a PEC 45/2019 e o que o texto propõe para a reforma tributária?",
@@ -8540,7 +8551,7 @@
     "isVerifiedSource": true
   },
   {
-    "id": "news-baleia-rossi-deputado-1795374949957-5umq",
+    "id": "news-baleia-rossi-deputado-1795416432736-qbrr",
     "candidateId": "baleia-rossi-deputado",
     "candidateName": "Baleia Rossi",
     "title": "Reforma tributária será fatiada, confirma Baleia Rossi",
@@ -8573,7 +8584,7 @@
     "isVerifiedSource": true
   },
   {
-    "id": "news-rodrigo-agostinho-deputado-1795374948096-ggkz",
+    "id": "news-rodrigo-agostinho-deputado-1795416430933-k5s8",
     "candidateId": "rodrigo-agostinho-deputado",
     "candidateName": "Rodrigo Agostinho",
     "title": "Deputado Rodrigo Agostinho é novo presidente do Ibama",
@@ -8584,7 +8595,7 @@
     "isVerifiedSource": true
   },
   {
-    "id": "news-rodrigo-agostinho-deputado-1795374948096-fmev",
+    "id": "news-rodrigo-agostinho-deputado-1795416430933-0gln",
     "candidateId": "rodrigo-agostinho-deputado",
     "candidateName": "Rodrigo Agostinho",
     "title": "Rodrigo Agostinho deve ser o escolhido por Marina para ocupar a presidência do Ibama",
@@ -8639,7 +8650,7 @@
     "isVerifiedSource": true
   },
   {
-    "id": "news-marcos-pontes-senador-1795374947484-xfre",
+    "id": "news-marcos-pontes-senador-1795416430326-ish9",
     "candidateId": "marcos-pontes-senador",
     "candidateName": "Marcos Pontes",
     "title": "MCTI anuncia R$ 280 milhões para institutos de ciência e tecnologia",
@@ -8661,7 +8672,7 @@
     "isVerifiedSource": true
   },
   {
-    "id": "news-marcos-pontes-senador-1795374947484-mj2d",
+    "id": "news-marcos-pontes-senador-1795416430326-wtuk",
     "candidateId": "marcos-pontes-senador",
     "candidateName": "Marcos Pontes",
     "title": "Ministro Marcos Pontes diz que Brasil será grande produtor de vacinas",
@@ -8694,7 +8705,7 @@
     "isVerifiedSource": true
   },
   {
-    "id": "news-capitao-augusto-deputado-1795374948809-oio2",
+    "id": "news-capitao-augusto-deputado-1795416431609-aq1j",
     "candidateId": "capitao-augusto-deputado",
     "candidateName": "Capitão Augusto",
     "title": "Deputado Capitão Augusto lança candidatura à presidência da Câmara",
@@ -8705,7 +8716,7 @@
     "isVerifiedSource": true
   },
   {
-    "id": "news-capitao-augusto-deputado-1795374948809-iiux",
+    "id": "news-capitao-augusto-deputado-1795416431609-81g0",
     "candidateId": "capitao-augusto-deputado",
     "candidateName": "Capitão Augusto",
     "title": "Candidato à Presidência da Câmara, Capitão Augusto aposta em traições na votação secreta",
@@ -8749,7 +8760,7 @@
     "isVerifiedSource": true
   },
   {
-    "id": "news-arnaldo-jardim-deputado-1795374949374-7jie",
+    "id": "news-arnaldo-jardim-deputado-1795416432177-6r9n",
     "candidateId": "arnaldo-jardim-deputado",
     "candidateName": "Arnaldo Jardim",
     "title": "Cidadania não punirá deputados divergentes em votações no ano de 2020",
@@ -8793,7 +8804,7 @@
     "isVerifiedSource": true
   },
   {
-    "id": "news-capitao-augusto-deputado-1795374948809-oolf",
+    "id": "news-capitao-augusto-deputado-1795416431609-o3x5",
     "candidateId": "capitao-augusto-deputado",
     "candidateName": "Capitão Augusto",
     "title": "Contra prisão em segunda instância, PL retira líder da bancada da bala da CCJ",
@@ -8815,7 +8826,7 @@
     "isVerifiedSource": true
   },
   {
-    "id": "news-baleia-rossi-deputado-1795374949957-dzmt",
+    "id": "news-baleia-rossi-deputado-1795416432736-87e9",
     "candidateId": "baleia-rossi-deputado",
     "candidateName": "Baleia Rossi",
     "title": "Reforma tributária: autor do texto na Câmara diz que propostas dos estados podem ser incorporadas",
@@ -8826,7 +8837,7 @@
     "isVerifiedSource": true
   },
   {
-    "id": "news-baleia-rossi-deputado-1795032872972-8z01",
+    "id": "news-baleia-rossi-deputado-1795416432736-4vqb",
     "candidateId": "baleia-rossi-deputado",
     "candidateName": "Baleia Rossi",
     "title": "CCJ da Câmara aprova reforma tributária, de Baleia Rossi e Appy",
@@ -8881,7 +8892,7 @@
     "isVerifiedSource": true
   },
   {
-    "id": "news-marcos-pontes-senador-1795374947484-jxdw",
+    "id": "news-marcos-pontes-senador-1795416430326-tsjr",
     "candidateId": "marcos-pontes-senador",
     "candidateName": "Marcos Pontes",
     "title": "Bolsonaro confirma o astronauta Marcos Pontes na Ciência e Tecnologia",
@@ -8892,7 +8903,7 @@
     "isVerifiedSource": true
   },
   {
-    "id": "news-capitao-augusto-deputado-1795374948809-9js2",
+    "id": "news-capitao-augusto-deputado-1795416431609-qffi",
     "candidateId": "capitao-augusto-deputado",
     "candidateName": "Capitão Augusto",
     "title": "De farda, deputado que defende a ditadura preside sessão da Câmara por quase 2 horas",
